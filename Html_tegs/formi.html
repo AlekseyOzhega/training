@@ -27,6 +27,93 @@
                     <p><a name="form"></a></p>
                     <h2><pre>Тег: &lt;form&gt;&lt;/form&gt;</pre></h2>
                     <p>используется для создания HTML-формы. В нём находится всё содержимое формы: поля для ввода, подписи к этим полям и кнопка отправки.</p>
+
+                    <!--Взято с сайта Дока-->
+                    <form method="get" action="../result">
+                        <label class="input-label">
+                          <span class="input-title">Текстовое поле в одну строчку:</span>
+                          <input
+                            class="input"
+                            type="text"
+                            size="40"
+                            name="one-line"
+                          >
+                        </label>
+                      
+                        <label class="input-label">
+                          <span class="input-title">Поле для пароля:</span>
+                          <input
+                            class="input"
+                            type="password"
+                            size="40"
+                            name="one-line-password"
+                          >
+                        </label>
+                      
+                        <fieldset class="radio-set">
+                          <legend class="visually-hidden">Радиокнопки:</legend>
+                          <span class="radio-legend" aria-hidden="true">Радиокнопки:</span>
+                          <div class="radio-container">
+                            <label class="radio-label">
+                              <input
+                                class="radio"
+                                type="radio"
+                                name="browser"
+                                value="ie"
+                                id="ie"
+                              >
+                              <span class="radio-title">Вариант 1</span>
+                            </label>
+                            <label class="radio-label">
+                              <input
+                                class="radio"
+                                type="radio"
+                                name="browser"
+                                value="opera"
+                                id="opera"
+                              >
+                              <span class="radio-title">Вариант 2</span>
+                            </label>
+                            <label class="radio-label">
+                              <input
+                                class="radio"
+                                type="radio"
+                                name="browser"
+                                value="firefox"
+                                id="firefox"
+                              >
+                              <span class="radio-title">Вариант 3</span>
+                            </label>
+                          </div>
+                        </fieldset>
+                      
+                        <label class="input-label">
+                          <span class="input-title">Большое текстовое поле:</span>
+                          <textarea
+                            class="input input-textarea"
+                            name="comment"
+                            cols="40"
+                            rows="3"
+                          >
+                          </textarea>
+                        </label>
+                      
+                        <div class="buttons">
+                          <input
+                            type="reset"
+                            value="Очистить"
+                            class="button button-blue"
+                          >
+                          <input
+                            type="submit"
+                            value="Отправить"
+                            class="button button-orange"
+                            disabled
+                          >
+                        </div>
+                      </form>
+                      
+
                     <a href="https://doka.guide/html/form/" target="_blank" rel="noopener noreferrer">Дополнительная информация</a>
                 </li>
                 <li>
