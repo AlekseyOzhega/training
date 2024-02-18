@@ -189,6 +189,7 @@
                       
   <!--Форма взята с сайта Дока.-->
 
+                      <p><b>Обычгый datalist</b></p>
                       <form>
                         <label for="my-browser">Выберите браузер из списка:</label>
                         <input type="text" list="browsers" id="my-browser" name="my-browser">
@@ -201,8 +202,89 @@
                           <option value="Microsoft Edge">
                         </datalist>
                       <form>
+                        <hr>
 
   <!--Форма взята с сайта Дока. Конец-->
+                      
+                      <p><b>datalist с атрибутом text</b></p>
+                      <form class="2nd-form">
+                        <label for="my-browser2">Текстовое поле:</label>
+                        <input type="text" list="browsers" id="my-browser2" name="my-browser2" placeholder="Название вашего браузера">
+                      </form>
+                      <hr>
+
+                      <p><b>datalist с атрибутом search</b></p>
+                      <form class="3st-form">
+                        <label for="my-browser3">Поле поиска:</label>
+                        <input type="text" list="browsers" id="my-browser3" name="my-browser3" placeholder="Какой браузера вы ищите?">
+                      </form>
+                      <hr>
+
+                      <p><b>datalist с атрибутами email и multiple</b></p>
+                      <form class="4st-form">
+                        <label for="my-browser4">Поле поиска:</label>
+                        <input type="email" list="browsers" id="my-browser4" name="my-browser4" placeholder="Какой браузера вы ищите?" multiple>
+                      </form>
+                      <hr>
+
+                      <p><b>datalist с атрибутами date, month, week, time</b></p>
+                      <form class="data-input">
+                        <label for="data-input">Поле поиска:</label>
+                        <input type="date" list="data-in" id="data-input" name="data-input">
+                        <datalist id="data-in">
+                          <option value="2024-01-01" label="Новый год">
+                          <option value="2024-01-07" label="Рождество">
+                          <option value="2024-02-14" label="Китайский Новый год">
+                        </datalist>
+                      </form>
+                      <hr>
+
+                      <p><b>datalist с атрибутом range</b></p>
+                      <form class="range-input">
+                        <label for="range-input">Поле поиска:</label>
+                        <input 
+                          type="range" 
+                          list="range-in" 
+                          id="range-input" 
+                          name="range-input" 
+                          value="50" 
+                          min="0" 
+                          max="100" 
+                          step="25"
+                          oninput="eggs.value = (parseInt(range-input.value) * 2)"
+                          >
+                        <datalist id="range-in">
+                          <option value="0" label="0">
+                          <option value="25" label="25">
+                          <option value="50" label="50">
+                          <option value="75" label="75">
+                          <option value="100" label="100">
+                        </datalist>
+                        <output 
+                          role="status" 
+                          name="eggs" 
+                          for="range-input"
+                          >
+                        </output>
+                      </form>
+                      <hr>
+
+
+
+                      <form>
+                        <label for="people-num">
+                          Для скольких людей приготовить яичницу:
+                        </label>
+                        <input
+                          type="number"
+                          id="people-num"
+                          name="people"
+                          oninput="eggs.value = (parseInt(people.value) * 2)"
+                        >
+                        <p>Необходимое количество яиц:</p>
+                        <output role="status" name="eggs" for="people-num"></output>
+                      </form>
+                      
 
                     </div>
                     <a href="https://doka.guide/html/datalist/" target="_blank" rel="noopener noreferrer">Дополнительная информация</a>
@@ -211,14 +293,12 @@
                     <p><a name="optgroup"></a></p>
                     <h2><pre>Тег: &lt;optgroup&gt;&lt;/optgroup&gt;</pre></h2>
                     <p> (option group — группа параметров) представляет собой контейнер, внутри которого располагаются элементы &lt;option&gt;, объединённые в одну группу. Особенностью &lt;optgroup&gt; является то, что он не выделяется как обычный элемент списка, акцентируется с помощью жирного начертания, а все элементы, входящие в этот контейнер, смещаются вправо от своего исходного положения.</p>
-                    <p>Пример <optgroup>действия тега </optgroup></p>
                     <a href="https://doka.guide/html/optgroup/" target="_blank" rel="noopener noreferrer">Дополнительная информация</a>
                 </li>
                 <li>
                     <p><a name="option"></a></p>
                     <h2><pre>Тег: &lt;option&gt;&lt;/option&gt;</pre></h2>
                     <p>Один пункт в раскрывающемся списке &lt;select&gt;.</p>
-                    <p>Пример <option>действия тега </option></p>
                     <a href="https://doka.guide/html/option/" target="_blank" rel="noopener noreferrer">Дополнительная информация</a>
                 </li>
                 <li>
