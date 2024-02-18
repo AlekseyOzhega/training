@@ -133,7 +133,7 @@
                     <p>устанавливает связь между определенной меткой, в качестве которой обычно выступает текст, и элементом формы (&lt;input&gt;, &lt;select&gt;, &lt;textarea&gt;). Такая связь необходима, чтобы изменять значения элементов формы при нажатии курсором мыши на текст. Кроме того, с помощью &lt;label&gt; можно устанавливать горячие клавиши на клавиатуре и переходить на активный элемент подобно ссылкам.
                         Существует два способа связывания объекта и метки. Первый заключается в использовании идентификатора id внутри элемента формы и указании его имени в качестве атрибута for тега &lt;label&gt;. При втором способе элемент формы помещается внутрь контейнера &lt;label&gt;.</p>
                     <p>Пример действия тега;</p>
-                        <form>
+                        <form class="primer2">
                             <label>
                                 <input type="checkbox">
                                 <p>Элемент для выбора</p>
@@ -145,15 +145,20 @@
                     <p><a name="input"></a></p>
                     <h2><pre>Тег: &lt;input&gt;</pre></h2>
                     <p>(input — ввод) является одним из разносторонних элементов формы и позволяет создавать разные части интерфейса и обеспечивать взаимодействие с пользователем. Главным образом &lt;input&gt; предназначен для создания текстовых полей, различных кнопок, переключателей и флажков.</p>
-                    <p>Пример <input>действия тега </input></p>
+                    <div class="primer2">
+                      <p>Пример</p> <input>действия тега </input>
+                    </div> 
                     <a href="https://doka.guide/html/input/" target="_blank" rel="noopener noreferrer">Дополнительная информация</a>
-                    <p><a href="teg_input.html" rel="noopener noreferrer">Дополнительно об атрибутах тега input</a></p>                    
+                    <p><a href="teg_input.html" rel="noopener noreferrer">Дополнительно об атрибутах тега input</a></p>
+                                    
                 </li>
                 <li>
                     <p><a name="button"></a></p>
                     <h2><pre>Тег: &lt;button&gt;&lt;/button&gt;</pre></h2>
                     <p>создаёт кликабельную кнопку, которая может быть использована в формах или в любом другом месте документа, который требует простой, стандартной кнопки. По умолчанию, кнопки HTML обычно представлены в стиле, аналогичном стилю хост-платформы, на которой работает user agent, но вы можете изменить внешний вид кнопки, используя CSS.</p>
-                    <p>Пример <button>действия тега </button></p>
+                    <div class="primer2">
+                      <span>Пример <button>действия тега </button></span>
+                    </div>
                     <a href="https://doka.guide/html/button/" target="_blank" rel="noopener noreferrer">Дополнительная информация</a>
                 </li>
                 <li>
@@ -161,16 +166,18 @@
                     <h2><pre>Тег: &lt;select&gt;&lt;/select&gt;</pre></h2>
                     <p>представляет собой элемент управления, который позволяет создать раскрывающийся (выпадающий) список. Тег &lt;option&gt; определяет пункты раскрывающегося списка (параметры для выбора), он применяется как вложенный элемент тега &lt;select&gt;. Первый пункт в списке, как правило, отображается как выбранный, но вы сможете добавить к этому элементу атрибут selected (HTML тега &lt;option&gt;), чтобы задать предопределенный вариант.</p>
                     <p>Пример действия тега:</p>
-                    <form>
-                        <label>Работа select</label>
-                        <select name="variant" multiple size="3">
-                            <option value="">Выбирете вариант</option>
-                            <option value="1st">Первый вариант</option>
-                            <option value="2nd">Второй вариант</option>
-                            <option value="3st">Третий вариант</option>
-                            <option value="4st">Четвёртый вариант</option>
-                        </select>
-                    </form>
+                    <div class="primer2">
+                      <form>
+                          <label>Работа select</label>
+                          <select name="variant" multiple size="3">
+                              <option value="">Выбирете вариант</option>
+                              <option value="1st">Первый вариант</option>
+                              <option value="2nd">Второй вариант</option>
+                              <option value="3st">Третий вариант</option>
+                              <option value="4st">Четвёртый вариант</option>
+                          </select>
+                      </form>
+                    </div>
                     <a href="https://doka.guide/html/select/" target="_blank" rel="noopener noreferrer">Дополнительная информация</a>
                 </li>
                 <li>
@@ -178,7 +185,26 @@
                     <h2><pre>Тег: &lt;datalist&gt;&lt;/datalist&gt;</pre></h2>
                     <p>используется для создания списка вариантов ввода, предопределенных тегом &lt;input&gt;. Изначально варианты скрыты, список вариантов становится доступным, когда пользователь начинает вводить текст. Атрибут list тега &lt;input&gt; должен соответствовать идентификатору (id) элемента &lt;datalist&gt;.
                         Предопределенные варианты для ввода заключаются во вложенный элемент &lt;option&gt;.</p>
-                    <p>Пример <datalist>действия тега </datalist></p>
+                    <div class="primer2">
+                      
+  <!--Форма взята с сайта Дока.-->
+
+                      <form>
+                        <label for="my-browser">Выберите браузер из списка:</label>
+                        <input type="text" list="browsers" id="my-browser" name="my-browser">
+                        <datalist id="browsers">
+                          <option value="Chrome">
+                          <option value="Firefox">
+                          <option value="Yandex Browser">
+                          <option value="Opera">
+                          <option value="Safari">
+                          <option value="Microsoft Edge">
+                        </datalist>
+                      <form>
+
+  <!--Форма взята с сайта Дока. Конец-->
+
+                    </div>
                     <a href="https://doka.guide/html/datalist/" target="_blank" rel="noopener noreferrer">Дополнительная информация</a>
                 </li>
                 <li>
