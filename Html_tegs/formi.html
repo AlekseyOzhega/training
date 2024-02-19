@@ -240,34 +240,6 @@
                       <hr>
 
                       <p><b>datalist с атрибутом range</b></p>
-                      <!-- <form class="range-input">
-                        <label for="range-input">Поле поиска:</label>
-                        <input 
-                          type="range" 
-                          list="range-in" 
-                          id="range-input" 
-                          name="range01" 
-                          value="50" 
-                          min="0" 
-                          max="100" 
-                          step="25"
-                          >
-                        <datalist id="range-in">
-                          <option value="0" label="0">
-                          <option value="25" label="25">
-                          <option value="50" label="50">
-                          <option value="75" label="75">
-                          <option value="100" label="100">
-                        </datalist>
-                        <output 
-                          role="status" 
-                          name="result" 
-                          for="range-input"
-                          class="range_output"
-                          >
-                          50
-                        </output>
-                      </form> -->
 
                       <form oninput="result01.value = parseInt(volum.value)"">
                         <div class="range01">
@@ -303,6 +275,29 @@
                     <p><a name="optgroup"></a></p>
                     <h2><pre>Тег: &lt;optgroup&gt;&lt;/optgroup&gt;</pre></h2>
                     <p> (option group — группа параметров) представляет собой контейнер, внутри которого располагаются элементы &lt;option&gt;, объединённые в одну группу. Особенностью &lt;optgroup&gt; является то, что он не выделяется как обычный элемент списка, акцентируется с помощью жирного начертания, а все элементы, входящие в этот контейнер, смещаются вправо от своего исходного положения.</p>
+
+                    <div class="primer2">
+                      <form>
+                        <label for="seasons">Выпадающий список с группами</label>
+                        <select id="seasons">
+                          <optgroup label="Первый сезон">
+                            <option>S01s01</option>
+                            <option>S01s02</option>
+                            <option>S01s03</option>
+                            <option>S01s04</option>
+                            <option>S01s05</option>
+                          </optgroup>
+                          <optgroup label="Второй сезон">
+                            <option>S02s01</option>
+                            <option>S02s02</option>
+                            <option>S02s03</option>
+                            <option>S02s04</option>
+                            <option>S02s05</option>
+                          </optgroup>
+                        </select>
+                      </form>
+                    </div>
+
                     <a href="https://doka.guide/html/optgroup/" target="_blank" rel="noopener noreferrer">Дополнительная информация</a>
                 </li>
                 <li>
@@ -316,7 +311,9 @@
                     <h2><pre>Тег: &lt;textarea&gt;</pre></h2>
                     <p>используется для определения области, где пользователь может вводить многострочный текст. В отличие от тега &lt;input&gt;, где перенос строки в текстовом поле невозможен, в теге &lt;textarea&gt; допускаются переносы, они сохраняются при отправке данных на сервер.
                         Между открывающим &lt;textarea&gt; и закрывающим &lt;/textarea&gt; тегами можно поместить любой текст, который будет отображаться моноширинным начертанием.</p>
-                    <p>Пример <textarea>действия тега </textarea></p>
+                    <div class="primer2">
+                        <p>Пример <textarea>действия тега </textarea></p>
+                    </div>
                     <a href="https://doka.guide/html/textarea/" target="_blank" rel="noopener noreferrer">Дополнительная информация</a>
                 </li>
                 <li>
