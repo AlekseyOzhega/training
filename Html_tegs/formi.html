@@ -240,18 +240,17 @@
                       <hr>
 
                       <p><b>datalist с атрибутом range</b></p>
-                      <form class="range-input">
+                      <!-- <form class="range-input">
                         <label for="range-input">Поле поиска:</label>
                         <input 
                           type="range" 
                           list="range-in" 
                           id="range-input" 
-                          name="range-input" 
+                          name="range01" 
                           value="50" 
                           min="0" 
                           max="100" 
                           step="25"
-                          oninput="eggs.value = (parseInt(range-input.value) * 2)"
                           >
                         <datalist id="range-in">
                           <option value="0" label="0">
@@ -262,29 +261,40 @@
                         </datalist>
                         <output 
                           role="status" 
-                          name="eggs" 
+                          name="result" 
                           for="range-input"
+                          class="range_output"
                           >
+                          50
                         </output>
+                      </form> -->
+
+                      <form oninput="result01.value = parseInt(volum.value)"">
+                        <div class="range01">
+                          <div class="range02">
+                            <label>Громкость:</label>
+                            <input
+                            type="range"
+                            name="volum"
+                            list="range-in"
+                            id="volumrange"
+                            min="0"
+                            max="100"
+                            value="50"
+                            step="25"
+                            >
+                            <datalist id="range-in">
+                              <option value="0" label="0">
+                              <option value="25" label="25">
+                              <option value="50" label="50">
+                              <option value="75" label="75">
+                              <option value="100" label="100">
+                            </datalist>
+                          </div>
+                          <output role="status" name="result01" for="volumrange" >50</output>
+                        </div>
                       </form>
                       <hr>
-
-
-
-                      <form>
-                        <label for="people-num">
-                          Для скольких людей приготовить яичницу:
-                        </label>
-                        <input
-                          type="number"
-                          id="people-num"
-                          name="people"
-                          oninput="eggs.value = (parseInt(people.value) * 2)"
-                        >
-                        <p>Необходимое количество яиц:</p>
-                        <output role="status" name="eggs" for="people-num"></output>
-                      </form>
-                      
 
                     </div>
                     <a href="https://doka.guide/html/datalist/" target="_blank" rel="noopener noreferrer">Дополнительная информация</a>
@@ -313,7 +323,25 @@
                     <p><a name="output"></a></p>
                     <h2><pre>Тег: &lt;output&gt;&lt;/output&gt;</pre></h2>
                     <p>позволяет выводить результаты вычислений или действий пользователя.</p>
-                    <p>Пример <output>действия тега </output></p>
+                    
+    <!-- Форма с сайта Дока -->
+
+                    <div class="primer2">
+                      <form class="form-rating" oninput="rating.value = parseInt(rating__range.value)">
+                        <div class="form-row">
+                          <div class="form-rating__item">
+                            <label class="form-rating__item-title" for="serviceRating">Удобство сервиса:</label>
+                            <span>0</span>
+                            <input type="range" name="rating__range" id="serviceRating" min="0" max="10" value="10" class="form-rating__item-range">
+                            <span>10</span>
+                          </div>
+                          <output role="status" name="rating" for="serviceRating" class="form-rating__output">10</output>
+                        </div>
+                      </form>
+                    </div>
+
+    <!-- Форма с сайта Дока. Конец -->
+
                     <a href="https://doka.guide/html/output/" target="_blank" rel="noopener noreferrer">Дополнительная информация</a>
                 </li>
                 <li>
