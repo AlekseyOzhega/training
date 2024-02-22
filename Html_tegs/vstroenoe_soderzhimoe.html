@@ -5,7 +5,7 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Встроенное содержимое</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='vstroenoe_soderzhimoe.css'>
 </head>
 <body>
     <p><a name="top"></a></p>
@@ -26,6 +26,14 @@
                     <p><a name="picture"></a></p>
                     <h2><pre>Тег: &lt;picture&gt;&lt;/picture&gt;</pre></h2>
                     <p>Элемент-контейнер, содержащий один элемент &lt;img&gt; и ноль или несколько элементов &lt;source&gt;. <br>Сам по себе ничего не отображает. Дает возможность браузеру выбирать наиболее подходящее <br>изображение.</p>
+                    
+                    <div class="primer2">
+                        <picture>
+                            <source srcset="суслики мини2.jpg" media="(min-width: 1000px)">
+                            <img src="суслики мини.jpg" alt="Суслики в траве">
+                        </picture>
+
+                    </div>
                     <a href="https://doka.guide/html/picture/" target="_blank" rel="noopener noreferrer">Дополнительная информация</a>
                 </li>
                 <li>
@@ -44,6 +52,20 @@
                     <p><a name="iframe"></a></p>
                     <h2><pre>Тег: &lt;iframe&gt;&lt;/iframe&gt;</pre></h2>
                     <p>Создает встроенный фрейм, загружая в текущий HTML-документ другой документ.</p>
+                    
+                    <div class="primer2">
+                        <iframe
+                        id="inlineFrameExample"
+                        title="Inline Frame Map"
+                        width="560"
+                        height="400"
+                        frameborder="1"
+                        allowfullscreen="true"
+                        src="https://yandex.ru/map-widget/v1/-/CBFkaYSE0A"
+                        >
+                        </iframe>
+                    </div>
+                    
                     <a href="https://doka.guide/html/iframe/" target="_blank" rel="noopener noreferrer">Дополнительная информация</a>
                 </li>
                 <li>
