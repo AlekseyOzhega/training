@@ -1,0 +1,10 @@
+.primer2 {
+    border: 3px solid black;
+    padding: 5px;
+    width: 50%;
+    background-color: aqua;
+}
+
+.primer2 p {
+    background-color: rgb(28, 231, 102)    ;
+}
