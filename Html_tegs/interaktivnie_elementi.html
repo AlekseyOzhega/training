@@ -5,7 +5,7 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Интерактивные элементы</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='interaktivnie_elementi.css'>
 </head>
 <body>
     <p><a name="top"></a></p>
@@ -25,6 +25,14 @@
                     <p><a name="details"></a></p>
                     <h2><pre>Тег: &lt;details&gt;&lt;/details&gt;</pre></h2>
                     <p>Создаёт интерактивный виджет, который пользователь может открыть или закрыть. <br>Представляет собой контейнер для контента, видимый заголовок виджета помеща-<br>ется в элемент &lt;summary&gt;.</p>
+                    <div class="primer2">
+                        <details>
+                            
+                            <p>Текст</p>
+                            <summary>Подпись</summary>
+                            <p>Текст 2</p>
+                        </details>
+                    </div>
                     <a href="https://doka.guide/html/details/" target="_blank" rel="noopener noreferrer">Дополнительная информация</a>
                 </li>
                 <li>
@@ -46,6 +54,19 @@
                             <p>Привет! Я диалоговое окно.</p>
                         </dialog>
                     </details>
+
+                    <!--Пример с сайта Дока-->
+
+                    <div class="primer2">
+                        <button type="button" onclick="window.myDialog.show()">
+                            Просто открыть
+                          </button>
+                          <button type="button" onclick="window.myDialog.showModal()">
+                            Открыть как модалку
+                          </button>
+                          <dialog id="myDialog">🖖 Живи долго и процветай!</dialog>
+                          
+                    </div>
                     <a href="https://doka.guide/html/dialog/" target="_blank" rel="noopener noreferrer">Дополнительная информация</a>
                 </li>
             </ul>
