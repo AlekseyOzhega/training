@@ -1,3 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
 .teg-span {
     color: rgb(42, 71, 214);
 }
@@ -7,4 +15,14 @@
     width: 50%;
     min-height: 60px;
     padding: 5px;
+}
+
+.ssilka {
+    padding: 5px;
+    
+}
+
+a[href].ssilka:hover {
+    background-color: bisque;
+    color: rgb(10, 154, 10);
 }
