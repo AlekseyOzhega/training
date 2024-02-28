@@ -4,3 +4,17 @@
     width: 50%;
 }
 
+.svg1 {
+    stroke:blue;
+    width: 30%;
+    min-height: 50px;
+    /* margin-left: 220px; */
+    border: 2px solid black;
+}
+
+.svg1:hover {
+    stroke:yellowgreen;
+    fill: yellowgreen;
+}
+
+
