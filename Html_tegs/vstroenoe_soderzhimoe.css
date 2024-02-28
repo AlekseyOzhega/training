@@ -8,13 +8,36 @@
     stroke:blue;
     width: 30%;
     min-height: 50px;
-    /* margin-left: 220px; */
+    margin-right: 5px;
     border: 2px solid black;
 }
 
 .svg1:hover {
-    stroke:yellowgreen;
-    fill: yellowgreen;
+    stroke:red;
 }
 
+.svg2 {
+    stroke:blue;
+    width: 30%;
+    min-height: 50px;
+    margin-right: 5px;
+    border: 2px solid black;
+}
 
+.svg2:hover {
+    stroke:rgb(177, 33, 172);
+    fill: rgb(225, 146, 28);
+}
+
+.svg3 {
+    stroke:white;
+    width: 30%;
+    min-height: 50px;
+    fill: blue;
+    border: 2px solid black;
+}
+
+.svg3:hover {
+    stroke:rgb(24, 162, 221);
+    fill: rgb(17, 239, 91);
+}
