@@ -35,9 +35,21 @@
     min-height: 50px;
     fill: blue;
     border: 2px solid black;
+    
 }
 
 .svg3:hover {
+    animation: animation 3s infinite alternate;
     stroke:rgb(24, 162, 221);
-    fill: rgb(17, 239, 91);
+    
 }
+
+  @keyframes animation {
+    from {
+      fill: red;
+    }
+    to {
+      fill: green;
+    }
+  }
+  
