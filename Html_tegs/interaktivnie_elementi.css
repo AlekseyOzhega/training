@@ -8,3 +8,29 @@
 .primer2 p {
     background-color: rgb(28, 231, 102)    ;
 }
+
+.navi {
+    border: 1.5px solid black;
+    border-radius: 4px;
+    padding: 3px;
+    margin-right: 5px;
+    text-decoration: none;
+}
+
+.navi:hover {
+    background-color: rgb(32, 138, 138);
+    color: white;
+}
+
+.navi {
+    border: 1.5px solid black;
+    border-radius: 4px;
+    padding: 3px;
+    margin-right: 5px;
+    text-decoration: none;
+}
+
+.navi:hover {
+    background-color: rgb(32, 138, 138);
+    color: white;
+}
