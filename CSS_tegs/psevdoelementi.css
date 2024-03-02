@@ -18,3 +18,11 @@ a {
 li {
     width: 95%;
 }
+
+body {
+    margin-top: 10px;
+}
+
+footer {
+    margin-bottom: 30px;
+}
