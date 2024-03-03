@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 .navi {
     border: 1.5px solid black;
     border-radius: 4px;
@@ -9,6 +13,8 @@
 .navi:hover {
     background-color: rgb(32, 138, 138);
     color: white;
+    font-weight: bold;
+    margin-right: 2px;
 }
 
 a {
