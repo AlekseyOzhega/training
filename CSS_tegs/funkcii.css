@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+.navi {
+    border: 1.5px solid black;
+    border-radius: 4px;
+    padding: 3px;
+    margin-right: 5px;
+    text-decoration: none;
+    background-color: greenyellows;
+}
+
+.navi:hover {
+    background-color: rgb(32, 138, 138);
+    color: white;
+}
+
+li {
+    width: 95%;
+    border: 3px solid blue;
+    padding: 5px 5px 15px 5px;
+    border-radius: 15px;
+}
+
+.dopinfo {
+    border: 2px solid black;
+    padding: 2px;
+    text-decoration: none;
+}
+
+.dopinfo:hover {
+    background-color: blue;
+    color: white;
+}
+
+h2 {
+    font-size: 2em;
+    font-family: monospace;
+    margin-left: 20px;
+}
+
+footer {
+    padding: 20px;
+}
