@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+nav {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
 .navi {
     border: 1.5px solid black;
     border-radius: 4px;
