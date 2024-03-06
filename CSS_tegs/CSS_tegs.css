@@ -16,6 +16,12 @@ li {
     margin-bottom: 4px;
 }
 
+a:hover {
+    background-color: rgb(36, 175, 175);
+    color: white;
+    padding: 2px;
+}
+
 footer {
     padding: 20px;
 }
