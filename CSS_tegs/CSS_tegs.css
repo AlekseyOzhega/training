@@ -16,6 +16,11 @@ li {
     margin-bottom: 4px;
 }
 
+a {
+    font-size: 20px;
+    
+}
+
 a:hover {
     background-color: rgb(36, 175, 175);
     color: white;
