@@ -10,6 +10,7 @@
 .navi:hover {
     background-color: rgb(32, 138, 138);
     color: white;
+    margin-right: 7px;
 }
 
 li {
@@ -18,6 +19,11 @@ li {
     padding: 5px 5px 15px 5px;
     border-radius: 15px;
     margin-bottom: 7px;
+    background-color: rgb(222, 233, 241);
+}
+
+li:hover {
+    background-color: white;
 }
 
 li p {
