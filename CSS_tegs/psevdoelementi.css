@@ -172,6 +172,13 @@ a.dopinfo:hover {
     background-color: aqua;
 }
 
+.cont1::before {
+    content: "prefix";
+    background-color: aqua;
+    width: 30px;
+    height: 30px;
+}
+
 footer {
     padding: 20px;
 }
