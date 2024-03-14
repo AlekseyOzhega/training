@@ -172,11 +172,32 @@ a.dopinfo:hover {
     background-color: aqua;
 }
 
+.cont {
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
 .cont1::before {
     content: "prefix";
     background-color: aqua;
     width: 30px;
     height: 30px;
+    margin-right: 5px;
+}
+
+.cont2::before {
+    content: attr(data-);
+    background-color: rgb(220, 220, 60);
+    padding: 2px 4px 2px 4px;
+    border-radius: 15px;
+}
+
+.cont3::before {
+    content: open-quote;
+}
+
+.cont3::after {
+    content: close-quote;
 }
 
 footer {
