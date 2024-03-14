@@ -231,7 +231,7 @@ a.dopinfo:hover {
 }
 
 .li2::before {
-    content: counter(example);
+    content: counter(example, lower-roman);
     position: absolute;
     top: 0;
     right: 100%;
@@ -259,16 +259,21 @@ a.dopinfo:hover {
 }
 
 .li1 {
-    counter-increment: example 1;
+    counter-increment: example 2;
 }
 
 .li2 {
-    counter-increment: example 3;
+    counter-increment: example 4;
 }
 
 .li3 {
-    counter-increment: example 6;
+    counter-increment: example 3;
 }
+
+.li-ol2::marker {
+    content: counters(list-item, '.');
+  }
+  
 
 footer {
     padding: 20px;
