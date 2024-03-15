@@ -320,6 +320,13 @@ a.dopinfo:hover {
     content: "Before_";
 }
 
+.f-line::first-line {
+    font-size: large;
+    font-weight: bold;
+    color: blue;
+    text-decoration: underline;
+}
+
 footer {
     padding: 20px;
 }
