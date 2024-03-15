@@ -292,6 +292,34 @@ a.dopinfo:hover {
     font-weight: bold;
 }
 
+.fl1, .fl2 {
+    margin-left: 30px;
+}
+
+.fl1::first-letter {
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    padding: 3px;
+    border: 1px solid blue;
+    border-radius: 30px;
+    color: blue;
+}
+
+.fl2::first-letter {
+    font-size: larger;
+    font-family: fantasy;
+    font-weight: 100;
+    font-style: italic;
+    padding-right: 3px;
+    color: rgb(151, 151, 71);
+}
+
+.fl2::before {
+    content: "Before_";
+}
+
 footer {
     padding: 20px;
 }
