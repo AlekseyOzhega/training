@@ -272,8 +272,25 @@ a.dopinfo:hover {
 
 .li-ol2::marker {
     content: counters(list-item, '.');
-  }
-  
+}
+
+.inp1::placeholder {
+    color: rgb(118, 176, 31);
+    background-color: rgb(227, 222, 222);
+}
+
+.inp2::placeholder {
+    color: aqua;
+    text-shadow: 2px 2px 3px rgb(105, 22, 183);
+    font-weight: bold;
+    background-color: rgb(227, 222, 222);
+}
+
+.inp3::placeholder {
+    color: gray;
+    font-size: 14px;
+    font-weight: bold;
+}
 
 footer {
     padding: 20px;
