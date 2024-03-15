@@ -1,4 +1,6 @@
-
+* {
+    box-sizing: border-box;
+}
 
 .navi {
     border: 1.5px solid black;
@@ -376,6 +378,41 @@ li.list2 {
 
 li.list2:hover {
     background-color: rgba(246, 237, 67, 0.257);
+}
+
+.mark {
+    list-style-type: square;
+    list-style-image: none;
+    list-style-image: url(Иконка.png);
+    margin-left: 30px;
+}
+
+.mark0 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mark li {
+    font-size: 20px;
+    margin-bottom: 10px;
+    /* text-align: center; */
+    /* padding-bottom: 20px;
+    padding-top: 5px; */
+    width: 150px;
+    height: 50px;
+    
+
+}
+
+.mark1::marker {
+    color: blue;
+    list-style-position: unset;
+    
+}
+
+.mark2::marker {
+    color: red;
+    
 }
 
 footer {
