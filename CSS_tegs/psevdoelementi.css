@@ -327,6 +327,57 @@ a.dopinfo:hover {
     text-decoration: underline;
 }
 
+.sele {
+    margin-bottom: 3px;
+    font-size: 22px;
+}
+
+.sele3::selection {
+    color: rgba(0, 0, 255, 0.735);
+}
+
+.sele4::selection {
+    background-color: rgb(219, 167, 64);
+}
+
+.sele5::selection {
+    background-color: rgba(0, 0, 255, 0.786);
+    color: white;
+    text-shadow: 2px 2px 1px black;
+    padding-right: 3px;
+}
+
+.sele6::selection {
+    background-color: greenyellow;
+}
+
+.sele6-2::selection {
+    background-color: red;
+    color: white;
+}
+
+.sele7-2 {
+    width: 600px;
+}
+
+.sele7-2::selection {
+    background-color: black;
+    color: white;
+}
+
+li.list2 {
+    width: 95%;
+    border: 3px solid blue;
+    padding: 5px 5px 15px 5px;
+    border-radius: 15px;
+    margin-bottom: 7px;
+    background-color: rgb(250, 234, 240);
+}
+
+li.list2:hover {
+    background-color: rgba(246, 237, 67, 0.257);
+}
+
 footer {
     padding: 20px;
 }
