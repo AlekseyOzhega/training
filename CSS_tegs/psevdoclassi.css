@@ -179,6 +179,21 @@ a.dopinfo:hover {
     color: white;
 }
 
+.targ {
+    border: 2px solid blue;
+    padding: 2px;
+    margin-left: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(68, 153, 125);
+}
+
+.psevdocl:target {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
 footer {
     padding: 10px 10px 40px 10px; 
 }
