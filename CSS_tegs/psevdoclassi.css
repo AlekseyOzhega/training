@@ -1,21 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
 .navi {
     border: 1.5px solid black;
     border-radius: 4px;
     padding: 3px;
     margin-right: 5px;
     text-decoration: none;
-    background-color: greenyellows;
+    background-color: greenyellow;
 }
 
 .navi:hover {
     background-color: rgb(32, 138, 138);
     color: white;
+    margin-right: 7px;
 }
 
-li {
+ul {
+    list-style-type: none;
+}
+
+li.list {
     width: 95%;
+    border: 3px solid blue;
+    padding: 5px 5px 15px 5px;
+    border-radius: 15px;
+    margin-bottom: 7px;
+    background-color: rgb(214, 239, 228);
 }
 
-footer {
-    padding: 20px;
+li.list:hover {
+    background-color: white;
+}
+
+li p {
+    margin-left: 3px;
+}
+
+.dopinfo {
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 2px;
+    text-decoration: none;
+    margin-left: 3px;
+}
+
+.dopinfo:hover {
+    background-color: blue;
+    color: white;
+}
+
+h2 {
+    font-size: 2em;
+    font-family: monospace;
+    margin-left: 20px;
+}
+
+a {
+    font-size: 20px;
+    
+}
+
+a.navi:hover,
+a.dopinfo:hover {
+    background-color: rgb(36, 175, 175);
+    color: white;
+    padding: 2px;
 }
