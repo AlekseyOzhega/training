@@ -44,11 +44,16 @@ li p {
     padding: 2px;
     text-decoration: none;
     margin-left: 3px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.419);
 }
 
 .dopinfo:hover {
     background-color: blue;
     color: white;
+}
+
+.dopinfo:active {
+    box-shadow: none;
 }
 
 h2 {
@@ -148,6 +153,29 @@ a.dopinfo:hover {
 }
 
 .hov5:hover {
+    color: white;
+}
+
+.acti {
+    margin-left: 30px;
+    width: 150px;
+    height: 30px;
+    border-radius: 8px;
+    border: 3px solid blue;
+    box-shadow: 4px 4px 4px rgb(140, 140, 212);
+    transition: background 0.3s, color 0.3s;
+}
+
+.acti:hover {
+    font-weight: bold;
+    background-color: rgb(167, 246, 39);
+}
+
+.acti:active {
+    border-right: 5px;
+    border-bottom: 5px;
+    box-shadow: none;
+    background-color: rgba(255, 0, 0, 0.516);
     color: white;
 }
 
