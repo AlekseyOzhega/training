@@ -188,7 +188,7 @@ a.dopinfo:hover {
     color: rgb(68, 153, 125);
 }
 
-.psevdocl:target {
+a:target {
     background-color: red;
     color: white;
     font-weight: bold;
