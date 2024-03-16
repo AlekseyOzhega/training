@@ -68,3 +68,18 @@ a.dopinfo:hover {
     color: white;
     padding: 2px;
 }
+
+.ssilka1:link {
+    color: red;
+    border: 2px solid red;
+}
+
+.ssilka1:visited {
+    color: rgb(160, 160, 112);
+    border-color: rgb(76, 174, 174);
+    
+}
+
+footer {
+    padding: 10px 10px 40px 10px; 
+}
