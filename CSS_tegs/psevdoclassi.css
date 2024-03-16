@@ -77,7 +77,78 @@ a.dopinfo:hover {
 .ssilka1:visited {
     color: rgb(160, 160, 112);
     border-color: rgb(76, 174, 174);
-    
+}
+
+.hov1 {
+    width: 40%;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border: 4px solid rgb(67, 171, 203);
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    transition: background-color 0.5s linear;
+}
+
+.hov1:hover {
+    background-color: rgb(67, 171, 203);
+    border-color: black;
+    transition: background-color 0.1s linear;
+}
+
+.hov2 {
+    background-color: aquamarine;
+    color: red;
+    text-align: center;
+    border: 2px solid white;
+    width: 60%;
+    margin-left: 70px;
+    transition: background-color 0.5s linear;
+    transition: color 0.5s linear;
+}
+
+.hov2:hover {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.1s linear;
+}
+
+.hov3 {
+    background-color: aqua;
+    color: rgb(47, 101, 49);
+    text-align: center;
+    border: 2px solid white;
+    padding: 1px 40px;
+    margin-left: 110px;
+    transition: background-color 0.5s linear;
+}
+
+.hov3:hover {
+    background-color: rgb(255, 243, 13);
+    color: rgb(180, 33, 33);
+    font-style: italic;
+}
+
+.hov4 {
+    background-color: rgb(255, 138, 218);
+    color: rgb(47, 101, 49);
+    text-align: center;
+    border: 2px solid white;
+    width: 50%;
+    margin-left: 90px;
+    transition: background-color 0.5s linear;
+}
+
+.hov4:hover {
+    background-color: rgb(13, 255, 69);
+    color: rgb(33, 33, 33);
+    font-family: sans-serif;
+}
+
+.hov5:hover {
+    color: white;
 }
 
 footer {
