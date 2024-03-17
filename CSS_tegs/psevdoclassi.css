@@ -47,11 +47,6 @@ li p {
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.419);
 }
 
-.dopinfo:hover {
-    background-color: blue;
-    color: white;
-}
-
 .dopinfo:active {
     box-shadow: none;
 }
@@ -62,6 +57,13 @@ a:focus {
     padding: 2px 2px;
 }
 
+.dopinfo:hover {
+    background-color: blue;
+    color: white;
+    border-left: 25px solid rgb(36, 175, 175);
+    border-right: 25px solid rgb(36, 175, 175);
+}
+
 h2 {
     font-size: 2em;
     font-family: monospace;
@@ -70,7 +72,6 @@ h2 {
 
 a {
     font-size: 20px;
-    
 }
 
 a.navi:hover,
