@@ -226,6 +226,19 @@ a:target {
     background-color: #FF8630;
 }
 
+li.typ1:nth-last-of-type(3) {
+    background-color: #41E847;
+}
+
+.typ1:nth-last-of-type(1n+1) {
+    background-color: aqua;
+}
+
+/* .typ1:nth-last-of-type(2n) {
+    background-color: rgb(0, 255, 136);
+} */
+  
+
 footer {
     padding: 10px 10px 40px 10px; 
 }
