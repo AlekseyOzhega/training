@@ -194,6 +194,26 @@ a:target {
     font-weight: bold;
 }
 
+.chil1 {
+    background-color: black;
+    /* color: white; */
+    width: 40%;
+    margin-left: 40px;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.chil {
+    padding: 5px 20px;
+    width: 60%;
+    margin-left: 60px;
+    background-color: #2E9AFF;
+}
+
+.chil:first-child {
+    background-color: #C56FFF;
+}
+
 footer {
     padding: 10px 10px 40px 10px; 
 }
