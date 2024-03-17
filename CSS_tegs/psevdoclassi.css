@@ -262,6 +262,27 @@ li.typ1:nth-last-of-type(3) {
     border-right: 15px solid yellow;
 }
 
+.focv {
+    margin-left: 40px;
+    padding: 5px;
+    border: 3px solid black;
+    width: 60%;
+}
+
+.focv0 {
+    margin-bottom: 20px;
+    margin-left: 10px;
+    border: 2px solid red;
+    padding: 5px;
+    width: 20%;
+}
+
+.focv0:focus {
+    border: 2px solid orange;
+    border-left: 15px solid orange;
+    border-right: 15px solid orange;
+}
+
 footer {
     padding: 10px 10px 40px 10px; 
 }
