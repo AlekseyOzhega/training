@@ -287,6 +287,23 @@ li.typ1:nth-last-of-type(3) {
     border-right: 15px solid orange;
 }
 
+.fw0 {
+    border: 2px solid blue;
+    
+    padding: 5px;
+    width: 100%;
+    box-shadow: 3px 3px 4px grey;
+}
+
+.fw1 {
+    width: 60%;
+    margin-left: 40px;
+}
+
+.fw1:focus-within {
+    background-color: #0bc6ff;
+}
+
 footer {
     padding: 10px 10px 40px 10px; 
 }
