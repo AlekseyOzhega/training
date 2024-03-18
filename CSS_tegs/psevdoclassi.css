@@ -349,8 +349,10 @@ input[type="checkbox"]:checked + label {
   
   .dropdown ul {
     position: absolute;
-    left: calc(100% + 25px);
-    top: 50%;
+    /* left: calc(100% + 25px); */
+    /* top: 50%; */
+    left: 200px;
+    top: -74px;
     transform: translateY(-50%);
     margin: 0;
     padding: 40px 10px;
