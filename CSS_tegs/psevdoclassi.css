@@ -315,6 +315,64 @@ li.typ1:nth-last-of-type(3) {
     background-color: aqua;
 }
 
+.primer {
+    border: 2px solid blue;
+    border-radius: 3px;
+    margin: 5px 5px 10px 40px;
+    padding: 10px;
+    width: 70%;
+}
+
+input[type="checkbox"] + label {
+    font-size: 18px;
+    
+}
+
+input[type="checkbox"]:checked + label {
+    border: 2px solid blue;
+    color: red;
+}
+
+.dropdown {
+    position: relative;
+  }
+  
+  .dropdown input,
+  .dropdown ul {
+    display: none;
+  }
+  
+  .dropdown label {
+    cursor: pointer;
+    border-bottom: 3px dashed #2E9AFF;
+  }
+  
+  .dropdown ul {
+    position: absolute;
+    left: calc(100% + 25px);
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+    padding: 40px 10px;
+    list-style: none;
+    background-color: #FFFFFF;
+    font-size: 20px;
+    border: 2px solid blue;
+  }
+  
+  .dropdown a {
+    color: #000000;
+  }
+  
+  .dropdown :checked ~ label {
+    color: #2E9AFF;
+  }
+  
+  .dropdown :checked ~ ul {
+    display: inline-block;
+  }
+  
+
 footer {
     padding: 10px 10px 40px 10px; 
 }
