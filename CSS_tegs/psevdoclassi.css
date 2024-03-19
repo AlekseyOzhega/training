@@ -335,19 +335,19 @@ input.ch9:checked + label {
 
 .dropdown {
     position: relative;
-  }
+}
   
-  .dropdown input,
-  .dropdown ul {
+.dropdown input,
+.dropdown ul {
     display: none;
-  }
-  
-  .dropdown label {
+}
+
+.dropdown label {
     cursor: pointer;
     border-bottom: 3px dashed #2E9AFF;
-  }
-  
-  .dropdown ul {
+}
+
+.dropdown ul {
     position: absolute;
     left: 200px;
     top: -74px;
@@ -358,19 +358,36 @@ input.ch9:checked + label {
     background-color: #FFFFFF;
     font-size: 20px;
     border: 2px solid blue;
-  }
+}
   
-  .dropdown a {
+.dropdown a {
     color: #000000;
-  }
+}
   
-  .dropdown :checked ~ label {
+.dropdown :checked ~ label {
     color: #2E9AFF;
-  }
+}
   
-  .dropdown :checked ~ ul {
+.dropdown :checked ~ ul {
     display: inline-block;
-  }
+}
+
+.dis-en {
+    border: 3px solid rgb(147, 219, 40);
+    border-radius: 4px;
+    padding: 3px;
+}
+
+.dis-en:hover {
+    box-shadow: 3px 3px 3px grey;
+}
+
+.dis-en:disabled {
+    border: 3px solid rgb(73, 91, 46);
+    background-color: rgb(181, 177, 177);
+    color: white;
+    box-shadow: none;
+}
   
 
 footer {
