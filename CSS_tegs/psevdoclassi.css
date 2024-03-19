@@ -375,11 +375,16 @@ input.ch9:checked + label {
 .dis-en {
     border: 3px solid rgb(147, 219, 40);
     border-radius: 4px;
-    padding: 3px;
+    padding: 6px;
 }
 
 .dis-en:hover {
     box-shadow: 3px 3px 3px grey;
+}
+
+.dis-en:active {
+    border: 6px solid rgb(147, 219, 40);
+    padding: 3px;
 }
 
 .dis-en:disabled {
@@ -387,6 +392,7 @@ input.ch9:checked + label {
     background-color: rgb(181, 177, 177);
     color: white;
     box-shadow: none;
+    padding: 6px;
 }
   
 
