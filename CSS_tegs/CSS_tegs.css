@@ -20,17 +20,30 @@ li {
     margin-bottom: 4px;
 }
 
-a {
+a.navi {
     font-size: 20px;
     border: none;
 }
 
-a:hover {
+a.navi:hover {
     background-color: rgb(36, 175, 175);
     color: white;
     padding: 3px;
     border: 2px solid rgb(20, 98, 98);
     border-radius: 3px;
+}
+
+.menu {
+    margin: 5px 5px 30px 5px;
+    padding: 3px;
+}
+
+.menu-btn {
+    border: 2px solid green;
+    border-radius: 3px;
+    background-color: aqua;
+    /* padding: 1px 3px;
+    margin: 2px 1px; */
 }
 
 footer {
