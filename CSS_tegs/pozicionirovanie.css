@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+.navi {
+    border: 1.5px solid black;
+    border-radius: 4px;
+    padding: 3px;
+    margin-right: 5px;
+    text-decoration: none;
+    background-color: greenyellow;
+}
+
+.navi:hover {
+    background-color: rgb(32, 138, 138);
+    color: white;
+    margin-right: 7px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li.list {
+    width: 95%;
+    border: 3px solid blue;
+    padding: 5px 5px 15px 5px;
+    border-radius: 15px;
+    margin-bottom: 7px;
+    background-color: rgb(214, 239, 228);
+}
+
+li.list:hover {
+    background-color: white;
+}
+
+li p {
+    margin-left: 3px;
+}
+
+.dopinfo {
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 2px 25px;
+    text-decoration: none;
+    margin-left: 3px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.419);
+}
+
+.dopinfo:active {
+    box-shadow: none;
+}
+
+a:focus {
+    border-left: 25px solid yellow;
+    border-right: 25px solid yellow;
+    padding: 2px 2px;
+}
+
+.dopinfo:hover {
+    background-color: blue;
+    color: white;
+    border-left: 25px solid rgb(36, 175, 175);
+    border-right: 25px solid rgb(36, 175, 175);
+}
+
+h2 {
+    font-size: 2em;
+    font-family: monospace;
+    margin-left: 20px;
+}
+
+a {
+    font-size: 20px;
+}
+
+a.navi:hover,
+a.dopinfo:hover {
+    background-color: rgb(36, 175, 175);
+    color: white;
+    padding: 2px;
+}
