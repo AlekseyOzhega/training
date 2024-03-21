@@ -293,6 +293,13 @@ li.typ1:nth-last-of-type(3) {
     font-size: 5em;
 }
 
+.rating > button:hover,
+.rating > button:focus,
+.rating > button:hover ~ button,
+.rating > button:focus ~ button {
+    color: #0bc6ff;
+}
+
 .fw0 {
     border: 2px solid blue;
     
