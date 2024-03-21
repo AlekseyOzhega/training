@@ -287,6 +287,12 @@ li.typ1:nth-last-of-type(3) {
     border-right: 15px solid orange;
 }
 
+.rating > button {
+    border: none;
+    background-color: transparent;
+    font-size: 5em;
+}
+
 .fw0 {
     border: 2px solid blue;
     
