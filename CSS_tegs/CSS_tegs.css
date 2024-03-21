@@ -22,17 +22,7 @@ ul > li {
     width: 250px;
 }
 
-.li1.li0 {
-    background-color: red;
-}
 
-li:hover {
-    background-color: blanchedalmond;
-}
-
-li:hover ~ li {
-    background-color: aqua;
-}
 
 li {
     margin-bottom: 4px;
