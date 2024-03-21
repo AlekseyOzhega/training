@@ -16,6 +16,24 @@ ul {
     list-style-type: none;
 }
 
+ul > li {
+    border: 2px solid blue;
+    padding: 2px;
+    width: 250px;
+}
+
+.li1.li0 {
+    background-color: red;
+}
+
+li:hover {
+    background-color: blanchedalmond;
+}
+
+li:hover ~ li {
+    background-color: aqua;
+}
+
 li {
     margin-bottom: 4px;
 }
