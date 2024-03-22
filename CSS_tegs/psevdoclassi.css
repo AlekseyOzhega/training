@@ -416,7 +416,15 @@ input.ch9:checked + label {
     background-color: #73cfeb;
     color: rgb(191, 36, 36);
 }
-  
+
+.is1, .is2 {
+    color: rgb(165, 73, 89);
+}
+
+.is1:is(.is2) {
+    color: greenyellow;
+    background-color: #2E9AFF;
+}
 
 footer {
     padding: 10px 10px 40px 10px; 
