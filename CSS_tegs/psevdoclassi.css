@@ -411,6 +411,11 @@ input.ch9:checked + label {
     box-shadow: none;
     padding: 6px;
 }
+
+.has0:has(img) {
+    background-color: #73cfeb;
+    color: rgb(191, 36, 36);
+}
   
 
 footer {
