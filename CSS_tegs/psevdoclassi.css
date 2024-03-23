@@ -441,6 +441,20 @@ input.ch9:checked + label {
     border-color: red;
 }
 
+.in-rang2 {
+    border: 2px solid red;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 2px 5px;
+    width: 30%;
+    visibility: hidden;
+}
+
+.in-rang:out-of-range + .in-rang2 {
+    visibility: visible;
+}
+
 footer {
     padding: 10px 10px 40px 10px; 
 }
