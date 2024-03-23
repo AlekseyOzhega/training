@@ -469,7 +469,15 @@ input.ch9:checked + label {
     background-color: #f7e5d9;
 }
 
+.op0 > input {
+    margin-bottom: 5px;
+    border-radius: 3px;
+}
 
+.op0 > input:optional {
+    background-color: #cdedf7;
+    border-color: blue;
+}
 
 footer {
     padding: 10px 10px 40px 10px; 
