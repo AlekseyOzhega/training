@@ -479,9 +479,13 @@ input.ch9:checked + label {
     border-color: blue;
 }
 
-.in-va0 > input,
-.in-va0 > label {
+.in-va0 > input {
     margin-bottom: 5px;
+    background-color: #0bc6ff;
+}
+
+.in-va0 > input:valid {
+    background-color: #c4e7c5;
 }
 
 footer {
