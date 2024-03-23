@@ -455,6 +455,22 @@ input.ch9:checked + label {
     visibility: visible;
 }
 
+.req0 > input {
+    margin-bottom: 5px;
+    border-radius: 3px;
+}
+
+.req0 > label {
+    font-size: 18px;
+}
+
+.req0 > input:required {
+    border-color: #FF8630;
+    background-color: #f7e5d9;
+}
+
+
+
 footer {
     padding: 10px 10px 40px 10px; 
 }
