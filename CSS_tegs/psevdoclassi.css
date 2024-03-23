@@ -479,6 +479,11 @@ input.ch9:checked + label {
     border-color: blue;
 }
 
+.in-va0 > input,
+.in-va0 > label {
+    margin-bottom: 5px;
+}
+
 footer {
     padding: 10px 10px 40px 10px; 
 }
