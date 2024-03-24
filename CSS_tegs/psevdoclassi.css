@@ -480,7 +480,6 @@ input.ch9:checked + label {
 }
 
 .in-va-d {
-    /* border: 1px solid blue; */
     padding: 5px;
     height: 35px;
     
@@ -519,6 +518,48 @@ fieldset:valid {
 fieldset:invalid {
     border-color: red;
 }
+
+.pl-sh9 {
+    /* padding: 5px;
+    height: 35px; */
+    
+}
+
+.pl-sh9 + .pl-sh9 {
+    margin-top: 10px;
+}
+
+.pl-sh9 > input:valid {
+    background-color: #c4e7db;
+}
+
+.pl-sh9 > input:invalid {
+    background-color: #ecc3d2;
+    border-color: red;
+}
+
+.pl-sp {
+    position: absolute;
+    margin-left: 2px;
+    
+}
+
+.pl-sh9 input:valid + .pl-sp::before {
+    content: ' ✓';
+    color: #1ca3cf;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.pl-sh9 > input:placeholder-shown {
+    background-color: #b3bdda;
+    color: black;
+    font-weight: bold;
+    border-color: rgb(149, 227, 32);
+    text-overflow: ellipsis;
+}
+
+
 
 footer {
     padding: 10px 10px 40px 10px; 
