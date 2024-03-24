@@ -479,13 +479,37 @@ input.ch9:checked + label {
     border-color: blue;
 }
 
-.in-va0 > input {
-    margin-bottom: 5px;
-    background-color: #0bc6ff;
+.in-va-d {
+    border: 1px solid blue;
+    padding: 5px;
+    height: 35px;
+    
 }
 
-.in-va0 > input:valid {
-    background-color: #c4e7c5;
+.in-va-d + .in-va-d {
+    margin-top: 10px;
+}
+
+.in-va-d > input:valid {
+    background-color: #c4e7db;
+}
+
+.in-va-d > input:invalid {
+    background-color: #ecc3d2;
+    border-color: red;
+}
+
+.er-sp {
+    position: absolute;
+    margin-left: 2px;
+    
+}
+
+.in-va-d input:valid + .er-sp::before {
+    content: ' ✓';
+    color: #1ca3cf;
+    font-size: 20px;
+    font-weight: bolder;
 }
 
 footer {
