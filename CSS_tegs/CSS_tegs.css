@@ -1,3 +1,7 @@
+body {
+    font-size: 18px;
+}
+
 .navi {
     border: 1.5px solid black;
     border-radius: 4px;
@@ -44,14 +48,29 @@ a.navi:hover {
 .menu {
     margin: 5px 5px 30px 5px;
     padding: 3px;
+    
 }
 
-.menu-btn {
-    border: 2px solid green;
-    border-radius: 3px;
+a {
+    text-decoration: none;
+}
+
+.menu > a {
+    padding: 2px 5px;
+    color: black;
+    font-weight: bold;
+}
+
+.menu > a:hover {
+    background-color: aquamarine;
+}
+
+.menu > a:not(:last-child) {
+    margin-right: 15px;
+}
+
+li:hover {
     background-color: aqua;
-    /* padding: 1px 3px;
-    margin: 2px 1px; */
 }
 
 footer {

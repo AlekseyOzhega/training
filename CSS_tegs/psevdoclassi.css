@@ -421,6 +421,10 @@ input.ch9:checked + label {
     color: rgb(165, 73, 89);
 }
 
+li:is(.is1) {
+    font-size: 20px;
+}
+
 .is1:is(.is2) {
     color: greenyellow;
     background-color: #2E9AFF;
