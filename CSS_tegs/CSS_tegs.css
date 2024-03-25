@@ -70,9 +70,8 @@ a {
     margin-right: 15px;
 }
 
-ul > li:hover {
-    background-color: blue;
-    color: white;
+li:hover {
+    background-color: aqua;
 }
 
 footer {
