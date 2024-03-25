@@ -563,6 +563,18 @@ fieldset:invalid {
     background-color: #41E847;
 }
 
+p:lang(en) {
+    font-family: cursive;
+    color: #FF8630;
+    font-weight: bold;
+}
+
+p:lang(ru) {
+    font-family: 'Times New Roman', Times, serif;
+    color: #1ca3cf;
+    font-weight: bold;
+}
+
 footer {
     padding: 10px 10px 40px 10px; 
 }
