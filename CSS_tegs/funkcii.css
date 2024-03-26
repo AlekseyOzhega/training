@@ -86,14 +86,26 @@ h2 {
     display: block;
 }
 
-.lg {
-    height: 400px;
-    width: 70%;
-    margin-left: 100px;
+.lg0 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.lg, .lg2, .lg3 {
+    height: 200px;
+    width: 30%;
     margin-bottom: 20px;
     border: 2px solid blue;
-    background-color: aqua;
-    background-image: linear-gradient(blue pink);
+}
+
+.lg {
+    
+    /* margin-left: 100px; */
+    
+    /* background-color: aqua; */
+    background-image: linear-gradient(#dfc6cb 30%, #2E9AFF 40% 75%, #29ff78 75%);
 }
 
 
