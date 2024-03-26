@@ -65,6 +65,29 @@ h2 {
     margin-left: 20px;
 }
 
+.primer {
+    border: 2px solid blue;
+    border-radius: 3px;
+    margin: 5px 5px 10px 40px;
+    padding: 10px;
+    width: 70%;
+}
+
+
+
+
+.element::before {
+    content: "Элемент с классом " attr(class);
+    display: block;
+}
+
+.element::after {
+    content: "Подсказка: " attr(title);
+    display: block;
+}
+
+
+
 footer {
     padding: 20px;
 }
