@@ -179,7 +179,7 @@ h2 {
     opacity: 0.5;
 }
 
-.rg, .rg2, .rg3, .rg4 {
+.rg, .rg2, .rg3 {
     height: 200px;
     width: 30%;
     margin-bottom: 20px;
@@ -203,7 +203,45 @@ h2 {
     background-position:0 0, 40px 40px;
 }
 
+.rrg, .rrg2, .rrg3 {
+    height: 200px;
+    width: 30%;
+    margin-bottom: 20px;
+    border: 2px solid blue;
+}
 
+.rrg {
+    background-image:
+    repeating-radial-gradient(
+      circle at center,
+      #ffffff 0,
+      #ffffff 10px,
+      #40e3e0 10px,
+      #40e3e0 20px
+    );
+}
+
+.rrg2 {
+    background-image:
+    repeating-radial-gradient(
+      ellipse farthest-corner at left,
+      blue 0,
+      blue 10px,
+      white 10px,
+      white 20px,
+      aqua 20px,
+      aqua 30px
+    );
+}
+
+.rrg3 {
+    background-image:
+    repeating-radial-gradient(
+      blue,
+      white,
+      blue
+    );
+}
 
 footer {
     padding: 20px;
