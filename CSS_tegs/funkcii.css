@@ -243,6 +243,91 @@ h2 {
     );
 }
 
+.cgdiv {
+    height: 200px;
+    width: 40%;
+    margin-bottom: 20px;
+    border: 2px solid blue;
+    margin-right: 5px;
+}
+
+.cg {
+    background-image: conic-gradient(from 0.17turn at 50% 50%, rgb(243, 11, 11) 0%, rgb(12, 158, 243) 100%);
+}
+
+.cg2 {
+    background-image: conic-gradient(#fff 25%, #bbb 25% 50%, #666 50% 75%, #000 75%);
+}
+
+.cg3 {
+    background-image: conic-gradient(
+    peru 25%,
+    cornsilk 25% 50%,
+    peru 50% 75%,
+    cornsilk 75%
+    );
+    background-size: 25% 25%;
+}
+
+.cg4 {
+    background-color: rgb(117, 116, 116);
+}
+
+.cg44 {
+    position: relative;
+    width: 170px;
+    height: 170px;
+    background-image: conic-gradient(
+    coral 27deg,
+    palegreen 27deg 150deg,
+    skyblue 150deg
+    );
+    border-radius: 50%;
+    left: 25%;
+    top: 6%;
+}
+
+.cg5 {
+    background-color: black;
+}
+
+.cg55 {
+    position: relative;
+    width: 170px;
+    height: 170px;
+    background: conic-gradient(red, orange, yellow, green, blue, purple, red);
+    border-radius: 50%;
+    left: 25%;
+    top: 6%;
+}
+
+.cg55::after {
+    content: ''"";
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    bottom: 40px;
+    left: 40px;
+    background: #18191c;
+    border-radius: 50%;
+}
+
+.cg6 {
+    background:
+    radial-gradient(
+      yellow 5%,
+      gold 31% 32%,
+      transparent 32.5% 50%,
+      lightskyblue 70%
+    ),
+    repeating-conic-gradient(
+      yellow 0% 1%,
+      transparent 4% 6%,
+      yellow 9% 10%
+    );
+}
+
+
 footer {
     padding: 20px;
 }
