@@ -90,12 +90,26 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    background-color: #29ff78;
+    width: 90%;
+    background:
+        radial-gradient(circle, transparent 20%, slategray 20%,
+        slategray 80%, transparent 80%, transparent),
+        radial-gradient(circle, transparent 20%, slategray 20%,
+        slategray 80%, transparent 80%, transparent) 50px 50px,
+        linear-gradient(#A8B1BB 8px, transparent 8px) 0 -4px,
+        linear-gradient(90deg, #A8B1BB 8px, transparent 8px) -4px 0;
+    background-color: slategray;
+    background-size: 100px 100px, 100px 100px, 50px 50px, 50px 50px;
 }
 
-.lg, .lg2, .lg3 {
+.lg0:hover {
+    background-color: white;
+}
+
+.lg, .lg2, .lg3, .lg4 {
     height: 200px;
-    width: 30%;
+    width: 20%;
     margin-bottom: 20px;
     border: 2px solid blue;
 }
@@ -127,6 +141,9 @@ h2 {
     background-image: linear-gradient(145deg, rgb(27, 166, 191) 40%, rgb(38, 38, 145) );
 }
 
+.lg4 {
+    background: linear-gradient(#e81b4b 10%, transparent);
+}
 
 
 footer {
