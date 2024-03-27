@@ -179,6 +179,31 @@ h2 {
     opacity: 0.5;
 }
 
+.rg, .rg2, .rg3, .rg4 {
+    height: 200px;
+    width: 30%;
+    margin-bottom: 20px;
+    border: 2px solid blue;
+}
+
+.rg {
+    background-image: radial-gradient(circle, rgb(214, 21, 21), yellow, greenyellow, rgb(15, 15, 161));
+}
+
+.rg2 {
+    background-image: radial-gradient(closest-corner at 20% 30%, coral, blue, green, white, black);
+}
+
+.rg3 {
+    background-color:#def;
+    background-image:
+        radial-gradient(closest-side, transparent 98%, rgba(0, 0, 0, 0.3) 99%), 
+        radial-gradient(closest-side, transparent 98%, rgba(0, 0, 0, 0.3) 99%);
+    background-size:80px 80px;
+    background-position:0 0, 40px 40px;
+}
+
+
 
 footer {
     padding: 20px;
