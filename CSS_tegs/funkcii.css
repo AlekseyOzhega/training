@@ -90,7 +90,6 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #29ff78;
     width: 90%;
     background:
         radial-gradient(circle, transparent 20%, slategray 20%,
@@ -101,10 +100,6 @@ h2 {
         linear-gradient(90deg, #A8B1BB 8px, transparent 8px) -4px 0;
     background-color: slategray;
     background-size: 100px 100px, 100px 100px, 50px 50px, 50px 50px;
-}
-
-.lg0:hover {
-    background-color: white;
 }
 
 .lg, .lg2, .lg3, .lg4 {
@@ -143,6 +138,45 @@ h2 {
 
 .lg4 {
     background: linear-gradient(#e81b4b 10%, transparent);
+}
+
+.rlg, .rlg2, .rlg3, .rlg4 {
+    height: 200px;
+    width: 30%;
+    margin-bottom: 20px;
+    border: 2px solid blue;
+}
+
+.rlg {
+    background-image:
+    repeating-linear-gradient(
+      -45deg,
+      black 0,
+      black 25px,
+      orange 25px,
+      orange 50px
+    );
+}
+
+.rlg2 {
+    background-image: 
+    repeating-linear-gradient(
+        0.50turn, 
+        yellow 0 15px, 
+        white 35px 40px, 
+        aqua 50px 65px);
+}
+
+.rlg3 {
+    background-image:
+    repeating-linear-gradient(
+      -125deg,
+      blue 0,
+      blue 15px,
+      cyan 15px,
+      cyan 20px
+    );
+    opacity: 0.5;
 }
 
 
