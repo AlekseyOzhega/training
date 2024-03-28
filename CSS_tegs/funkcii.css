@@ -424,6 +424,20 @@ h2 {
     filter: saturate(350%);
 }
 
+.t-form {
+    width: 26%;
+    height: 160px;
+    border: 4px solid rgb(237, 216, 25);
+    background-image: url(../Html_tegs/суслики\ мини.jpg);
+    background-repeat: no-repeat;
+    margin-left: 200px;
+    
+}
+
+.t-form:hover {
+    transform: skew(35deg);
+}
+
 
 footer {
     padding: 20px;
