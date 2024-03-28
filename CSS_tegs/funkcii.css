@@ -365,7 +365,8 @@ h2 {
     height: 300px;
     width: 300px;
     background-image: image-set(
-        url(../Html_tegs/суслики\ мини.jpg)
+        url(../Html_tegs/суслики\ мини.jpg) 2x,
+        url(../Html_tegs/суслики\ мини2.jpg) 1x
     );
 }
 
