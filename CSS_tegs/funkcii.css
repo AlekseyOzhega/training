@@ -370,6 +370,60 @@ h2 {
     );
 }
 
+.fil-f {
+    background-image: url(../Html_tegs/doka-map.svg);
+    background-repeat: no-repeat;
+    height: 180px;
+    margin-left: 160px;
+    margin-top: 20px;
+    
+}
+
+.fil-f:hover {
+    filter: drop-shadow(6px 6px 10px blue);
+    cursor: pointer;
+}
+
+.fil-f2 {
+    background-image: url(../Html_tegs/суслики\ мини.jpg);
+    height: 180px;
+    background-repeat: no-repeat;
+    filter: hue-rotate(00.50turn);
+}
+
+.fil {
+    height: 300px;
+    width: 70%;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    border: 2px solid blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    
+}
+
+.fil > .fil0 {
+    width: 26%;
+    height: 160px;
+    border: 3px solid grey;
+    background-image: url(../Html_tegs/суслики\ мини.jpg);
+    background-repeat: no-repeat;
+}
+
+.fil0:hover {
+    filter: hue-rotate(0.50turn);
+}
+
+.fil0:first-child:hover {
+    filter: sepia();
+}
+
+.fil0:last-child:hover {
+    filter: saturate(350%);
+}
+
 
 footer {
     padding: 20px;
