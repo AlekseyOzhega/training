@@ -361,6 +361,14 @@ h2 {
     );
 }
 
+.im-set {
+    height: 300px;
+    width: 300px;
+    background-image: image-set(
+        url(../Html_tegs/суслики\ мини.jpg)
+    );
+}
+
 
 footer {
     padding: 20px;
