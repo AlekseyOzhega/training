@@ -1,0 +1,27 @@
+li {
+    width: 95%;
+    border: 3px solid blue;
+    padding: 5px 5px 15px 5px;
+    border-radius: 15px;
+    margin-bottom: 7px;
+    background-color: rgb(222, 233, 241);
+    list-style-type: none;
+}
+
+li:hover {
+    background-color: white;
+}
+
+li p {
+    margin-left: 3px;
+}
+
+h2 {
+    font-size: 2em;
+    font-family: monospace;
+    margin-left: 20px;
+}
+
+footer {
+    padding: 20px;
+}

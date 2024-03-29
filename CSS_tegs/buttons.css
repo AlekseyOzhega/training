@@ -1,0 +1,32 @@
+a {
+    font-size: 20px;
+}
+
+.navi {
+    border: 1.5px solid black;
+    border-radius: 4px;
+    padding: 4px;
+    margin-right: 5px;
+    text-decoration: none;
+    background-color: greenyellow;
+}
+
+.navi:hover {
+    background-color: rgb(32, 138, 138);
+    color: white;
+    margin-right: 5px;
+}
+
+.dopinfo {
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 2px 4px;
+    text-decoration: none;
+    margin-left: 3px;
+}
+
+a:hover {
+    background-color: rgb(36, 175, 175);
+    color: white;
+    padding: 4px;
+}
