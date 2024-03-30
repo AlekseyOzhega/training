@@ -31,7 +31,7 @@ li p {
     margin-left: 3px;
 }
 
-.dopinfo {
+.dopinfo, .dopinfo-y {
     border: 2px solid black;
     border-radius: 4px;
     padding: 2px 4px;
@@ -42,6 +42,13 @@ li p {
 .dopinfo:hover {
     background-color: blue;
     color: white;
+    padding: 2px 6px 2px 2px;
+}
+
+.dopinfo-y:hover {
+    background-color: red;
+    color: white;
+    padding: 2px 6px 2px 2px;
 }
 
 h2 {
