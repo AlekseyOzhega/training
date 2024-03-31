@@ -1,19 +1,15 @@
+
 body {
     font-size: 18px;
 }
 
 .navi {
-    border: 1.5px solid black;
     border-radius: 4px;
     padding: 3px;
     margin-right: 5px;
     text-decoration: none;
     background-color: greenyellow;
-}
-
-.navi:hover {
-    background-color: rgb(32, 138, 138);
-    color: white;
+    border: 2px solid black;  
 }
 
 ul {
@@ -21,7 +17,6 @@ ul {
 }
 
 ul > li {
-    /* border: 2px solid blue; */
     padding: 2px;
     width: 250px;
     font-size: 20px;
@@ -35,13 +30,12 @@ li {
 
 a.navi {
     font-size: 20px;
-    border: none;
 }
 
 a.navi:hover {
     background-color: rgb(36, 175, 175);
     color: white;
-    padding: 3px;
+    padding: 2px 3px;
     border: 2px solid rgb(20, 98, 98);
     border-radius: 3px;
 }
