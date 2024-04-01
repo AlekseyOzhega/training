@@ -107,11 +107,12 @@
     background-color: rgb(237, 237, 237);
     border: 1px solid black;
     border-radius: 50%;
-    animation: medet2-ani 1s infinite alternate linear;
+    animation: medet2-ani 4s infinite alternate linear;
     position: relative;
     top: 30px;
     
 }
+
 
 @keyframes medet-ani {
     from {
@@ -147,13 +148,16 @@
     from {
         background-color: white;
         left: 10px;
+        top: 30px;
     }
     50% {
         background-color: grey;
         left: 200px;
+        top: 60px;
     }
     to {
         background-color: black;
         left: 500px;
+        top: 30px;
     }
 }
