@@ -98,7 +98,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    animation: medet-ani 7s infinite;
+    animation: medet-ani 7s infinite linear;
 }
 
 .medet2 {
@@ -107,7 +107,10 @@
     background-color: rgb(237, 237, 237);
     border: 1px solid black;
     border-radius: 50%;
-    animation: medet2-ani 0.5s infinite alternate;
+    animation: medet2-ani 1s infinite alternate linear;
+    position: relative;
+    top: 30px;
+    
 }
 
 @keyframes medet-ani {
@@ -143,8 +146,14 @@
 @keyframes medet2-ani {
     from {
         background-color: white;
+        left: 10px;
+    }
+    50% {
+        background-color: grey;
+        left: 200px;
     }
     to {
         background-color: black;
+        left: 500px;
     }
 }
