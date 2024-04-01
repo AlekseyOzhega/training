@@ -107,6 +107,7 @@
     background-color: rgb(237, 237, 237);
     border: 1px solid black;
     border-radius: 50%;
+    animation: medet2-ani 0.5s infinite alternate;
 }
 
 @keyframes medet-ani {
@@ -136,5 +137,14 @@
     }
     to {
         background-color: rgb(48, 205, 205);
+    }
+}
+
+@keyframes medet2-ani {
+    from {
+        background-color: white;
+    }
+    to {
+        background-color: black;
     }
 }
