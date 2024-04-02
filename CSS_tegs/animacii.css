@@ -161,3 +161,22 @@
         top: 30px;
     }
 }
+
+.tra {
+    width: 70%;
+    height: 40vh;
+    border: 2px solid blue;
+    margin: 10px 5px 20px 40px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.tra > button {
+    background-color: aqua;
+    padding: 6px 14px;
+}
+
+.tra > button:first-child {
+    margin-bottom: 20px;
+    background-color: antiquewhite;
+}
