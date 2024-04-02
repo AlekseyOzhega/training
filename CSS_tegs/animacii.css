@@ -172,11 +172,29 @@
 }
 
 .tra > button {
-    background-color: aqua;
+    background-color: antiquewhite;
     padding: 6px 14px;
+    width: 200px;
+    height: 70px;
+    position: relative;
+    left: 40%;
+    top: 20%;
+    border: 2px solid rgb(25, 156, 200);
+    border-radius: 4px;
+    transition: background-color 0.5s, transform 0.5s;
 }
 
 .tra > button:first-child {
     margin-bottom: 20px;
-    background-color: antiquewhite;
+    
+    
+}
+
+.tra > button:first-child:hover {
+    background-color: aqua;
+}
+
+.tra > button:last-child:hover {
+    background-color: aquamarine;
+    transform: scale(120%);
 }
