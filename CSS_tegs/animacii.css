@@ -256,10 +256,45 @@
     border: 2px solid rgb(25, 156, 200);
     border-radius: 4px;
     transition: background-color 0.5s, transform 0.5s;
+    
 }
 
 .tra-d > button:first-child {
-    margin-bottom: 20px;
+    margin-bottom: 1px;
+    display: flex;
+    align-items: center;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    /* color: #ffffff; */
+}
+
+.tra-d > .but1 {
+    background-color: #2E9AFF;
+}
+
+.tra-d > .but1,
+.but1 + span {
+    font-size: 20px;
+    transition-property: font-size, transform;
+    transition-duration: .5s, .5s;
+    transition-delay: .5s, 0s;
+}
+
+.but1 + span {
+    background-color: #1d8ffa;
+    padding: 4px 12px;
+}
+
+.tra-d > button:before {
+    content: 'Спасибо! U*ᴥ*U';
+    /* font-size: 0; */
+    transition-property: font-size;
+    transition-duration: .5s;
+    transition-delay: 0s;
+  }
+
+.tra-d > button:last-child {
+    transition-delay: 0.3s;
 }
 
 .tra-d > button:first-child:hover {
@@ -270,3 +305,4 @@
     background-color: rgb(148, 255, 127);
     transform: scale(120%);
 }
+
