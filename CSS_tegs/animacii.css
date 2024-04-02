@@ -282,8 +282,11 @@
 }
 
 .but1 + span {
-    background-color: #1d8ffa;
+    /* background-color: #1d8ffa; */
     padding: 4px 12px;
+    position: relative;
+    left: 330px;
+    top: -5px;
 }
 
 .tra-d > .but1:before {
@@ -299,7 +302,15 @@
     transition-property: font-size;
     transition-duration: .5s;
     transition-delay: .5s;
-  }
+}
+
+.tra-d > .but1:hover + span {
+    transform: scale(0);
+    font-size: 0px;
+    transition-property: font-size, transform;
+    transition-duration: .5s, .5s;
+    transition-delay: .5s, o;
+}
 
 .tra-d > button:last-child {
     transition-delay: 0.3s;
