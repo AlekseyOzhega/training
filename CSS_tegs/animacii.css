@@ -270,6 +270,7 @@
 
 .tra-d > .but1 {
     background-color: #2E9AFF;
+    padding-left: 35px;
 }
 
 .tra-d > .but1,
@@ -285,12 +286,19 @@
     padding: 4px 12px;
 }
 
-.tra-d > button:before {
+.tra-d > .but1:before {
     content: 'Спасибо! U*ᴥ*U';
-    /* font-size: 0; */
+    font-size: 0;
     transition-property: font-size;
     transition-duration: .5s;
     transition-delay: 0s;
+}
+
+.tra-d > .but1:hover:before {
+    font-size: 18px;
+    transition-property: font-size;
+    transition-duration: .5s;
+    transition-delay: .5s;
   }
 
 .tra-d > button:last-child {
