@@ -186,8 +186,6 @@
 
 .tra > button:first-child {
     margin-bottom: 20px;
-    
-    
 }
 
 .tra > button:first-child:hover {
@@ -196,5 +194,42 @@
 
 .tra > button:last-child:hover {
     background-color: aquamarine;
+    transform: scale(120%);
+}
+
+
+
+.tra-d {
+    width: 70%;
+    height: 40vh;
+    border: 2px solid blue;
+    margin: 10px 5px 20px 40px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.tra-d > button {
+    background-color: azure;
+    padding: 6px 14px;
+    width: 200px;
+    height: 70px;
+    position: relative;
+    left: 40%;
+    top: 20%;
+    border: 2px solid rgb(25, 156, 200);
+    border-radius: 4px;
+    transition: background-color 0.5s, transform 0.5s;
+}
+
+.tra-d > button:first-child {
+    margin-bottom: 20px;
+}
+
+.tra-d > button:first-child:hover {
+    background-color: rgb(255, 242, 0);
+}
+
+.tra-d > button:last-child:hover {
+    background-color: rgb(148, 255, 127);
     transform: scale(120%);
 }
