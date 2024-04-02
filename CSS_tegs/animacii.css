@@ -195,6 +195,43 @@
 .tra > button:last-child:hover {
     background-color: aquamarine;
     transform: scale(120%);
+    transition: background-color 3s, transform 3s;
+}
+
+.tra > a {
+    position: relative;
+    left: -100px;
+    top: 30px;
+    text-decoration: none;
+    background-color: rgb(232, 214, 188);
+    border: 2px solid coral;
+    border-radius: 7px;
+    padding: 5px 22px;
+    transition: background-color 0.5s, transform 0.5s, color 0.5s;
+}
+
+.tra > a:hover {
+    background-color: blanchedalmond;
+    color: black;
+    transform: scale(120%);
+}
+
+.tra > span {
+    background-color: white;
+    border: 1px solid blue;
+    padding: 3px 10px;
+    position: relative;
+    left: -260px;
+    top: 84px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.4s, visibility 0.4s, top 0.4s;
+}
+
+.tra > a:hover + span {
+    opacity: 1;
+    visibility: visible;
+    top: 64px;
 }
 
 
