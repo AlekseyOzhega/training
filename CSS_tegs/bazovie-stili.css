@@ -33,3 +33,12 @@ h2 {
 footer {
     padding: 20px;
 }
+
+.p-list {
+    margin-left: 40px;
+}
+
+.p-list::before {
+    content: '*';
+    padding-right: 4px;
+}
