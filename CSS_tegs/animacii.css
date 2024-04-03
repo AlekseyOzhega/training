@@ -259,12 +259,13 @@
     
 }
 
-.tra-d > button:first-child {
+.tra-d > button {
     margin-bottom: 1px;
     display: flex;
     align-items: center;
     border: 2px solid transparent;
     border-radius: 6px;
+    cursor: pointer;
     /* color: #ffffff; */
 }
 
