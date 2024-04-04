@@ -470,6 +470,7 @@
     }
 }
 
+
 .circl {
     width: 200px;
     height: 200px;
@@ -482,6 +483,7 @@
     purple,
     red
     );
+    
     border-radius: 50%;
 
     /* animation-name: rainbow;
@@ -590,4 +592,47 @@
         red
         );
     }
+}
+
+.circl2 {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient( -45deg,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    purple,
+    red
+    );
+    border-radius: 50%;
+    margin-left: 40px;
+    background-size: 400% 400%;
+    animation: lin-gr 10s ease infinite;
+}
+
+@keyframes lin-gr {
+    from {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    to {
+        background-position: 0 50%;
+    }
+
+}
+
+.circl2:hover {
+    background: linear-gradient( -45deg,
+    green,
+    blue,
+    purple,
+    red,
+    orange,
+    yellow,
+    green
+    );
 }
