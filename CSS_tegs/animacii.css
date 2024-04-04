@@ -341,7 +341,7 @@
 
 
 .starfall {
-    width: 72%;
+    width: 52%;
     height: 50vh;
     border: 2px solid blue;
     margin-left: 40px;
@@ -352,31 +352,120 @@
 }
 
 .star > img {
-    background-color: aqua;
-    width: 50px;
+    /* background-color: aqua; */
+    width: 40px;
     position: relative;
-    left: 0px;
-    top: 0px;
+    left: -140px;
+    top: -100px;
 }
 
 .star {
+    position: relative;
     animation-name: starr-fall;
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-timing-function: ease-in;
-    animation-delay: 0.5s;
-    left: 10px;
-    top: 100px;
+    animation-direction: normal;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    opacity: 1;
 }
+
+
+
+.star2 > img {
+    /* background-color: aqua; */
+    width: 40px;
+    position: relative;
+    left: -100px;
+    top: -100px;
+}
+
+.star2 {
+    position: relative;
+    animation-name: starr-fall;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    opacity: 1;
+}
+
+
+.star3 > img {
+    /* background-color: aqua; */
+    width: 40px;
+    position: relative;
+    left: -80px;
+    top: -100px;
+}
+
+.star3 {
+    position: relative;
+    animation-name: starr-fall;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    opacity: 1;
+}
+
+
+.star4 > img {
+    /* background-color: aqua; */
+    width: 40px;
+    position: relative;
+    left: -65px;
+    top: -100px;
+}
+
+.star4 {
+    position: relative;
+    animation-name: starr-fall;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: linear;
+    animation-delay: 3s;
+    opacity: 1;
+}
+
+
+.star5 > img {
+    /* background-color: aqua; */
+    width: 40px;
+    position: relative;
+    left: -40px;
+    top: -100px;
+}
+
+.star5 {
+    position: relative;
+    animation-name: starr-fall;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    opacity: 1;
+}
+
 
 @keyframes starr-fall {
     from {
         left: 0px;
         top: 0px;
+        opacity: 0;
+    }
+    50% {
+        left: 50px;
+        top: 100px;
+        opacity: 1;
     }
     to {
         left: 100px;
-        top: 100px;
+        top: 200px;
+        opacity: 0;
     }
 }
