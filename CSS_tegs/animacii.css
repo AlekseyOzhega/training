@@ -653,7 +653,6 @@
     background: linear-gradient(0deg, rgb(76, 75, 75), rgb(133, 23, 23));
     position: relative;
     border-radius: 5px;
-    z-index: 2;
     /* opacity: 0.6; */
     
 }
@@ -662,8 +661,8 @@
 .gradient::after {
     content: '';
     position: absolute;
-    top: -4px;
-    left: -4px;
+    top: -40px;
+    left: -40px;
     background: linear-gradient(45deg, #fb0092, #0000ff, #00ff00, #ffff00, 
     #ff0000, #fb0092, #0000ff, #00ff00, #ffff00, #00ffff);
     width: 100%;
@@ -676,4 +675,5 @@
 
 .gradient::after {
     filter: blur(20px);
+    
 }
