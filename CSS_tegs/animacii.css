@@ -398,6 +398,7 @@
     position: relative;
     left: -80px;
     top: -100px;
+    
 }
 
 .star3 {
@@ -457,16 +458,19 @@
         left: 0px;
         top: 0px;
         opacity: 0;
+        transform: rotate(0deg);
     }
     50% {
-        left: 50px;
+        left: 2px;
         top: 100px;
         opacity: 1;
+        transform: rotate(23deg);
     }
     to {
-        left: 100px;
+        left: 5px;
         top: 200px;
         opacity: 0;
+        transform: rotate(45deg);
     }
 }
 
@@ -647,13 +651,14 @@
     ); */
 }
 
+
 .gradient {
     width: 350px;
     height: 200px;
-    background: linear-gradient(0deg, rgb(76, 75, 75), rgb(133, 23, 23));
+    background: linear-gradient(0deg, rgb(32, 31, 31), rgb(70, 69, 69));
     position: relative;
     border-radius: 5px;
-    z-index: 3;
+    z-index: 2;
     /* opacity: 0.6; */
     
 }
@@ -662,20 +667,30 @@
 .gradient::after {
     content: '';
     position: absolute;
-    top: -40px;
-    left: -40px;
+    top: 40px;
+    left: 40px;
     background: linear-gradient(45deg, #fb0092, #0000ff, #00ff00, #ffff00, 
     #ff0000, #fb0092, #0000ff, #00ff00, #ffff00, #00ffff);
     width: 100%;
     height: 100%;
-    opacity: 0.5;
     z-index: 1;
     border-radius: 5px;
     background-size: 400%;
-
+    animation: ramka 30s linear infinite;
 }
 
 .gradient::after {
     filter: blur(20px);
-    
+}
+
+@keyframes ramka {
+    from {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 300px 100px;
+    }
+    to {
+        background-position: 0 0;
+    }
 }
