@@ -66,32 +66,38 @@
     perspective: 400px;
 }
 
-.tra-f2 > h3 {
-    margin-left: 40%;
+.tra-f2 li {
+    all: unset;
+    perspective: 500px;
 }
 
-.tra-f2 > span {
-    background-color: aqua;
+.tra-f2 ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    transition: transform 0.3s;
+    padding: 0;
+}
+
+.tra-f2 h3 {
+    text-align: center;
+}
+
+.tra-f2 a {
+    all: unset;
     display: block;
-    width: 7vw;
-    margin-left: 5vw;
-    margin-bottom: 3px;
-    transition: transform .5s;
-}
-
-.tra-f2 > span:hover {
-    transform: translateZ(100px) translateX(20px);
-    transition: transform .5s;
-}
-
-.tra-f2 > a {
     font-size: 20px;
-    margin-left: 2vw;
-    transition: transform .5s;
+    margin-right: 3px;
+    transition: transform .5s;   
+    
 }
 
-.tra-f2 > a:hover {
-    transform: translateZ(20px);
-    background-color: white;
-    color: black;
+.tra-f2 a:hover {
+    
+    transform: translateZ(150px);
+    transition: transform .5s;
+    /* background-color: white;
+    color: black; */
 }
