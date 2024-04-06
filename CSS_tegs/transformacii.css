@@ -52,9 +52,10 @@
 }
 
 .tra-f:hover {
-    transform: rotate(180deg) translateZ(-70px) translateX(20px);
+    /* transform: rotate(180deg) translateZ(-70px) translateX(20px); */
     cursor: pointer;
     transition: transform .5s;
+    transform:rotateX(30deg) rotateY(10deg) rotateZ(720deg) ;
 }
 
 .tra-f2 {
@@ -98,6 +99,5 @@
     
     transform: translateZ(150px);
     transition: transform .5s;
-    /* background-color: white;
-    color: black; */
+    cursor: pointer;
 }
