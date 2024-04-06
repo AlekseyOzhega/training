@@ -7,7 +7,7 @@
     background: linear-gradient(15deg, red, greenyellow, rgb(50, 141, 244), blue);
     width: 20vw;
     height: 20vw;
-    margin-left: 10vw;
+    
     position: relative;
     left: 30px;
     border-radius: 50%;
@@ -46,10 +46,52 @@
 
 .primer {
     perspective: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .tra-f:hover {
     transform: rotate(180deg) translateZ(-70px) translateX(20px);
     cursor: pointer;
     transition: transform .5s;
+}
+
+.tra-f2 {
+    width: 30vw;
+    height: 35vh;
+    border: 2px solid blue;
+    box-shadow: 5px 5px 3px grey;
+    border-radius: 5px;
+    perspective: 400px;
+}
+
+.tra-f2 > h3 {
+    margin-left: 40%;
+}
+
+.tra-f2 > span {
+    background-color: aqua;
+    display: block;
+    width: 7vw;
+    margin-left: 5vw;
+    margin-bottom: 3px;
+    transition: transform .5s;
+}
+
+.tra-f2 > span:hover {
+    transform: translateZ(100px) translateX(20px);
+    transition: transform .5s;
+}
+
+.tra-f2 > a {
+    font-size: 20px;
+    margin-left: 2vw;
+    transition: transform .5s;
+}
+
+.tra-f2 > a:hover {
+    transform: translateZ(20px);
+    background-color: white;
+    color: black;
 }
