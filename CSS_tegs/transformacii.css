@@ -4,7 +4,7 @@
 
 
 .tra-f {
-    background: linear-gradient(15deg, red, greenyellow, rgb(50, 141, 244), blue);
+    background: linear-gradient(15deg, red, greenyellow, rgb(162, 184, 209), rgb(233, 36, 230));
     width: 20vw;
     height: 20vw;
     
@@ -18,6 +18,41 @@
 
 .tra-f::before,
 .tra-f::after 
+{
+    content: '';
+    width: 70%;
+    height: 70%;
+    background-color: black;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    border-radius: 50%;
+}
+
+.tra-f0 {
+    background: conic-gradient(
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    purple,
+    red
+    );
+    width: 20vw;
+    height: 20vw;
+    
+    position: relative;
+    left: 30px;
+    border-radius: 50%;
+    /* background-size: 400%;
+    animation: sfera 10s linear infinite; */
+    animation: sfera2 5s linear .5s infinite;
+    transition: transform .5s;
+}
+
+.tra-f0::before,
+.tra-f0::after 
 {
     content: '';
     width: 70%;
@@ -44,11 +79,25 @@
 
 }
 
+@keyframes sfera2 {
+    from {
+        transform: rotateZ(0deg);
+    }
+    from {
+        transform: rotateZ(180deg);
+    }
+    from {
+        transform: rotateZ(360deg);
+    }
+
+}
+
 .primer {
     perspective: 500px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 80vw;
 }
 
 .tra-f:hover {
@@ -58,8 +107,15 @@
     transform:rotateX(30deg) rotateY(10deg) rotateZ(720deg) ;
 }
 
+.tra-f0:hover {
+    cursor: pointer;
+    animation: sfera2 5s linear .5s infinite;
+    transition: transform .5s;
+    transform:scale(1.2);
+}
+
 .tra-f2 {
-    width: 30vw;
+    width: 23vw;
     height: 35vh;
     border: 2px solid blue;
     box-shadow: 5px 5px 3px grey;
