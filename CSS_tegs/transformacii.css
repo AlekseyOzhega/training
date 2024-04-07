@@ -59,13 +59,13 @@
     content: '';
     width: 70%;
     height: 70%;
-    background-color: black;
+    
     background: conic-gradient(
-    yellow,
-    yellowgreen,
-    green,
-    yellowgreen,
-    yellow
+    yellow 72deg,
+    yellowgreen  144deg,
+    green  216deg,
+    yellowgreen  288deg,
+    yellow  360deg
     );
     position: absolute;
     top: 15%;
