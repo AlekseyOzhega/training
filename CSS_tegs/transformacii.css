@@ -231,14 +231,18 @@
     transform: scaleX(1);
 }
 
-button.tr-or-02 {
+button.tr-or-02::before {
     transform-origin: -10px;
     background-color: red;
 }
 
-button.tr-or-03 {
+button.tr-or-03::before {
     background-color: greenyellow;
     transform-origin: 100%;
+}
+
+.tr-or a {
+    all: unset;
 }
 
 
