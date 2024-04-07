@@ -101,7 +101,6 @@
 }
 
 .tra-f:hover {
-    /* transform: rotate(180deg) translateZ(-70px) translateX(20px); */
     cursor: pointer;
     transition: transform .5s;
     transform:rotateX(30deg) rotateY(10deg) rotateZ(720deg) ;
@@ -109,9 +108,7 @@
 
 .tra-f0:hover {
     cursor: pointer;
-    animation: sfera2 5s linear .5s infinite;
     transition: transform .5s;
-    transform:scale(1.2);
 }
 
 .tra-f2 {
