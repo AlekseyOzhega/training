@@ -268,9 +268,75 @@ button.tr-or-03::before {
 
 .kub {
     width: 70vw;
-    height: 50vh;
+    height: 70vh;
     border: 2px solid blue;
     border-radius: 2px;
     background-color: black;
-    margin:10px 0 30px 40px;
+    margin: 10px 0 30px 40px;
+    min-block-size: 100%;
+    padding: 50px;
+    display: grid;
+    place-items: center;
+    background-color: #18191c;
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
 }
+
+.cube {
+    margin: 50px;
+    inline-size: 200px;
+    block-size: 200px;
+    margin-inline: auto;
+    transform-style: preserve-3d;
+    transform: rotate3d(1, 1, 1, -45deg);
+    animation: rot 10s linear infinite;
+}
+
+.face {
+    display: grid;
+    place-items: center;
+    inline-size: 100%;
+    block-size: 100%;
+    position: absolute;
+    backface-visibility: inherit;
+    font-size: 60px;
+    color: #fff;
+}
+
+.front {
+    background: rgb(197 111 255 / 70%);
+    transform: translateZ(100px);
+}
+
+.back {
+    background: rgb(65 232 71 / 70%);
+    transform: rotateY(180deg) translateZ(100px);
+}
+
+.right {
+    background: rgb(244 152 173 / 70%);
+    transform: rotateY(90deg) translateZ(100px);
+}
+
+.left {
+    background: rgb(46 154 255 / 70%);
+    transform: rotateY(-90deg) translateZ(100px);
+}
+
+.top {
+    background: rgb(255 216 41 / 70%);
+    transform: rotateX(90deg) translateZ(100px);
+}
+
+.bottom {
+    background: rgb(255 134 48 / 70%);
+    transform: rotateX(-90deg) translateZ(100px);
+}
+
+@keyframes rot {
+    from {
+      transform: rotateX(45deg) rotateY(30deg) rotateZ(0);
+    }
+    to {
+      transform: rotateX(-315deg) rotateY(-330deg) rotateZ(360deg);
+    }
