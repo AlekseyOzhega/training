@@ -2,6 +2,9 @@
 
 @import url(bazovie-stili.css);
 
+* {
+    box-sizing: border-box;
+}
 
 .tra-f {
     background: linear-gradient(15deg, 
@@ -261,4 +264,13 @@ button.tr-or-03::before {
     transform-origin: 170px 170px;
     transform: rotateZ(90deg);
     transition: transform 2.5s;
+}
+
+.kub {
+    width: 70vw;
+    height: 50vh;
+    border: 2px solid blue;
+    border-radius: 2px;
+    background-color: black;
+    margin:10px 0 30px 40px;
 }
