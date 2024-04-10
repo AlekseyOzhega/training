@@ -3,6 +3,12 @@ body {
     background-attachment: fixed;
 }
 
+h1 {
+    display: inline-block;
+    padding: 1px 4px;
+    background-color: white;
+}
+
 li {
     width: 95%;
     border: 3px solid blue;
