@@ -13,3 +13,16 @@
     background-color: lightsalmon;
     transition: background-color 1.5s;
 }
+
+.posit {
+    height: 50vh;
+    background-color: aquamarine;
+    background-image: url(../Html_tegs/суслики\ мини.jpg);
+    background-repeat: no-repeat;
+    transition: background-position 3s linear;
+}
+
+.posit:hover {
+    background-position: bottom right;
+    transition: background-position 3s linear;
+}
