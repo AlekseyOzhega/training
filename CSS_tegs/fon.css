@@ -26,3 +26,16 @@
     background-position: bottom right;
     transition: background-position 3s linear;
 }
+
+.blend {
+    height: 50vh;
+    background-color: rgba(172, 255, 47, 0.372);
+    background-image: url(../Html_tegs/суслики\ мини.jpg);
+    background-blend-mode: overlay;
+    transition: background-color 1s linear;
+}
+
+.blend:hover {
+    background-color: rgba(0, 0, 255, 0.409);
+    transition: background-color 1s linear;
+}
