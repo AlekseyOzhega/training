@@ -3,6 +3,10 @@ body {
     background-attachment: fixed;
 }
 
+p.warning::before {
+    content: '⚠️';
+}
+
 h1 {
     display: inline-block;
     padding: 1px 4px;
