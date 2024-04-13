@@ -55,8 +55,9 @@
     margin-right: 30px;
 }
 
-.tdt-link.tdt-link {
-    /* all: unset; */
+.tdt-link {
+    background-color: black;
+    color: white;
     display: inline-block;
     font-size: 2.2em;
     font-weight: bold;
@@ -71,8 +72,7 @@
     transition: 150ms linear;
 }
 
-.tdt-link:hover.tdt-link:hover {
-    /* all: unset; */
+.tdt-link:hover {
     display: inline-block;
     background-color: black;
     color: white;
@@ -87,4 +87,20 @@
     text-decoration: underline double 2px white;
     cursor: pointer;
     transition: 150ms linear;
+}
+
+.yellow {
+    text-decoration-color: yellow;
+}
+
+.red {
+    text-decoration-color: red;
+}
+
+.greenyellow {
+    text-decoration-color: greenyellow;
+}
+
+.skyblue {
+    text-decoration-color: skyblue;
 }

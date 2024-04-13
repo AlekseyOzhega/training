@@ -25,9 +25,9 @@ li {
     list-style-type: none;
 }
 
-/* li:hover {
+li:hover {
     background-color: white;
-} */
+}
 
 li p {
     margin-left: 3px;
