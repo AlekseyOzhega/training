@@ -14,25 +14,25 @@
     display: inline-block;
     background-color: black;
     color: white;
-    padding: 6px;
+    padding: 8px;
     transition: text-decoration .5s;
     font-size: larger;
 }
 
 .txt-d {
-    text-decoration: underline;
+    text-decoration: underline double 3px;
 }
 
 .txt-d2 {
-    text-decoration: overline underline wavy;
+    text-decoration: overline underline wavy 2px;
 }
 
 .txt-d:hover {
-    text-decoration: underline greenyellow;
+    text-decoration: underline double greenyellow 3px;
     transition: text-decoration .5s;
 }
 
 .txt-d2:hover {
-    text-decoration: overline underline wavy lightskyblue;
+    text-decoration: overline underline wavy lightskyblue 2px;
     transition: text-decoration .5s;
 }
