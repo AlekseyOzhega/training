@@ -9,10 +9,30 @@
     text-align: center; 
 }
 
+.txt-d,
+.txt-d2 {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 6px;
+    transition: text-decoration .5s;
+    font-size: larger;
+}
+
 .txt-d {
-    text-decoration: underline dotted green;
+    text-decoration: underline;
 }
 
 .txt-d2 {
     text-decoration: overline underline wavy;
+}
+
+.txt-d:hover {
+    text-decoration: underline greenyellow;
+    transition: text-decoration .5s;
+}
+
+.txt-d2:hover {
+    text-decoration: overline underline wavy lightskyblue;
+    transition: text-decoration .5s;
 }
