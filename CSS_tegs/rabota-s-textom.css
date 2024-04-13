@@ -1,3 +1,10 @@
 @import url(buttons.css);
 
 @import url(bazovie-stili.css);
+
+
+.imag {
+    padding: 16px;
+    display: block;
+    text-align: center;
+}
