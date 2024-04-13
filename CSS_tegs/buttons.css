@@ -1,11 +1,12 @@
-a {
+a.navi,
+a.dopinfo {
     font-size: 20px;
 }
 
 .navi {
     border: 1.5px solid black;
     border-radius: 4px;
-    padding: 4px;
+    padding: 4px;   
     margin-right: 5px;
     text-decoration: none;
     background-color: greenyellow;
@@ -25,7 +26,8 @@ a {
     margin-left: 3px;
 }
 
-a:hover {
+a.navi:hover,
+a.dopinfo:hover {
     background-color: rgb(36, 175, 175);
     color: white;
     padding: 4px;
