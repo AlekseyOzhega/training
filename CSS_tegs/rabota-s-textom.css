@@ -36,3 +36,47 @@
     text-decoration: overline underline wavy lightskyblue 2px;
     transition: text-decoration .5s;
 }
+
+
+
+.tdt {
+    background-color: black;
+    color: white;
+    padding: 40px 10px;
+}
+
+.tdt-ul {
+    display: flex;
+    justify-content: center;
+}
+
+.tdt-item {
+    all: unset;
+    margin-right: 30px;
+}
+
+.tdt-link {
+    all: unset;
+    display: inline-block;
+    font-size: 2.2em;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    text-decoration: overline double 2px grey;
+    text-decoration: underline double 2px rgb(135, 111, 111);
+    transition: text-decoration 1s;
+}
+
+.tdt-link:hover {
+    all: unset;
+    display: inline-block;
+    background-color: black;
+    color: white    ;
+    font-size: 2.2em;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    text-decoration: underline double 2px red;
+    cursor: pointer;
+    transition: text-decoration 1s;
+}
