@@ -101,9 +101,19 @@
 }
 
 .greenyellow {
-    text-decoration-color: greenyellow;
+    text-decoration-color: rgb(12, 203, 12);
 }
 
 .skyblue {
-    text-decoration-color: skyblue;
+    text-decoration-color: rgb(11, 89, 244);
+}
+
+.text-shadow {
+    font-size: 28px;
+    margin-left: 30px;
+    text-shadow: 3px 3px 3px grey;
+}
+
+.text-shadow:hover {
+    text-shadow: 5px 5px 5px rgb(171, 165, 165);
 }
