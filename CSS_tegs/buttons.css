@@ -35,6 +35,5 @@ a.dopinfo:hover {
 
 a.navi:active,
 a.dopinfo:active {
-    /* background-color: yellow; */
     color: yellow;
 }
