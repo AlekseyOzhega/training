@@ -108,12 +108,21 @@
     text-decoration-color: rgb(11, 89, 244);
 }
 
-.text-shadow {
-    font-size: 28px;
+.txt-s1 {
     margin-left: 30px;
-    text-shadow: 3px 3px 3px grey;
 }
+
+.text-shadow {
+    display: inline-block;
+    font-size: 28px;
+    text-shadow: 3px 3px 3px grey;
+    transition: text-shadow .5s;
+}
+
+
 
 .text-shadow:hover {
     text-shadow: 5px 5px 5px rgb(171, 165, 165);
+    cursor: pointer;
+    transition: text-shadow .5s;
 }

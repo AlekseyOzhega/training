@@ -32,3 +32,9 @@ a.dopinfo:hover {
     color: white;
     padding: 4px;
 }
+
+a.navi:active,
+a.dopinfo:active {
+    /* background-color: yellow; */
+    color: yellow;
+}
