@@ -2,3 +2,23 @@
 
 @import url(bazovie-stili.css);
 
+.fsa1,
+.fsa2,
+.fsa3 {
+    display: inline-block;
+    font-size: 28px;
+    margin: 0;
+} 
+
+.fsa1 {
+    font-size-adjust: 10px;
+}
+
+.fsa2 {
+    font-size-adjust: none;
+    background-color: antiquewhite;
+}
+
+.fsa3 {
+    font-size-adjust: 0.3;
+}
