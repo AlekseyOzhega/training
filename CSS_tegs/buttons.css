@@ -37,3 +37,8 @@ a.navi:active,
 a.dopinfo:active {
     color: yellow;
 }
+
+a.navi:focus,
+a.dopinfo:focus {
+    box-shadow: 3px 3px 3px grey;
+}

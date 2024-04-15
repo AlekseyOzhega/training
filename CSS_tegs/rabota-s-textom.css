@@ -119,10 +119,13 @@
     transition: text-shadow .5s;
 }
 
-
-
 .text-shadow:hover {
     text-shadow: 5px 5px 5px rgb(171, 165, 165);
     cursor: pointer;
     transition: text-shadow .5s;
+}
+
+.indent {
+    font-size: 1.1em;
+    text-indent: 3vw;
 }
