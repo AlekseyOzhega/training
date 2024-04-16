@@ -2,6 +2,12 @@
 
 @import url(bazovie-stili.css);
 
+
+.out-off {
+    outline: 2px solid blue;
+    outline-style: outset;
+}
+
 .out-off button {
     display: block;
     justify-content: center;
