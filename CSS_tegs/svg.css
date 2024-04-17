@@ -20,7 +20,5 @@
     rotate: 90deg;
     transition: scale .5s, rotate .5s;
     cursor: pointer;
-    fill: aqua;
-    stroke: aqua;
 }
 
