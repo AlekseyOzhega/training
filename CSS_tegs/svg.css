@@ -2,3 +2,25 @@
 
 @import url(bazovie-stili.css);
 
+
+
+.svg0 {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.material-symbols-outlined {
+    scale: 2.2;
+    transition: scale .5s, rotate .5s;
+}
+
+.svg1:hover {
+    /* scale: 1.4; */
+    rotate: 90deg;
+    transition: scale .5s, rotate .5s;
+    cursor: pointer;
+    fill: aqua;
+    stroke: aqua;
+}
+
