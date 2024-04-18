@@ -56,13 +56,13 @@ a {
     font-weight: bold;
     display: inline-block;
     transition: scale .5s, background-color 1.5s;
-    
+    border-radius: 100vw;
 }
 
 .menu > a:hover {
     background-color: aquamarine;
     scale: 1.2;
-    
+    border-radius: 100vw;
     transition: scale .5s, background-color .5s;
 }
 
