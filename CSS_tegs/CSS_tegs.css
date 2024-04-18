@@ -54,10 +54,16 @@ a {
     padding: 2px 5px;
     color: black;
     font-weight: bold;
+    display: inline-block;
+    transition: scale .5s, background-color 1.5s;
+    
 }
 
 .menu > a:hover {
     background-color: aquamarine;
+    scale: 1.2;
+    
+    transition: scale .5s, background-color .5s;
 }
 
 .menu > a:not(:last-child) {
