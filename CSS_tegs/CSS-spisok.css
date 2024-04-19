@@ -19,7 +19,7 @@ body {
 .spisok .sp-element {
     display: block;
     text-decoration: none;
-    max-width: 10vw;
+    max-width: 12vw;
     margin: 3px 5px;
     transition: scale .5s, background-color .5s, color .5s;
 }
