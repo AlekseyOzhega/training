@@ -20,7 +20,7 @@ body {
     display: block;
     text-decoration: none;
     max-width: 10vw;
-    /* color: black; */
+    margin: 3px 5px;
     transition: scale .5s, background-color .5s, color .5s;
 }
 
