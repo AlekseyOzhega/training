@@ -30,3 +30,30 @@ body {
     /* color: white; */
     transition: scale .5s, background-color .5s, color .5s;
 }
+
+.alfavit {
+    background-color: rgb(241, 239, 239);
+    margin-right: 40px;
+    padding: 5px 3px;
+}
+
+.alfavit .alfa {
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: bold;
+    color: blue;
+    border-radius: 5px;
+    padding: 5px;
+    line-height: 1.4;
+    /* transition: color .5s, background-color .5s; */
+}
+
+.alfavit .alfa:not(:last-child) {
+    margin-right: 5px;
+}
+
+.alfavit .alfa:hover {
+    color: white;
+    background-color: blue;
+    /* transition: color .5s, background-color .5s; */
+}
