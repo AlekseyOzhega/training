@@ -45,7 +45,6 @@ body {
     border-radius: 5px;
     padding: 5px;
     line-height: 1.4;
-    /* transition: color .5s, background-color .5s; */
 }
 
 .alfavit .alfa:not(:last-child) {
@@ -55,5 +54,4 @@ body {
 .alfavit .alfa:hover {
     color: white;
     background-color: blue;
-    /* transition: color .5s, background-color .5s; */
 }
