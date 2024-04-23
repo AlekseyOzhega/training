@@ -43,11 +43,14 @@
     background-color: black;
     color: white;
     padding: 40px 10px;
+    width: 75vw;
 }
 
 .tdt-ul {
+    all: unset;
     display: flex;
     justify-content: center;
+    
 }
 
 .tdt-item {
