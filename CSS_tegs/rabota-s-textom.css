@@ -49,13 +49,12 @@
 .tdt-ul {
     all: unset;
     display: flex;
-    justify-content: center;
-    
+    justify-content: space-between;
+    padding: 0px 20px;
 }
 
 .tdt-item {
     all: unset;
-    margin-right: 30px;
 }
 
 .tdt-link {
@@ -79,7 +78,6 @@
 .tdt-link:hover,
 .tdt-link:focus {
     display: inline-block;
-    
     background-color: black;
     color: white;
     line-height: 1.3;
