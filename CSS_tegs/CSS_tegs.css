@@ -76,4 +76,12 @@ li:hover {
 
 footer {
     padding: 20px;
+    background-color: aquamarine;
+    display: flex;
+    /* opacity: .5; */
+}
+
+.foot.foot {
+    background-color: red;
+    font-size: 34px;
 }
