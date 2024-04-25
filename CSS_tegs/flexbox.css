@@ -14,12 +14,14 @@
 .cont1 {
     min-width: 6vw;
     min-height: 6vw;
+    border: 1px solid blue;
     background-color: aqua;
 }
 
 .cont2 {
     min-width: 6vw;
     min-height: 6vw;
+    border: 1px solid blue;
     background-color: aquamarine;
     flex-grow: 1;
 }
@@ -27,5 +29,13 @@
 .cont3 {
     min-width: 6vw;
     min-height: 6vw;
+    border: 1px solid blue;
     background-color: rgb(16, 175, 228);
+}
+
+.cont4 {
+    min-width: 2vw;
+    min-height: 4vw;
+    border: 1px solid blue;
+    background-color: rgb(19, 228, 16);
 }
