@@ -2,3 +2,30 @@
 
 @import url(bazovie-stili.css);
 
+.flgr {
+    /* width: 80vw; */
+    min-height: 70vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.cont1 {
+    min-width: 6vw;
+    min-height: 6vw;
+    background-color: aqua;
+}
+
+.cont2 {
+    min-width: 6vw;
+    min-height: 6vw;
+    background-color: aquamarine;
+    flex-grow: 1;
+}
+
+.cont3 {
+    min-width: 6vw;
+    min-height: 6vw;
+    background-color: rgb(16, 175, 228);
+}
