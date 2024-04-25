@@ -1,3 +1,6 @@
+* {
+    margin: 0;
+}
 
 body {
     font-size: 18px;
@@ -7,15 +10,15 @@ body {
 }
 
 main {
-    flex: 1;
-    /* overflow: hidden;
-    height: 70vh; */
+    height: 70vh;
+    /* flex: 1; */
     background-color: antiquewhite;
+    overflow: auto;
 }
 
 nav {
     background-color: rgb(0, 166, 255);
-    min-height: 15vh;
+    height: 15vh;
     display: flex;
     justify-content: flex-start;
     align-items: center;
