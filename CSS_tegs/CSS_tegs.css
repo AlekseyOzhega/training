@@ -8,6 +8,9 @@ body {
 
 main {
     flex: 1;
+    /* overflow: hidden;
+    height: 70vh; */
+    background-color: antiquewhite;
 }
 
 nav {
@@ -100,7 +103,8 @@ li:hover {
 }
 
 footer {
-    padding: 20px;
+    /* padding: 20px; */
+    min-height: 15vh;
     background-color: rgb(0, 166, 255);
     display: flex;
 }

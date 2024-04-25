@@ -24,6 +24,7 @@
     border: 1px solid blue;
     background-color: aquamarine;
     flex-grow: 1;
+    overflow: scroll;
 }
 
 .cont3 {
@@ -31,6 +32,7 @@
     min-height: 6vw;
     border: 1px solid blue;
     background-color: rgb(16, 175, 228);
+    
 }
 
 .cont4 {
