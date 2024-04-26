@@ -11,7 +11,7 @@ body {
 }
 
 nav {
-    min-height: 13vh;
+    min-height: 10vh;
     background-color: blue;
     padding: 15px 30px;
     display: flex;
@@ -37,12 +37,54 @@ nav a:hover {
 
 
 main {
-    min-height: 75vh;
-    /* flex: 1; */
+    min-height: 82vh;
+    display: flex;
 }
 
+.conteiner {
+    border: 2px solid black;
+    width: 94vw;
+    height: 76vh;
+    margin: auto;
+}
+
+.pict {
+    background-color: grey;
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+
+.figa {
+    width: 70%;
+    height: 80%;
+    border: 2px solid black;
+    margin: auto;
+    background-color:#def;
+    background-image:
+        radial-gradient(closest-side, transparent 98%, rgba(0, 0, 0, 0.3) 99%),
+        radial-gradient(closest-side, transparent 98%, rgba(0, 0, 0, 0.3) 99%);
+    background-size:80px 80px;
+    background-position:0 0, 40px 40px;
+}
+
+.text {
+    background-color: grey;
+    opacity: .8;
+    color: white;
+    width: 30%;
+    height: 100%;
+    padding: 15px 30px;
+    text-indent: 20px;
+}
+
+.bt-slay {
+    display: flex;
+}
+
+
 footer {
-    min-height: 12vh;
+    height: 8vh;
     background-color: blue;
     padding: 5px 30px;
     color: rgb(212, 208, 208);
@@ -50,7 +92,7 @@ footer {
 }
 
 footer p {
-    padding: 20px 50px 10px 50px;
+    padding: 10px 50px 10px 50px;
 }
 
 footer span {
