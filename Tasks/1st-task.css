@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box; 
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-size: 18px;
+}
+
+nav {
+    min-height: 13vh;
+    background-color: blue;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    background-color: blue;
+    padding: 2px 4px;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    margin-right: 10px;
+    transition: scale .5s;
+}
+
+nav a:hover {
+    transition: scale .5s;
+    scale: 1.2;
+}
+
+
+main {
+    min-height: 75vh;
+    /* flex: 1; */
+}
+
+footer {
+    min-height: 12vh;
+    background-color: blue;
+    padding: 5px 30px;
+    color: rgb(212, 208, 208);
+    
+}
+
+footer p {
+    padding: 20px 50px 10px 50px;
+}
+
+footer span {
+    text-transform: capitalize;
+
+}
