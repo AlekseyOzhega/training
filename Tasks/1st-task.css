@@ -43,14 +43,13 @@ main {
 }
 
 .conteiner {
-    border: 2px solid black;
     width: 94vw;
     height: 76vh;
     margin: auto;
 }
 
 .pict {
-    background-color: grey;
+    background-color: rgb(85, 85, 93);
     width: 100%;
     height: 80%;
     display: flex;
@@ -59,7 +58,6 @@ main {
 .figa {
     width: 70%;
     height: 80%;
-    border: 2px solid black;
     margin: auto;
     background-color:#def;
     background-image:
@@ -70,7 +68,7 @@ main {
 }
 
 .text-box {
-    background-color: grey;
+    background-color: rgb(69, 70, 117);
     opacity: .8;
     color: white;
     width: 35%;
@@ -103,8 +101,40 @@ main {
     margin-top: 8px;
 }
 
+div.read {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.text-box a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 20px;
+}
+
 .bt-slay {
     display: flex;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+}
+
+.bt-slay button {
+    margin: auto 10px;
+    border: none;
+    background-color: transparent;
+    font-size: 40px;
+    scale: 1.8;
+    transition: scale .1s;
+}
+
+.bt-slay button:active {
+    scale: 1.4;
+    transition: scale .1s;
+}
+
+.bt-slay p {
+    font-style: italic;
 }
 
 
