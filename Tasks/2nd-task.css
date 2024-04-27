@@ -1,0 +1,19 @@
+body {
+    display: flex;
+
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    height: 90vh;
+}
+
+button {
+    width: 12vw;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+}
