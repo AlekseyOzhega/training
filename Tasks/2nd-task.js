@@ -8,3 +8,7 @@
 // alert(q);
 // alert(2 + '3');
 // alert(3 - '2');
+const a = Number(prompt('Введите число A'));
+const b = Number(prompt('Введите число B'));
+const c = Number(prompt('Введите число C'));
+alert((a + b + c) / 3);
