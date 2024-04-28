@@ -3,6 +3,8 @@
 // const lastName = prompt('Введите вашу фамилию:');
 // const greeting = 'Hello, ' + name + ' ' + lastName + '!';
 // alert(greeting);
-const x = 22;
-let q = (x == 22);
-alert(q);
+// const x = 22;
+// let q = (x == 22);
+// alert(q);
+// alert(2 + '3');
+// alert(3 - '2');
