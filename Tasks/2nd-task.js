@@ -12,3 +12,4 @@ const a = Number(prompt('Введите число A'));
 const b = Number(prompt('Введите число B'));
 const c = Number(prompt('Введите число C'));
 alert((a + b + c) / 3);
+alert((a * b * c) ** (1 / 3));
