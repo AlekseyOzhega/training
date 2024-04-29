@@ -26,10 +26,22 @@
 
 const a = Number(prompt('Enter A'));
 const b = Number(prompt('Enter B'));
+const c = Number(prompt('Enter C'));
 // if (a > b) {
 //     alert(a)
 // } else {
 //     alert(b)
 // }
-const max = (a > b) ? a : b;
-alert(max);
+
+// const max = (a > b) ? a : b;
+// alert(max);
+
+if ((a >= b) && (a >= c)) {
+    alert(a);
+} else {
+    if ((b >= a) && (b >= c)) {
+        alert(b);
+    } else {
+        alert(c);
+    }
+}
