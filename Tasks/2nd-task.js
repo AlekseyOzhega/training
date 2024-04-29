@@ -26,8 +26,10 @@
 
 const a = Number(prompt('Enter A'));
 const b = Number(prompt('Enter B'));
-if (a > b) {
-    alert(a)
-} else {
-    alert(b)
-}
+// if (a > b) {
+//     alert(a)
+// } else {
+//     alert(b)
+// }
+const max = (a > b) ? a : b;
+alert(max);
