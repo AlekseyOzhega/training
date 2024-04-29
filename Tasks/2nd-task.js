@@ -36,12 +36,16 @@ const c = Number(prompt('Enter C'));
 // const max = (a > b) ? a : b;
 // alert(max);
 
-if ((a >= b) && (a >= c)) {
-    alert(a);
-} else {
-    if ((b >= a) && (b >= c)) {
-        alert(b);
-    } else {
-        alert(c);
-    }
-}
+// if ((a >= b) && (a >= c)) {
+//     alert(a);
+// } else {
+//     if ((b >= a) && (b >= c)) {
+//         alert(b);
+//     } else {
+//         alert(c);
+//     }
+// }
+
+const MaxAB = (a > b) ? a : b;
+const max = (MaxAB > c) ? MaxAB : c;
+alert(max);
