@@ -16,10 +16,18 @@
 // alert((a + b + c) / 3);
 // alert((a * b * c) ** (1 / 3));
 
-const x = prompt('Enter N:');
-const num = Number(x);
-if (num % 2 === 1) {
-    alert('Нечётное')
+// const x = prompt('Enter N:');
+// const num = Number(x);
+// if (num % 2 === 1) {
+//     alert('Нечётное')
+// } else {
+//     alert('Чётное')
+// }
+
+const a = Number(prompt('Enter A'));
+const b = Number(prompt('Enter B'));
+if (a > b) {
+    alert(a)
 } else {
-    alert('Чётное')
+    alert(b)
 }
