@@ -58,5 +58,10 @@ items.push('X');
 items.unshift('Z');
 alert(items);
 
-items[100] = 'T';
-alert(items);
+// items[100] = 'T';
+// alert(items);
+
+// alert(items, length);
+
+const str = items.join(' и ');
+alert(str);
