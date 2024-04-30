@@ -24,9 +24,9 @@
 //     alert('Чётное')
 // }
 
-const a = Number(prompt('Enter A'));
-const b = Number(prompt('Enter B'));
-const c = Number(prompt('Enter C'));
+// const a = Number(prompt('Enter A'));
+// const b = Number(prompt('Enter B'));
+// const c = Number(prompt('Enter C'));
 // if (a > b) {
 //     alert(a)
 // } else {
@@ -46,6 +46,10 @@ const c = Number(prompt('Enter C'));
 //     }
 // }
 
-const MaxAB = (a > b) ? a : b;
-const max = (MaxAB > c) ? MaxAB : c;
-alert(max);
+// const MaxAB = (a > b) ? a : b;
+// const max = (MaxAB > c) ? MaxAB : c;
+// alert(max);
+
+const items = [1, 2, 3, 4];
+
+alert(items);
