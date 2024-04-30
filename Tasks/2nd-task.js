@@ -53,3 +53,7 @@
 const items = [1, 2, 3, 4];
 
 alert(items);
+
+items.push('X');
+items.unshift('Z');
+alert(items);
