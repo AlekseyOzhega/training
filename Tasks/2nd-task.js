@@ -50,18 +50,23 @@
 // const max = (MaxAB > c) ? MaxAB : c;
 // alert(max);
 
-const items = [1, 2, 3, 4];
+// const items = [1, 2, 3, 4];
 
-alert(items);
+// alert(items);
 
-items.push('X');
-items.unshift('Z');
-alert(items);
+// items.push('X');
+// items.unshift('Z');
+// alert(items);
 
 // items[100] = 'T';
 // alert(items);
 
 // alert(items, length);
 
-const str = items.join(' и ');
-alert(str);
+// const str = items.join(' и ');
+// alert(str);
+// alert(items.indexOf(4));
+// alert(items.indexOf('X'));
+// alert(items.indexOf(7));
+
+
