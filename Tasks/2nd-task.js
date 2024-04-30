@@ -57,3 +57,6 @@ alert(items);
 items.push('X');
 items.unshift('Z');
 alert(items);
+
+items[100] = 'T';
+alert(items);
