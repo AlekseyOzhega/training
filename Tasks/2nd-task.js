@@ -70,3 +70,10 @@
 // alert(items.indexOf(7));
 
 
+const N = + prompt('Enter N');
+const numbers = [];
+
+for (let i = 0; i < N; i++) {
+    numbers.push(Math.round(Math.random() * 100));
+}
+alert(numbers);
