@@ -69,7 +69,6 @@
 // alert(items.indexOf('X'));
 // alert(items.indexOf(7));
 
-
 const N = + prompt('Enter N');
 const numbers = [];
 
