@@ -109,9 +109,21 @@
 
 // alert('Длинейшее имя - ' + LongestName);
 
-const human = {
-    age: 58,
-    name: 'Georgio',
-    weight: 73
+// const human = {
+//     age: 58,
+//     name: 'Georgio',
+//     weight: 73
+// };
+// alert(human.name);
+
+const point = {
+    x: 4,
+    y: 55,
+    z: 21,
+    w: 9
 };
-alert(human.name);
+
+for (let key in point) {
+    alert(key);
+    alert(point[key]);
+}
