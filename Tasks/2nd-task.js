@@ -125,9 +125,9 @@ const point = {
 const massiv = [];
 
 for (let key in point) {
-    let mas = (key + ': ' + point[key])
+    let mas = (key + '=' + point[key])
     massiv.push(mas);
     alert('Ключ: ' + key + ': ' + point[key]);
 
 }
-alert(massiv);
+alert(massiv.join(', '));
