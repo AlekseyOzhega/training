@@ -90,21 +90,28 @@
 // alert('Среднеарифметическое число: ' + sum / numbers.length);
 // alert('Максимальное число: ' + max);
 
-const N = + prompt("Количество имён?");
-const names = [];
+// const N = + prompt("Количество имён?");
+// const names = [];
 
-for (let i = 0; i < N; i++) {
-    const name = prompt('Введите имя #'+(i+1));
-    names.push(name);
-}
+// for (let i = 0; i < N; i++) {
+//     const name = prompt('Введите имя #'+(i+1));
+//     names.push(name);
+// }
 
-alert(names);
+// alert(names);
 
-let = LongestName = '';
-for (let i = 0; i < N; i++) {
-    if (LongestName.length < names[i].length) {
-        LongestName = names[i];
-    }
-}
+// let = LongestName = '';
+// for (let i = 0; i < N; i++) {
+//     if (LongestName.length < names[i].length) {
+//         LongestName = names[i];
+//     }
+// }
 
-alert('Длинейшее имя - ' + LongestName);
+// alert('Длинейшее имя - ' + LongestName);
+
+const human = {
+    age: 58,
+    name: 'Georgio',
+    weight: 73
+};
+alert(human.name);
