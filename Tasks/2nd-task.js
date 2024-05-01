@@ -76,3 +76,16 @@ for (let i = 0; i < N; i++) {
     numbers.push(Math.round(Math.random() * 100));
 }
 alert(numbers);
+
+let sum = 0;
+let max = -Infinity;
+
+for (i = 0; i < numbers.length; i ++) {
+    sum += numbers[i];
+    if (max < numbers[i]) {
+        max = numbers[i];
+    }
+}
+
+alert(sum / numbers.length);
+alert('Максимальное число ' + max);
