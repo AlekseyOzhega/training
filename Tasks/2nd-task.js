@@ -87,5 +87,5 @@ for (i = 0; i < numbers.length; i ++) {
     }
 }
 
-alert(sum / numbers.length);
-alert('Максимальное число ' + max);
+alert('Среднеарифметическое число: ' + sum / numbers.length);
+alert('Максимальное число: ' + max);
