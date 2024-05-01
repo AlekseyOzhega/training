@@ -124,6 +124,6 @@ const point = {
 };
 
 for (let key in point) {
-    alert(key);
-    alert(point[key]);
+    alert('Ключ: ' + key + ': ' + point[key]);
+
 }
