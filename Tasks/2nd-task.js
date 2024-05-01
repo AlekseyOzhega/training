@@ -122,8 +122,12 @@ const point = {
     z: 21,
     w: 9
 };
+const massiv = [];
 
 for (let key in point) {
+    let mas = (key + ': ' + point[key])
+    massiv.push(mas);
     alert('Ключ: ' + key + ': ' + point[key]);
 
 }
+alert(massiv);
