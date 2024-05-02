@@ -116,18 +116,43 @@
 // };
 // alert(human.name);
 
-const point = {
-    x: 4,
-    y: 55,
-    z: 21,
-    w: 9
+// const point = {
+//     x: 4,
+//     y: 55,
+//     z: 21,
+//     w: 9
+// };
+// const massiv = [];
+
+// for (let key in point) {
+//     let mas = (key + '=' + point[key])
+//     massiv.push(mas);
+//     alert('Ключ: ' + key + ': ' + point[key]);
+
+// }
+// alert(massiv.join(', '));
+
+const person1 = {
+    name: 'Alex',
+    age: 23,
+    weight: 65,
+    height: Math.round(Math.random() * 50 + 160),
 };
-const massiv = [];
 
-for (let key in point) {
-    let mas = (key + '=' + point[key])
-    massiv.push(mas);
-    alert('Ключ: ' + key + ': ' + point[key]);
+const person2 = {
+    name: 'Bob',
+    age: 33,
+    weight: 77,
+    height: Math.round(Math.random() * 50 + 160),
+};
 
-}
-alert(massiv.join(', '));
+const person3 = {
+    name: 'Stan',
+    age: 66,
+    weight: 70,
+    height: Math.round(Math.random() * 50 + 160),
+};
+
+alert(person1);
+alert(person2);
+alert(person3);
