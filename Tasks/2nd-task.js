@@ -132,42 +132,45 @@
 // }
 // alert(massiv.join(', '));
 
-const person1 = {
-    name: 'Alex',
-    age: 23,
-    weight: 65,
-    height: Math.round(Math.random() * 50 + 160),
-};
+// const person1 = {
+//     name: 'Alex',
+//     age: 23,
+//     weight: 65,
+//     height: Math.round(Math.random() * 50 + 160),
+// };
 
-const person2 = {
-    name: 'Bob',
-    age: 33,
-    weight: 77,
-    height: Math.round(Math.random() * 50 + 160),
-};
+// const person2 = {
+//     name: 'Bob',
+//     age: 33,
+//     weight: 77,
+//     height: Math.round(Math.random() * 50 + 160),
+// };
 
-const person3 = {
-    name: 'Stan',
-    age: 66,
-    weight: 70,
-    height: Math.round(Math.random() * 50 + 160),
-};
+// const person3 = {
+//     name: 'Stan',
+//     age: 66,
+//     weight: 70,
+//     height: Math.round(Math.random() * 50 + 160),
+// };
 
-console.log(person1);
-console.log(person2);
-console.log(person3);
-console.log((person1.height + person2.height + person3.height) / 3);
+// console.log(person1);
+// console.log(person2);
+// console.log(person3);
+// console.log((person1.height + person2.height + person3.height) / 3);
 
-if (person1.height > person2.height) {
-    if (person1.height > person3.height) {
-        console.log(person1.name);
-    } else {
-        console.log(person3.name);
-    }
-} else {
-    if (person2.height > person3.height) {
-        console.log(person2.name);
-    } else {
-        console.log(person3.name);
-    }
-}
+// if (person1.height > person2.height) {
+//     if (person1.height > person3.height) {
+//         console.log(person1.name);
+//     } else {
+//         console.log(person3.name);
+//     }
+// } else {
+//     if (person2.height > person3.height) {
+//         console.log(person2.name);
+//     } else {
+//         console.log(person3.name);
+//     }
+// }
+
+const d4 = new Date(2020, 1, 20, 10, 0, 0, 550);
+console.log('День: ' + (d4.getDate()));
