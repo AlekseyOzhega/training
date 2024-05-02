@@ -153,6 +153,4 @@ const person3 = {
     height: Math.round(Math.random() * 50 + 160),
 };
 
-alert(person1);
-alert(person2);
-alert(person3);
+const srednRost = (person1.height + person2.height + person3.height) / 3;
