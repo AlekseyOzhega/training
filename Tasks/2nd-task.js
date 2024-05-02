@@ -175,7 +175,7 @@
 // const d4 = new Date(2020, 1, 20, 10, 0, 0, 550);
 // console.log('День: ' + (d4.getDate()));
 
-const d1 = new Date('1994-03-22 16:00:00');
-const d2 = new Date('2044-12-15 13:00:00');
+// const d1 = new Date('1994-03-22 16:00:00');
+// const d2 = new Date('2044-12-15 13:00:00');
 
-console.log((d2 - d1) / 1000 / 60 / 60);
+// console.log((d2 - d1) / 1000 / 60 / 60);
