@@ -153,4 +153,21 @@ const person3 = {
     height: Math.round(Math.random() * 50 + 160),
 };
 
-const srednRost = (person1.height + person2.height + person3.height) / 3;
+console.log(person1);
+console.log(person2);
+console.log(person3);
+console.log((person1.height + person2.height + person3.height) / 3);
+
+if (person1.height > person2.height) {
+    if (person1.height > person3.height) {
+        console.log(person1.name);
+    } else {
+        console.log(person3.name);
+    }
+} else {
+    if (person2.height > person3.height) {
+        console.log(person2.name);
+    } else {
+        console.log(person3.name);
+    }
+}
