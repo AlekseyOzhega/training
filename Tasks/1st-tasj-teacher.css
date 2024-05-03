@@ -44,6 +44,7 @@
     color: white;
 }
 
-.dark .contents nav a {
+.dark .contents nav a img {
     color: white;
+    fill: white;
 }
