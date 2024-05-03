@@ -25,3 +25,12 @@
 .dark .contents .text {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+.dark .contents .text h3 {
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.dark .contents .text p {
+    font-size: 18px;
+}
