@@ -72,3 +72,10 @@ nav.menu a:hover {
 .dark .contents nav a img {
     color: white;
 }
+
+sectoin.quotes {
+    width: 100vw;
+    padding: 25px 20%;
+    background-color: aqua;
+    border-bottom: 1px solid black;
+}
