@@ -74,5 +74,10 @@ nav.menu a:hover {
 
 .quotes {
     padding: 25px 20%;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #cfcfcf;
+}
+
+.quotes button {
+    background: none;
+    border: 0;
 }
