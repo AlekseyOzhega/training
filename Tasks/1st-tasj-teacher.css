@@ -1,3 +1,28 @@
+nav.menu {
+    min-height: 10vh;
+    background-color: blue;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav.menu a {
+    text-decoration: none;
+    background-color: blue;
+    padding: 2px 4px;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    margin-right: 10px;
+    transition: scale .5s;
+}
+
+nav.menu a:hover {
+    transition: scale .5s;
+    scale: 1.2;
+}
+
 .dark {
     background-color: #570;
     width: 100%;
