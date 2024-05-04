@@ -58,7 +58,6 @@ nav.menu a:hover {
 
 .dark .contents .text p {
     font-size: 16px;
-    /* line-height: 1.1; */
 }
 
 .dark .contents .text p.link {
@@ -73,9 +72,7 @@ nav.menu a:hover {
     color: white;
 }
 
-sectoin.quotes {
-    width: 100vw;
+.quotes {
     padding: 25px 20%;
-    background-color: aqua;
     border-bottom: 1px solid black;
 }
