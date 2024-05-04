@@ -77,7 +77,23 @@ nav.menu a:hover {
     border-bottom: 1px solid #cfcfcf;
 }
 
-.quotes button {
+.quotes .content button {
     background: none;
     border: 0;
+    scale: 1.8;
+    position: relative;
+    top: 10px;
+    transition: scale .1s;
+}
+
+.quotes .content button:active {
+    scale: 1.4;
+    transition: scale .1s;
+}
+
+.quotes .content p {
+    display: inline-block;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
 }
