@@ -1,5 +1,11 @@
 @import url(bazovie_stili.css);
 
+h1 {
+    margin: 8px 20vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
 .tasks {
     width: 70vw;
     border: 2px solid blue;
