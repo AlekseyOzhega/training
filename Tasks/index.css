@@ -1,1 +1,14 @@
 @import url(bazovie_stili.css);
+
+.tasks {
+    width: 70vw;
+    border: 2px solid blue;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px grey;
+    padding: 10px;
+    margin: 20px 40px;
+}
+
+li {
+    margin: 3px 5px;
+}
