@@ -1,11 +1,17 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
 nav.menu {
-    min-height: 10vh;
+    min-height: 6vh;
     background-color: blue;
-    padding: 15px 30px;
+    padding: 10px 30px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
+
 
 nav.menu a {
     text-decoration: none;
@@ -24,7 +30,7 @@ nav.menu a:hover {
 }
 
 .dark {
-    background-color: #570;
+    background-color: rgb(56, 76, 5);
     width: 100%;
     box-sizing: border-box;
     padding: 50px 20%;
@@ -87,8 +93,6 @@ nav.menu a:hover {
     background: none;
     border: 0;
     scale: 1.8;
-    position: relative;
-    top: 10px;
     transition: scale .1s;
 }
 
@@ -98,8 +102,14 @@ nav.menu a:hover {
 }
 
 .quotes .content p {
-    /* display: inline-block; */
     font-size: 16px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    
+}
+
+quot::before {
+    content: '"';
+}
+
+quot::after {
+    content: '"';
 }
