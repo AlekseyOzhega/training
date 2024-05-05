@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+nav {
+    min-height: 10vh;
+    background-color: blue;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    background-color: blue;
+    padding: 2px 4px;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    margin-right: 10px;
+    transition: scale .5s;
+}
+
+nav a:hover {
+    transition: scale .5s;
+    scale: 1.2;
+}
