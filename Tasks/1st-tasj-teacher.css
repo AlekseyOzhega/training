@@ -92,6 +92,8 @@ nav.menu a:hover {
 .quotes .content button {
     background: none;
     border: 0;
+    position: relative;
+    top: -7px;
     scale: 1.8;
     transition: scale .1s;
 }
