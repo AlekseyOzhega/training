@@ -1,2 +1,17 @@
 @import url(bazovie_stili.css);
 
+
+.info {
+    display: flex;
+    margin: 50px;
+}
+
+.picture {
+    background-image: url(../Html_tegs/суслики\ мини.jpg);
+    height: 50vh;
+    width: 50vw;
+}
+
+.text {
+    padding: 10% 30px 30px 30px;
+}
