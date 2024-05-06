@@ -13,6 +13,28 @@
     font-style: italic;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-bottom: 10px;
+    color: rgb(151, 95, 22);
+}
+
+.info p {
+    margin-bottom: 15px;
+}
+
+.info button {
+    border: 1px solid black;
+    border-radius: 6px;
+    background-color: rgb(255, 98, 0);
+    font-size: 16px;
+    padding: 3px 5px;
+    color: white;
+    box-shadow: 2px 2px 3px grey;
+    text-transform: uppercase;
+    transition: box-shadow .07s;
+}
+
+.info button:active {
+    box-shadow: 1px 1px 3px grey;
+    transition: box-shadow .07s;
 }
 
 .picture {
@@ -26,4 +48,18 @@
 .text {
     padding: 8% 30px 30px 30px;
     width: 35vw;
+}
+
+.quotes {
+    width: 70vw;
+    margin: 10px auto;
+}
+
+.quotes h1 {
+    font-size: 24px;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 10px;
+    color: rgb(151, 95, 22);
+    text-transform: uppercase;
 }
