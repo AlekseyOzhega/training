@@ -3,15 +3,27 @@
 
 .info {
     display: flex;
+    justify-content: center;
     margin: 50px;
+    
+}
+
+.info h1 {
+    font-size: 28px;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 10px;
 }
 
 .picture {
     background-image: url(../Html_tegs/суслики\ мини.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 50vh;
-    width: 50vw;
+    width: 35vw;
 }
 
 .text {
-    padding: 10% 30px 30px 30px;
+    padding: 8% 30px 30px 30px;
+    width: 35vw;
 }
