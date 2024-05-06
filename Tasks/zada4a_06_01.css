@@ -32,6 +32,11 @@
     transition: box-shadow .07s;
 }
 
+.info button::after {
+    content: ' >>';
+    font-size: 10px;
+}
+
 .info button:active {
     box-shadow: 1px 1px 3px grey;
     transition: box-shadow .07s;
@@ -39,10 +44,12 @@
 
 .picture {
     background-image: url(../Html_tegs/суслики\ мини.jpg);
+    background-color: white;
     background-repeat: no-repeat;
     background-size: cover;
     height: 50vh;
     width: 35vw;
+    border-bottom: 2px solid rgb(151, 95, 22);
 }
 
 .text {
@@ -73,4 +80,5 @@
 .quotes quot::before,
 .quotes quot::after {
     content: '"';
+    
 }
