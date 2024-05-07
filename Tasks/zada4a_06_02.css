@@ -10,5 +10,13 @@ section {
     height: 60vh;
     background-color: antiquewhite;
     margin: 10svh 15vw;
-    padding: 5px;
+    padding: 15px;
+}
+
+section a {
+    display: block;
+    width: 5vw;
+    height: 3vw;
+    background-color: coral;
+    color: white;
 }
