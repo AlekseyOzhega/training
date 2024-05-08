@@ -13,8 +13,9 @@ section {
     padding: 15px;
 }
 
-section p {
-    text-align: centerss;
+section .pe {
+    width: 7vw;
+    margin: 10px auto;
 }
 
 section a {
