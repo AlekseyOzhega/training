@@ -13,6 +13,10 @@ section {
     padding: 15px;
 }
 
+section p {
+    text-align: centerss;
+}
+
 section a {
     display: block;
     width: 5vw;
