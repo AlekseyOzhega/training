@@ -31,6 +31,7 @@ section a {
 
 section a:hover {
     color: gold;
+    background-color: black;
 }
 
 article {
@@ -64,6 +65,11 @@ button {
     border-radius: 100vw;
     padding: 6px;
     font-weight: bold;
+    box-shadow: 3px 3px 3px grey;
+}
+
+button:active {
+    box-shadow: 1px 1px 3px grey;
 }
 
 button.left {
