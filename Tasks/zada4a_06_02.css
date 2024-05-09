@@ -37,3 +37,10 @@ article {
     text-align: center;
     margin: 0 auto;
 }
+
+h3 {
+    margin: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 24px;
+}
