@@ -27,3 +27,13 @@ section a {
     padding: 10% 6%;
     border-radius: 5px;
 }
+
+article {
+    width: 70%;
+    min-height: 30vh;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+}
