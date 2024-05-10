@@ -2,16 +2,29 @@
 
 
 section {
-    width: 40vw;
+    width: 35vw;
     min-height: 30vh;
     background-color: lightgrey;
     margin: 50px auto;
     padding: 10px 20px;
 }
 
+.frst,
+.scnd,
+.trst {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 button.text {
     padding: 3px 5px;
-    min-width: 12vw;
+    min-width: 13vw;
     min-height: 6vh;
     margin: 5px 10px;
+}
+
+.sml {
+    min-width: 4.3vw;
+    min-height: 6vh;
+    margin-top: 10px;
 }
