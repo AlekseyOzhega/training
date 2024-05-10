@@ -1,1 +1,10 @@
 @import url(bazovie_stili.css);
+
+
+section {
+    width: 40vw;
+    min-height: 30vh;
+    background-color: lightgrey;
+    margin: 50px auto;
+    padding: 10px 20px;
+}
