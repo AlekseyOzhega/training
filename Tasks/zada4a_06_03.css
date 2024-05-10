@@ -8,3 +8,10 @@ section {
     margin: 50px auto;
     padding: 10px 20px;
 }
+
+button.text {
+    padding: 3px 5px;
+    min-width: 12vw;
+    min-height: 6vh;
+    margin: 5px 10px;
+}
