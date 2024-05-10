@@ -23,6 +23,11 @@ button.text {
     margin: 5px 10px;
 }
 
+button.ic1::before {
+    content: url(../CSS_tegs/add_task.svg);
+    padding: 0 3px 0 o;
+}
+
 .sml {
     min-width: 4.3vw;
     min-height: 6vh;
