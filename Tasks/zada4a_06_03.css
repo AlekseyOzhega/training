@@ -14,6 +14,7 @@ section {
 .trst {
     display: flex;
     justify-content: space-evenly;
+    margin: 5px 10px;
 }
 
 button.text {
@@ -21,7 +22,7 @@ button.text {
     padding: 3px 5px;
     min-width: 13vw;
     min-height: 6vh;
-    margin: 5px 10px;
+    
     cursor: pointer;
     background-color: #49f;
     color: white;
