@@ -17,6 +17,7 @@ section {
 }
 
 button.text {
+    display: inline-block;
     padding: 3px 5px;
     min-width: 13vw;
     min-height: 6vh;
@@ -29,7 +30,8 @@ button.text {
 }
 
 button.text:active {
-    border: 0;
+    border-bottom: 0;
+    /* margin-top: 2px; */
 }
 
 button:hover {
