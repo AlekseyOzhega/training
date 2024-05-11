@@ -25,7 +25,8 @@ button.text {
 
 button.ic1::before {
     content: url(../CSS_tegs/add_task.svg);
-    padding: 0 3px 0 o;
+    padding: 1px 12px 0 0;
+    
 }
 
 .sml {
