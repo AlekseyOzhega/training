@@ -31,7 +31,7 @@ button:hover {
 }
 
 button.ic1::before {
-    content: url(../CSS_tegs/add_task.svg);
+    content: url(icon_white.svg);
     padding: 1px 12px 0 0;
     
 }
