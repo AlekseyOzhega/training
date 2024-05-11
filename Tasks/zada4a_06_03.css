@@ -21,6 +21,13 @@ button.text {
     min-width: 13vw;
     min-height: 6vh;
     margin: 5px 10px;
+    cursor: pointer;
+    background-color: #49f;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.9;
 }
 
 button.ic1::before {
