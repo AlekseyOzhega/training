@@ -24,6 +24,12 @@ button.text {
     cursor: pointer;
     background-color: #49f;
     color: white;
+    border: 0;
+    border-bottom: 2px solid #37c;
+}
+
+button.text:active {
+    border: 0;
 }
 
 button:hover {
