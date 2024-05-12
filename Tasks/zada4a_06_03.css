@@ -76,4 +76,6 @@ button.ic1::before {
     height: 16px;
     background-image: url(icon_white.svg);
     background-size: 100%;
+    margin-right: 6px;
+    vertical-align: middle;
 }
