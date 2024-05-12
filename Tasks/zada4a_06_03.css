@@ -1,7 +1,7 @@
 @import url(bazovie_stili.css);
 
 
-section {
+section.btns {
     width: 35vw;
     min-height: 30vh;
     background-color: lightgrey;
@@ -32,7 +32,6 @@ button.text {
 
 button.text:active {
     border-bottom: 0;
-    /* margin-top: 2px; */
 }
 
 button:hover {
