@@ -57,6 +57,7 @@ button.ic1::before {
     color: white;
     border-radius: 4px;
     padding: 10px;
+    padding-top: 7px;
     border: 0;
     border-bottom: 2px solid #37c;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -72,10 +73,16 @@ button.ic1::before {
 .buttons button::before {
     content: '';
     display: inline-block;
+    vertical-align: middle;
     width: 16px;
     height: 16px;
     background-image: url(icon_white.svg);
     background-size: 100%;
     margin-right: 6px;
+    vertical-align: middle;
+}
+
+.buttons button span {
+    display: inline-block;
     vertical-align: middle;
 }
