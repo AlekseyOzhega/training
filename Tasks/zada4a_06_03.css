@@ -68,3 +68,12 @@ button.ic1::before {
     border-bottom: 0;
     margin-top: 2px;
 }
+
+.buttons button::before {
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url(icon_white.svg);
+    background-size: 100%;
+}
