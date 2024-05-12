@@ -49,3 +49,13 @@ button.ic1::before {
     min-height: 6vh;
     margin-top: 10px;
 }
+
+
+.buttons button {
+    background-color: #49f;
+    color: white;
+    border-radius: 4px;
+    padding: 10px;
+    border: 0;
+    border-bottom: 2px solid #37c;
+}
