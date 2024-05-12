@@ -52,10 +52,19 @@ button.ic1::before {
 
 
 .buttons button {
+    display: inline-block;
     background-color: #49f;
     color: white;
     border-radius: 4px;
     padding: 10px;
     border: 0;
     border-bottom: 2px solid #37c;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    outline: 0;
+}
+
+.buttons button:active {
+    border-bottom: 0;
+    margin-top: 2px;
 }
