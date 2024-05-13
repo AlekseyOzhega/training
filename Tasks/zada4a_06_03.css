@@ -51,6 +51,10 @@ button.ic1::before {
 }
 
 
+section.buttons {
+    padding: 20px;
+}
+
 .buttons button {
     display: inline-block;
     background-color: #49f;
