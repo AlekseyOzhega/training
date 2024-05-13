@@ -69,6 +69,7 @@ section.buttons {
     outline: 0;
     text-transform: capitalize;
     margin-bottom: 3px;
+    font-weight: 600;
 }
 
 .buttons button:active {
