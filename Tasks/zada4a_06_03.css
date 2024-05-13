@@ -88,3 +88,9 @@ button.ic1::before {
     vertical-align: middle;
 }
 
+.buttons button.recommend {
+    padding-left: 32px;
+    background-size: 16px 16px;
+    background-position: 8px center;
+    background-repeat: no-repeat;
+}
