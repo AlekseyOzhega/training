@@ -100,3 +100,12 @@ section.buttons {
     background-repeat: no-repeat;
     background-image: url(icon_white.svg);
 }
+
+.buttons button.red {
+    background-color: red;
+}
+
+.buttons button.grey {
+    background-color: grey;
+}
+
