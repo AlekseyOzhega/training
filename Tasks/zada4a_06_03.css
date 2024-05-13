@@ -63,6 +63,7 @@ button.ic1::before {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     cursor: pointer;
     outline: 0;
+    text-transform: capitalize;
 }
 
 .buttons button:active {
@@ -86,3 +87,4 @@ button.ic1::before {
     display: inline-block;
     vertical-align: middle;
 }
+
