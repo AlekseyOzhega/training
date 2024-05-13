@@ -64,6 +64,7 @@ button.ic1::before {
     cursor: pointer;
     outline: 0;
     text-transform: capitalize;
+    margin-bottom: 3px;
 }
 
 .buttons button:active {
@@ -93,4 +94,5 @@ button.ic1::before {
     background-size: 16px 16px;
     background-position: 8px center;
     background-repeat: no-repeat;
+    background-image: url(icon_white.svg);
 }
