@@ -115,32 +115,14 @@ section.buttons {
     margin-top: 2px;
 }
 
-
-
-/* 
-.buttons button.follow::before {
-    content: '';
-    display: inline-block;
-    vertical-align: middle;
-    width: 16px;
-    height: 16px;
-    background-image: url(icon_white.svg);
-    background-size: 100%;
-    margin-right: 6px;
-    vertical-align: middle;
-}
-
-.buttons button.follow span {
-    display: inline-block;
-    vertical-align: middle;
-} */
-
-
-
-
 .buttons button.follow {
     background-image: url(icon_white.svg);
 }
 
-
+.buttons button.empty {
+    width: 4vw;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    background-position: center;
+}
 
