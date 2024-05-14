@@ -5,9 +5,10 @@ section {
     flex-direction: column;
     width: 15vw;
     min-height: 30vh;
-    background-color: lightgrey;
+    background-color: rgb(237, 236, 236);
     margin: 50px auto;
     padding: 10px 20px;
+    border-radius: 4px;
 }
 
 section button {
@@ -26,4 +27,12 @@ section button:hover {
 
 section button:active {
     box-shadow: 2px 2px 3px grey;
+}
+
+section button::before {
+    content: '';
+    padding-right: 6px;
+    width: 16px;
+    height: 16px;
+    border-right: 2px solid grey;
 }
