@@ -51,8 +51,22 @@ button.ic1::before {
 }
 
 
+
+
 section.buttons {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
     padding: 20px;
+    background-color: rgb(230, 230, 236);
+    width: 35vw;
+    margin: 10px auto;
+}
+
+.buttons p {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 4px;
 }
 
 .buttons button {
@@ -72,43 +86,13 @@ section.buttons {
     background-size: 16px 16px;
     background-position: 10px center;
     background-repeat: no-repeat;
-    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-right: 3px;
+    width: 10vw;
 
     text-transform: capitalize;
     /* margin-bottom: 3px; */
     font-weight: 600;
-}
-
-.buttons button:active {
-    border-bottom: 0;
-    margin-top: 2px;
-}
-
-.buttons button.follow::before {
-    content: '';
-    display: inline-block;
-    vertical-align: middle;
-    width: 16px;
-    height: 16px;
-    background-image: url(icon_white.svg);
-    background-size: 100%;
-    margin-right: 6px;
-    vertical-align: middle;
-}
-
-.buttons button.follow span {
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.buttons button.recommend {
-    display: inline-block;
-    vertical-align: top;
-    padding-left: 32px;
-    background-size: 16px 16px;
-    background-position: 10px center;
-    background-repeat: no-repeat;
-    background-image: url(icon_white.svg);
 }
 
 .buttons button.red {
@@ -125,4 +109,38 @@ section.buttons {
     background-color: #99c;
     border-bottom: 2px solid #558;
 }
+
+.buttons button:active {
+    border-bottom: 0;
+    margin-top: 2px;
+}
+
+
+
+/* 
+.buttons button.follow::before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    width: 16px;
+    height: 16px;
+    background-image: url(icon_white.svg);
+    background-size: 100%;
+    margin-right: 6px;
+    vertical-align: middle;
+}
+
+.buttons button.follow span {
+    display: inline-block;
+    vertical-align: middle;
+} */
+
+
+
+
+.buttons button.follow {
+    background-image: url(icon_white.svg);
+}
+
+
 
