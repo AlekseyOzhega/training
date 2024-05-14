@@ -3,7 +3,7 @@
 section {
     display: flex;
     flex-direction: column;
-    width: 15vw;
+    width: 13vw;
     min-height: 30vh;
     background-color: rgb(237, 236, 236);
     margin: 50px auto;
@@ -31,8 +31,17 @@ section button:active {
 
 section button::before {
     content: '';
-    padding-right: 6px;
-    width: 16px;
-    height: 16px;
-    border-right: 2px solid grey;
+    display: inline-block;
+    vertical-align: middle;
+    width: 18px;
+    height: 18px;
+    background-image: url(icon_white.svg);
+    background-size: 100%;
+    margin-right: 6px;
+    border-right: 1.5px solid rgb(2, 106, 186);
+}
+
+section button span {
+    display: inline-block;
+    vertical-align: middle;
 }
