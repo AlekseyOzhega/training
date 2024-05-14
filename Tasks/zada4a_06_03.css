@@ -57,18 +57,25 @@ section.buttons {
 
 .buttons button {
     display: inline-block;
-    background-color: #49f;
-    color: white;
+    vertical-align: top;
+    
     border-radius: 4px;
     padding: 10px;
     padding-top: 7px;
     border: 0;
-    border-bottom: 2px solid #37c;
+    
+    color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     cursor: pointer;
     outline: 0;
+    padding-left: 32px;
+    background-size: 16px 16px;
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+
     text-transform: capitalize;
-    margin-bottom: 3px;
+    /* margin-bottom: 3px; */
     font-weight: 600;
 }
 
@@ -95,6 +102,8 @@ section.buttons {
 }
 
 .buttons button.recommend {
+    display: inline-block;
+    vertical-align: top;
     padding-left: 32px;
     background-size: 16px 16px;
     background-position: 10px center;
@@ -103,10 +112,17 @@ section.buttons {
 }
 
 .buttons button.red {
-    background-color: red;
+    background-color: #f44;
+    border-bottom: 2px solid #c00;
+}
+
+.buttons button.blue {
+    background-color: #49f;
+    border-bottom: 2px solid #37c;
 }
 
 .buttons button.grey {
-    background-color: grey;
+    background-color: #99c;
+    border-bottom: 2px solid #558;
 }
 
