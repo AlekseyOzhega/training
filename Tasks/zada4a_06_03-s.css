@@ -1,5 +1,10 @@
 @import url(bazovie_stili.css);
 
+main {
+    display: flex;
+    padding: 20px;
+}
+
 section {
     display: flex;
     flex-direction: column;
@@ -50,7 +55,7 @@ section button span {
 }
 
 .new {
-    width: 30vw;
+    width: 20vw;
     min-height: 20vh;
     background-color: aliceblue;
     margin: 20px auto;
@@ -154,4 +159,13 @@ section button span {
 .trst:active {
     margin-top: 2px;
     margin-bottom: 6px;
+}
+
+.result {
+    background-color: aliceblue;
+    width: 13vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
