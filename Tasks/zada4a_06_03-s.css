@@ -157,10 +157,10 @@ section button span {
 }
 
 .trst:active {
-    margin-top: 2px;
+    margin-top: 4px;
     /* margin-bottom: 6px; */
-    padding-bottom: 2px;
-    height: calc(3vw - 2px);
+    /* padding-bottom: 2px; */
+    height: calc(3vw - 4px);
 }
 
 .result {
