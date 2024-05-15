@@ -55,6 +55,7 @@ section button span {
     background-color: aliceblue;
     margin: 20px auto;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -93,3 +94,13 @@ section button span {
     width: 80%;
     padding: 0;
 }
+
+.scnd {
+    width: 10vw;
+    height: 3vw;
+    background-color: red;
+    color: white;
+    margin-top: 20px;
+    display: flex;
+}
+
