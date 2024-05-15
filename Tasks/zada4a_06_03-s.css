@@ -49,7 +49,7 @@ section button span {
     width: 7vw;
 }
 
-div {
+.new {
     width: 30vw;
     min-height: 20vh;
     background-color: aliceblue;
@@ -59,7 +59,7 @@ div {
     align-items: center;
 }
 
-div button.anot {
+.new button.anot {
     background-color: rgb(93, 185, 155);
     padding: 5px 10px;
     border: 1px solid rgb(82, 164, 137);
@@ -68,10 +68,28 @@ div button.anot {
     color: white;
 }
 
-div button.anot:hover {
+.new button.anot:hover {
     opacity: .8;
 }
 
-div button.anot:active {
+.new button.anot:active {
     border-bottom: 0;
+}
+
+.icon {
+    display: inline-block;
+    width: 20%;
+    /* background-image: url(icon_white.svg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%; */
+    background-color: antiquewhite;
+    height: 20px;
+    padding: 0;
+}
+
+.text {
+    display: inline-block;
+    width: 80%;
+    padding: 0;
 }
