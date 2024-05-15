@@ -169,3 +169,13 @@ section button span {
     align-items: center;
     flex-direction: column;
 }
+
+.result .scnd {
+    background-color: blue;
+    border-color: rgb(4, 4, 190);
+}
+
+.result .green {
+    background-color: rgb(35, 144, 138);
+    border-color: rgb(25, 105, 101);
+}
