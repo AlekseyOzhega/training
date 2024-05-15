@@ -60,5 +60,18 @@ div {
 }
 
 div button.anot {
-    background-color: aquamarine;
+    background-color: rgb(93, 185, 155);
+    padding: 5px 10px;
+    border: 1px solid rgb(82, 164, 137);
+    border-radius: 5px;
+    scale: 1.2;
+    color: white;
+}
+
+div button.anot:hover {
+    opacity: .8;
+}
+
+div button.anot:active {
+    border-bottom: 0;
 }
