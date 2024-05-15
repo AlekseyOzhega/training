@@ -158,7 +158,9 @@ section button span {
 
 .trst:active {
     margin-top: 2px;
-    margin-bottom: 6px;
+    /* margin-bottom: 6px; */
+    padding-bottom: 2px;
+    height: calc(3vw - 2px);
 }
 
 .result {
