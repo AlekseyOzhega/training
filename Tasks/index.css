@@ -15,6 +15,10 @@ h1 {
     margin: 20px 40px;
 }
 
+hr {
+    margin-bottom: 20px;
+}
+
 li {
     margin: 3px 5px;
 }
