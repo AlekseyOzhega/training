@@ -22,3 +22,12 @@ hr {
 li {
     margin: 3px 5px;
 }
+
+li a {
+    padding: 2px;
+}
+
+li:hover a {
+    background-color: blue;
+    color: white;
+}
