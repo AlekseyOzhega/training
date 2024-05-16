@@ -114,29 +114,29 @@ section button span {
     border: 2px solid rgb(198, 3, 3);
     border-radius: 5px;
     cursor: pointer;
+    position: relative;
 }
 
 .scnd:active {
-    border-bottom: 0;
+    /* border-bottom: 0; */
+    height: calc(3vw - 2px);
+    top: 2px;
 }
 
 .ic {
     width: 30%;
-    height: 3vw;
+    height: calc(3vw - 2px) ;
     position: relative;
     top: -2px;
     background-image: url(icon_white.svg);
     background-repeat: no-repeat;
     background-position: center;
-    border-right: 1.5px solid rgb(198, 3, 3);
-
 }
 
 .te {
     display: flex;
     width: 70%;
     height: 3vw;
-    /* background-color: blueviolet; */
     justify-content: center;
     align-items: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -156,12 +156,10 @@ section button span {
     opacity: .7;
 }
 
-.trst:active {
+/* .trst:active {
     margin-top: 4px;
-    /* margin-bottom: 6px; */
-    /* padding-bottom: 2px; */
     height: calc(3vw - 4px);
-}
+} */
 
 .result {
     background-color: aliceblue;
@@ -182,7 +180,7 @@ section button span {
 }
 
 .result .scnd .ic {
-    border-right: 1.5px solid rgb(4, 4, 190);
+    border-right: 1.5px solid rgb(105, 105, 117);
 }
 
 .result .green {
