@@ -183,5 +183,5 @@
 // const message = prompt('Введите ваш возраст: ', 55);
 // alert('Вам ' + message + '!');
 
-let isBoss = confirm("Ты тут главный?");
-alert(isBoss);
+// let isBoss = confirm("Ты тут главный?");
+// alert(isBoss);
