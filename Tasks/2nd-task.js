@@ -180,3 +180,5 @@
 
 // console.log((d2 - d1) / 1000 / 60 / 60);
 
+const message = prompt('Введите ваш возраст: ', 55);
+alert('Вам ' + message);
