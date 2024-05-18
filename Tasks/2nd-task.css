@@ -1,5 +1,7 @@
 body {
     display: flex;
+    background: repeating-linear-gradient(95deg, red, yellow, white);
+    
 }
 
 section {
