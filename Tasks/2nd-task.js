@@ -185,3 +185,7 @@
 
 // let isBoss = confirm("Ты тут главный?");
 // alert(isBoss);
+
+const namE = prompt('Enter youre name');
+const age = Number(prompt('Enter youre age'));
+alert('Welcome ' + namE + ' ' + age + ' yers old');
