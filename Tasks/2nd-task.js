@@ -192,4 +192,5 @@
 
 const num1 = prompt('Введите первое число');
 const num2 = prompt('Введите второе число');
-alert(num1 + '*' + num2 + '=' + (num1 * num2));
+alert(num1 + '/' + num2 + '=' + (num1 / num2));
+alert('Остаток деления чисел ' + num1 + ' и ' + num2 + ' равен: ' + (num1 % num2));
