@@ -186,6 +186,10 @@
 // let isBoss = confirm("Ты тут главный?");
 // alert(isBoss);
 
-const namE = prompt('Enter youre name');
-const age = Number(prompt('Enter youre age'));
-alert('Welcome ' + namE + ' ' + age + ' yers old!');
+// const namE = prompt('Enter youre name');
+// const age = Number(prompt('Enter youre age'));
+// alert('Welcome ' + namE + ' ' + age + ' yers old!');
+
+const num1 = prompt('Введите первое число');
+const num2 = prompt('Введите второе число');
+alert(num1 + '*' + num2 + '=' + (num1 * num2));
