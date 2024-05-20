@@ -26,7 +26,8 @@
 // alert(m);
 
 let counter = 1;
-let a = ++counter;
+let a = counter++;
 alert(a);
-a = counter++;
-ala);
+let count = 1;
+let b = ++count;
+alert(b);
