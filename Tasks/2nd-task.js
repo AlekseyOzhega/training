@@ -15,12 +15,18 @@
 // let x = "2", y = "3";
 // alert(+x + +y);
 
-let n = 2;
-n = n + 5;
-n = n * 2;
-alert(n);
+// let n = 2;
+// n = n + 5;
+// n = n * 2;
+// alert(n);
 
-let m = 2;
-m += 5;
-m *= 2;
-alert(m);
+// let m = 2;
+// m += 5;
+// m *= 2;
+// alert(m);
+
+let counter = 1;
+let a = ++counter;
+alert(a);
+a = counter++;
+ala);
