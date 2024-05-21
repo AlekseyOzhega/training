@@ -32,3 +32,11 @@
 // let b = ++count;
 // alert(b);
 
+// let a = 1;
+// let c = ++a;
+// alert(c);
+// alert(a);
+// let b;
+// alert(b = ++a);
+// alert(a);
+// alert(c);
