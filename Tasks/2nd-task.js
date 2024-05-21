@@ -41,11 +41,17 @@
 // alert(a);
 // alert(c);
 
-// let a = +prompt('Введите первое число', 1);
-// let b = +prompt('Введите второе число', 2);
-// alert('Сумма чисел равна = ' + (a + b));
-// alert('Первое число больше второго? Ответ: ' + (a > b));
+let a = +prompt('Введите первое число', 1);
+let b = +prompt('Введите второе число', 2);
+alert('Сумма чисел равна = ' + (a + b));
+if a > b {
+    alert('>')
+} else {
+    alert('<')
+}
+;
 
-alert(null > 0);
-alert(null == 0);
-alert(null >= 0);
+// alert(null > 0);
+// alert(null == 0);
+// alert(null >= 0);
+
