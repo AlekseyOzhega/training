@@ -41,17 +41,13 @@
 // alert(a);
 // alert(c);
 
-let a = +prompt('Введите первое число', 1);
-let b = +prompt('Введите второе число', 2);
-alert('Сумма чисел равна = ' + (a + b));
-if a > b {
-    alert('>')
-} else {
-    alert('<')
-}
-;
+// let a = +prompt('Введите первое число', 1);
+// let b = +prompt('Введите второе число', 2);
+// alert('Сумма чисел равна = ' + (a + b));
 
 // alert(null > 0);
 // alert(null == 0);
 // alert(null >= 0);
 
+let year = prompt('Какой сейчас год?', '');
+if (year == 2024) alert('Правильно!')
