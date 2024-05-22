@@ -49,12 +49,13 @@
 // alert(null == 0);
 // alert(null >= 0);
 
-let year = prompt('Какой сейчас год?', '');
-let coun = (year == 2024);
-if (year < 2024) {
-    alert('Рано!')
-} else if (year > 2024) {
-    alert('Поздно!')
-} else {
-    alert('Верно!')
-}
+// let year = prompt('Какой сейчас год?', '');
+// let coun = (year == 2024);
+// if (year < 2024) {
+//     alert('Рано!')
+// } else if (year > 2024) {
+//     alert('Поздно!')
+// } else {
+//   alert('Верно!')
+// }
+
