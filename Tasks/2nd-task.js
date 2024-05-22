@@ -51,6 +51,9 @@
 
 let year = prompt('Какой сейчас год?', '');
 let coun = (year == 2024);
+if (year > 2024) {
+    alert('Рано!')
+} 
 if (coun) {
     alert('Правильно!')
 }
