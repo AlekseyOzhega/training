@@ -50,4 +50,7 @@
 // alert(null >= 0);
 
 let year = prompt('Какой сейчас год?', '');
-if (year == 2024) alert('Правильно!')
+let coun = (year == 2024);
+if (coun) {
+    alert('Правильно!')
+}
