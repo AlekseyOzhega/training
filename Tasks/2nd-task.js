@@ -59,10 +59,17 @@
 //   alert('Верно!')
 // }
 
-let year = prompt('Какой сейчас год?', '');
-let accses = (year == 2024) ? true : false;
-if (accses == true) {
-    alert('Верно!')
-} else { 
-    alert('Неверно!')
-};
+// let year = prompt('Какой сейчас год?', '');
+// let accses = (year == 2024) ? true : false;
+// if (accses == true) {
+//     alert('Верно!')
+// } else { 
+//     alert('Неверно!')
+// };
+
+let age = prompt('Возраст?');
+let message = (age < 3) ? 'Здравствуй малыш!' :
+    (age <18) ? 'Привет!' :
+    (age < 100) ? 'Здравствуйте!' :
+    'Какой итересный возраст!';
+alert(message);
