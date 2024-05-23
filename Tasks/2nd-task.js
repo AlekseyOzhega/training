@@ -61,4 +61,8 @@
 
 let year = prompt('Какой сейчас год?', '');
 let accses = (year == 2024) ? true : false;
-alert(accses);
+if (accses == true) {
+    alert('Верно!')
+} else { 
+    alert('Неверно!')
+};
