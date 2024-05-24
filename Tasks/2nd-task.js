@@ -87,3 +87,4 @@
 // } 
 // alert(message);
 
+let name = prompt('Какое "официальное" название JavaScript?');
