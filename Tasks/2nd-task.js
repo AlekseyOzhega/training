@@ -103,8 +103,9 @@
 //     alert('0')
 // };
 
-let result;
-let a = +prompt('Введите первое число:');
-let b = +prompt('Введите второе число:');
-result = (a + b < 4) ? 'мало' : 'много';
-alert(result);
+// let result;
+// let a = +prompt('Введите первое число:');
+// let b = +prompt('Введите второе число:');
+// result = (a + b < 4) ? 'мало' : 'много';
+// alert(result);
+
