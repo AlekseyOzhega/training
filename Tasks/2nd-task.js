@@ -94,11 +94,12 @@
 //     alert('Вы не знаете? ECMAScript.')
 // };
 
-let value = prompt('Введите любое число:');
-if (value >= 1) {
-    alert('1');
-} else if (value <= -1) {
-    alert('-1');
-} else {
-    alert('0')
-};
+// let value = prompt('Введите любое число:');
+// if (value >= 1) {
+//     alert('1');
+// } else if (value <= -1) {
+//     alert('-1');
+// } else {
+//     alert('0')
+// };
+
