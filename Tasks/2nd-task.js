@@ -87,4 +87,9 @@
 // } 
 // alert(message);
 
-let name = prompt('Какое "официальное" название JavaScript?');
+let nameComp = prompt('Какое "официальное" название JavaScript?');
+if (nameComp == 'ECMAScript') {
+    alert('Верно!');
+} else {
+    alert('Вы не знаете? ECMAScript.')
+};
