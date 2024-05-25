@@ -117,6 +117,7 @@
 // alert(message);
 
 let hour = prompt('Который сейчас час?', '');
-if (hour < 10 || hour > 18) {
+let isWeekend = true;
+if (hour < 10 || hour > 18 || isWeekend) {
     alert('Офис закрыт!');
 }
