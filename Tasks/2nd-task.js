@@ -122,7 +122,10 @@
 //     alert('Офис закрыт!');
 // }
 
-let firstName = "";
-let lastName = "";
-let nickName= "Суперкодер";
-alert( firstName || lastName || nickName || "Аноним");
+// let firstName = "";
+// let lastName = "";
+// let nickName= "Суперкодер";
+// alert( firstName || lastName || nickName || "Аноним");
+
+true || alert('не сработает');
+false || alert('сработает');
