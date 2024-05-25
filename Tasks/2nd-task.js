@@ -116,8 +116,13 @@
 //     'Неверный логин!';
 // alert(message);
 
-let hour = prompt('Который сейчас час?', '');
-let isWeekend = true;
-if (hour < 10 || hour > 18 || isWeekend) {
-    alert('Офис закрыт!');
-}
+// let hour = prompt('Который сейчас час?', '');
+// let isWeekend = true;
+// if (hour < 10 || hour > 18 || isWeekend) {
+//     alert('Офис закрыт!');
+// }
+
+let firstName = "";
+let lastName = "";
+let nickName= "Суперкодер";
+alert( firstName || lastName || nickName || "Аноним");
