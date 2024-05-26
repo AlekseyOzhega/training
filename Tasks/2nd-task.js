@@ -143,7 +143,9 @@ let weekDay = (day == 'понедельник') ? 'рабочий день' :
 if (weekDay == 'рабочий день') {
     weekend = false
 } else (weekend = true);
-// let hour = prompt('Который сейчас час?');
-
-alert(weekDay);
-alert(weekend);
+let hour = prompt('Который сейчас час?');
+if (hour < 10 || hour > 18 || weekend) {
+    alert('Офис закрыт!');
+}
+// alert(weekDay);
+// alert(weekend);
