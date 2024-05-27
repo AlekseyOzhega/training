@@ -150,4 +150,6 @@
 //     alert('Офис открыт.');
 // };
 
-
+// let manu = '';
+// manu ||= 'Unknown';
+// alert(manu);
