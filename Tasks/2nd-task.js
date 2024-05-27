@@ -154,8 +154,9 @@
 // manu ||= 'Unknown';
 // alert(manu);
 
-let hour = 12;
-let minutes = 30;
-if (hour == 12 && minutes == 30) {
-    alert('Время 12:30.');
-}
+// let hour = 12;
+// let minutes = 30;
+// if (hour == 12 && minutes == 30) {
+//     alert('Время 12:30.');
+// }
+
