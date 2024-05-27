@@ -160,7 +160,8 @@
 //     alert('Время 12:30.');
 // }
 
-alert(1 && 0);
-alert(1 && 5);
-alert(null && 5);
-alert(0 && 'string');
+// alert(1 && 0);
+// alert(1 && 5);
+// alert(null && 5);
+// alert(0 && 'string');
+
