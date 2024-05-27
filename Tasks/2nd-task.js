@@ -160,3 +160,9 @@
 //     alert('Время 12:30.');
 // }
 
+let min = prompt('min');
+
+function getRandom(min, max) {
+
+}
+
