@@ -173,3 +173,5 @@
 
 // alert(alert(1) && alert(2));
 
+// alert(null || 3 && 2 || 4);
+
