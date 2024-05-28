@@ -165,3 +165,5 @@
 // alert(null && 5);
 // alert(0 && 'string');
 
+// alert(null || 2 || undefined);
+
