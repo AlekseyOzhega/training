@@ -175,3 +175,10 @@
 
 // alert(null || 3 && 2 || 4);
 
+// let value = NaN;
+// value &&= 10;
+// value ||= 20;
+// value &&= 30;
+// value ||= 40;
+// alert(value);
+
