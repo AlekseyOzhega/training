@@ -220,10 +220,11 @@ let pass;
 if (login == 'Админ' || login == 'админ') {
     pass = prompt('Введите пароль:');
 } else if (login == '' || login == null) {
-    alert('Отменено.');
+    alert('Отменено');
 } else {
     alert('Я вас не знаю.');
 }
+
 if (pass == 'я главный' || pass == 'Я главный') {
     alert('Здравствуйте!');
 } else if (pass == '' || pass == null) {
@@ -231,3 +232,4 @@ if (pass == 'я главный' || pass == 'Я главный') {
 } else {
     alert('Неверный пароль.')
 }
+
