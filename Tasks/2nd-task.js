@@ -215,3 +215,8 @@
 //     alert('third');
 // };
 
+let login = prompt('Ваш логин:');
+let pass;
+if (login == 'Админ' || login == 'админ') {
+    pass = prompt('Введите пароль:');
+} else 
