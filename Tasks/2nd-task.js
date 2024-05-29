@@ -219,4 +219,8 @@ let login = prompt('Ваш логин:');
 let pass;
 if (login == 'Админ' || login == 'админ') {
     pass = prompt('Введите пароль:');
-} else 
+} else if (login == '' || login == null) {
+    alert('Отменено.');
+} else {
+    alert('Я вас не знаю.');
+}
