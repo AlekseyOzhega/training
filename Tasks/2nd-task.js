@@ -219,17 +219,18 @@ let login = prompt('Ваш логин:');
 let pass;
 if (login == 'Админ' || login == 'админ') {
     pass = prompt('Введите пароль:');
+    if (pass == 'я главный' || pass == 'Я главный') {
+        alert('Здравствуйте!');
+    } else if (pass == '' || pass == null) {
+        alert('Отменено.');
+    } else {
+        alert('Неверный пароль.')
+    }
 } else if (login == '' || login == null) {
     alert('Отменено');
 } else {
     alert('Я вас не знаю.');
 }
 
-if (pass == 'я главный' || pass == 'Я главный') {
-    alert('Здравствуйте!');
-} else if (pass == '' || pass == null) {
-    alert('Отменено.');
-} else {
-    alert('Неверный пароль.')
-}
+
 
