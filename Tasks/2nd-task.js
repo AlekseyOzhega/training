@@ -258,4 +258,10 @@
 
 let nick = prompt('Как вас зовут?');
 message = nick ?? 'Аноним';
+if (message === '') {
+    message = 'Аноним';
+};
+if (message === 'Groot' || message === 'groot') {
+    message = "Im Groot"
+}
 alert('Здравствуйте ' + message + '!');
