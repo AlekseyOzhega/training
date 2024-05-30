@@ -256,14 +256,15 @@
 //     alert(login + ', Я вас не знаю.');
 // }
 
-let nick = prompt('Как вас зовут?');
-message = nick ?? 'Аноним';
-if (message === '') {
-    message = 'Аноним';
-};
-if (message === 'Groot' || message === 'groot') {
-    message = "Im Groot";
-    alert(message + '!');
-} else {
-    alert('Здравствуйте ' + message + '!');
-}
+// let nick = prompt('Как вас зовут?');
+// message = nick ?? 'Аноним';
+// if (message === '') {
+//     message = 'Аноним';
+// };
+// if (message === 'Groot' || message === 'groot') {
+//     message = "Im Groot";
+//     alert(message + '!');
+// } else {
+//     alert('Здравствуйте ' + message + '!');
+// }
+
