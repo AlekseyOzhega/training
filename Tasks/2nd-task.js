@@ -262,6 +262,8 @@ if (message === '') {
     message = 'Аноним';
 };
 if (message === 'Groot' || message === 'groot') {
-    message = "Im Groot"
+    message = "Im Groot";
+    alert(message + '!');
+} else {
+    alert('Здравствуйте ' + message + '!');
 }
-alert('Здравствуйте ' + message + '!');
