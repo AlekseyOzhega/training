@@ -235,24 +235,27 @@
 //     alert('Я вас не знаю.');
 // }
 
-let login = prompt('Ваш логин:');   
+// let login = prompt('Ваш логин:');   
 
-if (login === 'Админ' || login === 'админ') {
+// if (login === 'Админ' || login === 'админ') {
 
-    let pass = prompt('Введите пароль:');
+//     let pass = prompt('Введите пароль:');
 
-    if (pass === 'я главный' || pass === 'Я главный') {
-        alert('Здравствуйте!');
-    } else if (pass === '' || pass === null) {
-        alert('Отменено.');
-    } else {
-        alert('Неверный пароль.')
-    }
+//     if (pass === 'я главный' || pass === 'Я главный') {
+//         alert('Здравствуйте!');
+//     } else if (pass === '' || pass === null) {
+//         alert('Отменено.');
+//     } else {
+//         alert('Неверный пароль.')
+//     }
     
-} else if (login === '' || login === null) {
-    alert('Отменено');
-} else {
-    // login = login ?? 'Неизвестный'
-    alert(login + ', Я вас не знаю.');
-}
+// } else if (login === '' || login === null) {
+//     alert('Отменено');
+// } else {
+//     // login = login ?? 'Неизвестный'
+//     alert(login + ', Я вас не знаю.');
+// }
 
+let nick = prompt('Как вас зовут?');
+message = nick ?? 'Аноним';
+alert('Здравствуйте ' + message + '!');
