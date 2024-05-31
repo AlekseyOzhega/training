@@ -275,15 +275,16 @@
 // name3 = name3 ?? 'Анонимус';
 // alert('Здравствуйте ' + name3 + '!');
 
-let getColor = prompt('Выбирете цвет написав число.');
-let color;
-if (getColor === 1) {
-    color = 'Красный'
-} else if (getColor === 2) {
-    color = 'Синий';
-} else if (getColor === 3) {
-    color = 'Зелёный';
-} else {
-    color = 'Неизвестный цвет'
-};
-alert()
+// let getColor = +prompt('Выбирете цвет написав число.');
+// let color;
+// if (getColor === 1) {
+//     color = 'Красный'
+// } else if (getColor === 2) {
+//     color = 'Синий';
+// } else if (getColor === 3) {
+//     color = 'Зелёный';
+// } else {
+//     color = 'Неизвестный цвет'
+// };
+// alert(color);
+
