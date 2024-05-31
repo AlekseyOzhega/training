@@ -269,5 +269,8 @@
 // }
 
 let name3 = prompt('Как вас зовут?');
+if (name3 === '') {
+    name3 = null;
+}
 name3 = name3 ?? 'Анонимус';
 alert('Здравствуйте ' + name3 + '!');
