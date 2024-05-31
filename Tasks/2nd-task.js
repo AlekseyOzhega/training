@@ -281,4 +281,9 @@ if (getColor === 1) {
     color = 'Красный'
 } else if (getColor === 2) {
     color = 'Синий';
-}
+} else if (getColor === 3) {
+    color = 'Зелёный';
+} else {
+    color = 'Неизвестный цвет'
+};
+alert()
