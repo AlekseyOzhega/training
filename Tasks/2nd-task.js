@@ -292,3 +292,9 @@
 // alert(height || 100);
 // alert(height ?? 100);
 
+let age = +prompt('Ваш возраст?');
+if (age < 7) {
+    alert('Ясли.');
+} else if (age > 8 && age < 18) {
+    alert('Детский сад');
+}
