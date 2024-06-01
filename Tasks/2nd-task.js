@@ -299,6 +299,8 @@ if (age < 7) {
     alert('Школа.');
 } else if (age > 19 && age < 65) {
     alert('Работа.');
-} else if (age > 66) {
+} else if (age > 66 && age <109) {
     alert('Пенсия.');
+} else {
+    alert('Ископаемое.')
 }
