@@ -292,15 +292,16 @@
 // alert(height || 100);
 // alert(height ?? 100);
 
-let age = +prompt('Ваш возраст?');
-if (age < 7) {
-    alert('Детский сад.');
-} else if (age > 8 && age < 18) {
-    alert('Школа.');
-} else if (age > 19 && age < 65) {
-    alert('Работа.');
-} else if (age > 66 && age <109) {
-    alert('Пенсия.');
-} else {
-    alert('Ископаемое.')
-}
+// let age = +prompt('Ваш возраст?');
+// if (age < 7) {
+//     alert('Детский сад.');
+// } else if (age > 8 && age < 18) {
+//     alert('Школа.');
+// } else if (age > 19 && age < 65) {
+//     alert('Работа.');
+// } else if (age > 66 && age <109) {
+//     alert('Пенсия.');
+// } else {
+//     alert('Ископаемое.')
+// }
+
