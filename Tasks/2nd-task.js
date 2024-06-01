@@ -294,7 +294,11 @@
 
 let age = +prompt('Ваш возраст?');
 if (age < 7) {
-    alert('Ясли.');
+    alert('Детский сад.');
 } else if (age > 8 && age < 18) {
-    alert('Детский сад');
+    alert('Школа.');
+} else if (age > 19 && age < 65) {
+    alert('Работа.');
+} else if (age > 66) {
+    alert('Пенсия.');
 }
