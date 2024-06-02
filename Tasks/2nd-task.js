@@ -313,4 +313,9 @@
 // result ??= num1 ?? num2;
 // alert(result);
 
-
+let city = +prompt('Введите номер города:');
+city ??= 'Berlin';
+if (city === 1) city = 'Koln';
+if (city === 2) city = 'Frankfurth';
+if (city === 3) city = 'Dresden';
+alert(city);
