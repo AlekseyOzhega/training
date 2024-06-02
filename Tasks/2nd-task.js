@@ -307,3 +307,8 @@
 
 // alert(undefined ?? NaN ?? null ?? '');
 
+let num1 = 10,
+    num2 = 20,
+    result;
+result ??= num2;
+alert(result);
