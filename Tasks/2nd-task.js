@@ -305,4 +305,5 @@
 //     alert('Ископаемое.')
 // }
 
-alert(undefined ?? NaN ?? null ?? '');
+// alert(undefined ?? NaN ?? null ?? '');
+
