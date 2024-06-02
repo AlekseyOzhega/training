@@ -307,8 +307,10 @@
 
 // alert(undefined ?? NaN ?? null ?? '');
 
-let num1 = 10,
-    num2 = 20,
-    result;
-result ??= num2;
-alert(result);
+// let num1 = 10,
+//     num2 = 20,
+//     result;
+// result ??= num1 ?? num2;
+// alert(result);
+
+
