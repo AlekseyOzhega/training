@@ -321,3 +321,8 @@
 // if (city > 3) city = 'Неизвестный город!';
 // alert(city);
 
+let i = 0;
+while (i < 3) {
+    alert(i);
+    i++;
+}
