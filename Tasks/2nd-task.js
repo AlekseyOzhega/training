@@ -327,11 +327,12 @@
 //     i++;
 // }
 
-let ex = confirm('Вы здесь впервые?');
-let nameNick;
-if (ex === true) {
-    nameNick = 'Гость';
-} else {
-    nameNick = 'снова';
-};
-alert('Мы рады видеть вас, ' + nameNick + '!');
+// let ex = confirm('Вы здесь впервые?');
+// let nameNick;
+// if (ex === true) {
+//     nameNick = 'Гость';
+// } else {
+//     nameNick = 'снова';
+// };
+// alert('Мы рады видеть вас, ' + nameNick + '!');
+
