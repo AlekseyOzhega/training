@@ -328,7 +328,7 @@
 // }
 
 let ex = confirm('Вы здесь впервые?');
-let = nameNick;
+let nameNick;
 if (ex === true) {
     nameNick = 'Гость';
 } else {
