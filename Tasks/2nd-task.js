@@ -327,3 +327,8 @@
 //     i++;
 // }
 
+let ex = confirm('Вы здесь впервые?');
+let = nameNick;
+if (ex === true) {
+    nameNick = 'Гость';
+} else nameNick = 'Постоянный клиент';
