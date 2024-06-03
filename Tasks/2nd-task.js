@@ -336,3 +336,11 @@
 // };
 // alert('Мы рады видеть вас, ' + nameNick + '!');
 
+let num3 = +prompt('Сколько человек будет?');
+let i = 0;
+let result;
+while (i < num3) {
+    result = i + num3;
+    i++;
+}
+alert(result);
