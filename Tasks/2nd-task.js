@@ -332,6 +332,6 @@ let nameNick;
 if (ex === true) {
     nameNick = 'Гость';
 } else {
-    nameNick = 'Постоянный клиент';
+    nameNick = 'снова';
 };
-alert('Приветствуем вас, ' + nameNick);
+alert('Мы рады видеть вас, ' + nameNick + '!');
