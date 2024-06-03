@@ -336,11 +336,12 @@
 // };
 // alert('Мы рады видеть вас, ' + nameNick + '!');
 
-let num3 = +prompt('Сколько человек будет?');
+let num3 = +prompt('Укажите небольшое число.');
 let i = 0;
-let result;
+let result = 0;
 while (i < num3) {
-    result = i + num3;
+    result = result + (i + num3);
     i++;
+    alert(result);
 }
-alert(result);
+alert('Итого: ' + result);
