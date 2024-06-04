@@ -346,8 +346,9 @@
 // }
 // alert('Итого: ' + result);
 
-let i = 3;
-while (i) {
-    alert(i);
-    i--;
-}
+// let i = 3;
+// while (i) {
+//     alert(i);
+//     i--;
+// }
+
