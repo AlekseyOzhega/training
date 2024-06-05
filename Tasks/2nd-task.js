@@ -375,3 +375,4 @@ while (true) {
     if (!value) break;
     sum += value;
 }
+alert('Сумма: ' + sum);
