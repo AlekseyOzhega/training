@@ -365,3 +365,13 @@
 //     i++;
 // } while (i < 3);
 
+// for (let i = 0; i < 3; i++) {
+//     alert(i);
+// }
+
+let sum = 0;
+while (true) {
+    let value = +prompt('Введите число, ', '');
+    if (!value) break;
+    sum += value;
+}
