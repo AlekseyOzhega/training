@@ -389,5 +389,9 @@
 //     }
 // }
 
-
-let numb = +prompt('Введите число: ');
+let sum = 0;
+while (true) {
+    let numb = +prompt('Введите число: ');
+    if (!numb) break;
+    
+}
