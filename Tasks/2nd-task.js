@@ -396,3 +396,4 @@ while (true) {
     sum += numb;
     alert('Текущая сумма: ' + sum);
 }
+alert('Итоговая сумма: ' + sum + '.');
