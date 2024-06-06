@@ -393,5 +393,6 @@ let sum = 0;
 while (true) {
     let numb = +prompt('Введите число: ');
     if (!numb) break;
-    
+    sum += numb;
+    alert('Текущая сумма: ' + sum);
 }
