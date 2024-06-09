@@ -416,7 +416,7 @@
 
 //Задачи
 
-let i = 0;
+let i = 3;
 while (i) {
     alert(i--);
 }
