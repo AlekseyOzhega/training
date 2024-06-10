@@ -449,11 +449,13 @@
 //     if (!numZ) break;
 // }
 
-// let numZ = 0;
-// while(true) {
-//     numZ = +prompt('Введите число больше 100.')
-//     if (numZ <= 100) continue;
-//     if (!numZ || numZ > 100) break;
-// }
+let numZ;
+while(true) {
+    numZ = prompt('Введите число больше 100.')
+    alert(numZ);
+    if (numZ <= 100) continue;
+    if (numZ == 0 || numZ > 100) break;
+    
+}
 
 alert('Вы ввели число ' + numZ);
