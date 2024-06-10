@@ -442,8 +442,18 @@
 //     i++;
 // }
 
-label:
-for (let numZ = +prompt('Введите число больше 100.'); numZ > 100;) {
-    if (numZ <= 100) 
-}
+// for (let numZ = 0; numZ > 100;) {
+//     let numZ = 0;
+//     numZ = +prompt('Введите число больше 100.')
+//     if (numZ <= 100) continue;
+//     if (!numZ) break;
+// }
+
+// let numZ = 0;
+// while(true) {
+//     numZ = +prompt('Введите число больше 100.')
+//     if (numZ <= 100) continue;
+//     if (!numZ || numZ > 100) break;
+// }
+
 alert('Вы ввели число ' + numZ);
