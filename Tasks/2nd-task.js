@@ -436,7 +436,14 @@
 // }
 // alert('Конец!');
 
-let i = 0;
-while (i < 3) {
-    alert(`number ${i}!`);
+// let i = 0;
+// while (i < 3) {
+//     alert(`number ${i}!`);
+//     i++;
+// }
+
+label:
+for (let numZ = +prompt('Введите число больше 100.'); numZ > 100;) {
+    if (numZ <= 100) 
 }
+alert('Вы ввели число ' + numZ);
