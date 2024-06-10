@@ -421,9 +421,17 @@
 //     alert(i--);
 // }
 
-let i = 0;
-while (++i < 5) alert(i);
+// let i = 0;
+// while (++i < 5) alert(i);
 
 // let i = 0;
 // while (i++ < 5) alert(i);
-alert('Цикл остановился на ' + i);
+// alert('Цикл остановился на ' + i);
+
+for (let i = 0; i < 11; i++) {
+    if (i % 2 = 0) {
+        alert(i);
+    } 
+
+}
+alert('Готово!');
