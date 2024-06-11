@@ -459,7 +459,8 @@
 //     if (numZ > 100) break;
 // }
 
-let num;
-do {
-    num = prompt('Введите число больше 100.', 0)
-} while (num <= 100 && num)
+// let num;
+// do {
+//     num = prompt('Введите число больше 100.', 0)
+// } while (num <= 100 && num)
+
