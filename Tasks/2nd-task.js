@@ -469,7 +469,7 @@ let numB;
 
 do {
     numB = +prompt('Введите число большее чем 1.');
-} while (numB > 10 && numB);
+} while (numB > 10 && numB) alert('Не, давай число поменьше.')
 
 for (; i >= numB; i++) {
     if (i % )
