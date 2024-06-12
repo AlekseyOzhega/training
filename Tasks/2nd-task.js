@@ -473,13 +473,18 @@
 
 // next4:
 // for (let i = 2; i <= numB; i++) {
+
 //     for (let j = 2; j < i; j++) {
 //         if (i % j == 0) continue next4;
 //         alert(i);
 //     }
 // }
 
-let n = 10;
+let n;
+
+do {
+    n = +prompt('Введите число большее чем 1.');
+} while (n > 10 && n);
 
 nextPrime:
 for (let i = 2; i <= n; i++) { // Для всех i...
