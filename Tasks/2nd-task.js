@@ -464,13 +464,14 @@
 //     num = prompt('Введите число больше 100.', 0)
 // } while (num <= 100 && num)
 
-let i = 2;
+
 let numB;
 
 do {
     numB = +prompt('Введите число большее чем 1.');
 } while (numB > 10 && numB);
+
 alert(numB);
-for (; i > numB; i++) {
-    if (i % )
+for (let i = 2; i <= numB; i++) {
+    for (let j = 2; j < i; j++)
 }
