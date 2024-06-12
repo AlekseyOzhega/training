@@ -471,10 +471,10 @@ do {
     numB = +prompt('Введите число большее чем 1.');
 } while (numB > 10 && numB);
 
-alert(numB);
 next4:
 for (let i = 2; i <= numB; i++) {
     for (let j = 2; j < i; j++) {
         if (i % j == 0) continue next4;
+        alert(i);
     }
 }
