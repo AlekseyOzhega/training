@@ -465,16 +465,28 @@
 // } while (num <= 100 && num)
 
 
-let numB;
+// let numB;
 
-do {
-    numB = +prompt('Введите число большее чем 1.');
-} while (numB > 10 && numB);
+// do {
+//     numB = +prompt('Введите число большее чем 1.');
+// } while (numB > 10 && numB);
 
-next4:
-for (let i = 2; i <= numB; i++) {
-    for (let j = 2; j < i; j++) {
-        if (i % j == 0) continue next4;
-        alert(i);
-    }
+// next4:
+// for (let i = 2; i <= numB; i++) {
+//     for (let j = 2; j < i; j++) {
+//         if (i % j == 0) continue next4;
+//         alert(i);
+//     }
+// }
+
+let n = 10;
+
+nextPrime:
+for (let i = 2; i <= n; i++) { // Для всех i...
+
+  for (let j = 2; j < i; j++) { // проверить, делится ли число..
+    if (i % j == 0) continue nextPrime; // не подходит, берём следующее
+  }
+
+  alert( i ); // простое число
 }
