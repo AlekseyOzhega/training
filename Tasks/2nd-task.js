@@ -496,3 +496,13 @@
 
 //   alert( i ); // простое число
 // }
+
+
+// SWITCH
+
+let age = +prompt('Сколько вам лет?');
+
+switch(age) {
+    case (age < 7):
+        alert('')
+}
