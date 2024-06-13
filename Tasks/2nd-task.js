@@ -515,4 +515,9 @@ switch(age) {
     case (age >= 36 && age <= 59):
         alert('Зрелость.');
         break;
+    case (age >= 60):
+        alert('Старость.');
+        break;
+    default:
+        alert('Неверные данные.')
 }
