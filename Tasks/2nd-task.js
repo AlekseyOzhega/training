@@ -512,7 +512,7 @@ switch(age) {
     case (age >= 19 && age <= 35):
         alert('Молодость.');
         break;
-    case (age >= 36 && age <= 59):
+    case (age > 35 && age < 60):
         alert('Зрелость.');
         break;
     case (age >= 60):
