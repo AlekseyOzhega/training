@@ -500,39 +500,39 @@
 
 // SWITCH
 
-let age = +prompt('Сколько вам лет?');
+// let age = +prompt('Сколько вам лет?');
 
-if (age < 7) {
-    age = 7;
-} else if (age >= 8 && age <= 17) {
-    age = 17;
-} else if (age >= 18 && age <= 35) {
-    age = 35;
-} else if (age >= 36 && age <= 60) {
-    age = 60;
-} else {
-    age = 100;
-}
+// if (age < 7) {
+//     age = 7;
+// } else if (age >= 8 && age <= 17) {
+//     age = 17;
+// } else if (age >= 18 && age <= 35) {
+//     age = 35;
+// } else if (age >= 36 && age <= 60) {
+//     age = 60;
+// } else {
+//     age = 100;
+// }
 
-switch(age) {
-    case 7:
-        alert('Детсадовец.');
-        break;
-    case 17:
-        alert('Школьник.');
-        break;
-    case 35:
-        alert('Молодость.');
-        break;
-    case 60:
-        alert('Зрелость.');
-        break;
-    case 100:
-        alert('Старость.');
-        break;
-    default:
-        alert('Неверные данные.')
-}
+// switch(age) {
+//     case 7:
+//         alert('Детсадовец.');
+//         break;
+//     case 17:
+//         alert('Школьник.');
+//         break;
+//     case 35:
+//         alert('Молодость.');
+//         break;
+//     case 60:
+//         alert('Зрелость.');
+//         break;
+//     case 100:
+//         alert('Старость.');
+//         break;
+//     default:
+//         alert('Неверные данные.')
+// }
 
 
 // let a = 2 + 3;
