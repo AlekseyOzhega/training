@@ -502,20 +502,22 @@
 
 let age = +prompt('Сколько вам лет?');
 
+
+
 switch(age) {
     case 7:
         alert('Детсадовец.');
         break;
-    case age >= 8 && age <= 18:
+    case 18:
         alert('Школьник.');
         break;
-    case age >= 19 && age <= 35:
+    case 35:
         alert('Молодость.');
         break;
-    case age > 35 && age < 60:
+    case 60:
         alert('Зрелость.');
         break;
-    case age >= 60:
+    case 100:
         alert('Старость.');
         break;
     default:
