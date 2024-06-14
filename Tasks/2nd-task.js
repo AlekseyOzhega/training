@@ -505,13 +505,13 @@ let age = +prompt('Сколько вам лет?');
 if (age < 7) {
     age = 7;
 } else if (age >= 8 && age <= 17) {
-    age = 17
-} else if (age >= 8 && age <= 17) {
-    age = 17
-} else if (age >= 8 && age <= 17) {
-    age = 17
-} else if (age >= 8 && age <= 17) {
-    age = 17
+    age = 17;
+} else if (age >= 18 && age <= 35) {
+    age = 35;
+} else if (age >= 36 && age <= 60) {
+    age = 60;
+} else {
+    age = 100;
 }
 
 switch(age) {
