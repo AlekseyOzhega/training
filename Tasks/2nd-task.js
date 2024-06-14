@@ -503,7 +503,7 @@
 let age = +prompt('Сколько вам лет?');
 
 switch(age) {
-    case age == 7:
+    case 7:
         alert('Детсадовец.');
         break;
     case age >= 8 && age <= 18:
