@@ -500,34 +500,7 @@
 
 // SWITCH
 
-// let age = +prompt('Сколько вам лет?');
-
-// switch(age) {
-//     case (age <= 7):
-//         alert('Детсадовец.');
-//         break;
-//     case (age >= 8 && age <= 18):
-//         alert('Школьник.');
-//         break;
-//     case (age >= 19 && age <= 35):
-//         alert('Молодость.');
-//         break;
-//     case (age >= 19 && age <= 35):
-//         alert('Молодость.');
-//         break;
-//     case (age > 35 && age < 60):
-//         alert('Зрелость.');
-//         break;
-//     case (age >= 60):
-//         alert('Старость.');
-//         break;
-//     default:
-//         alert('Неверные данные.')
-// }
-
-
 // let a = 2 + 3;
-
 // switch (a) {
 //   case 3:
 //     alert( 'Маловато' );
