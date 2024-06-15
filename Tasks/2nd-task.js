@@ -553,3 +553,14 @@
 
 // Задачи на switch
 
+let brow = promt('Каким браузером вы пользуетесь?');
+if (brow == 'Edge' || brow == 'edge') {
+    alert( "You've got the Edge!" );
+} else if (brow == 'Chrome' || brow == 'chrome' 
+    || brow == 'Firefox' || brow == 'firefox'
+    || brow == 'Safari' || brow == 'safari'
+    || brow == 'Opera' || brow == 'opera') {
+    alert( 'Okay we support these browsers too' );
+} else {
+    alert( 'We hope that this page looks ok!' );
+}
