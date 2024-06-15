@@ -554,14 +554,15 @@
 // Задачи на switch
 
 
-let br = prompt('Каким браузером вы пользуетесь?');
-if (br == 'Edge' || br == 'edge') {
-    alert( "You've got the Edge!" );
-} else if (br == 'Chrome' || br == 'chrome' 
-    || br == 'Firefox' || br == 'firefox'
-    || br == 'Safari' || br == 'safari'
-    || br == 'Opera' || br == 'opera') {
-    alert( 'Okay we support these browsers too' );
-} else {
-    alert( 'We hope that this page looks ok!' );
-}
+// let br = prompt('Каким браузером вы пользуетесь?');
+// if (br == 'Edge' || br == 'edge') {
+//     alert( "You've got the Edge!" );
+// } else if (br == 'Chrome' || br == 'chrome' 
+//     || br == 'Firefox' || br == 'firefox'
+//     || br == 'Safari' || br == 'safari'
+//     || br == 'Opera' || br == 'opera') {
+//     alert( 'Okay we support these browsers too' );
+// } else {
+//     alert( 'We hope that this page looks ok!' );
+// }
+
