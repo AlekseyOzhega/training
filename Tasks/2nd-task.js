@@ -566,3 +566,8 @@
 //     alert( 'We hope that this page looks ok!' );
 // }
 
+const num = +prompt('Введите число между 0 и 3', '');
+switch(num) {
+    case 0:
+        alert('Вы ввели число 0');
+}
