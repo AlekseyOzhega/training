@@ -1,8 +1,12 @@
 'use strict';
 
-function myMessage() {
-    let message = 'Привет!';
-    alert(message);
-}
-myMessage();
-alert(message);
+// Функции
+
+
+// function myMessage() {
+//     let message = 'Привет!';
+//     alert(message);
+// }
+// myMessage();
+// alert(message);
+
