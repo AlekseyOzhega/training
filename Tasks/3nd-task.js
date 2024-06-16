@@ -10,12 +10,13 @@
 // myMessage();
 // alert(message);
 
-let userName = prompt('Как к вам обращаться?');
+// let userName = prompt('Как к вам обращаться?');
 
-function myMessage() {
-    userName = 'Вася';
-    alert('Теперь ты ' + userName + '!');
-}
-alert('Привет ' + userName + '!');
-myMessage();
-alert(userName);
+// function myMessage() {
+//     userName = 'Вася';
+//     alert('Теперь ты ' + userName + '!');
+// }
+// alert('Привет ' + userName + '!');
+// myMessage();
+// alert(userName);
+
