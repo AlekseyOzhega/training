@@ -13,8 +13,9 @@
 let userName = prompt('Как к вам обращаться?');
 
 function myMessage() {
-    let userName = 'Вася';
+    userName = 'Вася';
     alert('Привет ' + userName + '!');
 }
-
+alert(userName);
 myMessage();
+alert(userName);
