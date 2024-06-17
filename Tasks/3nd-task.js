@@ -20,9 +20,10 @@
 // myMessage();
 // alert(userName);
 
-// function showMessage(from, text) {
-//     alert(from + ': ' + text);
-// }
-// showMessage('Аня', 'Привет!');
-// showMessage('Аня', 'Как дела?');
+function showMessage(from, text) {
+    from = '*' + from + '*';
+    alert(from + ': ' + text);
+}
+showMessage('Аня', 'Привет!');
+showMessage('Аня', 'Как дела?');
 
