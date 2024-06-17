@@ -20,3 +20,6 @@
 // myMessage();
 // alert(userName);
 
+function showMessage(from, text) {
+    
+}
