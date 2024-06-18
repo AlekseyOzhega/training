@@ -33,14 +33,13 @@
 // showMessage('Аня');
 // showMessage('Аня', 'как дела?');
 
-let te;
 
 function toasty() {
-    te ='hey!';
+    alert('Toasty!');
 }
 
 function showMessage(from, text = toasty()) {
-    alert(from + ': ' + text);
+    alert(from + ': ' + 'Hi');
 }
 
-showMessage('Anna')
+showMessage('Anna');
