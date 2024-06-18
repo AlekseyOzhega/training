@@ -27,4 +27,10 @@
 // showMessage('Аня', 'Привет!');
 // showMessage('Аня', 'Как дела?');
 
+function showMessage(from, text = 'текст не добавлен') {
+    alert(from + ': ' + text);
+}
+showMessage('Аня');
+showMessage('Аня', 'как дела?');
+
 
