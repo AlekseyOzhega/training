@@ -34,12 +34,13 @@
 // showMessage('Аня', 'как дела?');
 
 
-function toasty() {
-    alert('Toasty!');
-}
+// function toasty() {
+//     alert('Toasty!');
+// }
 
-function showMessage(from, text = toasty()) {
-    alert(from + ': ' + 'Hi');
-}
+// function showMessage(from, text = toasty()) {
+//     alert(from + ': ' + 'Hi');
+// }
 
-showMessage('Anna');
+// showMessage('Anna');
+
