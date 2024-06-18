@@ -38,5 +38,7 @@ function toasty() {
 }
 
 function showMessage(from, text = toasty) {
-    
+    alert(from + ': ' + text);
 }
+
+showMessage('Anna')
