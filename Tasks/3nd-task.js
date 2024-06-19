@@ -51,9 +51,10 @@
 // showMessage();
 // showMessage('Привет!');
 
-function showCount(count) {
-    alert(count ?? 'неизвестно');
-}
-showCount(0);
-showCount(null);
-showCount();
+// function showCount(count) {
+//     alert(count ?? 'неизвестно');
+// }
+// showCount(0);
+// showCount(null);
+// showCount();
+
