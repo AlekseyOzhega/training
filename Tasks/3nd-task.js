@@ -54,3 +54,6 @@
 function showCount(count) {
     alert(count ?? 'неизвестно');
 }
+showCount(0);
+showCount(null);
+showCount();
