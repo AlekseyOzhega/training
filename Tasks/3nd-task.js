@@ -44,9 +44,7 @@
 
 // showMessage('Anna');
 function showMessage(text) {
-    if (text === undefined) {
-        text = 'пустое сообщение';
-    }
+    text = text || 'неизвестно';
     alert(text);
 }
 showMessage();
