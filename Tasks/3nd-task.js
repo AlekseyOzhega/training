@@ -43,9 +43,11 @@
 // }
 
 // showMessage('Anna');
-function showMessage(text) {
-    text = text || 'неизвестно';
-    alert(text);
-}
-showMessage();
-showMessage('Привет!');
+
+// function showMessage(text) {
+//     text = text || 'неизвестно';
+//     alert(text);
+// }
+// showMessage();
+// showMessage('Привет!');
+
