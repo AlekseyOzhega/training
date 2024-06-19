@@ -51,3 +51,6 @@
 // showMessage();
 // showMessage('Привет!');
 
+function showCount(count) {
+    alert(count ?? 'неизвестно');
+}
