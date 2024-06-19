@@ -43,4 +43,11 @@
 // }
 
 // showMessage('Anna');
-
+function showMessage(text) {
+    if (text === undefined) {
+        text = 'пустое сообщение';
+    }
+    alert(text);
+}
+showMessage();
+showMessage('Привет!');
