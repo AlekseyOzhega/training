@@ -72,4 +72,4 @@ function checkAge(age) {
     }
 }
 
-let age = prompt('')
+let age = prompt('Сколько вам лет?', 18);
