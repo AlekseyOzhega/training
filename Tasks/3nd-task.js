@@ -74,5 +74,7 @@ function checkAge(age) {
 
 let age = prompt('Сколько вам лет?', 18);
 if (checkAge(age)) {
-    
+    alert('Доступ получен!');
+} else {
+    alert('Доступ закрыт!');
 }
