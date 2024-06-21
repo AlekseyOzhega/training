@@ -64,13 +64,13 @@
 // let result = sum(3, 8);
 // alert(result);
 
-function checkAge(age) {
-    if (age >= 18) {
-        return true;
-    } else {
-        return confirm('А родители разрешили?');
-    }
-}
+// function checkAge(age) {
+//     if (age >= 18) {
+//         return true;
+//     } else {
+//         return confirm('А родители разрешили?');
+//     }
+// }
 
 // let age = prompt('Сколько вам лет?', 18);
 // if (checkAge(age)) {
@@ -79,9 +79,9 @@ function checkAge(age) {
 //     alert('Доступ закрыт!');
 // }
 
-function showMovies(age) {
-    if (!checkAge(age)) {
-        return;
-    }
-    alert('Вам показывается кино');
-}
+// function showMovies(age) {
+//     if (!checkAge(age)) {
+//         return;
+//     }
+//     alert('Вам показывается кино');
+// }
