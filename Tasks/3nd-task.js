@@ -80,5 +80,8 @@
 // }
 
 function showMovies(age) {
-    if (!checkAge(age))
+    if (!checkAge(age)) {
+        return;
+    }
+    alert('Вам показывается кино');
 }
