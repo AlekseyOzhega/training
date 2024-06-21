@@ -79,3 +79,6 @@
 //     alert('Доступ закрыт!');
 // }
 
+function showMovies(age) {
+    if (!checkAge(age))
+}
