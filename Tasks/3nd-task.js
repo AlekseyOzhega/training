@@ -86,3 +86,4 @@
 //     alert('Вам показывается кино');
 // }
 
+function doNothing() {}
