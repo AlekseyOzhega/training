@@ -86,5 +86,5 @@
 //     alert('Вам показывается кино');
 // }
 
-function doNothing() {}
-alert(doNothing() === undefined);
+// function doNothing() {}
+// alert(doNothing() === undefined);
