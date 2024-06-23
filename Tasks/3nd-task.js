@@ -89,3 +89,8 @@
 // function doNothing() {}
 // alert(doNothing() === undefined);
 
+function showPrimes(n) {
+    nextPrime: for (let i = 2; i < n; i++) {
+        
+    }
+}
