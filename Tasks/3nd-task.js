@@ -98,4 +98,5 @@ function showPrimes(n) {
     }
 }
 
-let n = +prompt('Введите число.')
+let n = +prompt('Введите число.');
+showPrimes(n);
