@@ -103,9 +103,9 @@
 
 //Задачи темы "Функции"
 
-function checkAge(age) {
-    age = (age > 18) ? confirm('А родители не против?') 
-}
+// function checkAge(age) {
+//     return (age > 18) ? true : confirm('А родители не против?') 
+// }
 
 let age = +prompt('Сколько вам лет?');
 checkAge(age);
