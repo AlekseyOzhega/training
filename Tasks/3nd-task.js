@@ -115,6 +115,14 @@
 //     return (age > 18) || confirm('Родители разрешили?');
 //   }
 
+// function checkAge(age) {
+//     if (age > 18) {
+//       return true;
+//     } else {
+//       return confirm('Родители разрешили?');
+//     }
+//   }
+
 // let age = +prompt('Сколько вам лет?');
 // checkAge(age);
 // alert(age);
