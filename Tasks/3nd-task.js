@@ -101,3 +101,11 @@
 // let n = +prompt('Введите число.');
 // showPrimes(n);
 
+//Задачи темы "Функции"
+
+function checkAge(age) {
+    age = (age > 18) ? confirm('А родители не против?'); 
+}
+let age = +prompt('Сколько вам лет?');
+checkAge(age);
+alert(age);
