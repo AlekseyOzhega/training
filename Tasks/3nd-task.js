@@ -129,6 +129,8 @@
 // let res = checkAge(age);
 // alert(res);
 
+
+
 // function min(a, b) {
 //   if (a < b) {
 //     return a;
@@ -137,13 +139,23 @@
 //   }
 // }
 
+// function min(a, b) {
+//   return (a < b) ? a: b;
+// }
+
 // let res1 = min(2, 5);
 // alert(res1);
 // let res2 = min(3, -1);
 // alert(res2);
 // let res3 = min(1, 1);
 // alert(res3);
-//  //== 2
-//  //== -1
-//  //== 1
 
+ //== 2
+ //== -1
+ //== 1
+
+function pow(x, n) {
+  return x ** n;
+}
+let res = pow(3, 3);
+alert(res);
