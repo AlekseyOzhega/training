@@ -115,8 +115,8 @@
 //     return (age > 18) || confirm('Родители разрешили?');
 //   }
 
-let res;
-function checkAge(age, res) {
+
+function checkAge(age) {
     if (age > 18) {
       return true;
     } else {
@@ -126,6 +126,6 @@ function checkAge(age, res) {
   }
 
 let age = +prompt('Сколько вам лет?');
-checkAge(age);
+let res = checkAge(age);
 alert(res);
 
