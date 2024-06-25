@@ -154,8 +154,12 @@
  //== -1
  //== 1
 
-function pow(x, n) {
-  return x ** n;
-}
-let res = pow(3, 3);
-alert(res);
+// function pow(x, n) {
+//   return x ** n;
+// }
+// let res1 = pow(3, 2);
+// alert(res1);
+// let res2 = pow(3, 3);
+// alert(res2);
+// let res3 = pow(2, 10);
+// alert(res3);
