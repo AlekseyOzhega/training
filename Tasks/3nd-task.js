@@ -185,8 +185,8 @@
 
 //Function Expression
 
-function sayHi() {
-    alert( "Привет" );
-  }
+// function sayHi() {
+//     alert( "Привет" );
+//   }
   
-  alert( sayHi ); // выведет код функции
+//   alert( sayHi ); // выведет код функции
