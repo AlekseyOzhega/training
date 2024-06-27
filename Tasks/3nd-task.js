@@ -191,7 +191,7 @@
   
 //   alert( sayHi ); // выведет код функции
 
-let sayHi = function() {
-    alert('Привет!');
-};
-sayHi();
+// let sayHi = function() {
+//     alert('Привет!');
+// };
+// sayHi();
