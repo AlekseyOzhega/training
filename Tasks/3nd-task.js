@@ -213,8 +213,9 @@ function ask(question, yes, no) {
 
 // ask("Вы согласны?", showOk, showCancel);
 
-ask(
-    "Вы согласны?",
-    function() { alert("Вы согласились."); },
-    function() { alert('Вы отменили выполнение.'); }
-);
+// ask(
+//     "Вы согласны?",
+//     function() { alert("Вы согласились."); },
+//     function() { alert('Вы отменили выполнение.'); }
+// );
+
