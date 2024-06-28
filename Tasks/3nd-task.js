@@ -198,10 +198,10 @@
 // func();
 // sayHi();
 
-// function ask(question, yes, no) {
-//     if (confirm(question)) yes()
-//     else no();
-// }
+function ask(question, yes, no) {
+    if (confirm(question)) yes()
+    else no();
+}
 
 // function showOk() {
 //     alert('Вы согласны.');
@@ -213,3 +213,8 @@
 
 // ask("Вы согласны?", showOk, showCancel);
 
+ask(
+    "Вы согласны?",
+    function() { alert("Вы согласились.")},
+    function() {}
+)
