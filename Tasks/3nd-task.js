@@ -211,3 +211,4 @@ function showCancel()) {
     alert('Вы отменили выполнение.');
 }
 
+ask("Вы согласны?", showOk, showCancel);
