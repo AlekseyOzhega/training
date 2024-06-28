@@ -204,5 +204,10 @@ function ask(question, yes, no) {
 }
 
 function showOk() {
-    alert('Вы согласны.')
+    alert('Вы согласны.');
 }
+
+function showCancel()) {
+    alert('Вы отменили выполнение.');
+}
+
