@@ -227,6 +227,7 @@ if (age < 18) {
     };
 } else {
     welcome = function() {
-        alert('Здравствуйте.')
-    }
+        alert('Здравствуйте.');
+    };
 }
+welcome();
