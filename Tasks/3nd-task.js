@@ -219,16 +219,17 @@ function ask(question, yes, no) {
 //     function() { alert('Вы отменили выполнение.'); }
 // );
 
-let age = prompt('Сколько вам лет?');
-let name = prompt('Как вас зовут?');
-let welcome;
-if (age < 18) {
-    welcome = function(x) {
-        alert('Привет ' + x + '.');
-    };
-} else {
-    welcome = function(x) {
-        alert('Здравствуйте ' + x + '.');
-    };
-}
-welcome(name);
+// let age = prompt('Сколько вам лет?');
+// let name = prompt('Как вас зовут?');
+// let welcome;
+// if (age < 18) {
+//     welcome = function(x) {
+//         alert('Привет ' + x + '.');
+//     };
+// } else {
+//     welcome = function(x) {
+//         alert('Здравствуйте ' + x + '.');
+//     };
+// }
+// welcome(name);
+
