@@ -233,3 +233,8 @@ function ask(question, yes, no) {
 // }
 // welcome(name);
 
+let age = prompt('Сколько вам лет?', 18);
+let welcome = (age < 18) ? 
+    function() {alert('Привет'); } :
+    function() {alert('Здравствуйте');};
+welcome();
