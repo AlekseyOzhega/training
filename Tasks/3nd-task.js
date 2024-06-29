@@ -219,3 +219,14 @@ function ask(question, yes, no) {
 //     function() { alert('Вы отменили выполнение.'); }
 // );
 
+let age = prompt('Сколько вам лет?');
+let welcome;
+if (age < 18) {
+    welcome = function() {
+        alert('Привет.');
+    };
+} else {
+    welcome = function() {
+        alert('Здравствуйте.')
+    }
+}
