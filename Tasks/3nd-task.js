@@ -220,6 +220,7 @@ function ask(question, yes, no) {
 // );
 
 let age = prompt('Сколько вам лет?');
+let name = prompt('Как вас зовут?');
 let welcome;
 if (age < 18) {
     welcome = function() {
