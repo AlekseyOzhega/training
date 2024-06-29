@@ -223,12 +223,12 @@ let age = prompt('Сколько вам лет?');
 let name = prompt('Как вас зовут?');
 let welcome;
 if (age < 18) {
-    welcome = function() {
-        alert('Привет.');
+    welcome = function(x) {
+        alert('Привет ' + x + '.');
     };
 } else {
-    welcome = function() {
-        alert('Здравствуйте.');
+    welcome = function(x) {
+        alert('Здравствуйте ' + x + '.');
     };
 }
-welcome();
+welcome(name);
