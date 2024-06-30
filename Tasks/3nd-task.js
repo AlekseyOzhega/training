@@ -240,3 +240,7 @@ function ask(question, yes, no) {
 // welcome();
 
 
+let a = +prompt('Введите первое число:');
+
+let sum = (a, b) => a + b;
+
