@@ -246,5 +246,6 @@ function ask(question, yes, no) {
 // let b = +prompt('Введите второе число:');
 // let sum = (a, b) => a + b;
 // let resu = sum(a, b);
-// alert('Сумма чисел равна: ' + resu + '.');
+// // alert('Сумма чисел равна: ' + resu + '.');
+// alert('Сумма чисел равна: ' + sum(a, b) + '.');
 
