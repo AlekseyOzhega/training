@@ -269,4 +269,6 @@ let num = +prompt('Введите число.');
 let sum;
 do {
     sum = sum + num;
-} while ()
+    num--;
+} while (num <= 0)
+alert(sum);
