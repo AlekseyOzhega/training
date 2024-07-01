@@ -258,3 +258,6 @@ function ask(question, yes, no) {
 //     () => alert('Вы согласились.'),
 //     () => alert('Вы отменили выполнение.')
 // );
+
+let sum = (a, b) => a + b;
+alert(sum(23, 33));
