@@ -259,5 +259,6 @@ function ask(question, yes, no) {
 //     () => alert('Вы отменили выполнение.')
 // );
 
-let sum = (a, b) => a + b;
-alert(sum(23, 33));
+// let sum = (a, b) => a + b;
+// alert(sum(23, 33));
+
