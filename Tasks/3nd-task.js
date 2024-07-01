@@ -266,3 +266,7 @@ function ask(question, yes, no) {
 // alert( double(44));
 
 let num = +prompt('Введите число.');
+let sum;
+do {
+    sum = sum + num;
+} while ()
