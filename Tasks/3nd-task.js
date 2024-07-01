@@ -262,3 +262,5 @@ function ask(question, yes, no) {
 // let sum = (a, b) => a + b;
 // alert(sum(23, 33));
 
+let double = n => n * 2;
+alert( double(44));
