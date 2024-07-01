@@ -265,3 +265,4 @@ function ask(question, yes, no) {
 // let double = n => n * 2;
 // alert( double(44));
 
+let num = +prompt('Введите число.');
