@@ -273,3 +273,6 @@ function hello(name) {
 function say(phrase) {
     alert(`** ${phrase} **`);
 }
+
+hello('Alex');
+say('Su-u-uper!');
