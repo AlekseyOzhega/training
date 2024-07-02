@@ -266,10 +266,10 @@ function ask(question, yes, no) {
 // alert( double(44));
 
 function hello(name) {
-    let phrase = 'Hello, ${name}!';
+    let phrase = `Hello, ${name}!`;
     say(phrase);
 }
 
 function say(phrase) {
-    
+    alert(`** ${phrase} **`);
 }
