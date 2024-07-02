@@ -276,3 +276,4 @@ function say(phrase) {
 
 hello('Alex');
 say('Su-u-uper!');
+hello('Mike');
