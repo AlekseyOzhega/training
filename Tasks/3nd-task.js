@@ -265,15 +265,16 @@ function ask(question, yes, no) {
 // let double = n => n * 2;
 // alert( double(44));
 
-function hello(name) {
-    let phrase = `Hello, ${name}!`;
-    say(phrase);
-}
+// function hello(name) {
+//     let phrase = `Hello, ${name}!`;
+//     say(phrase);
+// }
 
-function say(phrase) {
-    alert(`** ${phrase} **`);
-}
+// function say(phrase) {
+//     alert(`** ${phrase} **`);
+// }
 
-hello('Alex');
-say('Su-u-uper!');
-hello('Mike');
+// hello('Alex');
+// say('Su-u-uper!');
+// hello('Mike');
+
