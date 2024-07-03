@@ -287,8 +287,9 @@ function ask(question, yes, no) {
 // }
 // alert('Итого: ' + result);
 
-let count = 10;
-while(count >= 0) {
-    alert(count);
-    count--;
-}
+// let count = 10;
+// while(count >= 0) {
+//     alert(count);
+//     count--;
+// }
+
