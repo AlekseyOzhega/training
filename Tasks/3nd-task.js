@@ -279,6 +279,6 @@ function ask(question, yes, no) {
 // hello('Mike');
 
 let result = 1;
-for (let i = 1, i >= 9, i++) {
+for (let i = 1; i >= 9; i++) {
     
 }
