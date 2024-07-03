@@ -278,3 +278,7 @@ function ask(question, yes, no) {
 // say('Su-u-uper!');
 // hello('Mike');
 
+let result = 1;
+for (let i = 1, i >= 9, i++) {
+    
+}
