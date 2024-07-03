@@ -278,10 +278,12 @@ function ask(question, yes, no) {
 // say('Su-u-uper!');
 // hello('Mike');
 
-let result = 1;
-for (let i = 1; i <= 9; i++) {
-    result = result * i;
-    alert(result);
-}
+//Простые задачки
 
-alert('Итого: ' + result);
+// let result = 1;
+// for (let i = 1; i <= 9; i++) {
+//     result = result * i;
+//     alert(result);
+// }
+// alert('Итого: ' + result);
+
