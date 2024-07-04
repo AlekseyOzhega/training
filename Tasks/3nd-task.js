@@ -302,3 +302,6 @@ function showPrimes(n) {
     }
 }
 
+function isPrime(n) {
+    
+}
