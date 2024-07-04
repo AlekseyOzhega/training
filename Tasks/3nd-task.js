@@ -303,5 +303,7 @@ function showPrimes(n) {
 }
 
 function isPrime(n) {
-    
+    for (let i = 2; i < n; i++) {
+        
+    }
 }
