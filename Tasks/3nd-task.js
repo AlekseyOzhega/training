@@ -293,3 +293,9 @@ function ask(question, yes, no) {
 //     count--;
 // }
 
+function showPrimes(n) {
+
+    for (let i = 2; i < n; i++) {
+        
+    }
+}
