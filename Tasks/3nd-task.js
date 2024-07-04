@@ -296,6 +296,9 @@ function ask(question, yes, no) {
 function showPrimes(n) {
 
     for (let i = 2; i < n; i++) {
-        
+        if (!isPrime(i)) continue;
+
+        alert(i);
     }
 }
+
