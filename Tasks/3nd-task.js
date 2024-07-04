@@ -293,21 +293,23 @@ function ask(question, yes, no) {
 //     count--;
 // }
 
-function showPrimes(n) {
+// function showPrimes(n) {
 
-    for (let i = 2; i < n; i++) {
-        if (!isPrime(i)) continue;
+//     for (let i = 2; i < n; i++) {
+//         if (!isPrime(i)) continue;
 
-        alert(i);
-    }
-}
+//         alert(i);
+//     }
+// }
 
-function isPrime(n) {
-    for (let i = 2; i < n; i++) {
-        if (n % i == 0) return false;
-    }
+// function isPrime(n) {
+//     for (let i = 2; i < n; i++) {
+//         if (n % i == 0) return false;
+//     }
 
-    return true;
-}
+//     return true;
+// }
 
-let n = +prompt('Введите число..');
+// let n = +prompt('Введите число..');
+// showPrimes(n);
+
