@@ -329,3 +329,11 @@ let user2 = {
     wight: 89,
     medIns: true,
 };
+
+
+let user3 = {
+    name: 'Amodeus',
+    age: 25,
+    wight: 56,
+    medIns: false,
+};
