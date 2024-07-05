@@ -337,3 +337,5 @@ let user3 = {
     wight: 56,
     medIns: false,
 };
+
+let keyName = prompt('Что бы вы хотели узнать?', 'name');
