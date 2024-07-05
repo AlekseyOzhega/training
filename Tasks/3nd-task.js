@@ -320,4 +320,12 @@ let user1 = {
     age: 30,
     wight: 77,
     medIns: true,
-}
+};
+
+
+let user2 = {
+    name: 'Bill',
+    age: 33,
+    wight: 89,
+    medIns: true,
+};
