@@ -356,4 +356,4 @@ switch (keyUser) {
 let keyName = prompt('Что бы вы хотели узнать? (name, age, wight, medIns)',
      'name');
 
-alert(keyUser + keyName);
+alert(keyUser[keyName]);
