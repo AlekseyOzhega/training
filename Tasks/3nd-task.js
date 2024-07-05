@@ -338,4 +338,19 @@ let user3 = {
     medIns: false,
 };
 
+let keyUser = +prompt('О каком пользователе вы хотите узнать подробнее?', '');
+switch (keyUser) {
+    case 1:
+        keyUser = user1;
+        break;
+    case 2:
+        keyUser = user2;
+        break;
+    case 3:
+        keyUser = user3;
+        break;  
+    default:
+        alert('Нужно выбрать 1, 2 или 3.');  
+}
+
 let keyName = prompt('Что бы вы хотели узнать?', 'name');
