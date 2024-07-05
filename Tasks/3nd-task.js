@@ -353,5 +353,7 @@ switch (keyUser) {
         alert('Нужно выбрать 1, 2 или 3.');  
 }
 
-let keyName = prompt('Что бы вы хотели узнать? (name, age, wight, medIns', 'name');
+let keyName = prompt('Что бы вы хотели узнать? (name, age, wight, medIns)',
+     'name');
 
+alert(keyUser + keyName);
