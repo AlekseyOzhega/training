@@ -313,3 +313,11 @@ function ask(question, yes, no) {
 // let n = +prompt('Введите число..');
 // showPrimes(n);
 
+//Обьекты
+
+let user1 = {
+    name: 'John',
+    age: 30,
+    wight: 77,
+    medIns: true,
+}
