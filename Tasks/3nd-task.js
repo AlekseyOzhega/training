@@ -366,3 +366,5 @@ let user3 = {
 
 // alert( bag.apple );
 
+let fruit = prompt('Какой фрукт купить?', 'apple');
+
