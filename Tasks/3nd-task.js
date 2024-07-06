@@ -358,3 +358,5 @@ let user3 = {
 
 // alert(keyUser[keyName]);
 
+let fruit = prompt('Какой фрукт купить?', 'apple');
+
