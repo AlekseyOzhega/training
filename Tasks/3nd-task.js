@@ -366,10 +366,11 @@ let user3 = {
 
 // alert( bag.apple );
 
-let fruit = prompt('Какой фрукт купить?', 'apple');
+// let fruit = prompt('Какой фрукт купить?', 'apple');
 
-let bag = {
-    [fruit + 'Computers']: 5,
-};
+// let bag = {
+//     [fruit + 'Computers']: 5,
+// };
 
-alert( bag.appleComputers );
+// alert( bag.appleComputers );
+
