@@ -358,10 +358,11 @@ let user3 = {
 
 // alert(keyUser[keyName]);
 
-let fruit = prompt('Какой фрукт купить?', 'apple');
+// let fruit = prompt('Какой фрукт купить?', 'apple');
 
-let bag = {
-    [fruit]: 5,
-};
+// let bag = {
+//     [fruit]: 5,
+// };
 
-alert( bag.apple );
+// alert( bag.apple );
+
