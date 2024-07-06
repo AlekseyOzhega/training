@@ -368,3 +368,6 @@ let user3 = {
 
 let fruit = prompt('Какой фрукт купить?', 'apple');
 
+let bag = {
+    [fruit + 'Computers']: 5,
+};
