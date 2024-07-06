@@ -364,3 +364,4 @@ let bag = {
     [fruit]: 5,
 };
 
+alert( bag.apple );
