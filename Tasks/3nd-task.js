@@ -435,3 +435,18 @@ let user3 = {
 //     alert( 'Значение: ' + key + ': ' + nameUser[key] );
 // }
 
+// let user = {};
+// user.name = 'John';
+
+// alert( user.name );
+
+// user.surname = 'Smith';
+// user.name = 'Pete';
+
+// alert( user.name );
+// alert( user.surname );
+
+// delete user.name;
+
+// alert( user.name );
+
