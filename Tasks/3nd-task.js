@@ -374,14 +374,17 @@ let user3 = {
 
 // alert( bag.appleComputers );
 
-function makeUser(name, age) {
-    return {
-        name,
-        age,
-    };
-}
+// function makeUser(name, age) {
+//     return {
+//         name,
+//         age,
+//     };
+// }
 
-let user = makeUser('Johny', 33);
-alert(user.age);
-alert(user.name);
+// let user = makeUser('Johny', 33);
+// alert(user.age);
+// alert(user.name);
 
+// let user = {};
+// alert( user.noSuch === undefined);
+// alert( user.age );
