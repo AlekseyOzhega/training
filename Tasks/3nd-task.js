@@ -435,6 +435,8 @@ let user3 = {
 //     alert( 'Значение: ' + key + ': ' + nameUser[key] );
 // }
 
+//Задачи
+
 // let user = {};
 // user.name = 'John';
 
@@ -450,28 +452,16 @@ let user3 = {
 
 // alert( user.name );
 
-let schedule = { name: 'John'};
+// let schedule = {};
+// let schedule2 = { name: "Vasya", age: 22};
 
-let tr;
-
-// for ( let key in schedule ) {
-//         if ( ( key in schedule )) {
-//            tr = true;
-//         } else tr = false;
+// function isEmpty(schedule) {
+//     for ( let key in schedule) {
+//         return false;
 //     };
-
-// if (tr === undefined) {
-//     tr = false;
+//     return true;
 // }
 
-// function isEmpty(obj) {
-//     for ( let key in obj) {
-//         if ( !(key in obj)) {
-//             tr = true;
-//         } else tr = false;
-//     }
-// }
+// alert('First is empty (yes): ' + isEmpty(schedule));
+// alert('Second is empty (no): ' + isEmpty(schedule2));
 
-alert('obj.name: ' + schedule.name);
-alert('tr: ' + tr);
-// isEmpty(schedule);
