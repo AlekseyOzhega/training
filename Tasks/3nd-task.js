@@ -452,8 +452,26 @@ let user3 = {
 
 let schedule = { name: 'John'};
 
-function isEmpty(obj) {
-    for ( let key in obj) {
-        if ( !(key in obj)) return 
-    }
-}
+let tr;
+
+// for ( let key in schedule ) {
+//         if ( ( key in schedule )) {
+//            tr = true;
+//         } else tr = false;
+//     };
+
+// if (tr === undefined) {
+//     tr = false;
+// }
+
+// function isEmpty(obj) {
+//     for ( let key in obj) {
+//         if ( !(key in obj)) {
+//             tr = true;
+//         } else tr = false;
+//     }
+// }
+
+alert('obj.name: ' + schedule.name);
+alert('tr: ' + tr);
+// isEmpty(schedule);
