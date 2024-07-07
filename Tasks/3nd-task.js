@@ -465,3 +465,20 @@ let user3 = {
 // alert('First is empty (yes): ' + isEmpty(schedule));
 // alert('Second is empty (no): ' + isEmpty(schedule2));
 
+// let salaries = {
+//     John: 100,
+//     Ann: 160,
+//     Pete: 130
+//   };
+
+// function sum(obj) {
+//     let s = 0;
+//     for (let key in obj) {
+//         s = s + (obj[key]);
+//         alert(s);
+//     }
+//     return s;
+// }
+
+// alert('Сумма зарплат равна ' + sum(salaries));
+
