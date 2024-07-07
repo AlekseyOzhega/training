@@ -315,28 +315,28 @@ function ask(question, yes, no) {
 
 //Обьекты
 
-let user1 = {
-    name: 'John',
-    age: 30,
-    wight: 77,
-    medIns: true,
-};
+// let user1 = {
+//     name: 'John',
+//     age: 30,
+//     wight: 77,
+//     medIns: true,
+// };
 
 
-let user2 = {
-    name: 'Bill',
-    age: 33,
-    wight: 89,
-    medIns: true,
-};
+// let user2 = {
+//     name: 'Bill',
+//     age: 33,
+//     wight: 89,
+//     medIns: true,
+// };
 
 
-let user3 = {
-    name: 'Amodeus',
-    age: 25,
-    wight: 56,
-    medIns: false,
-};
+// let user3 = {
+//     name: 'Amodeus',
+//     age: 25,
+//     wight: 56,
+//     medIns: false,
+// };
 
 // let keyUser = +prompt('О каком пользователе вы хотите узнать подробнее?', '');
 // switch (keyUser) {
@@ -388,3 +388,49 @@ let user3 = {
 // let user = {};
 // alert( user.noSuch === undefined);
 // alert( user.age );
+
+let user1 = {
+    name: 'John',
+    age: 30,
+    wight: 77,
+    medIns: true,
+};
+
+
+let user2 = {
+    name: 'Bill',
+    age: 33,
+    wight: 89,
+    medIns: true,
+};
+
+
+let user3 = {
+    name: 'Amodeus',
+    age: 25,
+    wight: 56,
+    medIns: false,
+};
+
+// alert( age in user2 );
+
+let nameUser = 
+    +prompt('Выбирете о каком пользователе вы хотите узнать данные (1, 2 или 3).');
+
+switch (nameUser) {
+    case 1:
+        nameUser = user1;
+        break;
+    case 2:
+        nameUser = user2;
+        break;
+    case 3:
+        nameUser = user3;
+        break;
+    default:
+        alert('Нужно выбрать 1, 2 или 3.'); 
+}
+
+for (let key in nameUser) {
+    alert( 'Значение: ' + key + ': ' + nameUser[key] );
+}
