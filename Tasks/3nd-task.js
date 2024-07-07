@@ -414,23 +414,24 @@ let user3 = {
 
 // alert( age in user2 );
 
-let nameUser = 
-    +prompt('Выбирете о каком пользователе вы хотите узнать данные (1, 2 или 3).');
+// let nameUser = 
+//     +prompt('Выбирете о каком пользователе вы хотите узнать данные (1, 2 или 3).');
 
-switch (nameUser) {
-    case 1:
-        nameUser = user1;
-        break;
-    case 2:
-        nameUser = user2;
-        break;
-    case 3:
-        nameUser = user3;
-        break;
-    default:
-        alert('Нужно выбрать 1, 2 или 3.'); 
-}
+// switch (nameUser) {
+//     case 1:
+//         nameUser = user1;
+//         break;
+//     case 2:
+//         nameUser = user2;
+//         break;
+//     case 3:
+//         nameUser = user3;
+//         break;
+//     default:
+//         alert('Нужно выбрать 1, 2 или 3.'); 
+// }
 
-for (let key in nameUser) {
-    alert( 'Значение: ' + key + ': ' + nameUser[key] );
-}
+// for (let key in nameUser) {
+//     alert( 'Значение: ' + key + ': ' + nameUser[key] );
+// }
+
