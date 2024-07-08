@@ -389,28 +389,28 @@ function ask(question, yes, no) {
 // alert( user.noSuch === undefined);
 // alert( user.age );
 
-let user1 = {
-    name: 'John',
-    age: 30,
-    wight: 77,
-    medIns: true,
-};
+// let user1 = {
+//     name: 'John',
+//     age: 30,
+//     wight: 77,
+//     medIns: true,
+// };
 
 
-let user2 = {
-    name: 'Bill',
-    age: 33,
-    wight: 89,
-    medIns: true,
-};
+// let user2 = {
+//     name: 'Bill',
+//     age: 33,
+//     wight: 89,
+//     medIns: true,
+// };
 
 
-let user3 = {
-    name: 'Amodeus',
-    age: 25,
-    wight: 56,
-    medIns: false,
-};
+// let user3 = {
+//     name: 'Amodeus',
+//     age: 25,
+//     wight: 56,
+//     medIns: false,
+// };
 
 // alert( age in user2 );
 
@@ -482,3 +482,21 @@ let user3 = {
 
 // alert('Сумма зарплат равна ' + sum(salaries));
 
+alert('Начало!');
+
+let user = {
+    name: 'John',
+    age: 30,
+    wight: 77,
+    medIns: true,
+};
+
+for (let key in user) {
+    if ( typeof(user[key]) === Number ) {
+        user[key] = user[key] * 2;
+    };
+}
+
+for (let key in user) {
+    alert( 'Значение: ' + key + ': ' + user[key] );
+}
