@@ -491,11 +491,15 @@ let user = {
     medIns: true,
 };
 
-for (let key in user) {
-    if ( typeof(user[key]) === Number ) {
-        user[key] = user[key] * 2;
-    };
+function multypleNumeric(obj) {
+    for (let key in obj) {
+        if ( typeof(obj[key]) == 'number' ) {
+            obj[key] *= 2;
+        };
+    }
 }
+
+multypleNumeric(user);
 
 for (let key in user) {
     alert( 'Значение: ' + key + ': ' + user[key] );
