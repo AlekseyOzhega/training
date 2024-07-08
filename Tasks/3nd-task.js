@@ -482,25 +482,26 @@ function ask(question, yes, no) {
 
 // alert('Сумма зарплат равна ' + sum(salaries));
 
-alert('Начало!');
+// alert('Начало!');
 
-let user = {
-    name: 'John',
-    age: 30,
-    wight: 77,
-    medIns: true,
-};
+// let user = {
+//     name: 'John',
+//     age: 30,
+//     wight: 77,
+//     medIns: true,
+// };
 
-function multypleNumeric(obj) {
-    for (let key in obj) {
-        if ( typeof(obj[key]) == 'number' ) {
-            obj[key] *= 2;
-        };
-    }
-}
+// function multypleNumeric(obj) {
+//     for (let key in obj) {
+//         if ( typeof(obj[key]) == 'number' ) {
+//             obj[key] *= 2;
+//         };
+//     }
+// }
 
-multypleNumeric(user);
+// multypleNumeric(user);
 
-for (let key in user) {
-    alert( 'Значение: ' + key + ': ' + user[key] );
-}
+// for (let key in user) {
+//     alert( 'Значение: ' + key + ': ' + user[key] );
+// }
+
