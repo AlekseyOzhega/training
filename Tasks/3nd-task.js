@@ -505,3 +505,27 @@ function ask(question, yes, no) {
 //     alert( 'Значение: ' + key + ': ' + user[key] );
 // }
 
+//Копирование объектов и ссылки
+
+let user1 = {
+    name: 'John',
+    age: 30,
+    wight: 77,
+    medIns: true,
+};
+
+let salaries = {
+    John: 100,
+    Ann: 160,
+    Pete: 130
+  };
+
+let allUsers = Object.assign( {}, user1, salaries );
+
+function allAtributesInObject(obj) {
+    for (let key in obj) {
+    alert( 'Значение: ' + key + ': ' + obj[key] );
+    }
+}
+
+allAtributesInObject(allUsers);
