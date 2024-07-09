@@ -530,13 +530,18 @@ function ask(question, yes, no) {
 
 // allAtributesInObject(allUsers);
 
-function itogo(a, b, c) {
-    let ito = (a + b) * c;
-};
+// function itogo(a, b, c) {
+//     let ito = (a + b) * c;
+//     return ito;
+// };
 
-let first = +prompt('Введите первое число.');
-let second = +prompt('Введите второе число.')
-let thirst = +prompt('Введите третье число.');
+// let first = +prompt('Введите первое число.');
+// let second = +prompt('Введите второе число.')
+// let thirst = +prompt('Введите третье число.');
 
-alert( itogo( first, second, thirst));
+// let resu = itogo(first, second, thirst);
+
+// alert( resu );
+
+
 
