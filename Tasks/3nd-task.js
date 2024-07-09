@@ -535,5 +535,6 @@ function itogo(a, b, c) {
 };
 
 let first = +prompt('Введите первое число.');
+let second = +prompt('Введите второе число.')
 
 alert
