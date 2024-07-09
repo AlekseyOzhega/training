@@ -530,3 +530,6 @@ function ask(question, yes, no) {
 
 // allAtributesInObject(allUsers);
 
+function Itogo(a, b, c) {
+    
+}
