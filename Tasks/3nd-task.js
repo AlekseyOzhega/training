@@ -534,3 +534,6 @@ function itogo(a, b, c) {
     let ito = (a + b) * c;
 };
 
+let first = +prompt('Введите первое число.');
+
+alert
