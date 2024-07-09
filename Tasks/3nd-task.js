@@ -536,5 +536,6 @@ function itogo(a, b, c) {
 
 let first = +prompt('Введите первое число.');
 let second = +prompt('Введите второе число.')
+let thirst = +prompt('Введите третье число.');
 
-alert
+alert( itogo( first, second, thirst));
