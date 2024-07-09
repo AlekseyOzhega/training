@@ -539,3 +539,4 @@ let second = +prompt('Введите второе число.')
 let thirst = +prompt('Введите третье число.');
 
 alert( itogo( first, second, thirst));
+
