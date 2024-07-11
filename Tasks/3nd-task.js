@@ -551,8 +551,15 @@ let user1 = {
     wight: 77,
     medIns: true,
     sayHi() {
-        alert(this.name);
+        alert('Имя: ' + this.name);
     }
+};
+
+let user2 = {
+    name: 'Bill',
+    age: 33,
+    wight: 89,
+    medIns: true,
 };
 
 user1.sayHi();
