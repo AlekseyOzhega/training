@@ -568,3 +568,5 @@ function ask(question, yes, no) {
 // user1.sayHi();
 // user2.sayHi();
 
+let user = {name: "Johny"};
+let admin = {name: "Billy"};
