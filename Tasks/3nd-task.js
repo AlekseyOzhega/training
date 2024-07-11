@@ -545,25 +545,26 @@ function ask(question, yes, no) {
 
 // Методы объекта "this"
 
-let user1 = {
-    name: 'John',
-    age: 30,
-    wight: 77,
-    medIns: true,
-    sayHi() {
-        alert('Имя: ' + this.name);
-    }
-};
+// let user1 = {
+//     name: 'John',
+//     age: 30,
+//     wight: 77,
+//     medIns: true,
+//     sayHi() {
+//         alert('Имя: ' + this.name);
+//     }
+// };
 
-let user2 = {
-    name: 'Bill',
-    age: 33,
-    wight: 89,
-    medIns: true,
-    sayHi() {
-        alert('Имя: ' + this.name);
-    }
-};
+// let user2 = {
+//     name: 'Bill',
+//     age: 33,
+//     wight: 89,
+//     medIns: true,
+//     sayHi() {
+//         alert('Имя: ' + this.name);
+//     }
+// };
 
-user1.sayHi();
-user2.sayHi();
+// user1.sayHi();
+// user2.sayHi();
+
