@@ -570,3 +570,7 @@ function ask(question, yes, no) {
 
 let user = {name: "Johny"};
 let admin = {name: "Billy"};
+
+function sayHi() {
+    alert( this.name);
+}
