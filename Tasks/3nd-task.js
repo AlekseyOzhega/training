@@ -555,3 +555,4 @@ let user1 = {
     }
 };
 
+user1.sayHi();
