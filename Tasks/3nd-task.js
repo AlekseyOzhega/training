@@ -560,6 +560,10 @@ let user2 = {
     age: 33,
     wight: 89,
     medIns: true,
+    sayHi() {
+        alert('Имя: ' + this.name);
+    }
 };
 
 user1.sayHi();
+user2.sayHi();
