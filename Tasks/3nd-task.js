@@ -543,5 +543,12 @@ function ask(question, yes, no) {
 
 // alert( resu );
 
+// Методы объекта "this"
 
+let user1 = {
+    name: 'John',
+    age: 30,
+    wight: 77,
+    medIns: true,
+};
 
