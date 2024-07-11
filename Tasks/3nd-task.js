@@ -550,5 +550,8 @@ let user1 = {
     age: 30,
     wight: 77,
     medIns: true,
+    sayHi() {
+        alert(this.name);
+    }
 };
 
