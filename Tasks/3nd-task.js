@@ -569,7 +569,7 @@ function ask(question, yes, no) {
 // user2.sayHi();
 
 let user = {name: "Johny"};
-let admin = {name: "Billy"};
+let admin = {name: "Admin Billy"};
 
 function sayHi() {
     alert( this.name);
