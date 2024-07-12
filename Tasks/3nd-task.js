@@ -582,3 +582,5 @@ function ask(question, yes, no) {
 // admin.f();
 // admin['f']();
 
+//Задачи
+
