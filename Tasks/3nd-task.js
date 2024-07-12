@@ -610,5 +610,7 @@ function ask(question, yes, no) {
 // alert( user.ref().name );
 
 let caclculator = {
-    
+    read() {
+        
+    }
 }
