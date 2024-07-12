@@ -615,4 +615,7 @@ let caclculator = {
     read() {
         caclculator.a = +prompt('Введите первое число.');
     }
-}
+};
+
+caclculator.read();
+alert( caclculator.b );
