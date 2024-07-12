@@ -584,15 +584,16 @@ function ask(question, yes, no) {
 
 //Задачи
 
-function makeUser() {
-    return {
-        name: "John",
-        ref() {
-            return this;
-        }
-    };
-}
+// function makeUser() {
+//     return {
+//         name: "John",
+//         ref() {
+//             return this;
+//         }
+//     };
+// }
 
-let user = makeUser();
+// let user = makeUser();
 
-alert( user.ref().name );
+// alert( user.ref().name );
+
