@@ -568,16 +568,17 @@ function ask(question, yes, no) {
 // user1.sayHi();
 // user2.sayHi();
 
-let user = {name: "Johny"};
-let admin = {name: "Admin Billy"};
+// let user = {name: "Johny"};
+// let admin = {name: "Admin Billy"};
 
-function sayHi() {
-    alert( this.name);
-}
+// function sayHi() {
+//     alert( this.name);
+// }
 
-user.f = sayHi;
-admin.f = sayHi;
+// user.f = sayHi;
+// admin.f = sayHi;
 
-user.f();
-admin.f();
-admin['f']();
+// user.f();
+// admin.f();
+// admin['f']();
+
