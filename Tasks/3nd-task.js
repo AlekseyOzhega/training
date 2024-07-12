@@ -610,7 +610,9 @@ function ask(question, yes, no) {
 // alert( user.ref().name );
 
 let caclculator = {
+    a: 0,
+    b: 0,
     read() {
-        
+        caclculator.a = +prompt('Введите первое число.');
     }
 }
