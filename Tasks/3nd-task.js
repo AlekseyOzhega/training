@@ -574,3 +574,10 @@ let admin = {name: "Billy"};
 function sayHi() {
     alert( this.name);
 }
+
+user.f = sayHi;
+admin.f = sayHi;
+
+user.f();
+admin.f();
+admin['f']();
