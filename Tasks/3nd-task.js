@@ -505,7 +505,11 @@ function ask(question, yes, no) {
 //     alert( 'Значение: ' + key + ': ' + user[key] );
 // }
 
+
+
 //Копирование объектов и ссылки
+
+
 
 // let user1 = {
 //     name: 'John',
@@ -543,7 +547,11 @@ function ask(question, yes, no) {
 
 // alert( resu );
 
+
+
 // Методы объекта "this"
+
+
 
 // let user1 = {
 //     name: 'John',
@@ -582,7 +590,11 @@ function ask(question, yes, no) {
 // admin.f();
 // admin['f']();
 
+
+
 //Задачи
+
+
 
 // function makeUser() {
 //     return {
@@ -597,3 +609,6 @@ function ask(question, yes, no) {
 
 // alert( user.ref().name );
 
+let caclculator = {
+    
+}
