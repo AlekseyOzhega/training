@@ -610,12 +610,29 @@ function ask(question, yes, no) {
 // alert( user.ref().name );
 
 let caclculator = {
-    a: 0,
-    b: 0,
     read() {
-        caclculator.a = +prompt('Введите первое число.');
-    }
+        this.a = +prompt('Введите первое число.', 0);
+        this.b = +prompt('Введите второе число.', 0);
+    },
+
+    sum() {
+        return this.a + this.b;
+    },
+
+    mul() {
+        return this.a * this.b;
+    },
 };
 
+function allAtributesInObject(obj) {
+    for (let key in obj) {
+    alert( 'Значение: ' + key + ': ' + obj[key] );
+    }
+}
+
 caclculator.read();
-alert( caclculator.b );
+
+// allAtributesInObject(caclculator);
+alert('Значение а=' + caclculator.a );
+
+alert("Сумма равна " + caclculator.sum() );
