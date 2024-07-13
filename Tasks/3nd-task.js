@@ -625,11 +625,11 @@ function ask(question, yes, no) {
 //     },
 // };
 
-function allAtributesInObject(obj) {
-    for (let key in obj) {
-    alert( 'Значение: ' + key + ': ' + obj[key] );
-    }
-}
+// function allAtributesInObject(obj) {
+//     for (let key in obj) {
+//     alert( 'Значение: ' + key + ': ' + obj[key] );
+//     }
+// }
 
 // caclculator.read();
 
@@ -638,3 +638,14 @@ function allAtributesInObject(obj) {
 
 // alert("Сумма равна " + caclculator.sum() );
 
+
+let ladder = {
+    step: 0,
+    up() {
+        this.step++;
+    },
+    down() {
+        this.step--;
+    },
+    
+}
