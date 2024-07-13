@@ -655,4 +655,4 @@ let ladder = {
     }
 };
 
-ladder.up().up().showStep().down().
+ladder.up().up().showStep().down().down().down().showStep();
