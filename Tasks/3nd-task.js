@@ -640,9 +640,11 @@ function allAtributesInObject(obj) {
 
 let calc = {
     read() {
-        calc.a = +prompt('Введите первое число.', 0);
-        calc.b = +prompt('Введите второе число.', 0);
+        this.a = +prompt('Введите первое число.', 0);
+        this.b = +prompt('Введите второе число.', 0);
     }
 }
+
+calc.read();
 
 allAtributesInObject(calc);
