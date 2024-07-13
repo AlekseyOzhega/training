@@ -609,20 +609,21 @@ function ask(question, yes, no) {
 
 // alert( user.ref().name );
 
-let caclculator = {
-    read() {
-        this.a = +prompt('Введите первое число.', 0);
-        this.b = +prompt('Введите второе число.', 0);
-    },
 
-    sum() {
-        return this.a + this.b;
-    },
+// let caclculator = {
+//     read() {
+//         this.a = +prompt('Введите первое число.', 0);
+//         this.b = +prompt('Введите второе число.', 0);
+//     },
 
-    mul() {
-        return this.a * this.b;
-    },
-};
+//     sum() {
+//         return this.a + this.b;
+//     },
+
+//     mul() {
+//         return this.a * this.b;
+//     },
+// };
 
 function allAtributesInObject(obj) {
     for (let key in obj) {
@@ -630,9 +631,18 @@ function allAtributesInObject(obj) {
     }
 }
 
-caclculator.read();
+// caclculator.read();
 
 // allAtributesInObject(caclculator);
-alert('Значение а=' + caclculator.a );
+// alert('Значение а=' + caclculator.a );
 
-alert("Сумма равна " + caclculator.sum() );
+// alert("Сумма равна " + caclculator.sum() );
+
+let calc = {
+    read() {
+        calc.a = +prompt('Введите первое число.', 0);
+        calc.b = +prompt('Введите второе число.', 0);
+    }
+}
+
+allAtributesInObject(calc);
