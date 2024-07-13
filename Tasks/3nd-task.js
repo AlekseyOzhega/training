@@ -638,13 +638,3 @@ function allAtributesInObject(obj) {
 
 // alert("Сумма равна " + caclculator.sum() );
 
-let calc = {
-    read() {
-        this.a = +prompt('Введите первое число.', 0);
-        this.b = +prompt('Введите второе число.', 0);
-    }
-}
-
-calc.read();
-
-allAtributesInObject(calc);
