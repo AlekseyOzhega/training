@@ -9,3 +9,5 @@
 // alert(String(value));
 // alert(typeof(String(value)));
 
+let year = +prompt("Какой сейчас год?", '0000');
+if 
