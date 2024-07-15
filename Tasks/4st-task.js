@@ -10,4 +10,6 @@
 // alert(typeof(String(value)));
 
 let year = +prompt("Какой сейчас год?", '0000');
-if 
+if (year == 2024) {
+    alert('Верно.');
+}
