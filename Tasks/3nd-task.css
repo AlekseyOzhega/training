@@ -23,11 +23,15 @@ header {
 }
 
 header a {
-    margin: 10px 15px 10px 15px;
-    background-color: rgb(85, 131, 149);
+    margin: 10px 5px 10px 5px;
+    background-color: rgb(24, 116, 153);
     padding: 10px 20px;
     border-radius: 6px;
     border: 2px solid white;
     color: white;
     font-weight: bold;
+}
+
+header a:hover {
+    background-color: rgb(36, 187, 247);
 }

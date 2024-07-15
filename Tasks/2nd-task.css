@@ -1,12 +1,13 @@
 body {
-    display: flex;
+    /* display: flex; */
     background: repeating-linear-gradient(95deg, red, yellow, white);
     
 }
 
+
 section {
-    /* width: 40vw; */
-    margin: 30px auto;
+    margin: 30px 28%;
+    padding-top: 30px;
 }
 
 h1 {
@@ -16,4 +17,22 @@ h1 {
     padding: 20px;
     background-color: antiquewhite;
     border-radius: 100vw;
+}
+
+header {
+    padding-top: 20px;
+}
+
+header a {
+    margin: 10px 5px 10px 5px;
+    background-color: rgb(24, 116, 153);
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+}
+
+header a:hover {
+    background-color: rgb(36, 187, 247);
 }
