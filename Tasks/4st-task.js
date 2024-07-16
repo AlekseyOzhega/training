@@ -17,3 +17,5 @@
 // }
 
 let age = prompt('Сколько вам лет?', 18);
+
+let accesAllowed = ( age > 18 ) ? true: false;
