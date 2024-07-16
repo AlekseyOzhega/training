@@ -22,3 +22,5 @@
 
 // alert(accesAllowed);
 
+let age = prompt('Сколько вам лет?', 18);
+
