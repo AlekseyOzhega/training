@@ -16,8 +16,9 @@
 //     alert('Не верно!');
 // }
 
-let age = prompt('Сколько вам лет?', 18);
+// let age = prompt('Сколько вам лет?', 18);
 
-let accesAllowed = ( age > 18 ) ? true: false;
+// let accesAllowed = ( age > 18 ) ? true: false;
 
-alert(accesAllowed);
+// alert(accesAllowed);
+
