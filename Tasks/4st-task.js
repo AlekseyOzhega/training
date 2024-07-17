@@ -35,6 +35,10 @@
 
 // alert( true || false );
 
-let firstName = prompt('Могу я узнать ваше имя?');
-let lastName = prompt('Могу я узнать вашу фамилию?');
-let nickName = prompt('Могу я узнать ваш никнейм?');
+// let firstName = prompt('Могу я узнать ваше имя?');
+// let lastName = prompt('Могу я узнать вашу фамилию?');
+// let nickName = prompt('Могу я узнать ваш никнейм?');
+
+// alert(`Я буду называть вас 
+//     ${ firstName || lastName || nickName || 'просто Неизвестный'}.`);
+
