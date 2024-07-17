@@ -46,4 +46,4 @@
 // alert(`Я буду называть вас ${ 
 //     firstName || lastName || nickName || 'просто Неизвестный'}.`);
 
-
+// false || alert('!');
