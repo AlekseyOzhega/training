@@ -31,3 +31,5 @@
 
 // alert( message );
 
+// alert( false || false);
+
