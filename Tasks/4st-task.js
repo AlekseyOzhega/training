@@ -33,3 +33,5 @@
 
 // alert( false || false);
 
+// alert( true || false );
+
