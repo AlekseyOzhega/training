@@ -39,7 +39,7 @@
 // let lastName = prompt('Могу я узнать вашу фамилию?');
 // let nickName = prompt('Могу я узнать ваш никнейм?');
 
-// let check = firstName || lastName || nickName 
+// firstName || lastName || nickName 
 //     || alert('Вы ничего не вписали.');
 
 
@@ -47,3 +47,4 @@
 //     firstName || lastName || nickName || 'просто Неизвестный'}.`);
 
 // false || alert('!');
+
