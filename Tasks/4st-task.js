@@ -35,9 +35,9 @@
 
 // alert( true || false );
 
-// let firstName = prompt('Могу я узнать ваше имя?');
-// let lastName = prompt('Могу я узнать вашу фамилию?');
-// let nickName = prompt('Могу я узнать ваш никнейм?');
+let firstName = prompt('Могу я узнать ваше имя?');
+let lastName = prompt('Могу я узнать вашу фамилию?');
+let nickName = prompt('Могу я узнать ваш никнейм?');
 
 // firstName || lastName || nickName 
 //     || alert('Вы ничего не вписали.');
@@ -48,3 +48,4 @@
 
 // false || alert('!');
 
+alert( firstName ?? lastName ?? nickName ?? 'Анонимус' );
