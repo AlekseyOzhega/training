@@ -50,3 +50,9 @@
 
 // alert( firstName ?? lastName ?? nickName ?? 'Анонимус' );
 
+let i = +prompt('Зададайте число от 0..');
+
+while ( i < 3 ) {
+    alert( i );
+    i++;
+}
