@@ -67,4 +67,6 @@ let summa = 0;
         let value = +prompt('Введите числою');
         if ( !value ) break;
         summa += value;
-    }
+    };
+
+    alert( summa );
