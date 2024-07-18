@@ -57,6 +57,14 @@
 //     i++;
 // }
 
-for ( let i = 0; i < 3; i++) {
-    alert( i );
-}
+// for ( let i = 0; i < 3; i++) {
+//     alert( i );
+// }
+
+let summa = 0;
+
+    while (true) {
+        let value = +prompt('Введите числою');
+        if ( !value ) break;
+        summa += value;
+    }
