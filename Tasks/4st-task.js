@@ -50,9 +50,10 @@
 
 // alert( firstName ?? lastName ?? nickName ?? 'Анонимус' );
 
-let i = +prompt('Зададайте число от 0..');
+// let i = +prompt('Зададайте число');
 
-while ( i < 3 ) {
-    alert( i );
-    i++;
-}
+// while ( i < 3 ) {
+//     alert( i );
+//     i++;
+// }
+
