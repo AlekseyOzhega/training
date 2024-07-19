@@ -77,10 +77,12 @@
     
 // alert( sum() );
 
-let chet = +prompt('Введите число.');
+// let chet = +prompt('Введите число.');
 
-for ( let i = 0; i <= chet; i++) {
-    if ( i % 2 == 0) continue;
-    alert( i );
-};
+// for ( let i = 0; i < chet; i++) {
+//     if ( i % 2 == 0) continue;
+//     alert( i );
+// };
+
+
 
