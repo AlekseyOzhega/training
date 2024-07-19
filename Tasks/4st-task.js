@@ -98,17 +98,18 @@
 
 // alert( che );
 
-function ask( questtion, yes, no ) {
-    if ( confirm(questtion)) yes()
-        else no();
-}
+// function ask( questtion, yes, no ) {
+//     if ( confirm(questtion)) yes()
+//         else no();
+// }
 
-function showOk() {
-    alert('Вы согласны.');
-}
+// function showOk() {
+//     alert('Вы согласны.');
+// }
 
-function showCancel() {
-    alert('Вы отменили выполнение.');
-}
+// function showCancel() {
+//     alert('Вы отменили выполнение.');
+// }
 
-ask('Вы согласны?', showOk, showCancel);
+// ask('Вы согласны?', showOk, showCancel);
+
