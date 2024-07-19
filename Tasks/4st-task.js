@@ -77,3 +77,10 @@
     
 // alert( sum() );
 
+let chet = +prompt('Введите число.');
+
+for ( let i = 0; i <= chet; i++) {
+    if ( i % 2 == 0) continue;
+    alert( i );
+};
+
