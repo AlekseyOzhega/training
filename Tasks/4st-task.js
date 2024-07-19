@@ -84,16 +84,17 @@
 //     alert( i );
 // };
 
-function checkAge(age) {
-    if ( age >= 18 ) {
-        return true;
-    } else {
-        return confirm('А родители разрешили?');
-    }
-}
+// function checkAge(age) {
+//     if ( age >= 18 ) {
+//         return true;
+//     } else {
+//         return confirm('А родители разрешили?');
+//     }
+// }
 
-let age = +prompt('Сколько вам лет?');
+// let age = +prompt('Сколько вам лет?');
 
-let che = checkAge(age);
+// let che = checkAge(age);
 
-alert( che );
+// alert( che );
+
