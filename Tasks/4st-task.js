@@ -108,5 +108,7 @@ function showOk() {
 }
 
 function showCancel() {
-    alert('Вы')
+    alert('Вы отменили выполнение.');
 }
+
+ask('Вы согласны?', showOk, showCancel);
