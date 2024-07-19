@@ -62,18 +62,18 @@
 // }
 
 
-function sum(){
+// function sum(){
 
-    let summa = 0;
+//     let summa = 0;
     
-    while (true) {
-        let value = +prompt('Введите числою');
-        if ( !value ) break;
-        summa += value;
-    };
+//     while (true) {
+//         let value = +prompt('Введите числою');
+//         if ( !value ) break;
+//         summa += value;
+//     };
 
-    return summa;
-}
+//     return summa;
+// }
     
-    alert( sum() );
+// alert( sum() );
 
