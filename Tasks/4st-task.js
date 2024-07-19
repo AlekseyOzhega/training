@@ -98,3 +98,15 @@
 
 // alert( che );
 
+function ask( questtion, yes, no ) {
+    if ( confirm(questtion)) yes()
+        else no();
+}
+
+function showOk() {
+    alert('Вы согласны.');
+}
+
+function showCancel() {
+    alert('Вы')
+}
