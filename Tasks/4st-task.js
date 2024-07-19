@@ -61,13 +61,19 @@
 //     alert( i );
 // }
 
-// let summa = 0;
 
-//     while (true) {
-//         let value = +prompt('Введите числою');
-//         if ( !value ) break;
-//         summa += value;
-//     };
+function sum(){
 
-//     alert( summa );
+    let summa = 0;
+    
+    while (true) {
+        let value = +prompt('Введите числою');
+        if ( !value ) break;
+        summa += value;
+    };
+
+    return summa;
+}
+    
+    alert( sum() );
 
