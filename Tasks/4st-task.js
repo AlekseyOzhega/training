@@ -127,3 +127,7 @@ let user = {
     isAdmin: false,
 };
 
+for ( let key in user ) {
+    alert( key );
+    alert( user[key]);
+}
