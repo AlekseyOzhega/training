@@ -113,3 +113,8 @@
 
 // ask('Вы согласны?', showOk, showCancel);
 
+let age = prompt("Сколько вам лет?");
+
+let welcome = ( age < 18) ?
+    () => alert('Привет!'):
+    () => 
