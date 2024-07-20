@@ -121,13 +121,14 @@
 
 // welcome();
 
-let user = {
-    name: 'John',
-    age: 30,
-    isAdmin: false,
-};
+// let user = {
+//     name: 'John',
+//     age: 30,
+//     isAdmin: false,
+// };
 
-for ( let key in user ) {
-    alert( key + ': ' + user[key] + '.' );
+// for ( let key in user ) {
+//     alert( key + ': ' + user[key] + '.' );
     
-}
+// }
+
