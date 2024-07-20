@@ -128,6 +128,6 @@ let user = {
 };
 
 for ( let key in user ) {
-    alert( key );
-    alert( user[key]);
+    alert( key + ': ' + user[key] + '.' );
+    
 }
