@@ -136,5 +136,5 @@ let number = prompt('Введите число..');
 alert('Сначала у нас есть строка: ' + number );
 number = +number;
 alert('Теперь мы преобразуем в число: ' + number );
-Number(number);
+String(number);
 alert( typeof(number));
