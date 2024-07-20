@@ -132,3 +132,7 @@
     
 // }
 
+let number = prompt('Введите число..');
+alert('Сначала у нас есть строка: ' + number );
+number = +number;
+alert('' + number )
