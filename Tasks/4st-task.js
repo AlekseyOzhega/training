@@ -121,3 +121,9 @@
 
 // welcome();
 
+let user = {
+    name: 'John',
+    age: 30,
+    isAdmin: false,
+};
+
