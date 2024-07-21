@@ -132,9 +132,10 @@
     
 // }
 
-let number = prompt('Введите число..');
-alert('Сначала у нас есть строка: ' + number );
-number = +number;
-alert('Теперь мы преобразуем в число: ' + number );
-String(number);
-alert( typeof(number));
+// let number = prompt('Введите число..');
+// alert('Сначала у нас есть строка: ' + number );
+// number = +number;
+// alert('Теперь мы преобразуем в число: ' + number );
+// number = String(number);
+// alert( 'И в итоге снова преобразуем в строку: ' + number);
+
