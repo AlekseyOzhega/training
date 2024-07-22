@@ -172,4 +172,7 @@ let hasAccses = (hasAccses) => {
     if (hasAccses) {
         return () => alert('Доступ разрешен!')
     }
-}
+
+    return () => alert('Доступ запрещен!')
+};
+
