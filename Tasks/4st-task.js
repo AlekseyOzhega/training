@@ -141,7 +141,10 @@
 
 function getAgeType(age) {
 
-    if ( typeof(age) !== 'number') {
+    // alert( typeof(age));
+    alert( age )
+
+    if ( typeof(age) !== 'number' || age !== 'Nan') {
         return 'Возраст указан неверно.'
     }
 
