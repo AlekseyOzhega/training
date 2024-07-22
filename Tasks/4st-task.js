@@ -139,3 +139,19 @@
 // number = String(number);
 // alert( 'И в итоге снова преобразуем в строку: ' + number);
 
+function getAgeType(age) {
+
+    if ( typeof(age) !== 'number') {
+        return 'Возраст указан неверно.'
+    }
+
+    if ( age < 1 || age > 125 ) {
+        return 'Такого возраста не существует.'
+    }
+
+    if ( age < 18 ) {
+        return 'Несовершенолетний.'
+    }
+
+    
+}
