@@ -168,3 +168,8 @@
 
 // alert( getAgeType(yourAge));
 
+let hasAccses = (hasAccses) => {
+    if (hasAccses) {
+        return () => alert('Доступ разрешен!')
+    }
+}
