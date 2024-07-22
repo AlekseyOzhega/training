@@ -168,11 +168,13 @@
 
 // alert( getAgeType(yourAge));
 
-let hasAccses = (hasAccses) => {
+let validate = (hasAccses) => {
     if (hasAccses) {
         return () => alert('Доступ разрешен!')
     }
 
     return () => alert('Доступ запрещен!')
 };
+const logMess = validate(false);
 
+logMess();
