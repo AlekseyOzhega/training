@@ -153,5 +153,9 @@ function getAgeType(age) {
         return 'Несовершенолетний.'
     }
 
-    
+    return 'Взрослый.'
 }
+
+let yourAge = +prompt('Сколько вам лет?');
+
+alert( getAgeType(yourAge));
