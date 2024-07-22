@@ -139,6 +139,10 @@
 // number = String(number);
 // alert( 'И в итоге снова преобразуем в строку: ' + number);
 
+
+
+//Видео уроки Ламкова А.
+
 // function getAgeType(age) {
 
 //     // if ( typeof age !== 'number') {
@@ -162,6 +166,5 @@
 
 // let yourAge = prompt('Сколько вам лет?');
 
+// alert( getAgeType(yourAge));
 
-
-alert( getAgeType(yourAge));
