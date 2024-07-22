@@ -139,30 +139,29 @@
 // number = String(number);
 // alert( 'И в итоге снова преобразуем в строку: ' + number);
 
-function getAgeType(age) {
+// function getAgeType(age) {
 
-    // alert( typeof(age));
-    alert( age )
+//     // if ( typeof age !== 'number') {
+//     //     return 'Возраст указан неверно.'
+//     // }
 
-    if ( typeof(age) !== 'number') {
-        return 'Возраст указан неверно.'
-    }
+//     if ( age < 1 || age > 125 ) {
+//         return 'Такого возраста не существует.'
+//     }
 
-    if ( age !== 'Nan') {
-        return 'Возраст указан неверно'
-    }
+//     if ( age < 18 ) {
+//         return 'Несовершенолетний.'
+//     }
 
-    if ( age < 1 || age > 125 ) {
-        return 'Такого возраста не существует.'
-    }
+//     if ( age > 17 && age < 124) {
+//         return 'Взрослый.'
+//     }
 
-    if ( age < 18 ) {
-        return 'Несовершенолетний.'
-    }
+//     return 'Возраст указан неверно.'
+// }
 
-    return 'Взрослый.'
-}
+// let yourAge = prompt('Сколько вам лет?');
 
-let yourAge = +prompt('Сколько вам лет?');
+
 
 alert( getAgeType(yourAge));
