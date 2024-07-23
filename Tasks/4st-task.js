@@ -222,4 +222,4 @@ const areObjectsEqual = (object1, object2) => {
 };
 
 let message = areObjectsEqual(obj1, obj2);
-alert( message );
+alert( 'Равны ли объекты: ' + message );
