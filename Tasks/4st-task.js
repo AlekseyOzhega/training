@@ -208,8 +208,8 @@ const areObjectsEqual = (object1, object2) => {
     const keys1 = Object.keys(object1)
     const keys2 = Object.keys(object2)
 
-    alert( keys1);
-    alert( keys2);
+    alert('keys1: ' + keys1.length);
+    alert('keys2: ' + keys2.length);
 };
 
 areObjectsEqual(obj1, obj2);
