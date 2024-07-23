@@ -196,12 +196,20 @@
 const obj1 = {
     name: 'Александр',
     age: 30,
+    adres: {
+        city: 'Москва',
+        zipcode: 123456,
+    },
 };
 
 
 const obj2 = {
     name: 'Александр',
     age: 30,
+    adres: {
+        city: 'Москва',
+        zipcode: 123456,
+    },
 };
 
 const areObjectsEqual = (object1, object2) => {
@@ -213,7 +221,16 @@ const areObjectsEqual = (object1, object2) => {
     }
 
     for (const key in object1) {
-        if ( object1[key] !== object2[key] ) {
+        const value1 = object1[key];
+        const value2 = object2[key];
+        const areValuesObjects = 
+            typeof value1 === 'objects' && typeof value2 === 'objects'
+        
+        if ( areValuesObjects ) {
+            return areObjectsEqual( value1, value2 )
+        }
+
+        if ( value1 !== value2 ) {
             return false
         }
     }
