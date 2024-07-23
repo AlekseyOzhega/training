@@ -193,50 +193,60 @@
 
 // allAtributesInObject( obj );
 
-const obj1 = {
-    name: 'Александр',
-    age: 30,
-    adres: {
-        city: 'Москва',
-        zipcode: 123456,
-    },
-};
+// const obj1 = {
+//     name: 'Александр',
+//     age: 30,
+//     adres: {
+//         city: 'Москва',
+//         zipcode: 123456,
+//     }
+// };
+
+// const obj2 = {
+//     name: 'Александр',
+//     age: 30,
+//     adres: {
+//         city: 'Москва',
+//         zipcode: 123456,
+//     }
+// };
 
 
-const obj2 = {
-    name: 'Александр',
-    age: 30,
-    adres: {
-        city: 'Москва',
-        zipcode: 123456,
-    },
-};
+// const areObjectsEqual = (object1, object2) => {
+//     const keys1 = Object.keys(object1)
+//     const keys2 = Object.keys(object2)
 
-const areObjectsEqual = (object1, object2) => {
-    const keys1 = Object.keys(object1)
-    const keys2 = Object.keys(object2)
+//     if ( keys1.length !== keys2.length ) {
+//         return false
+//     }
 
-    if ( keys1.length !== keys2.length ) {
-        return false
-    }
-
-    for (const key in object1) {
-        const value1 = object1[key];
-        const value2 = object2[key];
-        const areValuesObjects = 
-            typeof value1 === 'objects' && typeof value2 === 'objects'
+//     for (const key in object1) {
+//         const value1 = object1[key];
+//         const value2 = object2[key];
+//         const areValuesObjects = 
+//             typeof value1 === 'object' && typeof value2 === 'object'
         
-        if ( areValuesObjects ) {
-            return areObjectsEqual( value1, value2 )
-        }
+//         if ( areValuesObjects ) {
+//             return areObjectsEqual( value1, value2 )
+//         }
 
-        if ( value1 !== value2 ) {
-            return false
-        }
-    }
+//         if ( value1 !== value2 ) {
+//             return false
+//         }
+//     }
 
-    return true
+//     return true
+// };
+
+// let message = areObjectsEqual(obj1, obj2);
+// alert( 'Равны ли объекты: ' + message );
+
+
+const obj1 = {
+name: 'Александр',
+age: 30,
+adres: {
+    city: 'Москва',
+    zipcode: 123456,
+}
 };
-
-let message = areObjectsEqual(obj1, obj2);
-alert( 'Равны ли объекты: ' + message );
