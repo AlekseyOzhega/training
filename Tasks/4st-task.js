@@ -242,11 +242,15 @@
 // alert( 'Равны ли объекты: ' + message );
 
 
-const obj1 = {
-name: 'Александр',
-age: 30,
-adres: {
-    city: 'Москва',
-    zipcode: 123456,
-}
-};
+// const obj1 = {
+// name: 'Александр',
+// age: 30,
+// };
+
+// const obj2 = { ...obj1 };
+
+// obj2.name = 'Максим';
+
+// console.log('obj1', obj1 );
+// console.log('obj2', obj2 );
+
