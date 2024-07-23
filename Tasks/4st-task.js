@@ -168,13 +168,39 @@
 
 // alert( getAgeType(yourAge));
 
-let validate = (hasAccses) => {
-    if (hasAccses) {
-        return () => alert('Доступ разрешен!')
-    }
+// let validate = (hasAccses) => {
+//     if (hasAccses) {
+//         return () => alert('Доступ разрешен!')
+//     }
 
-    return () => alert('Доступ запрещен!')
+//     return () => alert('Доступ запрещен!')
+// };
+// const logMess = validate(false);
+// logMess();
+
+// const propName = prompt('Какое имя использовать?');
+// const propValue = prompt(`Какое значение будет у ${propName}?`);
+
+// function allAtributesInObject(obj) {
+//     for (let key in obj) {
+//     alert( 'Значение: ' + key + ': ' + obj[key] );
+//     }
+// }
+
+// const obj = {
+//     [propName]: propValue,
+// };
+
+// allAtributesInObject( obj );
+
+const object1 = {
+    name: 'Александр',
+    age: 30,
 };
-const logMess = validate(false);
 
-logMess();
+
+const object2 = {
+    name: 'Александр',
+    age: 30,
+};
+
