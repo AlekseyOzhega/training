@@ -243,14 +243,22 @@
 
 
 // const obj1 = {
-// name: 'Александр',
-// age: 30,
+//     name: 'Александр',
 // };
 
-// const obj2 = { ...obj1 };
+// const obj2 = {
+//     age: 30,
+// };
 
-// obj2.name = 'Максим';
+// const obj3 = {
+//     name: 'Максим',
+//     isAdmin: false,
+//     };
 
-// console.log('obj1', obj1 );
-// console.log('obj2', obj2 );
+// const objN = { ...obj1, ...obj2, ...obj3 };
+
+// console.log('Итоговый ообъект.', objN );
+
+
+
 
