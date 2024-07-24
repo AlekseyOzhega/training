@@ -322,3 +322,9 @@
 //     zipnumber: '123456',
 // } );
 
+const user = {
+    name: 'Екатерина',
+    age: 27,
+    isAdmin: true,
+}
+
