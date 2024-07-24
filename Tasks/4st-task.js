@@ -289,13 +289,14 @@
 // logGuestInfo(guest2);
 
 
-const user = {
-    name: 'Екатерина',
-    age: 27,
-    isAdmin: true,
-}
+// const user = {
+//     name: 'Екатерина',
+//     age: 27,
+//     isAdmin: true,
+// }
 
-const { name, age } = user;
+// const { name, age } = user;
 
-console.log( 'name: ', name);
-console.log( 'age: ', age);
+// console.log( 'name: ', name);
+// console.log( 'age: ', age);
+
