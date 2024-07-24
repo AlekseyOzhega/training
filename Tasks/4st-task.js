@@ -181,7 +181,7 @@
 // const propName = prompt('Какое имя использовать?');
 // const propValue = prompt(`Какое значение будет у ${propName}?`);
 
-function allAtributesInObject(obj) {
+function showAllAtributesInObject(obj) {
     for (let key in obj) {
     alert( 'Значение: ' + key + ': ' + obj[key] );
     }
@@ -334,4 +334,4 @@ alert(`Сначала name.`);
 alert(name);
 
 alert(`Теперь объект rest.`);
-allAtributesInObject(rest);
+showAllAtributesInObject(rest);
