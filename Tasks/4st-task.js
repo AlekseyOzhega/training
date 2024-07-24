@@ -260,5 +260,42 @@
 // console.log('Итоговый ообъект.', objN );
 
 
+// const guest1 = {
+//     name: 'Василий',
+//     age: 33,
+//     orderInfo: {
+//         roomType: 2,
+//         stayDates: {
+//             from: '14.04.2024',
+//             to: '21.04.2024'
+//         }
+//     },
+// }
+
+// const guest2 = {
+//     name: 'Екатерина',
+//     age: 27,
+// }
+
+// const logGuestInfo = ( guest ) => {
+//     console.log(`
+//         Имя: ${guest.name}
+//         Возраст: ${guest.age}
+//         Дата выезда: ${guest.orderInfo?.stayDates?.to ?? 'Не указана'},
+//         `)
+// }
+
+// logGuestInfo(guest1);
+// logGuestInfo(guest2);
 
 
+const user = {
+    name: 'Екатерина',
+    age: 27,
+    isAdmin: true,
+}
+
+const { name, age } = user;
+
+console.log( 'name: ', name);
+console.log( 'age: ', age);
