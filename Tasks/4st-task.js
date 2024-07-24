@@ -303,6 +303,9 @@
 const logAdress = (adress) => {
     console.log(`
         Адрес:
-        
+        г. ${adress.city}, ул. ${adress.street},
+        д. ${adress.houseNumber}, кв. ${adress.apartmenNumber}
         `)
-}
+};
+
+logAdress( {} );
