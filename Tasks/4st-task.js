@@ -300,12 +300,25 @@
 // console.log( 'name: ', name);
 // console.log( 'age: ', age);
 
-const logAdress = (adress) => {
-    console.log(`
-        Адрес:
-        г. ${adress.city}, ул. ${adress.street},
-        д. ${adress.houseNumber}, кв. ${adress.apartmenNumber}
-        `)
-};
+// const logAdress = ({ 
+//     city, 
+//     street, 
+//     houseNumber, 
+//     apartmenNumber 
+// }) => {
 
-logAdress( {} );
+//     console.log(`
+//         Адрес:
+//         г. ${city}, ул. ${street},
+//         д. ${houseNumber}, кв. ${apartmenNumber}
+//         `)
+// };
+
+// logAdress( {
+//     city: 'Питер',
+//     street: 'Лермонтова',
+//     houseNumber: '90',
+//     apartmenNumber: '13',
+//     zipnumber: '123456',
+// } );
+
