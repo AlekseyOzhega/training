@@ -300,3 +300,9 @@
 // console.log( 'name: ', name);
 // console.log( 'age: ', age);
 
+const logAdress = (adress) => {
+    console.log(`
+        Адрес:
+        
+        `)
+}
