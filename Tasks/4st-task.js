@@ -181,11 +181,11 @@
 // const propName = prompt('Какое имя использовать?');
 // const propValue = prompt(`Какое значение будет у ${propName}?`);
 
-// function allAtributesInObject(obj) {
-//     for (let key in obj) {
-//     alert( 'Значение: ' + key + ': ' + obj[key] );
-//     }
-// }
+function allAtributesInObject(obj) {
+    for (let key in obj) {
+    alert( 'Значение: ' + key + ': ' + obj[key] );
+    }
+}
 
 // const obj = {
 //     [propName]: propValue,
@@ -328,3 +328,10 @@ const user = {
     isAdmin: true,
 }
 
+let {name, ...rest} = clone;
+
+alert(`Сначала объект clone.`);
+allAtributesInObject(clone);
+
+alert(`Теперь объект rest.`);
+allAtributesInObject(rest);
