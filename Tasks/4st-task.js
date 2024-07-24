@@ -328,10 +328,10 @@ const user = {
     isAdmin: true,
 }
 
-let {name, ...rest} = clone;
+let {name, ...rest} = user;
 
-alert(`Сначала объект clone.`);
-allAtributesInObject(clone);
+alert(`Сначала name.`);
+alert(name);
 
 alert(`Теперь объект rest.`);
 allAtributesInObject(rest);
