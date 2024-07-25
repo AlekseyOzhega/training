@@ -322,16 +322,17 @@ function showAllAtributesInObject(obj) {
 //     zipnumber: '123456',
 // } );
 
-const user = {
-    name: 'Екатерина',
-    age: 27,
-    isAdmin: true,
-}
+// const user = {
+//     name: 'Екатерина',
+//     age: 27,
+//     isAdmin: true,
+// }
 
-let {name, ...rest} = user;
+// let {name, ...rest} = user;
 
-alert(`Сначала name.`);
-alert(name);
+// alert(`Сначала name.`);
+// alert(name);
 
-alert(`Теперь объект rest.`);
-showAllAtributesInObject(rest);
+// alert(`Теперь объект rest.`);
+// showAllAtributesInObject(rest);
+
