@@ -346,5 +346,6 @@ let userInfo = {
 
 function ShowMessage({ 
     name = 'Аноним', 
+    age = 'неизветсно каком',
     
 } = {})
