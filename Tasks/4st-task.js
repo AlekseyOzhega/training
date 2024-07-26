@@ -356,6 +356,7 @@ function showMessage({
     } else {
         married = 'не находящийся в браке'
     }
-    alert(`Наш сотрудник по имени ${name}, в данный момент ${married}, при росте в ${height} имеет вес ${width}.`);
+    alert(`Наш сотрудник по имени ${name}, в данный момент ${married}, при росте в ${height} см имеет вес ${width} кг.`);
 };
 
+showMessage(userInfo);
