@@ -344,3 +344,7 @@ let userInfo = {
     married: false
 }
 
+function ShowMessage({ 
+    name = 'Аноним', 
+    
+} = {})
