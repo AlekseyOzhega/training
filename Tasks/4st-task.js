@@ -336,12 +336,25 @@ function showAllAtributesInObject(obj) {
 // alert(`Теперь объект rest.`);
 // showAllAtributesInObject(rest);
 
-let userInfo = {
-    name: 'Carl',
+let userInfo1 = {
+    name: 'Карл',
     age: 22,
     width: 55,
     height: 170,
     married: false
+}
+
+let userInfo2 = {
+    name: 'Виктор',
+    age: 44,
+    width: 95,
+    height: 165,
+}
+
+let userInfo3 = {
+    name: 'Джозефина',
+    height: 155,
+    married: true
 }
 
 function showMessage({ 
@@ -359,4 +372,18 @@ function showMessage({
     alert(`Наш сотрудник по имени ${name}, в данный момент ${married}, при росте в ${height} см имеет вес ${width} кг.`);
 };
 
-showMessage(userInfo);
+let mess = prompt('Укажите информацию о каком сотруднике вы хотите узнать (1,2 или3).')
+
+switch(mess) {
+    case 1:
+        mess = userInfo1;
+        break;
+    case 2:
+        mess = userInfo2;
+        break;
+    case 3:
+        mess = userInfo3;
+        break;
+}
+
+showMessage(mess);
