@@ -347,5 +347,7 @@ let userInfo = {
 function ShowMessage({ 
     name = 'Аноним', 
     age = 'неизветсно каком',
-    
+    width = 'неизветсно каком',
+    height = 'неизветсно каком',
+    married = 'неизвестно в браке или нет',
 } = {})
