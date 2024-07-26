@@ -372,9 +372,9 @@ function showMessage({
     alert(`Наш сотрудник по имени ${name}, в данный момент ${married}, при росте в ${height} см имеет вес ${width} кг.`);
 };
 
-let mess = prompt('Укажите информацию о каком сотруднике вы хотите узнать (1,2 или3).')
+let mess = +prompt('Укажите информацию о каком сотруднике вы хотите узнать (1,2 или3).')
 
-switch(mess) {
+switch (mess) {
     case 1:
         mess = userInfo1;
         break;
@@ -384,6 +384,10 @@ switch(mess) {
     case 3:
         mess = userInfo3;
         break;
+    default:
+        alert('Ничего не указали.');
+        break;
 }
+
 
 showMessage(mess);
