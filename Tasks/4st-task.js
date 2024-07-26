@@ -351,5 +351,10 @@ function ShowMessage({
     height = 'неизветсно каком',
     married = 'неизвестно в браке или нет',
 } = {}) {
-    alert(``)
+    if ( married === true ) {
+        married = 'находящийся в браке'
+    } else {
+        married = 'не находящийся в браке'
+    }
+    alert(`Наш сотрудник по имени ${name} `)
 }
