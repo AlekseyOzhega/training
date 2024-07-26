@@ -336,3 +336,11 @@ function showAllAtributesInObject(obj) {
 // alert(`Теперь объект rest.`);
 // showAllAtributesInObject(rest);
 
+let userInfo = {
+    name: 'Carl',
+    age: 22,
+    width: 55,
+    height: 170,
+    married: false
+}
+
