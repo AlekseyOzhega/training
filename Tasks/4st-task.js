@@ -336,58 +336,60 @@ function showAllAtributesInObject(obj) {
 // alert(`Теперь объект rest.`);
 // showAllAtributesInObject(rest);
 
-let userInfo1 = {
-    name: 'Карл',
-    age: 22,
-    width: 55,
-    height: 170,
-    married: false
-}
+// let userInfo1 = {
+//     name: 'Карл',
+//     age: 22,
+//     width: 55,
+//     height: 170,
+//     married: false
+// }
 
-let userInfo2 = {
-    name: 'Виктор',
-    age: 44,
-    width: 95,
-    height: 165,
-}
+// let userInfo2 = {
+//     name: 'Виктор',
+//     age: 44,
+//     width: 95,
+//     height: 165,
+// }
 
-let userInfo3 = {
-    name: 'Джозефина',
-    height: 155,
-    married: true
-}
+// let userInfo3 = {
+//     name: 'Джозефина',
+//     height: 155,
+//     married: true
+// }
 
-function showMessage({ 
-    name = 'Аноним', 
-    age = 'неизветсно каком',
-    width = 'неизветсно каком',
-    height = 'неизветсно каком',
-    married = 'неизвестно в браке или нет',
-} = {}) {
-    if ( married === true ) {
-        married = 'находящийся в браке'
-    } else {
-        married = 'не находящийся в браке'
-    }
-    alert(`Наш сотрудник по имени ${name}, в данный момент ${married}, при росте в ${height} см имеет вес ${width} кг.`);
-};
+// function showMessage({ 
+//     name = 'Аноним', 
+//     age = 'неизветсно каком',
+//     width = 'неизветсно сколько',
+//     height = 'неизветсно сколько',
+//     married,
+// } = {}) {
+//     if ( married === undefined ) {
+//         married = 'неизвестно в браке или нет';
+//     } else if ( married === true ) {
+//         married = 'находящийся в браке'
+//     } else {
+//         married = 'не находящийся в браке'
+//     }
+//     alert(`Наш сотрудник по имени ${name}, в данный момент ${married}, при росте в ${height} см имеет вес ${width} кг.`);
+// };
 
-let mess = +prompt('Укажите информацию о каком сотруднике вы хотите узнать (1,2 или3).')
+// let mess = +prompt('Укажите информацию о каком сотруднике вы хотите узнать (1,2 или3).')
 
-switch (mess) {
-    case 1:
-        mess = userInfo1;
-        break;
-    case 2:
-        mess = userInfo2;
-        break;
-    case 3:
-        mess = userInfo3;
-        break;
-    default:
-        alert('Ничего не указали.');
-        break;
-}
+// switch (mess) {
+//     case 1:
+//         mess = userInfo1;
+//         break;
+//     case 2:
+//         mess = userInfo2;
+//         break;
+//     case 3:
+//         mess = userInfo3;
+//         break;
+//     default:
+//         alert('Ничего не указали.');
+//         break;
+// }
 
+// showMessage(mess);
 
-showMessage(mess);
