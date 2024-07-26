@@ -344,7 +344,7 @@ let userInfo = {
     married: false
 }
 
-function ShowMessage({ 
+function showMessage({ 
     name = 'Аноним', 
     age = 'неизветсно каком',
     width = 'неизветсно каком',
@@ -356,5 +356,6 @@ function ShowMessage({
     } else {
         married = 'не находящийся в браке'
     }
-    alert(`Наш сотрудник по имени ${name} `)
-}
+    alert(`Наш сотрудник по имени ${name}, в данный момент ${married}, при росте в ${height} имеет вес ${width}.`);
+};
+
