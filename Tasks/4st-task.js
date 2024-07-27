@@ -393,11 +393,12 @@ function showAllAtributesInObject(obj) {
 
 // showMessage(mess);
 
-let user = {
-    name: 'John',
-    years: 30
-}
+// let user = {
+//     name: 'John',
+//     years: 30
+// }
 
-let {name, years: age, isAdmin = false} = user;
+// let {name, years: age, isAdmin = false} = user;
 
-alert(`name: ${name}, years: ${age}, Admin: ${isAdmin}`);
+// alert(`name: ${name}, years: ${age}, Admin: ${isAdmin}`);
+
