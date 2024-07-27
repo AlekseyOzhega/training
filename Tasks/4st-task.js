@@ -436,13 +436,15 @@ function showAllAtributesInObject(obj) {
 
 // showAllAtributesInObject( user );
 
-function BigUser(name) {
-    this.name = name;
-    this.lvl = 1;
+// function BigUser(name) {
+//     this.name = name;
+//     this.lvl = 1;
 
-    return { name: 'Godzilla', lvl: 1};
-}
+//     return { name: 'Godzilla', lvl: 1};
+// }
 
-let user = new BigUser('Han');
+// let user = new BigUser('Han');
 
-showAllAtributesInObject( user );
+// showAllAtributesInObject( user );
+
+
