@@ -436,3 +436,11 @@ function showAllAtributesInObject(obj) {
 
 // showAllAtributesInObject( user );
 
+function BigUser() {
+    this.name = 'John';
+    this.lvl = 1;
+}
+
+let user = new BigUser('Han');
+
+showAllAtributesInObject( user );
