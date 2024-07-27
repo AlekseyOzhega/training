@@ -402,3 +402,11 @@ function showAllAtributesInObject(obj) {
 
 // alert(`name: ${name}, years: ${age}, Admin: ${isAdmin}`);
 
+
+let salaries = {
+    "John": 100,
+    "Pete": 300,
+    "Mary": 250
+};
+
+
