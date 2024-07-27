@@ -425,3 +425,13 @@ function showAllAtributesInObject(obj) {
 // };
 
 // alert(topSalary(salaries));
+
+
+function User(name) {
+    this.name = name;
+    this.isAdmin = false;
+};
+
+let user = new User('Jack');
+
+showAllAtributesInObject( user );
