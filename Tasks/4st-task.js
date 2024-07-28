@@ -455,3 +455,5 @@ function User(name) {
     }
 }
 
+let john = new User("John");
+john.sayHi();
