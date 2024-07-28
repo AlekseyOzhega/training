@@ -450,5 +450,8 @@ function showAllAtributesInObject(obj) {
 
 function User(name) {
     this.name = name;
-    this.sayHi = 
+    this.sayHi = function() {
+        alert(`Меня зовут: ${this.name}.`);
+    }
 }
+
