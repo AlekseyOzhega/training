@@ -448,3 +448,7 @@ function showAllAtributesInObject(obj) {
 // showAllAtributesInObject( user );
 
 
+function User(name) {
+    this.name = name;
+    this.sayHi = 
+}
