@@ -427,6 +427,8 @@ function showAllAtributesInObject(obj) {
 // alert(topSalary(salaries));
 
 
+//Конструктор, оператор "new"
+
 // function User(name) {
 //     this.name = name;
 //     this.isAdmin = false;
