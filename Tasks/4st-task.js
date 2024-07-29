@@ -463,9 +463,24 @@ function showAllAtributesInObject(obj) {
 // john.sayHi();
 
 function Calculator() {
-    this.read = () {
-        
+    this.read = function () {
+        this.a = +prompt('Укажите первое число.');
+        this.b = +prompt('Укажите второе число.');
     };
-    this.sum = 0;
-    this.mul = 0;
-}
+
+    this.sum = function () {
+        return this.a + this.b;
+    };
+
+    
+    this.mul = function () {
+        return this.a * this.b;
+    };
+};
+
+let calculator = new Calculator();
+
+calculator.read();
+
+alert(`Сумма чисел равна ${calculator.sum}.`);
+alert(`Сумма чисел равна ${calculator.sum}.`);
