@@ -450,6 +450,8 @@ function showAllAtributesInObject(obj) {
 // showAllAtributesInObject( user );
 
 
+//Задачи
+
 // function User(name) {
 //     this.name = name;
 //     this.sayHi = function() {
@@ -460,3 +462,6 @@ function showAllAtributesInObject(obj) {
 // let john = new User("John");
 // john.sayHi();
 
+function Calculator() {
+    
+}
