@@ -483,4 +483,4 @@ let calculator = new Calculator();
 calculator.read();
 
 alert(`Сумма чисел равна ${calculator.sum}.`);
-alert(`Сумма чисел равна ${calculator.sum}.`);
+alert(`Произведение чисел равно ${calculator.mul}.`);
