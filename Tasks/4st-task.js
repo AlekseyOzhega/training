@@ -462,25 +462,26 @@ function showAllAtributesInObject(obj) {
 // let john = new User("John");
 // john.sayHi();
 
-function Calculator() {
-    this.read = function () {
-        this.a = +prompt('Укажите первое число.');
-        this.b = +prompt('Укажите второе число.');
-    };
+// function Calculator() {
+//     this.read = function () {
+//         this.a = +prompt('Укажите первое число.');
+//         this.b = +prompt('Укажите второе число.');
+//     };
 
-    this.sum = function () {
-        return this.a + this.b;
-    };
+//     this.sum = function () {
+//         return this.a + this.b;
+//     };
 
     
-    this.mul = function () {
-        return this.a * this.b;
-    };
-};
+//     this.mul = function () {
+//         return this.a * this.b;
+//     };
+// };
 
-let calculator = new Calculator();
+// let calculator = new Calculator();
 
-calculator.read();
+// calculator.read();
 
-alert(`Сумма чисел равна ${calculator.sum}.`);
-alert(`Произведение чисел равно ${calculator.mul}.`);
+// alert(`Сумма чисел равна ${calculator.sum()}.`);
+// alert(`Произведение чисел равно ${calculator.mul()}.`);
+
