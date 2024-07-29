@@ -463,6 +463,9 @@ function showAllAtributesInObject(obj) {
 // john.sayHi();
 
 function Calculator() {
-    this.read = 0;
+    this.read = () {
+        
+    };
     this.sum = 0;
+    this.mul = 0;
 }
