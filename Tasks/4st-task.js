@@ -485,3 +485,9 @@ function showAllAtributesInObject(obj) {
 // alert(`Сумма чисел равна ${calculator.sum()}.`);
 // alert(`Произведение чисел равно ${calculator.mul()}.`);
 
+
+function Accumulator(startingValue) {
+    this.startingValue = startingValue;
+    this.read = +prompt('На сколько увеличить?', 0);
+    
+}
