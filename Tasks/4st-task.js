@@ -487,7 +487,10 @@ function showAllAtributesInObject(obj) {
 
 
 function Accumulator(startingValue) {
-    this.startingValue = startingValue;
-    this.read = +prompt('На сколько увеличить?', 0);
+    this.value = startingValue;
+    this.read = function() {
+        this.value += +prompt('На сколько увеличить?', 0);
+    }
     
+
 }
