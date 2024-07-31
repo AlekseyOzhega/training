@@ -515,11 +515,12 @@ function showAllAtributesInObject(obj) {
 // userAdmin.admin();
 // userGuest.admin?.();
 
-let key = "firstName";
-let user1 = {
-    firstName: 'John'
-};
-let user2 = null;
+// let key = "firstName";
+// let user1 = {
+//     firstName: 'John'
+// };
+// let user2 = null;
 
-alert( user1?.[key] );
-alert( user2?.[key] );
+// alert( user1?.[key] );
+// alert( user2?.[key] );
+
