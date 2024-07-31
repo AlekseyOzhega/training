@@ -520,3 +520,6 @@ let user1 = {
     firstName: 'John'
 };
 let user2 = null;
+
+alert( user1?.[key] );
+alert( user2?.[key] );
