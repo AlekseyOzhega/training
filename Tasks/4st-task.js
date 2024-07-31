@@ -515,3 +515,8 @@ function showAllAtributesInObject(obj) {
 // userAdmin.admin();
 // userGuest.admin?.();
 
+let key = "firstName";
+let user1 = {
+    firstName: 'John'
+};
+let user2 = null;
