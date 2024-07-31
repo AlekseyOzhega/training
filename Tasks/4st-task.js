@@ -501,3 +501,6 @@ function showAllAtributesInObject(obj) {
 // alert('Итоговое значение: ' + accumulator.value);
 
 
+let user = {};
+
+alert( user.adress?.street );
