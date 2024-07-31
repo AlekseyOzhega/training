@@ -505,12 +505,13 @@ function showAllAtributesInObject(obj) {
 
 // alert( user.adress?.street );
 
-let userAdmin = {
-    admin() {
-        alert('Я админ');
-    }
-};
-let userGuest = {};
+// let userAdmin = {
+//     admin() {
+//         alert('Я админ');
+//     }
+// };
+// let userGuest = {};
 
-userAdmin.admin();
-userGuest.admin?.();
+// userAdmin.admin();
+// userGuest.admin?.();
+
