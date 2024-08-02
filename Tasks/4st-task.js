@@ -541,3 +541,8 @@ let user = {
     [id]: 123
 };
 
+for ( let key in user ) {
+    alert('Свойство вызываемое циклом: ' + key );
+}
+
+alert( 'Напрямую: ' + user[id]);
