@@ -524,3 +524,6 @@ function showAllAtributesInObject(obj) {
 // alert( user1?.[key] );
 // alert( user2?.[key] );
 
+
+//Тип данных Символ
+
