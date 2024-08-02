@@ -527,3 +527,7 @@ function showAllAtributesInObject(obj) {
 
 //Тип данных Символ
 
+let id1 = Symbol("id");
+let id2 = Symbol("id");
+
+alert( id1 == id2 );
