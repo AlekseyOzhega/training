@@ -533,16 +533,17 @@ function showAllAtributesInObject(obj) {
 // alert( id1.toString() );
 // alert( id1.description );
 
-let id = Symbol("id");
 
-let user = {
-    name: "Johny",
-    age: 21,
-    [id]: 123
-};
+// let id = Symbol("id");
 
-for ( let key in user ) {
-    alert('Свойство вызываемое циклом: ' + key );
-}
+// let user = {
+//     name: "Johny",
+//     age: 21,
+//     [id]: 123
+// };
 
-alert( 'Напрямую: ' + user[id]);
+// for ( let key in user ) {
+//     alert('Свойство вызываемое циклом: ' + key );
+// }
+
+// alert( 'Напрямую: ' + user[id]);
