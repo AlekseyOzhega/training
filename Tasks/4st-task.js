@@ -533,3 +533,11 @@ function showAllAtributesInObject(obj) {
 // alert( id1.toString() );
 // alert( id1.description );
 
+let id = Symbol("id");
+
+let user = {
+    name: "Johny",
+    age: 21,
+    [id]: 123
+};
+
