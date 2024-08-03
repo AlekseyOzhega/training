@@ -551,3 +551,5 @@ function showAllAtributesInObject(obj) {
 
 let id = Symbol.for("id");
 
+let idAgain = Symbol.for("id");
+
