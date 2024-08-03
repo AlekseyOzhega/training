@@ -549,8 +549,9 @@ function showAllAtributesInObject(obj) {
 // alert( 'Напрямую: ' + user[id]);
 
 
-let id = Symbol.for("id");
+// let id = Symbol.for("id");
 
-let idAgain = Symbol.for("id");
+// let idAgain = Symbol.for("id");
 
-alert( id === idAgain );
+// alert( id === idAgain );
+
