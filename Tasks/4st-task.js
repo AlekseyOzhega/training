@@ -564,3 +564,4 @@ let user = {
 
 let clone = Object.assign({}, user);
 
+alert( clone[id] );
