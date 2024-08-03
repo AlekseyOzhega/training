@@ -555,3 +555,6 @@ function showAllAtributesInObject(obj) {
 
 // alert( id === idAgain );
 
+
+let id = Symbol("id");
+
