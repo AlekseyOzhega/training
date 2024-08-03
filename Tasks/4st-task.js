@@ -547,3 +547,5 @@ function showAllAtributesInObject(obj) {
 // }
 
 // alert( 'Напрямую: ' + user[id]);
+
+
