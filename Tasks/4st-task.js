@@ -556,12 +556,13 @@ function showAllAtributesInObject(obj) {
 // alert( id === idAgain );
 
 
-let id = Symbol("id");
+// let id = Symbol("id");
 
-let user = {
-    [id]: 123
-};
+// let user = {
+//     [id]: 123
+// };
 
-let clone = Object.assign({}, user);
+// let clone = Object.assign({}, user);
 
-alert( clone[id] );
+// alert( clone[id] );
+
