@@ -569,3 +569,4 @@ function showAllAtributesInObject(obj) {
 let sym1 = Symbol("name");
 let sym2 = Symbol("age");
 
+alert( Symbol.keyFor( sym1 ));
