@@ -567,3 +567,5 @@ function showAllAtributesInObject(obj) {
 // alert( clone[id] );
 
 let sym1 = Symbol("name");
+let sym2 = Symbol("age");
+
