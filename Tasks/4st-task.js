@@ -570,3 +570,4 @@ let sym1 = Symbol("name");
 let sym2 = Symbol("age");
 
 alert( Symbol.keyFor( sym1 ));
+alert( Symbol.keyFor( sym2 ));
