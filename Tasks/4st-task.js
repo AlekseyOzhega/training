@@ -579,4 +579,13 @@ let user = {
     age: 28
 };
 
+
+let user2 = {
+    name: "Bill",
+    age: 22
+};
+
 alert( user );
+
+user2[user] = 123;
+
