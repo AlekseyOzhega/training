@@ -574,16 +574,16 @@ function showAllAtributesInObject(obj) {
 // alert( Symbol.keyFor(sym2) );
 
 
-let user = {
-    name: "John",
-    age: 28
-};
+// let user = {
+//     name: "John",
+//     age: 28
+// };
 
 
-let user2 = {
-    name: "Bill",
-    age: 22
-};
+// let user2 = {
+//     name: "Bill",
+//     age: 22
+// };
 
 // alert( user );
 
@@ -591,7 +591,7 @@ let user2 = {
 
 // alert( user2[user] );
 
-let greater = user > user2;
+// let greater = user > user2;
 
-alert( typeof(greater) );
-alert( greater );
+// alert( typeof(greater) );
+// alert( greater );
