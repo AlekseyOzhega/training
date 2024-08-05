@@ -591,3 +591,6 @@ let user2 = {
 
 // alert( user2[user] );
 
+let greater = user > user2;
+
+alert( typeof(user) );
