@@ -579,3 +579,4 @@ let user = {
     age: 28
 };
 
+alert( user );
