@@ -573,3 +573,9 @@ function showAllAtributesInObject(obj) {
 // alert( Symbol.keyFor(sym1) );
 // alert( Symbol.keyFor(sym2) );
 
+
+let user = {
+    name: "John",
+    age: 28
+};
+
