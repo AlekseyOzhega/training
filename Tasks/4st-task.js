@@ -595,3 +595,4 @@ function showAllAtributesInObject(obj) {
 
 // alert( typeof(greater) );
 // alert( greater );
+
