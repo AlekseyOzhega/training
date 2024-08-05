@@ -585,8 +585,9 @@ let user2 = {
     age: 22
 };
 
-alert( user );
+// alert( user );
 
-user2[user] = 123;
+// user2[user] = 123;
 
-alert( user2[user] );
+// alert( user2[user] );
+
