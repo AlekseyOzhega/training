@@ -589,3 +589,4 @@ alert( user );
 
 user2[user] = 123;
 
+alert( user2[user] );
