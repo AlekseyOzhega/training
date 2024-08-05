@@ -593,4 +593,5 @@ let user2 = {
 
 let greater = user > user2;
 
-alert( typeof(user) );
+alert( typeof(greater) );
+alert( greater );
