@@ -609,17 +609,18 @@ function showAllAtributesInObject(obj) {
 // alert( +user );
 // alert( user + ' плюс чаевые' );
 
-let user = {
-    name: "John",
-    money: 1000,
-    toString() {
-        return `name: ${this.name}`;
-    },
-    valueOf() {
-        return this.money;
-    }
-};
+// let user = {
+//     name: "John",
+//     money: 1000,
+//     toString() {
+//         return `name: ${this.name}`;
+//     },
+//     valueOf() {
+//         return this.money;
+//     }
+// };
 
-alert( user );
-alert( +user );
-alert( user + 555 );
+// alert( user );
+// alert( +user );
+// alert( user + ' баксов' );
+
