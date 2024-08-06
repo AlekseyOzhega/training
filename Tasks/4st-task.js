@@ -613,7 +613,9 @@ let user = {
     name: "John",
     money: 1000,
     toString() {
-        return `name: ${this.name}`
+        return `name: ${this.name}`;
     },
-    
+    valueOf() {
+        return this.money;
+    }
 }
