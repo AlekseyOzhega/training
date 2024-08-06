@@ -609,3 +609,11 @@ function showAllAtributesInObject(obj) {
 // alert( +user );
 // alert( user + ' плюс чаевые' );
 
+let user = {
+    name: "John",
+    money: 1000,
+    toString() {
+        return `name: ${this.name}`
+    },
+    
+}
