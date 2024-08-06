@@ -597,5 +597,9 @@ function showAllAtributesInObject(obj) {
 // alert( greater );
 
 let user = {
-    
+    name: "John",
+    money: 1000,
+    [Symbol.toPrimitive](hint) {
+        
+    }
 }
