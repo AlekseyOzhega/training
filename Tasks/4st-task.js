@@ -604,3 +604,7 @@ let user = {
         return hint == 'string' ? `name: ${this.name}` : this.money;
     }
 };
+
+alert( user );
+alert( +user );
+alert( user + 500 );
