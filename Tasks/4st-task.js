@@ -618,4 +618,8 @@ let user = {
     valueOf() {
         return this.money;
     }
-}
+};
+
+alert( user );
+alert( +user );
+alert( user + 555 );
