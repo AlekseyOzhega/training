@@ -640,4 +640,6 @@ let user = {
     }
 };
 
+alert( user );
+alert( user + 500 );
 showAllAtributesInObject(user);
