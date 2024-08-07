@@ -631,17 +631,16 @@ let user = {
     exp: 0,
     status: null,
 
-    toString() {
-        return `Персонаж: ${this.name}, ур.: ${this.lvl}`;
+    [Symbol.toPrimitive](hint) {
+        return hint == 'string' ? 
+        `Персонаж: ${this.name}, ур.: ${this.lvl}` : 
+        this.exp
     },
-
-    valueOf() {
-        return this.exp;
-    }
 };
 
 user.name = "John Dow"
-user + 200;
+user.exp += 200;
 
 alert( user );
+alert( user + 222 );
 showAllAtributesInObject(user);
