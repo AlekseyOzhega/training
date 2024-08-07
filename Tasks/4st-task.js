@@ -624,3 +624,11 @@ function showAllAtributesInObject(obj) {
 // alert( +user );
 // alert( user + ' баксов' );
 
+
+let user = {
+    name: "Unknown",
+    lvl: 1,
+    exp: 0,
+    status: null,
+    
+}
