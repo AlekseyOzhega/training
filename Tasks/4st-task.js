@@ -651,3 +651,5 @@ let obj = {
     }
 };
 
+alert( obj * 2);
+alert( obj + 2 );
