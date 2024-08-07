@@ -640,6 +640,8 @@ let user = {
     }
 };
 
+user.name = "John Dow"
+user + 200;
+
 alert( user );
-alert( user + 500 );
 showAllAtributesInObject(user);
