@@ -645,3 +645,6 @@ function showAllAtributesInObject(obj) {
 // alert( user + 222 );
 // showAllAtributesInObject(user);
 
+let obj = {
+    
+}
