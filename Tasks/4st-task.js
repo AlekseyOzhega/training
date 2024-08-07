@@ -630,5 +630,14 @@ let user = {
     lvl: 1,
     exp: 0,
     status: null,
-    
-}
+
+    toString() {
+        return `Персонаж: ${this.name}, ур.: ${this.lvl}`;
+    },
+
+    valueOf() {
+        return this.exp;
+    }
+};
+
+showAllAtributesInObject(user);
