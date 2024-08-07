@@ -646,5 +646,8 @@ function showAllAtributesInObject(obj) {
 // showAllAtributesInObject(user);
 
 let obj = {
-    
-}
+    toString() {
+        return "2";
+    }
+};
+
