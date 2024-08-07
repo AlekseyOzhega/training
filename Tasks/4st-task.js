@@ -645,11 +645,13 @@ function showAllAtributesInObject(obj) {
 // alert( user + 222 );
 // showAllAtributesInObject(user);
 
-let obj = {
-    toString() {
-        return "2";
-    }
-};
 
-alert( obj * 2);
-alert( obj + 2 );
+// let obj = {
+//     toString() {
+//         return "2";
+//     }
+// };
+
+// alert( obj * 2);
+// alert( obj + 2 );
+
