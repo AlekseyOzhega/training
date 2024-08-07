@@ -625,22 +625,23 @@ function showAllAtributesInObject(obj) {
 // alert( user + ' баксов' );
 
 
-let user = {
-    name: "Unknown",
-    lvl: 1,
-    exp: 0,
-    status: null,
+// let user = {
+//     name: "Unknown",
+//     lvl: 1,
+//     exp: 0,
+//     status: null,
 
-    [Symbol.toPrimitive](hint) {
-        return hint == 'string' ? 
-        `Персонаж: ${this.name}, ур.: ${this.lvl}` : 
-        this.exp
-    },
-};
+//     [Symbol.toPrimitive](hint) {
+//         return hint == 'string' ? 
+//         `Персонаж: ${this.name}, ур.: ${this.lvl}` : 
+//         this.exp
+//     },
+// };
 
-user.name = "John Dow"
-user.exp += 200;
+// user.name = "John Dow"
+// user.exp += 200;
 
-alert( user );
-alert( user + 222 );
-showAllAtributesInObject(user);
+// alert( user );
+// alert( user + 222 );
+// showAllAtributesInObject(user);
+
