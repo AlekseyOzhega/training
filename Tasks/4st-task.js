@@ -655,5 +655,6 @@ function showAllAtributesInObject(obj) {
 // alert( obj * 2);
 // alert( obj + 2 );
 
-let str = "Привет";
-alert( str.toUpperCase() );
+// let str = "Привет";
+// alert( str.toUpperCase() );
+
