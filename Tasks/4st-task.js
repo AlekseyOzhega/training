@@ -658,3 +658,6 @@ function showAllAtributesInObject(obj) {
 // let str = "Привет";
 // alert( str.toUpperCase() );
 
+
+let num = 2.43575;
+alert( num.toFixed(3) );
