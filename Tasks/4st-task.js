@@ -663,6 +663,7 @@ function showAllAtributesInObject(obj) {
 // alert( num.toFixed(3) );
 
 
-let str = "Привет";
-str.test = 5;
-alert( str.test );
+// let str = "Привет";
+// str.test = 5;
+// alert( str );
+
