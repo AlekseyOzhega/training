@@ -663,3 +663,4 @@ function showAllAtributesInObject(obj) {
 // alert( num.toFixed(3) );
 
 
+let str = "Привет";
