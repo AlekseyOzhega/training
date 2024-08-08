@@ -664,3 +664,5 @@ function showAllAtributesInObject(obj) {
 
 
 let str = "Привет";
+str.test = 5;
+alert( )
