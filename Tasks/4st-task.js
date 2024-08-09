@@ -686,4 +686,7 @@ function expRise( experence ) {
 user.name = prompt('Введите имя.');
 expRise(105);
 expRise(25);
+expRise(50);
+expRise(30);
+expRise(5);
 showAllAtributesInObject( user );
