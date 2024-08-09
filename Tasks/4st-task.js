@@ -682,3 +682,6 @@ function expRise( experence ) {
         user.lvl++;
     }
 };
+
+expRise(105);
+showAllAtributesInObject( user );
