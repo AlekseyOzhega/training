@@ -667,3 +667,7 @@ function showAllAtributesInObject(obj) {
 // str.test = 5;
 // alert( str );
 
+
+let user = {
+    
+}
