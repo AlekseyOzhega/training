@@ -683,5 +683,6 @@ function expRise( experence ) {
     }
 };
 
+user.name = prompt('Введите имя.');
 expRise(105);
 showAllAtributesInObject( user );
