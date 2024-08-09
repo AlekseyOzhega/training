@@ -669,5 +669,9 @@ function showAllAtributesInObject(obj) {
 
 
 let user = {
-    
-}
+    name: '',
+    lvl: 1,
+    exp: 0,
+
+};
+
