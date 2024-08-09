@@ -693,3 +693,5 @@ function showAllAtributesInObject(obj) {
 // showAllAtributesInObject( user );
 
 
+//Числа
+
