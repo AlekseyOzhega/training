@@ -675,3 +675,10 @@ let user = {
 
 };
 
+function expRise( experence ) {
+    user.exp += experence;
+    if ( user.exp > 99 ) {
+        user.exp = 0;
+        user.lvl++;
+    }
+};
