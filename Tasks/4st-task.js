@@ -668,25 +668,28 @@ function showAllAtributesInObject(obj) {
 // alert( str );
 
 
-let user = {
-    name: '',
-    lvl: 1,
-    exp: 0,
+// let user = {
+//     name: '',
+//     lvl: 1,
+//     exp: 0,
 
-};
+// };
 
-function expRise( experence ) {
-    user.exp += experence;
-    if ( user.exp > 99 ) {
-        user.exp = 0;
-        user.lvl++;
-    }
-};
+// function expRise( experence ) {
+//     user.exp += experence;
+//     if ( user.exp > 99 ) {
+//         user.exp = 0;
+//         user.lvl++;
+//     }
+// };
 
-user.name = prompt('Введите имя.');
-expRise(105);
-expRise(25);
-expRise(50);
-expRise(30);
-expRise(5);
-showAllAtributesInObject( user );
+// user.name = prompt('Введите имя.');
+
+// expRise(105);
+// expRise(25);
+// expRise(50);
+// expRise(30);
+// expRise(5);
+// showAllAtributesInObject( user );
+
+
