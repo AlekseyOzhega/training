@@ -695,4 +695,9 @@ function showAllAtributesInObject(obj) {
 
 //Числа
 
-alert( 1.23e6 );
+// alert( 1.23e6 );
+
+let a = 0xff;
+let b = 0b11111111;
+let c = 0o377;
+
