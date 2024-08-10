@@ -705,4 +705,5 @@ function showAllAtributesInObject(obj) {
 // alert( a == c );
 
 
-alert( 123456..toString(36) );
+// alert( 123456..toString(36) );
+
