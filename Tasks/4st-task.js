@@ -695,3 +695,4 @@ function showAllAtributesInObject(obj) {
 
 //Числа
 
+alert( 1.23e6 );
