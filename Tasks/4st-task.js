@@ -707,3 +707,4 @@ function showAllAtributesInObject(obj) {
 
 // alert( 123456..toString(36) );
 
+alert( (123456).toString(36) );
