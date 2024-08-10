@@ -701,3 +701,5 @@ let a = 0xff;
 let b = 0b11111111;
 let c = 0o377;
 
+alert( a == b );
+alert( a == c );
