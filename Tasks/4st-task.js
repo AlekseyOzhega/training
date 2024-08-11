@@ -711,3 +711,5 @@ function showAllAtributesInObject(obj) {
 
 
 alert('Округление в меньшую сторону. 12.2 => ' + Math.floor(12.2));
+alert('Округление в большую сторону. 1.23 => ' + Math.floor(1.23));
+alert('Округление в меньшую сторону. 12.2 => ' + Math.floor(12.2));
