@@ -715,3 +715,6 @@ function showAllAtributesInObject(obj) {
 // alert('Округление до ближайшего целого. 3.1 => ' + Math.round(3.1));
 // alert('Удаление дробной части без округления. 4.5 => ' + Math.trunc(4.5));
 
+let num = 12.304;
+alert( num.toFixed(2) );
+alert( num.toFixed(2) );
