@@ -709,3 +709,5 @@ function showAllAtributesInObject(obj) {
 
 // alert( (123456).toString(36) );
 
+
+alert('Округление в меньшую сторону. 12.2 => ' + Math.floor(12.2));
