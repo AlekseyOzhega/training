@@ -717,4 +717,5 @@ function showAllAtributesInObject(obj) {
 
 let num = 12.304;
 alert( num.toFixed(2) );
-alert( num.toFixed(2) );
+alert( num.toFixed(20) );
+alert( +num.toFixed(1) );
