@@ -721,7 +721,9 @@ function showAllAtributesInObject(obj) {
 // alert( +num.toFixed(1) );
 
 
-alert( parseInt("100px"));
-alert( parseFloat("12.5em"));
-alert( parseInt("12.3rem"));
-alert( parseFloat("12.5.4"));
+// alert( parseInt("100px"));
+// alert( parseFloat("12.5em"));
+// alert( parseInt("12.3rem"));
+// alert( parseFloat("12.5.4"));
+
+
