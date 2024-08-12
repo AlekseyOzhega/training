@@ -731,4 +731,40 @@ function showAllAtributesInObject(obj) {
 // alert( Math.round(Math.random() * 100 ));
 // alert( Math.round(Math.random() * 100 ));
 
+//Задачи
+
+
+// let a = +prompt('Введите первое число.', '');
+// let b = +prompt('Введите второе число.', '');
+
+// alert(`Сумма двух чисел равна ${a + b}`);
+
+
+// function readNumber() {
+//     let num = 0;
+//     while (true) {
+//         num = prompt('Введите число.', '');
+
+//         if ( typeof(num) === 'null') return null;
+
+//         if ( isNaN(num) ) continue;
+
+//         return num;
+//     }
+// };
+
+// function readNumber() {
+//     let num;
+
+//     do {
+//         num = prompt('Введите число.', 0);
+//     } while( !isFinite(num) );
+
+//     if ( num === null || num === '' ) return null;
+
+//     return +num;
+// };
+
+// let res = readNumber();
+// alert( res );
 
