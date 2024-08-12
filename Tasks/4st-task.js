@@ -720,3 +720,5 @@ function showAllAtributesInObject(obj) {
 // alert( num.toFixed(20) );
 // alert( +num.toFixed(1) );
 
+
+alert( parseInt("100px"));
