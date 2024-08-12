@@ -727,6 +727,8 @@ function showAllAtributesInObject(obj) {
 // alert( parseFloat("12.5.4"));
 // alert( parseInt("d12"));
 
-alert( Math.round(Math.random() * 100 ));
-alert( Math.round(Math.random() * 100 ));
-alert( Math.round(Math.random() * 100 ));
+// alert( Math.round(Math.random() * 100 ));
+// alert( Math.round(Math.random() * 100 ));
+// alert( Math.round(Math.random() * 100 ));
+
+
