@@ -725,5 +725,5 @@ function showAllAtributesInObject(obj) {
 // alert( parseFloat("12.5em"));
 // alert( parseInt("12.3rem"));
 // alert( parseFloat("12.5.4"));
-
+// alert( parseInt("d12"));
 
