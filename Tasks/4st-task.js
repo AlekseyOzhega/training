@@ -780,6 +780,11 @@ function showAllAtributesInObject(obj) {
 //        Второе случайное число    ${randomInteger( min, max )}
 //        Nретье случайное число    ${randomInteger( min, max )} `);
 
+//Строки
+
 
 // alert("Гости:\n * Петя\n * Вася\n * Митя");
+
+let str = 'Hello';
+// alert( str.length );
 
