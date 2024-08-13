@@ -780,3 +780,5 @@ function showAllAtributesInObject(obj) {
 //        Второе случайное число    ${randomInteger( min, max )}
 //        Nретье случайное число    ${randomInteger( min, max )} `);
 
+
+alert("Гости:\n * Петя\n * Вася\n * Митя")
