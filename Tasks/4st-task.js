@@ -771,4 +771,9 @@ function showAllAtributesInObject(obj) {
 
 function randomInteger(min, max) {
     return min + Math.random() * ( max - min );
-}
+};
+
+let min = +prompt('Введите минимальное число.');
+let max = +prompt('Введите максимальное число.');
+
+alert( randomInteger( min, max ));
