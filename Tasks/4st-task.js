@@ -787,4 +787,7 @@ function showAllAtributesInObject(obj) {
 
 let str = 'Hello';
 // alert( str.length );
-
+alert( str[0] );
+alert( str.at(1) );
+alert( str[str.length - 1] );
+alert( str.at(-2) );
