@@ -792,3 +792,6 @@ let str = 'Hello';
 // alert( str[str.length - 1] );
 // alert( str.at(-2) );
 
+for ( let char of str ) {
+    alert( char );
+}
