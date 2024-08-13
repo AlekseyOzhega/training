@@ -769,13 +769,14 @@ function showAllAtributesInObject(obj) {
 // alert( res );
 
 
-function randomInteger(min, max) {
-    return min + Math.random() * ( max - min );
-};
+// function randomInteger(min, max) {
+//     return min + Math.random() * ( max - min );
+// };
 
-let min = +prompt('Введите минимальное число.');
-let max = +prompt('Введите максимальное число.');
+// let min = +prompt('Введите минимальное число.');
+// let max = +prompt('Введите максимальное число.');
 
-alert(`Первое случайное число ${randomInteger( min, max )} 
-    Второе случайное число ${randomInteger( min, max )}
-    третье случайное число ${randomInteger( min, max )} `);
+// alert(`       Первое случайное число   ${randomInteger( min, max )} 
+//        Второе случайное число    ${randomInteger( min, max )}
+//        Nретье случайное число    ${randomInteger( min, max )} `);
+
