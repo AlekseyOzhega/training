@@ -781,4 +781,5 @@ function showAllAtributesInObject(obj) {
 //        Nретье случайное число    ${randomInteger( min, max )} `);
 
 
-alert("Гости:\n * Петя\n * Вася\n * Митя")
+// alert("Гости:\n * Петя\n * Вася\n * Митя");
+
