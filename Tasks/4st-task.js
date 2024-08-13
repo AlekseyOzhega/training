@@ -768,3 +768,7 @@ function showAllAtributesInObject(obj) {
 // let res = readNumber();
 // alert( res );
 
+
+function randomInteger(min, max) {
+    return min + Math.random() * ( max - min );
+}
