@@ -776,4 +776,6 @@ function randomInteger(min, max) {
 let min = +prompt('Введите минимальное число.');
 let max = +prompt('Введите максимальное число.');
 
-alert( randomInteger( min, max ));
+alert(`Первое случайное число ${randomInteger( min, max )} 
+    Второе случайное число ${randomInteger( min, max )}
+    третье случайное число ${randomInteger( min, max )} `);
