@@ -785,7 +785,7 @@ function showAllAtributesInObject(obj) {
 
 // alert("Гости:\n * Петя\n * Вася\n * Митя");
 
-let str = 'Hello';
+// let str = 'Hello';
 // alert( str.length );
 // alert( str[0] );
 // alert( str.at(1) );
@@ -801,4 +801,6 @@ let str = 'Hello';
 // alert( 'Interface'.toLowerCase() );
 
 // alert( 'Interface'[0].toLowerCase() );
+
+let str = "Widget with id";
 
