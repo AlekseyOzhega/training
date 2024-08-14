@@ -806,3 +806,6 @@ let str = "Widget with id";
 
 // alert( str.indexOf('id', 2) );
 
+let target = 'id';
+let pos = 0;
+
