@@ -797,5 +797,6 @@ let str = 'Hello';
 // };
 
 
-alert( 'Interface'.toUpperCase() );
-alert( 'Interface'.toLowerCase() );
+// alert( 'Interface'.toUpperCase() );
+// alert( 'Interface'.toLowerCase() );
+
