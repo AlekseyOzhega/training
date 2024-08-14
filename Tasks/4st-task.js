@@ -809,3 +809,9 @@ let str = "Widget with id";
 let target = 'id';
 let pos = 0;
 
+while(true) {
+    let foundPos = str.indexOf( target, pos );
+    if ( foundPos == -1 ) break;
+    
+    alert
+}
