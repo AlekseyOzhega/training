@@ -804,3 +804,5 @@ function showAllAtributesInObject(obj) {
 
 let str = "Widget with id";
 
+// alert( str.indexOf('id', 2) );
+
