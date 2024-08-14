@@ -802,16 +802,22 @@ function showAllAtributesInObject(obj) {
 
 // alert( 'Interface'[0].toLowerCase() );
 
-let str = "Widget with id";
+// let str = "Widget with id";
 
 // alert( str.indexOf('id', 2) );
 
-let target = 'id';
-let pos = 0;
+// let target = 'id';
+// let pos = -1;
 
-while(true) {
-    let foundPos = str.indexOf( target, pos );
-    if ( foundPos == -1 ) break;
+// while(true) {
+//     let foundPos = str.indexOf( target, pos );
+//     if ( foundPos == -1 ) break;
     
-    alert
-}
+//     alert( `Найдено на позиции: ${foundPos}`);
+//     pos = foundPos + 1;
+// };
+
+// while ( (pos = str.indexOf( target, pos + 1)) != -1) {
+//     alert( pos );
+// };
+
