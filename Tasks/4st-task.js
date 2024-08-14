@@ -800,4 +800,5 @@ let str = 'Hello';
 // alert( 'Interface'.toUpperCase() );
 // alert( 'Interface'.toLowerCase() );
 
-alert( 'Interface'[0].toLowerCase() );
+// alert( 'Interface'[0].toLowerCase() );
+
