@@ -1,0 +1,25 @@
+body {
+    background: repeating-linear-gradient(
+        110deg, 
+        rgb(248, 140, 16), 
+        rgb(187, 248, 34), 
+        white);
+}
+
+header {
+    padding-top: 20px;
+}
+
+header a {
+    margin: 10px 5px 10px 5px;
+    background-color: rgb(24, 116, 153);
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+}
+
+header a:hover {
+    background-color: rgb(36, 187, 247);
+}
