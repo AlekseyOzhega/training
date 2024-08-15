@@ -821,3 +821,5 @@ function showAllAtributesInObject(obj) {
 //     alert( pos );
 // };
 
+
+alert( ~2 );
