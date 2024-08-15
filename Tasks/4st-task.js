@@ -823,3 +823,5 @@ function showAllAtributesInObject(obj) {
 
 
 alert( ~2 );
+alert( ~-1 );
+
