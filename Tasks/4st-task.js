@@ -828,3 +828,4 @@ function showAllAtributesInObject(obj) {
 // alert( 'Midget'.includes('id', 3) );
 
 alert( 'Widget'.startsWith('Wid') );
+alert( 'Widget'.endsWith('et') );
