@@ -825,4 +825,6 @@ function showAllAtributesInObject(obj) {
 // alert( ~2 );
 // alert( ~-1 );
 
-alert( 'Midget'.includes('id', 3) );
+// alert( 'Midget'.includes('id', 3) );
+
+alert( 'Widget'.startsWith('Wid') );
