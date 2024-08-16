@@ -832,3 +832,4 @@ function showAllAtributesInObject(obj) {
 
 // alert( 'stringifyplace'.slice(-6, -2) );
 
+alert( 'stringifyplace'.substring(2, 8) );
