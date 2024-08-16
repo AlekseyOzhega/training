@@ -834,3 +834,5 @@ function showAllAtributesInObject(obj) {
 
 // alert( 'stringifyplace'.substr(2, 4) );
 
+// alert( 'John'.codePointAt(1) );
+
