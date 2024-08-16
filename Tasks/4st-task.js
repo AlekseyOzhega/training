@@ -830,4 +830,5 @@ function showAllAtributesInObject(obj) {
 // alert( 'Widget'.startsWith('Wid') );
 // alert( 'Widget'.endsWith('et') );
 
-alert( 'stringifyplace'.slice(-6, -3) );
+// alert( 'stringifyplace'.slice(-6, -3) );
+
