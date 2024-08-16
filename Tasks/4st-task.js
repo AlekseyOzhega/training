@@ -836,3 +836,5 @@ function showAllAtributesInObject(obj) {
 
 // alert( 'John'.codePointAt(1) );
 
+// alert( String.fromCodePoint('12219') );
+
