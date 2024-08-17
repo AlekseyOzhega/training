@@ -852,14 +852,12 @@ function showAllAtributesInObject(obj) {
 
 
 function checkSpam(str) {
+
+    let lowerStr = str.toLowerCase();
     
-    if ( str.includes('Viagra', 0) ) return true;
-
-    if ( str.includes('xxx', 0) ) return true;
-
-    return false;
+    return lowerStr.includes('viagra') || lowerStr.includes('xxx');
 };
 
-checkSpam('buy ViAgRA now');
-checkSpam('free xxxxx');
-checkSpam("innocent rabbit");
+alert( checkSpam('buy ViAgRA now') );
+alert( checkSpam('free xxxxx') );
+alert( checkSpam('innocent rabbit') );
