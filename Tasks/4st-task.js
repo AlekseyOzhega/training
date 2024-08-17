@@ -838,3 +838,7 @@ function showAllAtributesInObject(obj) {
 
 // alert( String.fromCodePoint('12219') );
 
+
+function ucFirst(str) {
+    
+}
