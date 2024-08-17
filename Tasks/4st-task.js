@@ -839,6 +839,8 @@ function showAllAtributesInObject(obj) {
 // alert( String.fromCodePoint('12219') );
 
 
+//Задачи
+
 // function ucFirst(str) {
 //     if ( !str ) return str;
 //     return ( ( str[0].toUpperCase() ) + ( str.slice(1) ) );
@@ -848,3 +850,7 @@ function showAllAtributesInObject(obj) {
 // alert( ucFirst('Лошарик'));
 // alert( ucFirst('john'));
 
+
+function checkSpam(str) {
+    
+}
