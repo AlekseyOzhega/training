@@ -853,4 +853,13 @@ function showAllAtributesInObject(obj) {
 
 function checkSpam(str) {
     
-}
+    if ( str.includes('Viagra', 0) ) return true;
+
+    if ( str.includes('xxx', 0) ) return true;
+
+    return false;
+};
+
+checkSpam('buy ViAgRA now');
+checkSpam('free xxxxx');
+checkSpam("innocent rabbit");
