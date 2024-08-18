@@ -880,3 +880,6 @@ function showAllAtributesInObject(obj) {
 // alert( truncate("Вот, что мне хотелось бы сказать на эту тему:", 19) );
 
 
+function extractCurrencyValue(str) {
+    
+}
