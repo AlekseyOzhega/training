@@ -880,10 +880,12 @@ function showAllAtributesInObject(obj) {
 // alert( truncate("Вот, что мне хотелось бы сказать на эту тему:", 19) );
 
 
-function extractCurrencyValue(str) {
-    return ( +(str.slice(1) ) );
-}
+// function extractCurrencyValue(str) {
+//     return ( +(str.slice(1) ) );
+// }
 
-alert( extractCurrencyValue('$120') );
-alert( extractCurrencyValue('$25000') );
-alert( extractCurrencyValue('$3459.25') );
+// alert( extractCurrencyValue('$120') );
+// alert( extractCurrencyValue('$25000') );
+// alert( extractCurrencyValue('$3459.25') );
+
+
