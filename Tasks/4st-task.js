@@ -863,3 +863,6 @@ function showAllAtributesInObject(obj) {
 // alert( checkSpam('innocent rabbit') );
 
 
+function truncate(str, maxLength) {
+    
+}
