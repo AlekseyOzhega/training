@@ -885,3 +885,5 @@ function extractCurrencyValue(str) {
 }
 
 alert( extractCurrencyValue('$120') );
+alert( extractCurrencyValue('$25000') );
+alert( extractCurrencyValue('$3459.25') );
