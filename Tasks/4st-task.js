@@ -864,5 +864,9 @@ function showAllAtributesInObject(obj) {
 
 
 function truncate(str, maxLength) {
-    
-}
+    if ( str.length <= maxLength ) return str;
+
+
+};
+
+alert( truncate('Всем привет', 20) );
