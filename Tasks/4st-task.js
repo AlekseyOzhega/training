@@ -862,13 +862,19 @@ function showAllAtributesInObject(obj) {
 // alert( checkSpam('free xxxxx') );
 // alert( checkSpam('innocent rabbit') );
 
+//Моё решенте:
+// function truncate(str, maxLength) {
+//     if ( str.length <= maxLength ) return str;
 
-function truncate(str, maxLength) {
-    if ( str.length <= maxLength ) return str;
+//     if ( str.length > maxLength ) return ( ( str.substr(0, 20) + '...') );
 
-    if ( str.length > maxLength ) return ( ( str.substr(0, 20) + '...') );
+// };
 
-};
+//Решение из учебника
+function truncate(str, maxlength) {
+    return (str.length > maxlength) ?
+      str.slice(0, maxlength - 1) + '…' : str;
+}
 
 alert( truncate('Всем привет', 20) );
 alert( truncate("Вот, что мне хотелось бы сказать на эту тему:", 19) );
