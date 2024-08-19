@@ -10,3 +10,4 @@ let fruits = ['Яблоко', 'Апельсин', 'Груша',];
 // fruits.push('2nd');
 // alert( fruits );
 
+alert(fruits.pop);
