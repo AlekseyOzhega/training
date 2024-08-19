@@ -26,3 +26,7 @@ let fruits = ['Яблоко', 'Апельсин', 'Груша',];
 // fruits.unshift('Банан', 'Авокадо')
 // alert( fruits );
 
+let arr = fruits;
+
+arr.push('Final');
+alert( fruits );
