@@ -23,3 +23,5 @@ let fruits = ['Яблоко', 'Апельсин', 'Груша',];
 // alert( fruits );
 
 fruits.push( 'Мандарин', 'Киви' );
+fruits.unshift('Банан', 'Авокадо')
+alert( fruits );
