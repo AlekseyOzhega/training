@@ -5,7 +5,8 @@
 
 let fruits = ['Яблоко', 'Апельсин', 'Груша',];
 
-fruits[fruits.length] = '...';
-alert( fruits );
-fruits.push('...');
-alert( fruits );
+// fruits[fruits.length] = '1st';
+// alert( fruits );
+// fruits.push('2nd');
+// alert( fruits );
+
