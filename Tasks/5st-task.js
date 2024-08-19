@@ -10,14 +10,15 @@ let fruits = ['Яблоко', 'Апельсин', 'Груша',];
 // fruits.push('2nd');
 // alert( fruits );
 
-alert( fruits.pop() );
-alert( fruits );
+// alert( fruits.pop() );
+// alert( fruits );
 
-fruits.push('Вишня');
-alert( fruits );
+// fruits.push('Вишня');
+// alert( fruits );
 
-alert( fruits.shift() );
-alert( fruits );
+// alert( fruits.shift() );
+// alert( fruits );
 
-fruits.unshift('Дыня');
-alert( fruits );
+// fruits.unshift('Дыня');
+// alert( fruits );
+
