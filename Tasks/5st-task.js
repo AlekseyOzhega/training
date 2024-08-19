@@ -11,3 +11,8 @@ let fruits = ['Яблоко', 'Апельсин', 'Груша',];
 // alert( fruits );
 
 alert( fruits.pop() );
+alert( fruits );
+
+fruits.push('Вишня');
+alert( fruits );
+
