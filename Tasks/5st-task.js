@@ -3,7 +3,7 @@
 //Массивы
 
 
-let fruits = ['Яблоко', 'Апельсин', 'Груша',];
+// let fruits = ['Яблоко', 'Апельсин', 'Груша',];
 
 // fruits[fruits.length] = '1st';
 // alert( fruits );
@@ -26,7 +26,8 @@ let fruits = ['Яблоко', 'Апельсин', 'Груша',];
 // fruits.unshift('Банан', 'Авокадо')
 // alert( fruits );
 
-let arr = fruits;
+// let arr = fruits;
 
-arr.push('Final');
-alert( fruits );
+// arr.push('Final');
+// alert( fruits );
+
