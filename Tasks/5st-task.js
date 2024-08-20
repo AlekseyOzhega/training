@@ -55,3 +55,11 @@
 
 // arr[2]();
 
+
+function sumInput() {
+    let arr = [];
+    while (true) {
+        arr.push( prompt('Введите значения массива.'));
+        
+    }
+}
