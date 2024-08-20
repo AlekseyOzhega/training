@@ -68,3 +68,7 @@ function sumInput() {
         arr.push( arrNew );
     }
 }
+
+let arr2 = sumInput();
+
+alert( arr2 );
