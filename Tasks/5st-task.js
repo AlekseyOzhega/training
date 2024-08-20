@@ -34,14 +34,16 @@
 
 //Задачи
 
-let styles = ['Джаз', 'Блюз'];
+// let styles = ['Джаз', 'Блюз'];
 
-styles.push('Рок-н-ролл');
+// styles.push('Рок-н-ролл');
 
-styles[ Math.floor( ( styles.length - 1 ) / 2 ) ] = 'Классика';
+// styles[ Math.floor( ( styles.length - 1 ) / 2 ) ] = 'Классика';
 
-alert( styles.shift() );
+// alert( styles.shift() );
 
-styles.unshift('Реп', 'Регги');
+// styles.unshift('Реп', 'Регги');
 
-alert( styles );
+// alert( styles );
+
+
