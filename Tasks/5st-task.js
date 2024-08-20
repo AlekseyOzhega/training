@@ -47,10 +47,11 @@
 // alert( styles );
 
 
-let arr = ["a", "b"];
+// let arr = ["a", "b"];
 
-arr.push(function() {
-  alert( this );
-});
+// arr.push(function() {
+//   alert( this );
+// });
 
-arr[2]();
+// arr[2]();
+
