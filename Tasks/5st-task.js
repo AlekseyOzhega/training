@@ -68,9 +68,8 @@ function sumInput() {
 
         arr.push( arrNew );
 
-        if ( arrNew === NaN ) {
-            
-        }
+        if ( arrNew === NaN ) continue;
+        
         sum += +arrNew;
     }
 
