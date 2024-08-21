@@ -67,9 +67,9 @@ function sumInput() {
         };
 
         arr.push( arrNew );      
-        alert(`Элемент ${arrNew} с типом ${ typeof(arrNew) }`);
+        // alert(`Элемент ${arrNew} с типом ${ typeof(arrNew) }`);
 
-        if ( typeof(arrNew) == "number" ) { arrNew = 0 };  
+        if ( isNaN(arrNew) ) { arrNew = 0 };  
 
         sum += +arrNew;
     }
