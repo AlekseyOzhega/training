@@ -58,17 +58,23 @@
 
 function sumInput() {
     let arr = [];
+    let sum = 0;
     while (true) {
         let arrNew = prompt('Введите значения массива.');
 
         if ( arrNew === '' || arrNew === null ) {
-            return arr;
+            break;
         };
 
         arr.push( arrNew );
+
+        sum += arrNew;
     }
+
+    return
 }
 
 let arr2 = sumInput();
 
 alert( arr2 );
+
