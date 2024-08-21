@@ -66,10 +66,10 @@ function sumInput() {
             break;
         };
 
-        arr.push( arrNew );
+        arr.push( arrNew );      
+        alert(`Элемент ${arrNew} с типом ${ typeof(arrNew) }`);
+        if ( arrNew === NaN ) { arrNew = 0 };  
 
-        if ( arrNew === NaN ) continue;
-        
         sum += +arrNew;
     }
 
