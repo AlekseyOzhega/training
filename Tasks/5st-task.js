@@ -68,7 +68,7 @@ function sumInput() {
 
         arr.push( arrNew );
 
-        sum += arrNew;
+        sum += +arrNew;
     }
 
     return sum;
