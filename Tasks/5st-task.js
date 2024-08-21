@@ -68,7 +68,8 @@ function sumInput() {
 
         arr.push( arrNew );      
         alert(`Элемент ${arrNew} с типом ${ typeof(arrNew) }`);
-        if ( arrNew === NaN ) { arrNew = 0 };  
+
+        if ( typeof(arrNew) == "number" ) { arrNew = 0 };  
 
         sum += +arrNew;
     }
