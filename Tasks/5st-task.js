@@ -71,7 +71,7 @@ function sumInput() {
         sum += arrNew;
     }
 
-    return
+    return sum;
 }
 
 let arr2 = sumInput();
