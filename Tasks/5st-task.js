@@ -79,20 +79,20 @@
 // alert( arr2 );
 
 
-function getMaxSubSum(arr) {
-    let maxSum = 0;
-    let currentSum = 0;
+// function getMaxSubSum(arr) {
+//     let maxSum = 0;
+//     let currentSum = 0;
 
-    for (let item of arr) {
-        currentSum += item;
-        maxSum = Math.max(maxSum, currentSum);
-        if ( currentSum < 0 ) {
-            currentSum = 0;
-        }
-    }
+//     for (let item of arr) {
+//         currentSum += item;
+//         maxSum = Math.max(maxSum, currentSum);
+//         if ( currentSum < 0 ) {
+//             currentSum = 0;
+//         }
+//     }
 
-    return maxSum;
-}
+//     return maxSum;
+// }
 
 // getMaxSubSum([-1, 2, 3, -9]) == 5 (сумма выделенных элементов)
 // getMaxSubSum([2, -1, 2, 3, -9]) == 6
@@ -101,9 +101,10 @@ function getMaxSubSum(arr) {
 // getMaxSubSum([100, -9, 2, -3, 5]) == 100
 // getMaxSubSum([1, 2, 3]) == 6 (берём все)
 
-alert( getMaxSubSum([-1, 2, 3, -9]) );
-alert( getMaxSubSum([2, -1, 2, 3, -9]) );
-alert( getMaxSubSum([-1, 2, 3, -9, 11]) );
-alert( getMaxSubSum([-2, -1, 1, 2]) );
-alert( getMaxSubSum([100, -9, 2, -3, 5]) );
-alert( getMaxSubSum([1, 2, 3]) );
+// alert( getMaxSubSum([-1, 2, 3, -9]) );
+// alert( getMaxSubSum([2, -1, 2, 3, -9]) );
+// alert( getMaxSubSum([-1, 2, 3, -9, 11]) );
+// alert( getMaxSubSum([-2, -1, 1, 2]) );
+// alert( getMaxSubSum([100, -9, 2, -3, 5]) );
+// alert( getMaxSubSum([1, 2, 3]) );
+
