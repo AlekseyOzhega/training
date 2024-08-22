@@ -84,7 +84,11 @@ function getMaxSubSum(arr) {
     let currentSum = 0;
 
     for (let item of arr) {
-        
+        currentSum += item;
+        maxSum = Math.max(maxSum, currentSum);
+        if ( currentSum < 0 ) {
+            
+        }
     }
 }
 
