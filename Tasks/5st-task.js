@@ -87,9 +87,11 @@ function getMaxSubSum(arr) {
         currentSum += item;
         maxSum = Math.max(maxSum, currentSum);
         if ( currentSum < 0 ) {
-            
+            currentSum = 0;
         }
     }
+
+    return maxSum;
 }
 
 // getMaxSubSum([-1, 2, 3, -9]) == 5 (сумма выделенных элементов)
