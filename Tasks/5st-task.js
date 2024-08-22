@@ -113,6 +113,6 @@
 
 let arr = [1, 2, 3, 4];
 
-arr.splice(1, 1); 
+arr.splice(0, 2, 5, 4); 
 
 alert( arr );
