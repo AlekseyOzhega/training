@@ -80,6 +80,9 @@
 
 
 function getMaxSubSum(arr) {
+    let maxSum = 0;
+    let currentSum = 0;
+
     
 }
 
