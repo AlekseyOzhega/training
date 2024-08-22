@@ -108,3 +108,11 @@
 // alert( getMaxSubSum([100, -9, 2, -3, 5]) );
 // alert( getMaxSubSum([1, 2, 3]) );
 
+
+//Методы массивов
+
+let arr = [1, 2, 3, 4];
+
+arr.splice(1, 1); 
+
+alert( arr );
