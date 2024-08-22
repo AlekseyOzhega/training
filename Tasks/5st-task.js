@@ -111,8 +111,9 @@
 
 //Методы массивов
 
-let arr = [1, 2, 3, 4];
+// let arr = [1, 2, 3, 4];
 
-arr.splice(2, 0, 2.5); 
+// arr.splice(2, 0, 2.5); 
 
-alert( arr );
+// alert( arr );
+
