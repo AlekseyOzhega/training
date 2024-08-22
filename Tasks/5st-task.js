@@ -56,28 +56,25 @@
 // arr[2]();
 
 
-function sumInput() {
-    let arr = [];
-    let sum = 0;
-    while (true) {
-        let arrNew = prompt('Введите значения массива.');
+// function sumInput() {
+//     let arr = [];
+//     let sum = 0;
+//     while (true) {
+//         let arrNew = prompt('Введите значения массива.');
 
-        if ( arrNew === '' || arrNew === null ) {
-            break;
-        };
+//         if ( arrNew === '' || arrNew === null ) break;
 
-        arr.push( arrNew );      
-        // alert(`Элемент ${arrNew} с типом ${ typeof(arrNew) }`);
+//         arr.push( arrNew );      
 
-        if ( isNaN(arrNew) ) { arrNew = 0 };  
+//         if ( isNaN(arrNew) ) { arrNew = 0 };  
 
-        sum += +arrNew;
-    }
+//         sum += +arrNew;
+//     }
 
-    return sum;
-}
+//     return sum;
+// }
 
-let arr2 = sumInput();
+// let arr2 = sumInput();
 
-alert( arr2 );
+// alert( arr2 );
 
