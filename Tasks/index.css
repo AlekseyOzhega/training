@@ -6,13 +6,33 @@ h1 {
     font-style: italic;
 }
 
+.kursi1 {
+    padding: 8px;
+    margin: 20px 2px;
+    border: 2px solid blue;
+    display: flex;
+}
+
+legend {
+    font-size: 3vw;
+    font-weight: bolder;
+    color: blueviolet;
+    padding: 2px 5px;
+}
+
+.kursi1_2 {
+    width: 33%;
+    padding: 5px;
+    margin: 3px;
+}
+
 .tasks {
-    width: 70vw;
+    width: 80vw;
     border: 2px solid blue;
     border-radius: 5px;
     box-shadow: 3px 3px 3px grey;
     padding: 10px;
-    margin: 20px 40px;
+    margin: 20px auto;
 }
 
 hr {
