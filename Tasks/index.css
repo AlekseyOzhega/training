@@ -28,7 +28,7 @@ legend {
 
 .tasks {
     width: 80vw;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     border-radius: 5px;
     box-shadow: 3px 3px 3px grey;
     padding: 10px;
