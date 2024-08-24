@@ -141,3 +141,8 @@
 // alert( arr.indexOf(NaN) );
 // alert( arr.includes(NaN) );
 
+let users = [
+    {id: 1, name: 'Вася'},
+    {id: 1, name: 'Гриша'},
+    {id: 1, name: 'Петя'}
+]
