@@ -119,3 +119,9 @@
 
 // alert( [1, 2, 3, 4].slice(1, 3) );
 
+// alert( [1, 2, 3].concat({
+//     0: 'что-то', 
+//     1: 'ещё', 
+//     [Symbol.isConcatSpreadable]: true, 
+//     length: 2
+// } ) );
