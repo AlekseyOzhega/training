@@ -132,7 +132,11 @@
 //     alert(`У элемента ${item} индекс ${index} в массиве \"${array} \".`);
 // });
 
-let arr = [1, 2, 3, 4];
+// let arr = [1, 2, 3, 4];
 
-alert( arr.indexOf(2) );
-alert( arr.includes(3) );
+// alert( arr.indexOf(2) );
+// alert( arr.includes(3) );
+
+let arr = [NaN];
+alert( arr.indexOf(NaN) );
+alert( arr.includes(NaN) );
