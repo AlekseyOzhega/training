@@ -137,6 +137,7 @@
 // alert( arr.indexOf(2) );
 // alert( arr.includes(3) );
 
-let arr = [NaN];
-alert( arr.indexOf(NaN) );
-alert( arr.includes(NaN) );
+// let arr = [NaN];
+// alert( arr.indexOf(NaN) );
+// alert( arr.includes(NaN) );
+
