@@ -143,6 +143,9 @@
 
 let users = [
     {id: 1, name: 'Вася'},
-    {id: 1, name: 'Гриша'},
-    {id: 1, name: 'Петя'}
-]
+    {id: 2, name: 'Гриша'},
+    {id: 3, name: 'Петя'}
+];
+
+let user = users.find( item => item.id == 2 );
+alert( user.name );
