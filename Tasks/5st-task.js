@@ -134,3 +134,5 @@
 
 let arr = [1, 2, 3, 4];
 
+alert( arr.indexOf(2) );
+alert( arr.includes(3) );
