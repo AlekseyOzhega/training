@@ -125,3 +125,9 @@
 //     [Symbol.isConcatSpreadable]: true, 
 //     length: 2
 // } ) );
+
+let arr = ['Bilbo', 'Gimli', 'Gendolf'];
+
+arr.forEach(item, index, array) => {
+    alert(`У элемента ${item} индекс ${index} в массиве \"${array} \".`);
+};
