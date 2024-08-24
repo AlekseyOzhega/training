@@ -141,11 +141,12 @@
 // alert( arr.indexOf(NaN) );
 // alert( arr.includes(NaN) );
 
-let users = [
-    {id: 1, name: 'Вася'},
-    {id: 2, name: 'Гриша'},
-    {id: 3, name: 'Петя'}
-];
+// let users = [
+//     {id: 1, name: 'Вася'},
+//     {id: 2, name: 'Гриша'},
+//     {id: 3, name: 'Петя'}
+// ];
 
-let user = users.find( item => item.id == 2 );
-alert( user.name );
+// let user = users.find( item => item.id == 2 );
+// alert( user.name );
+
