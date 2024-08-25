@@ -154,3 +154,6 @@
 
 // alert( someUsers.length );
 
+let arr = ['Bilbo', 'Gimli', 'Gendolf'];
+
+let lengths = arr.map( item => item.length );
