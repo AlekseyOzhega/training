@@ -161,3 +161,5 @@
 // alert( lengths );
 
 
+let arr = [1, 2, 15];
+
