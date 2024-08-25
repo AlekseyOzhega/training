@@ -152,3 +152,4 @@ let users = [
 
 let someUsers = users.filter( item => item.id < 3);
 
+alert( someUsers );
