@@ -161,9 +161,11 @@
 // alert( lengths );
 
 
-// let arr = [1, 2, 15];
+let arr = [1, 2, 15];
 
-// arr.sort();
+let arr2 = (arr.sort());
 
-// alert( arr );
+alert( arr );
+alert( arr2 );
+
 
