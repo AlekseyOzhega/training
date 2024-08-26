@@ -181,6 +181,7 @@
 
 // alert( arr );
 
-let names = 'Вася, Петя, Гриша, Федя';
-let arr = names.split(', ');
-alert( arr );
+// let names = 'Вася, Петя, Гриша, Федя';
+// let arr = names.split(', ');
+// alert( arr );
+
