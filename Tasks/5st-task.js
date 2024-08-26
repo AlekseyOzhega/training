@@ -161,11 +161,13 @@
 // alert( lengths );
 
 
-let arr = [1, 2, 15];
+// let arr = [1, 2, 15];
 
-let arr2 = (arr.sort());
+// let arr2 = (arr.sort());
 
-alert( arr );
-alert( arr2 );
+// alert( arr );
+// alert( arr2 );
 
-
+function compareNumberic(a, b) {
+    
+}
