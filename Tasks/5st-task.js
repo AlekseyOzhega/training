@@ -169,12 +169,13 @@
 // alert( arr2 );
 
 // function compareNumberic(a, b) {
+//     alert(`Сравниваются элементы \"${a}\" и \"${b}\"`);
 //     if ( a > b ) return 1;
 //     if ( a == b ) return 0;
 //     if ( a < b ) return -1;
 // };
 
-// let arr = [1, 11, 24, 2, 15, 3, 33];
+// let arr = [1, 11, 24, 2, 15, 3];
 
 // arr.sort(compareNumberic);
 
