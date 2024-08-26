@@ -168,14 +168,15 @@
 // alert( arr );
 // alert( arr2 );
 
-function compareNumberic(a, b) {
-    if ( a > b ) return 1;
-    if ( a == b ) return 0;
-    if ( a < b ) return -1;
-};
+// function compareNumberic(a, b) {
+//     if ( a > b ) return 1;
+//     if ( a == b ) return 0;
+//     if ( a < b ) return -1;
+// };
 
-let arr = [1, 2, 15];
+// let arr = [1, 11, 24, 2, 15, 3, 33];
 
-arr.sort(compareNumberic);
+// arr.sort(compareNumberic);
 
+// alert( arr );
 
