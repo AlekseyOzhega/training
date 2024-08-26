@@ -174,4 +174,6 @@ function compareNumberic(a, b) {
     if ( a < b ) return -1;
 };
 
+let arr = [1, 2, 15];
+
 
