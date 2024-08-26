@@ -176,4 +176,6 @@ function compareNumberic(a, b) {
 
 let arr = [1, 2, 15];
 
+arr.sort(compareNumberic);
+
 
