@@ -194,8 +194,9 @@
 
 // alert( Array.isArray( arr ));
 
-let arr = [];
+// let arr = [];
 
-let result = arr.reduce( (sum, current) => sum + current);
+// let result = arr.reduce( (sum, current) => sum + current);
 
-alert( result );
+// alert( result );
+
