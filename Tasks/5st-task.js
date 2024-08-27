@@ -193,3 +193,6 @@
 // alert( result );
 
 // alert( Array.isArray( arr ));
+
+let arr = [];
+
