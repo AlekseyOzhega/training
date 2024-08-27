@@ -196,3 +196,6 @@
 
 let arr = [];
 
+let result = arr.reduce( (sum, current) => sum + current);
+
+alert( result );
