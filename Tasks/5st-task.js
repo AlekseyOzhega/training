@@ -185,3 +185,6 @@
 // let arr = names.split(', ');
 // alert( arr );
 
+
+let arr = [1, 2, 3, 4, 5];
+
