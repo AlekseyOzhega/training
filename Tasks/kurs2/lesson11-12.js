@@ -66,17 +66,18 @@ function showAllAtributesInObject(obj) {
 // let obj3 = { ...obj1, ...obj2 };
 // showAllAtributesInObject(obj3);
 
-let logAdress = (adress) => {
-    alert(`Адрес: 
-        г. ${adress.city}, ул. ${adress.street},
-        д. ${adress.houseNumber}, кв. ${adress.apartmentNumber}`);
-};
+// let logAdress = (adress) => {
+//     alert(`Адрес: 
+//         г. ${adress.city}, ул. ${adress.street},
+//         д. ${adress.houseNumber}, кв. ${adress.apartmentNumber}`);
+// };
 
-let userAdress = {
-    city: 'Иркутск',
-    street: 'Берёзовая',
-    houseNumber: 17,
-    apartmentNumber: 21,
-};
+// let userAdress = {
+//     city: 'Иркутск',
+//     street: 'Берёзовая',
+//     houseNumber: 17,
+//     apartmentNumber: 21,
+// };
 
-logAdress( userAdress );
+// logAdress( userAdress );
+
