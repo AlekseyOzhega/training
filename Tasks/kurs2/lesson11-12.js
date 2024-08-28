@@ -66,3 +66,9 @@ function showAllAtributesInObject(obj) {
 // let obj3 = { ...obj1, ...obj2 };
 // showAllAtributesInObject(obj3);
 
+let logAdress = {adress} => {
+    alert(`Адрес: 
+        г. ${adress.city}, ул. ${adress.street},
+        д. ${adress.houseNumber}, кв. ${adress.apartmentNumber}`);
+};
+
