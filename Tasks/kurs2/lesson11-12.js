@@ -50,3 +50,9 @@
 
 // alert('Равны ли объекты obj1 и obj2: ' + areObjectsEqual(obj1, obj2));
 
+// let obj1 = {name: 'Max'};
+// let obj2 = { ...obj1};
+// obj1.name = 'Alex';
+// alert( `Имя в первом объекте ${obj1.name}`);
+// alert( `Имя во втором объекте ${obj2.name}`);
+
