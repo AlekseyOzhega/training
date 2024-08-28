@@ -1,5 +1,10 @@
 'use strict';
 
+function showAllAtributesInObject(obj) {
+    for (let key in obj) {
+    alert( 'Значение: ' + key + ': ' + obj[key] );
+    }
+}
 
 //Урок 11
 
@@ -52,7 +57,7 @@
 
 // let obj1 = {name: 'Max'};
 // let obj2 = { ...obj1};
-// obj1.name = 'Alex';
+// obj2.name = 'Alex';
 // alert( `Имя в первом объекте ${obj1.name}`);
 // alert( `Имя во втором объекте ${obj2.name}`);
 
