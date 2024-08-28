@@ -87,12 +87,28 @@ function showAllAtributesInObject(obj) {
 
 // logAdress( userAdress );
 
-let user = {
-    name: 'John',
-    age: 24,
-    logThis: function() {
-        console.log('this в теле метода объекта user: ', this);
-    },
+// let user = {
+//     name: 'John',
+//     age: 24,
+//     logThis() {
+//         console.log('this в теле метода объекта user: ', this);
+//     },
+// };
+
+// user.logThis();
+
+let user1 = {name: 'Миша'};
+let user2 = {name: 'Вася'};
+
+function logInfo() {
+    console.log('this: ', this)
+    console.log('this.name: ', this?.name)
 };
 
-user.logThis();
+logInfo();
+
+user1.logName = logInfo;
+user2.logName = logInfo;
+
+user1.logName();
+user2.logName();
