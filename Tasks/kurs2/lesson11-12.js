@@ -97,18 +97,19 @@ function showAllAtributesInObject(obj) {
 
 // user.logThis();
 
-let user1 = {name: 'Миша'};
-let user2 = {name: 'Вася'};
+// let user1 = {name: 'Миша'};
+// let user2 = {name: 'Вася'};
 
-function logInfo() {
-    console.log('this: ', this)
-    console.log('this.name: ', this?.name)
-};
+// function logInfo() {
+//     console.log('this: ', this)
+//     console.log('this.name: ', this?.name)
+// };
 
-logInfo();
+// logInfo();
 
-user1.logName = logInfo;
-user2.logName = logInfo;
+// user1.logName = logInfo;
+// user2.logName = logInfo;
 
-user1.logName();
-user2.logName();
+// user1.logName();
+// user2.logName();
+
