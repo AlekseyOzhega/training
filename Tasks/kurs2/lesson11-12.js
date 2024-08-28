@@ -72,3 +72,10 @@ let logAdress = {adress} => {
         д. ${adress.houseNumber}, кв. ${adress.apartmentNumber}`);
 };
 
+let userAdress = {
+    city: 'Иркутск',
+    street: 'Берёзовая',
+    houseNumber: 17,
+    apartmentNumber: 21,
+};
+
