@@ -61,7 +61,8 @@ function showAllAtributesInObject(obj) {
 // alert( `Имя в первом объекте ${obj1.name}`);
 // alert( `Имя во втором объекте ${obj2.name}`);
 
-let obj1 = {name: 'Max'};
-let obj2 = {age: 22};
-let obj3 = { ...obj1, ...obj2 };
-showAllAtributesInObject(obj3);
+// let obj1 = {name: 'Max'};
+// let obj2 = {age: 22};
+// let obj3 = { ...obj1, ...obj2 };
+// showAllAtributesInObject(obj3);
+
