@@ -200,23 +200,25 @@
 
 // alert( result );
 
-let users = [
-    {name: 'John', age: 23},
-    {name: 'Bill', age: 17},
-    {name: 'Dick', age: 43},
-    {name: 'Mett', age: 33},
-    {name: 'Alan', age: 26},
-    {name: 'Alex', age: 19},
-];
+// let users = [
+//     {name: 'John', age: 23},
+//     {name: 'Bill', age: 17},
+//     {name: 'Dick', age: 43},
+//     {name: 'Mett', age: 33},
+//     {name: 'Alan', age: 26},
+//     {name: 'Alex', age: 19},
+// ];
 
-let army = {
-    minAge: 18,
-    maxAge: 27,
-    canJoin(user) {
-        return user.age >= this.minAge && user.age < this.maxAge;
-    },
-};
+// let army = {
+//     minAge: 18,
+//     maxAge: 27,
+//     canJoin(user) {
+//         return user.age >= this.minAge && user.age < this.maxAge;
+//     },
+// };
 
-let soldiers = users.filter(user => army.canJoin(user));
+// let soldiers = users.filter(user => army.canJoin(user));
 
-console.log( soldiers );
+// console.log( soldiers );
+
+
