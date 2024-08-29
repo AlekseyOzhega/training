@@ -128,3 +128,4 @@ let army = users.filter(
     item => item.age >= 18 && item.age < 27
 );
 
+console.log( army );
