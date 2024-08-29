@@ -209,8 +209,12 @@ let users = [
     {name: 'Alex', age: 19},
 ];
 
-let army = users.filter(
-    item => item.age >= 18 && item.age < 27
-);
+let army = {
+    minAge: 18,
+    maxAge: 27,
+    canJoin(user) {
+        
+    }
+};
 
 console.log( army );
