@@ -217,6 +217,6 @@ let army = {
     },
 };
 
-let soldiers = users.filter(army.canJoin, army);
+let soldiers = users.filter(user => army.canJoin(user));
 
-console.log( army );
+console.log( soldiers );
