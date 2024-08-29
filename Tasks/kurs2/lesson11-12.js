@@ -122,4 +122,9 @@ let users = [
     {name: 'Mett', age: 33},
     {name: 'Alan', age: 26},
     {name: 'Alex', age: 19},
-]
+];
+
+let army = users.filter(
+    item => item.age >= 18 && item.age < 27
+);
+
