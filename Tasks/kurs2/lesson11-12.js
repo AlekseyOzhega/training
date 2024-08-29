@@ -113,4 +113,5 @@ function showAllAtributesInObject(obj) {
 // user1.logName();
 // user2.logName();
 
-console.log('this: ', this);
+// console.log('this: ', this);
+
