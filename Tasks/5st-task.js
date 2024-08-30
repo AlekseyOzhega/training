@@ -238,3 +238,6 @@ function camelize(str) {
     return newArr;
 }
 
+alert(camelize('background-color'));
+alert(camelize('list-style-image'));
+alert(camelize('-webkit-transition'));
