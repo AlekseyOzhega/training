@@ -226,18 +226,18 @@
 
 
 function camelize(str) {
-    let arr = str.splite();
+    let arr = str.split('');
 
     function deleteDefice(element) {
-        if ( element[0] === '-' ) return undefined;
-        else return element;
+        if ( element !== '-' ) return element;
     };
 
     let newArr = arr.map( deleteDefice );
 
-    return newArr;
+    return newArr.join('');
 }
 
 alert(camelize('background-color'));
 alert(camelize('list-style-image'));
 alert(camelize('-webkit-transition'));
+
