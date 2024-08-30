@@ -225,3 +225,13 @@
 //Задачи
 
 
+function camelize(str) {
+    let arr = str.splite();
+
+    function deleteDefice(element) {
+        if ( element[0] === '-' ) return undefined;
+        else return element;
+    };
+
+    
+}
