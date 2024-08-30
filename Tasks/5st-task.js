@@ -233,5 +233,8 @@ function camelize(str) {
         else return element;
     };
 
-    
+    let newArr = arr.map( deleteDefice );
+
+    return newArr;
 }
+
