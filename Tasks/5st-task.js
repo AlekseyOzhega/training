@@ -226,15 +226,17 @@
 
 //Моё решение
 // function camelize(str) {
-//     let arr = str.split('-');
+//     str = str.split('-');
 
-//     let arr2 = arr.map(
+//     str = str.map(
 //         (item, index) =>
 //         index == 0 ? item : item[0].toUpperCase() + item.slice(1)
 //     );
 
-//     return arr2.join('');
+//     return str.join('');
 // }
+
+
 // let arr = ['my', 'little', 'array'].map(
 //         (item, index) =>
 //         index == 0 ? item : item[0].toUpperCase() + item.slice(1)
