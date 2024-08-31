@@ -225,17 +225,32 @@
 //Задачи
 
 //Моё решение
-// function camelize(str) {
-//     let arr = str.split('');
+function camelize(str) {
+    let arr = str.split('-');
 
-//     function deleteDefice(element) {
-//         if ( element !== '-' ) return element;
-//     };
+    arr.map(
+        (item, index) =>
+        index == 0 ? item : item[0].toUpperCase() + item.slice(1)
+    );
 
-//     let newArr = arr.map( deleteDefice );
+    return arr.join();
+}
 
-//     return newArr.join('');
-// }
+// let arrayZ = ['my', 'little', 'array'];
+// let arrayY = arrayZ.map( function(item, index) {
+//     if ( index >= 1) {
+//         return item[0].toUpperCase() + item.slice(1)
+//     } else return item;
+// });
+
+let arrayY = arrayZ.map( 
+    (item, index) =>
+    index == 0 ? item : item[0].toUpperCase() + item.slice(1)
+);
+
+console.log( arrayY );
+
+
 
 //Решение в учебнике
 // function camelize(str) {
