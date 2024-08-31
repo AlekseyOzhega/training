@@ -278,3 +278,13 @@
 // alert(camelize('list-style-image'));
 // alert(camelize('-webkit-transition'));
 
+
+function filterRange(arr, a, b) {
+    arr = arr.filter( item => item >= a );
+    arr = arr.filter( item => item <= b )
+    return arr;
+}
+
+let arr = [5, 3, 8, 1];
+
+console.log( filterRange( arr, 1, 4) );
