@@ -225,16 +225,25 @@
 //Задачи
 
 //Моё решение
-function camelize(str) {
-    let arr = str.split('-');
+// function camelize(str) {
+//     let arr = str.split('-');
 
-    arr.map(
-        (item, index) =>
-        index == 0 ? item : item[0].toUpperCase() + item.slice(1)
-    );
+//     let arr2 = arr.map(
+//         (item, index) =>
+//         index == 0 ? item : item[0].toUpperCase() + item.slice(1)
+//     );
 
-    return arr.join();
-}
+//     return arr2.join('');
+// }
+// let arr = ['my', 'little', 'array'].map(
+//         (item, index) =>
+//         index == 0 ? item : item[0].toUpperCase() + item.slice(1)
+//     );
+
+// console.log( arr );
+// let arr3 = arr.join('');
+// console.log( arr3 );
+
 
 // let arrayZ = ['my', 'little', 'array'];
 // let arrayY = arrayZ.map( function(item, index) {
@@ -263,7 +272,7 @@ function camelize(str) {
 //       .join(''); // соединяет ['my', 'Long', 'Word'] в 'myLongWord'
 // }
 
-alert(camelize('background-color'));
-alert(camelize('list-style-image'));
-alert(camelize('-webkit-transition'));
+// alert(camelize('background-color'));
+// alert(camelize('list-style-image'));
+// alert(camelize('-webkit-transition'));
 
