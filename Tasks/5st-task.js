@@ -243,13 +243,12 @@ function camelize(str) {
 //     } else return item;
 // });
 
-let arrayY = arrayZ.map( 
-    (item, index) =>
-    index == 0 ? item : item[0].toUpperCase() + item.slice(1)
-);
+// let arrayY = arrayZ.map( 
+//     (item, index) =>
+//     index == 0 ? item : item[0].toUpperCase() + item.slice(1)
+// );
 
-console.log( arrayY );
-
+// console.log( arrayY );
 
 
 //Решение в учебнике
@@ -264,7 +263,7 @@ console.log( arrayY );
 //       .join(''); // соединяет ['my', 'Long', 'Word'] в 'myLongWord'
 // }
 
-// alert(camelize('background-color'));
-// alert(camelize('list-style-image'));
-// alert(camelize('-webkit-transition'));
+alert(camelize('background-color'));
+alert(camelize('list-style-image'));
+alert(camelize('-webkit-transition'));
 
