@@ -279,12 +279,14 @@
 // alert(camelize('-webkit-transition'));
 
 
-function filterRange(arr, a, b) {
-    arr = arr.filter( item => item >= a );
-    arr = arr.filter( item => item <= b )
-    return arr;
-}
+// function filterRange(arr, a, b) {
+//     // arr = arr.filter( item => item >= a );
+//     // arr = arr.filter( item => item <= b );
+//     return arr.filter( item => item >= a && item <= b);
+// }
 
-let arr = [5, 3, 8, 1];
+// let arr = [5, 3, 8, 1];
 
-console.log( filterRange( arr, 1, 4) );
+// console.log( filterRange( arr, 1, 4) );
+
+
