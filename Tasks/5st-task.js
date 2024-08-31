@@ -309,7 +309,7 @@
 // console.log( arr);
 
 
-let arr = [5, 2, 1, -10, 8];
+let arr = [5, 2, 1, -10, 8, 15, 22];
 
 arr.sort().reverse();
 
