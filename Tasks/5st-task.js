@@ -290,3 +290,12 @@
 // console.log( filterRange( arr, 1, 4) );
 
 
+function filterRangeInPlace(arr, a, b) {
+
+    for ( let i = 0; i < arr.length; i++ ) {
+        let val = arr[i];
+
+        if ( val < a || val > b )
+
+    }
+}
