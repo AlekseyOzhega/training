@@ -290,20 +290,27 @@
 // console.log( filterRange( arr, 1, 4) );
 
 
-function filterRangeInPlace(arr, a, b) {
+// function filterRangeInPlace(arr, a, b) {
 
-    for ( let i = 0; i < arr.length; i++ ) {
-        let val = arr[i];
+//     for ( let i = 0; i < arr.length; i++ ) {
+//         let val = arr[i];
 
-        if ( val < a || val > b ) {
-            arr.splice(i, 1);
-            i--;
-        }
-    }
-}
+//         if ( val < a || val > b ) {
+//             arr.splice(i, 1);
+//             i--;
+//         }
+//     }
+// }
 
-let arr = [5, 3, 8, 1];
+// let arr = [5, 3, 8, 1];
 
-filterRangeInPlace( arr, 1, 4 );
+// filterRangeInPlace( arr, 1, 4 );
 
-console.log( arr);
+// console.log( arr);
+
+
+let arr = [5, 2, 1, -10, 8];
+
+arr.sort().reverse();
+
+console.log( arr );
