@@ -317,6 +317,8 @@ function compareNumberic(a, b) {
     if ( a < b ) return -1;
 }
 
+arr.sort( compareNumberic );
+
 // arr.sort().reverse();
 
 console.log( arr );
