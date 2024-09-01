@@ -115,17 +115,3 @@ function showAllAtributesInObject(obj) {
 
 // console.log('this: ', this);
 
-let users = [
-    {name: 'John', age: 23},
-    {name: 'Bill', age: 17},
-    {name: 'Dick', age: 43},
-    {name: 'Mett', age: 33},
-    {name: 'Alan', age: 26},
-    {name: 'Alex', age: 19},
-];
-
-let army = users.filter(
-    item => item.age >= 18 && item.age < 27
-);
-
-console.log( army );
