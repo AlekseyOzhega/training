@@ -325,13 +325,15 @@
 // console.log( arr );
 
 
-let arr = ["HTML", "JavaScript", "CSS"];
+// let arr = ["HTML", "JavaScript", "CSS"];
 
-function copySorted(arr) {
-    return arr.slice().sort();
-}
+// function copySorted(arr) {
+//     return arr.slice().sort();
+// }
 
-let sorted = copySorted(arr);
+// let sorted = copySorted(arr);
 
-console.log(arr);
-console.log(sorted);
+// console.log(arr);
+// console.log(sorted);
+
+
