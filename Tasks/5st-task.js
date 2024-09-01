@@ -337,8 +337,6 @@
 // console.log(sorted);
 
 
-function calculate() {
-    str
-    .split(' ')
-    .
+function calculate(str) {
+    
 }
