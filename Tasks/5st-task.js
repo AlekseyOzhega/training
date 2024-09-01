@@ -308,7 +308,7 @@
 
 // console.log( arr);
 
-
+//Моё решение
 let arr = [5, 2, 1, -10, 8, 15, 22];
 
 function compareNumberic(a, b) {
@@ -317,7 +317,9 @@ function compareNumberic(a, b) {
     if ( a < b ) return -1;
 }
 
-arr.sort( compareNumberic );
+//Решение из учебника
+
+arr.sort( compareNumberic ).reverse();
 
 // arr.sort().reverse();
 
