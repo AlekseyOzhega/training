@@ -328,8 +328,7 @@
 let arr = ["HTML", "JavaScript", "CSS"];
 
 function copySorted(arr) {
-    let newArr = arr.slice().sort();
-    return newArr;
+    return arr.slice().sort();
 }
 
 let sorted = copySorted(arr);
