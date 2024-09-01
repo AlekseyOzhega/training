@@ -309,18 +309,18 @@
 // console.log( arr);
 
 //Моё решение
-let arr = [5, 2, 1, -10, 8, 15, 22];
+// let arr = [5, 2, 1, -10, 8, 15, 22];
 
-function compareNumberic(a, b) {
-    if ( a > b ) return 1;
-    if ( a == b ) return 0;
-    if ( a < b ) return -1;
-}
-
-//Решение из учебника
-
-arr.sort( compareNumberic ).reverse();
-
+// function compareNumberic(a, b) {
+//     if ( a > b ) return 1;
+//     if ( a == b ) return 0;
+//     if ( a < b ) return -1;
+// }
+// arr.sort( compareNumberic ).reverse();
 // arr.sort().reverse();
 
-console.log( arr );
+//Решение из учебника
+// arr.sort((a, b) => b - a);
+
+// console.log( arr );
+
