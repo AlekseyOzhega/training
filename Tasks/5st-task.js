@@ -339,7 +339,7 @@
 
 function Calculator() {
     
-    this.method = {
+    this.methods = {
         '-': (a, b) => a - b,
         '+': (a, b) => a + b,
     };
@@ -351,7 +351,14 @@ function Calculator() {
             op = split[1],
             b = +split[2]
 
-        if ( )
+        if ( !this.methods[op] || isNaN(a) || isNaN(b) ) {
+            return NaN;
+        }
 
+        return this.methods[op](a, b);
+    }
+
+    this.addMethod = function(name, func) {
+        
     }
 }
