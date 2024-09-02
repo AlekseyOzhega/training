@@ -372,6 +372,6 @@ let masha = { name: "Маша", age: 28 };
 
 let users = [ vasya, petya, masha ];
 
-let names = users.reduce( (arr, item) => arr. )
+let names = users.reduce( (arr, item) => arr.push(item.name) )
 
 alert( names );
