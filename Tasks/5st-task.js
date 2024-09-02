@@ -337,6 +337,10 @@
 // console.log(sorted);
 
 
-function calculate(str) {
+function Calculator() {
     
+    this.method = {
+        '-': (a, b) => a - b,
+        '+': (a, b) => a + b,
+    };
 }
