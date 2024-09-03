@@ -382,3 +382,6 @@ let masha = { name: "Маша", surname: "Петрова", id: 3 };
 
 let users = [ vasya, petya, masha ];
 
+let usersMapped = 
+
+console.log( usersMapped);
