@@ -372,6 +372,6 @@ let masha = { name: "Маша", age: 28 };
 
 let users = [ vasya, petya, masha ];
 
-let names = users.reduce( item => item.name )
+let names = users.map( item => item.name )
 
 alert( names );
