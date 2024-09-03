@@ -382,6 +382,9 @@ let masha = { name: "Маша", surname: "Петрова", id: 3 };
 
 let users = [ vasya, petya, masha ];
 
-let usersMapped = users.map( item => item.name + ' ' + item.surname);
+let usersMapped = users.map( item => ({
+    fullname: item.name + ' ' + item.surname,
+    id: item.id,
+}));
 
 console.log( usersMapped);
