@@ -396,3 +396,6 @@ let masha = { name: "Маша", age: 28 };
 
 let arr = [ vasya, petya, masha ];
 
+function sortByAge(users) {
+    users.map
+}
