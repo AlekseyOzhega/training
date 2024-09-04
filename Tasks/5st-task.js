@@ -405,18 +405,20 @@
 // console.log(arr);
 
 
-function schuffle(arr) {
+// function schuffle(arr) {
     // arr.sort( () => Math.random() - 0.5 );
 
-    for (let i = arr.length - 1; i > 0; i--) {
-        let j = Math.floor(Math.random() * (i + 1));
-        [arr[i], arr[j]] = [arr[j], arr[i]];
-      }
-}
+//     for (let i = arr.length - 1; i > 0; i--) {
+//         let j = Math.floor(Math.random() * (i + 1));
+//         [arr[i], arr[j]] = [arr[j], arr[i]];
+//       }
+// }
 
-let arr = [1, 2, 3, 5];
+// let arr = [1, 2, 3, 5];
 
-schuffle(arr);
-alert( arr);
-schuffle(arr);
-alert( arr);
+// schuffle(arr);
+// alert( arr);
+// schuffle(arr);
+// alert( arr);
+
+
