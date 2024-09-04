@@ -404,3 +404,8 @@
 
 // console.log(arr);
 
+
+function schuffle(arr) {
+    arr.sort( () => Math.random() - 0.5 );
+}
+
