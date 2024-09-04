@@ -427,3 +427,19 @@ let petya = { name: "Петя", age: 30 };
 let masha = { name: "Маша", age: 29 };
 
 let arr = [ vasya, petya, masha ];
+
+function getAverageAge(arr) {
+    let count = 0;
+    let sum = 0;
+
+    arr.forEach( (item, index) => {
+        sum += item.age;
+        count += index;
+    });
+
+    return sum / count;
+}
+
+let res = getAverageAge(arr);
+
+console.log(res);
