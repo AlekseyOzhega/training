@@ -411,3 +411,7 @@ function schuffle(arr) {
 
 let arr = [1, 2, 3, 5];
 
+schuffle(arr);
+alert( arr);
+schuffle(arr);
+alert( arr);
