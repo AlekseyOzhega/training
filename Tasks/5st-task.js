@@ -443,7 +443,7 @@ let arr = [ vasya, petya, masha ];
 
 //Решение из учебника
 function getAverageAge(arr) {
-    return arr.reduce( () )
+    return arr.reduce( (prev, user) => prev + user.age, 0 ) / arr.length;
 }
 
 let res = getAverageAge(arr);
