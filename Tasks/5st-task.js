@@ -422,11 +422,11 @@
 // alert( arr);
 
 
-let vasya = { name: "Вася", age: 25 };
-let petya = { name: "Петя", age: 30 };
-let masha = { name: "Маша", age: 29 };
+// let vasya = { name: "Вася", age: 25 };
+// let petya = { name: "Петя", age: 30 };
+// let masha = { name: "Маша", age: 29 };
 
-let arr = [ vasya, petya, masha ];
+// let arr = [ vasya, petya, masha ];
 
 // Моё решение
 // function getAverageAge(arr) {
@@ -442,10 +442,18 @@ let arr = [ vasya, petya, masha ];
 // }
 
 //Решение из учебника
-function getAverageAge(arr) {
-    return arr.reduce( (prev, user) => prev + user.age, 0 ) / arr.length;
-}
+// function getAverageAge(arr) {
+//     return arr.reduce( (prev, user) => prev + user.age, 0 ) / arr.length;
+// }
 
-let res = getAverageAge(arr);
+// let res = getAverageAge(arr);
 
-console.log('Средний возраст:', res, 'лет.');
+// console.log('Средний возраст:', res, 'лет.');
+
+
+let strings = ["кришна", "кришна", "харе", "харе",
+    "харе", "харе", "кришна", "кришна", ":-O"
+];
+
+let unique = 
+alert( unique(strings) );
