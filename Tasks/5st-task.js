@@ -451,21 +451,23 @@
 // console.log('Средний возраст:', res, 'лет.');
 
 
-let strings = ["кришна", "кришна", "харе", "харе",
-    "харе", "харе", "кришна", "кришна", ":-O"
-];
+// let strings = ["кришна", "кришна", "харе", "харе",
+//     "харе", "харе", "кришна", "кришна", ":-O"
+// ];
 
-function uniq(arr) {
-    let result = [];
+// function uniq(arr) {
+//     let result = [];
 
-    for (let str of arr) {
-        if ( !result.includes(str) ) {
-            result.push(str);
-        }
-    }
+//     for (let str of arr) {
+//         if ( !result.includes(str) ) {
+//             result.push(str);
+//         }
+//     }
 
-    return result;
-  }
+//     return result;
+//   }
 
 
-alert( uniq(strings) );
+// alert( uniq(strings) );
+
+
