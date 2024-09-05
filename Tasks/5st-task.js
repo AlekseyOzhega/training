@@ -455,5 +455,17 @@ let strings = ["кришна", "кришна", "харе", "харе",
     "харе", "харе", "кришна", "кришна", ":-O"
 ];
 
-let unique = 
-alert( unique(strings) );
+function uniq(arr) {
+    let result = [];
+
+    for (let str of arr) {
+        if ( !result.includes(str) ) {
+            result.push(str);
+        }
+    }
+
+    return result;
+  }
+
+
+alert( uniq(strings) );
