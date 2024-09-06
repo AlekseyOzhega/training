@@ -4,6 +4,8 @@
 
 // alert( num.toFixed() );
 
-function improoveIt(x) {
+function improoveIt() {
+    let x = +prompt('Введите число:', 0);
+
     
 }
