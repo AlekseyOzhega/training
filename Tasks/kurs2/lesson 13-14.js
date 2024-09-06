@@ -10,3 +10,7 @@ function improoveIt() {
     return 17 * (x ** 2) + (6 * x) - 2;
 };
 
+let result = improoveIt();
+let result2 = improoveIt();
+
+alert(``);
