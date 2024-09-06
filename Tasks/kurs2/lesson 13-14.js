@@ -13,4 +13,5 @@ function improoveIt() {
 let result = improoveIt();
 let result2 = improoveIt();
 
-alert(``);
+alert(`Первый ответ ${result}`);
+alert(`Второй ответ ${result2}`);
