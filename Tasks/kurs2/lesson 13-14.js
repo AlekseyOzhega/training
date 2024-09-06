@@ -7,5 +7,5 @@
 function improoveIt() {
     let x = +prompt('Введите число:', 0);
 
-    
+    return 17 * (x ** 2) + (6 * x) 
 }
