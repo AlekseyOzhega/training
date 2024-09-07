@@ -17,3 +17,6 @@
 // alert(`Второй ответ ${result2}`);
 
 
+let num = Math.random();
+
+alert( num );
