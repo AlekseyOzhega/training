@@ -17,6 +17,6 @@
 // alert(`Второй ответ ${result2}`);
 
 
-let num = Math.random();
+let num = Math.round( Math.random() );
 
 alert( num );
