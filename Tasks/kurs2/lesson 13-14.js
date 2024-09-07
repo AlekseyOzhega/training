@@ -17,6 +17,6 @@
 // alert(`Второй ответ ${result2}`);
 
 
-let num = (Math.random() * 100).toFixed(2);
+let num = (Math.random() * 100).toFixed(0);
 
 alert( num );
