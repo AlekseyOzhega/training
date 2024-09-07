@@ -17,13 +17,14 @@
 // alert(`Второй ответ ${result2}`);
 
 
-let dou = true;
-const dod = 'Barry is here!';
+// let dou = true;
+// const dod = 'Barry is here!';
 
-let dd = confirm('Барри здесь?');
+// let dd = confirm('Барри здесь?');
 
-if ( dd ) {
-    alert(dod);
-} else {
-    alert('No body.');
-}
+// if ( dd ) {
+//     alert(dod);
+// } else {
+//     alert('No body.');
+// }
+
