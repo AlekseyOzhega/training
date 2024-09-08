@@ -26,5 +26,6 @@ let str = 'Aleksey';
 // alert( str.length );
 // alert( str[0] + ' ' + str[3] );
 
-str = str.toUpperCase();
-alert( str );
+// str = str.toUpperCase();
+// alert( str );
+
