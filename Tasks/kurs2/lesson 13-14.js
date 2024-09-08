@@ -21,7 +21,7 @@
 
 // alert( num );
 
-let str = 'Aleksey';
+let str = '   Aleksey    ';
 
 // alert( str.length );
 // alert( str[0] + ' ' + str[3] );
@@ -29,3 +29,4 @@ let str = 'Aleksey';
 // str = str.toUpperCase();
 // alert( str );
 
+alert(`Длина строки: ${str} = ${str.length}.`);
