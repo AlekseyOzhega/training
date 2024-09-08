@@ -24,4 +24,5 @@
 let str = 'Aleksey';
 
 // alert( str.length );
-alert( str[0] + ' ' + str[3] );
+// alert( str[0] + ' ' + str[3] );
+
