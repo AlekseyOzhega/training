@@ -29,4 +29,5 @@ let str = '   Aleksey    ';
 // str = str.toUpperCase();
 // alert( str );
 
+str = str.trim();
 alert(`Длина строки: ${str} = ${str.length}.`);
