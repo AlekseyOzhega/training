@@ -17,6 +17,10 @@
 // alert(`Второй ответ ${result2}`);
 
 
-let num = (Math.random() * 100).toFixed(0);
+// let num = (Math.random() * 100).toFixed(0);
 
-alert( num );
+// alert( num );
+
+let str = 'Aleksey';
+
+alert( str.length );
