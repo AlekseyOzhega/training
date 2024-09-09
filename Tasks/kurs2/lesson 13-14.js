@@ -32,3 +32,6 @@
 // str = str.trim();
 // alert(`Длина строки: ${str} = ${str.length}.`);
 
+
+let str = 'Aleksey';
+
