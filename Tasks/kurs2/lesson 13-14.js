@@ -36,5 +36,7 @@
 let str = 'Aleksey';
 
 // let result = str.indexOf('e') !== -1;
+let result = str.includes('e');
 
 alert( result );
+alert( str );
