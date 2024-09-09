@@ -35,6 +35,6 @@
 
 let str = 'Aleksey';
 
-let result = str.indexOf('e');
+// let result = str.indexOf('e') !== -1;
 
 alert( result );
