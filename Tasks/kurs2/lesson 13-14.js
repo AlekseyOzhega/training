@@ -35,3 +35,6 @@
 
 let str = 'Aleksey';
 
+let result = str.indexOf('e');
+
+alert( result );
