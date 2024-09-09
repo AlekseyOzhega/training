@@ -39,7 +39,7 @@ let str = 'Aleksey';
 // let result = str.includes('e');
 // let result = str.startsWith('a');
 // let result = str.substring(3, 5);
-
+let result = str.slice(-3);
 
 alert( result );
 alert( str );
