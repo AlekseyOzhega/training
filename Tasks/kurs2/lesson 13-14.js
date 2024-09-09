@@ -38,7 +38,8 @@ let str = 'Aleksey';
 // let result = str.indexOf('e') !== -1;
 // let result = str.includes('e');
 // let result = str.startsWith('a');
-let result = str.substring('ks', 'x');
+// let result = str.substring(3, 5);
+
 
 alert( result );
 alert( str );
