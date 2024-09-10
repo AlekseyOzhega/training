@@ -65,3 +65,4 @@ let str = '100px';
 let str2 = parseInt(str);
 
 alert( str2 );
+alert( typeof(str2) );
