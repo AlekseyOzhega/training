@@ -67,4 +67,8 @@
 // alert( str2 );
 // alert( typeof(str2) );
 
+let str = 'Pickaboo';
 
+str.toUpperCase();
+
+alert( str );
