@@ -67,8 +67,10 @@
 // alert( str2 );
 // alert( typeof(str2) );
 
-let str = 'Pickaboo';
+// let str = 'Pickaboo';
 
-str.toUpperCase();
+// let str2 = str.toUpperCase();
 
-alert( str );
+// alert( `    str = ${str}
+//     str2 = ${str2}` );
+
