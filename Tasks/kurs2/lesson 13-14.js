@@ -60,4 +60,8 @@
 // alert( res );
 // alert( Math.max( ...arr) );
 
+let str = '100px';
 
+let str2 = parseInt(str);
+
+alert( str2 );
