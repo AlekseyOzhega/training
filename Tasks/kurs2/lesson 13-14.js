@@ -47,8 +47,10 @@
 // alert( result );
 // alert( str );
 
-let num = 11034;
+// let num = 11034;
 
-let res = num.toString(16);
+// let res = num.toString(16);
 
-alert( res );
+// alert( res );
+
+
