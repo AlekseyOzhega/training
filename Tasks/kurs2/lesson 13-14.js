@@ -58,3 +58,4 @@ let arr = [2, 3, 66, 21, 0, -1, 100];
 let res = Math.min(...arr);
 
 alert( res );
+alert( Math.max( ...arr) );
