@@ -49,7 +49,7 @@
 
 // let num = 11034;
 
-// let res = num.toString(16);
+// let res = (Math.random() * 100).toFixed(0);
 
 // alert( res );
 
