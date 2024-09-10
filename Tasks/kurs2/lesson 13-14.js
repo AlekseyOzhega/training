@@ -60,9 +60,11 @@
 // alert( res );
 // alert( Math.max( ...arr) );
 
-let str = '100px';
+// let str = '100px';
 
-let str2 = parseInt(str);
+// let str2 = parseInt(str);
 
-alert( str2 );
-alert( typeof(str2) );
+// alert( str2 );
+// alert( typeof(str2) );
+
+
