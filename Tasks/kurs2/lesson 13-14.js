@@ -79,13 +79,13 @@
 
 const userName = prompt('Введите ваше имя. ');
 
-const clearName = userName.trim();
+const clearName = userName.trim().toLowerCase();
 
 if ( clearName === '' ) {
     alert('Ошиька! Имя не может быть пустым!');
 };
 
-if ( clearName === 'admin' ) {
+if ( clearName === 'admin' || clearName === 'админ ' ) {
     alert('Ошибка!Вы не можете занять это имя!')
 };
 
