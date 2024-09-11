@@ -77,10 +77,11 @@
 
 //Задача из 14 урока.
 
-const userName = prompt('Введите ваше имя. ')ж
+const userName = prompt('Введите ваше имя. ');
 
 const clearName = userName.trim();
 
 if ( clearName === '' ) {
     alert('Ошиька! Имя не может быть пустым!');
-}
+};
+
