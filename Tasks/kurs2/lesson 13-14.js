@@ -79,3 +79,8 @@
 
 const userName = prompt('Введите ваше имя. ')ж
 
+const clearName = userName.trim();
+
+if ( clearName === '' ) {
+    alert('Ошиька! Имя не может быть пустым!');
+}
