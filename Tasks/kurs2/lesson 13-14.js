@@ -77,15 +77,16 @@
 
 //Задача из 14 урока.
 
-const userName = prompt('Введите ваше имя. ');
+// const userName = prompt('Введите ваше имя. ');
 
-const clearName = userName.trim().toLowerCase();
+// const clearName = userName.trim().toLowerCase();
 
-if ( clearName === '' ) {
-    alert('Ошиька! Имя не может быть пустым!');
-};
+// if ( clearName === '' ) {
+//     alert('Ошиька! Имя не может быть пустым!');
+// };
 
-if ( clearName === 'admin' || clearName === 'админ ' ) {
-    alert('Ошибка!Вы не можете занять это имя!')
-};
+// if ( clearName === 'admin' || clearName === 'админ' ) {
+//     alert('Ошибка!Вы не можете занять это имя!')
+// };
+
 
