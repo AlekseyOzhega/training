@@ -16,3 +16,4 @@ arr[99] = 'rock';
 // alert( arr[5][1] );
 
 console.log( arr ); 
+console.log( arr[arr.length - 1] ); 
