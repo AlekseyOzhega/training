@@ -1,13 +1,15 @@
 'use strict';
 
-let arr = [
-    'Vasya',
-    33,
-    true,
-    {name: 'John', age: 33},
-    () => alert('Yo!'),
-    [1, 2, 3],
-];
+// let arr = [
+//     'Vasya',
+//     33,
+//     true,
+//     {name: 'John', age: 33},
+//     () => alert('Yo!'),
+//     [1, 2, 3],
+// ];
+
+let arr = 'Один, два, три, четыре';
 
 // arr[99] = 'rock';
 
@@ -18,6 +20,9 @@ let arr = [
 // arr.push('J', 23);
 // arr.unshift(true, [1, 2, 3]);
 
-console.log( arr.join() );
+// console.log( arr.join(' + ') );
+
+arr = arr.split(', ').join(' + ');
+
 console.log( arr ); 
 // console.log( arr.at(-1) ); 
