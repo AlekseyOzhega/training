@@ -9,5 +9,8 @@ let arr = [
     [1, 2, 3],
 ];
 
-alert( arr[3]['name'] );
-arr[4]();
+// alert( arr[3]['name'] );
+// arr[4]();
+// alert( arr[5][1] );
+
+console.log( arr ); 
