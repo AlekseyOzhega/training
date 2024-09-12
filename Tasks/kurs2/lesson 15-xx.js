@@ -9,14 +9,14 @@ let arr = [
     [1, 2, 3],
 ];
 
-arr[99] = 'rock';
+// arr[99] = 'rock';
 
 // alert( arr[3]['name'] );
 // arr[4]();
 // alert( arr[5][1] );
 
-arr.push('J', 23);
-arr.unshift(true, [1, 2, 3]);
+// arr.push('J', 23);
+// arr.unshift(true, [1, 2, 3]);
 
 console.log( arr ); 
 // console.log( arr.at(-1) ); 
