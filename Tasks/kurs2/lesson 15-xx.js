@@ -15,5 +15,8 @@ arr[99] = 'rock';
 // arr[4]();
 // alert( arr[5][1] );
 
+arr.push('J', 23);
+arr.unshift(true, [1, 2, 3]);
+
 console.log( arr ); 
-console.log( arr.at(-1) ); 
+// console.log( arr.at(-1) ); 
