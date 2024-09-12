@@ -18,6 +18,6 @@ let arr = [
 // arr.push('J', 23);
 // arr.unshift(true, [1, 2, 3]);
 
-console.log( arr.pop() );
+// console.log( arr.pop() );
 console.log( arr ); 
 // console.log( arr.at(-1) ); 
