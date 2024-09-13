@@ -28,11 +28,7 @@
 // console.log( arr.at(-1) ); 
 
 let arr1 = [1, 2, 3];
-let arr2 = [1, 2, 'C'];
-
-// let newArr = [...arr1, ...arr2];
-
-// console.log( newArr );
+let arr2 = [1, 3, 'C'];
 
 const areArraysEqual = (arr1, arr2) => {
 
@@ -40,7 +36,7 @@ const areArraysEqual = (arr1, arr2) => {
         return false;
     }
 
-    for (let i; i < arr1.length; i++) {
+    for (let i = 0; i < arr1.length; i++) {
         const val1 = arr1[i];
         const val2 = arr2[i];
 
