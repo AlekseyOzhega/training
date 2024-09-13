@@ -28,8 +28,9 @@
 // console.log( arr.at(-1) ); 
 
 let arr1 = [1, 2, 3];
-let arr2 = ['A', 'B', 'C'];
+let arr2 = [1, 2, 'C'];
 
-let newArr = [...arr1, ...arr2];
+// let newArr = [...arr1, ...arr2];
 
-console.log( newArr );
+// console.log( newArr );
+
