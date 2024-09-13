@@ -27,8 +27,8 @@
 // console.log( arr ); 
 // console.log( arr.at(-1) ); 
 
-let arr1 = [1, 2, 3, []];
-let arr2 = [1, 3, 3, []];
+let arr1 = [1, 2, 3, [1, 2]];
+let arr2 = [1, 2, 3, [1, 2]];
 
 const areArraysEqual = (arr1, arr2) => {
 
@@ -40,10 +40,12 @@ const areArraysEqual = (arr1, arr2) => {
         const val1 = arr1[i];
         const val2 = arr2[i];
 
-        const areValuesArrays = Array.isArray(val1) && Array.isArray(val2);
+        const areValuesArrays = (
+            Array.isArray(val1) && Array.isArray(val2)
+        );
 
         if ( areValuesArrays ) {
-            if ( !areArraysEqual(vai1, val2) ) {
+            if ( !( areArraysEqual(val1, val2) ) ) {
                 return false;
             } else continue;
         }
