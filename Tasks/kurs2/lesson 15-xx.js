@@ -27,29 +27,37 @@
 // console.log( arr ); 
 // console.log( arr.at(-1) ); 
 
-// let arr1 = [1, 2, 3];
-// let arr2 = [1, 3, 'C'];
+let arr1 = [1, 2, 3, []];
+let arr2 = [1, 3, 3, []];
 
-// const areArraysEqual = (arr1, arr2) => {
+const areArraysEqual = (arr1, arr2) => {
 
-//     if ( arr1.length !== arr2.length ) {
-//         return false;
-//     }
+    if ( arr1.length !== arr2.length ) {
+        return false;
+    }
 
-//     for (let i = 0; i < arr1.length; i++) {
-//         const val1 = arr1[i];
-//         const val2 = arr2[i];
+    for (let i = 0; i < arr1.length; i++) {
+        const val1 = arr1[i];
+        const val2 = arr2[i];
 
-//         if ( val1 !== val2 ) {
-//             return false;
-//         }
-//     }
+        const areValuesArrays = Array.isArray(val1) && Array.isArray(val2);
 
-//     return true;
-// };
+        if ( areValuesArrays ) {
+            if ( !areArraysEqual(vai1, val2) ) {
+                return false;
+            } else continue;
+        }
 
-// let result = areArraysEqual(arr1, arr2);
+        if ( val1 !== val2 ) {
+            return false;
+        }
+    }
 
-// console.log( result );
+    return true;
+};
+
+let result = areArraysEqual(arr1, arr2);
+
+console.log( result );
 
 
