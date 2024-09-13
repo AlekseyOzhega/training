@@ -9,7 +9,7 @@
 //     [1, 2, 3],
 // ];
 
-let arr = 'Один, два, три, четыре';
+// let arr = 'Один, два, три, четыре';
 
 // arr[99] = 'rock';
 
@@ -22,7 +22,8 @@ let arr = 'Один, два, три, четыре';
 
 // console.log( arr.join(' + ') );
 
-arr = arr.split(', ').join(' + ');
+// arr = arr.split(', ').join(' + ');
 
-console.log( arr ); 
+// console.log( arr ); 
 // console.log( arr.at(-1) ); 
+
