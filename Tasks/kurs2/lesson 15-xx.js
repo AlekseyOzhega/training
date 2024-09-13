@@ -1,5 +1,9 @@
 'use strict';
 
+
+//Урок 15
+
+
 // let arr = [
 //     'Vasya',
 //     33,
@@ -27,39 +31,41 @@
 // console.log( arr ); 
 // console.log( arr.at(-1) ); 
 
-let arr1 = [1, 2, 3, [1, 2]];
-let arr2 = [1, 2, 3, [1, 2]];
+// let arr1 = [1, 2, 3, [1, 2]];
+// let arr2 = [1, 2, 3, [1, 2]];
 
-const areArraysEqual = (arr1, arr2) => {
+// const areArraysEqual = (arr1, arr2) => {
 
-    if ( arr1.length !== arr2.length ) {
-        return false;
-    }
+//     if ( arr1.length !== arr2.length ) {
+//         return false;
+//     }
 
-    for (let i = 0; i < arr1.length; i++) {
-        const val1 = arr1[i];
-        const val2 = arr2[i];
+//     for (let i = 0; i < arr1.length; i++) {
+//         const val1 = arr1[i];
+//         const val2 = arr2[i];
 
-        const areValuesArrays = (
-            Array.isArray(val1) && Array.isArray(val2)
-        );
+//         const areValuesArrays = (
+//             Array.isArray(val1) && Array.isArray(val2)
+//         );
 
-        if ( areValuesArrays ) {
-            if ( !( areArraysEqual(val1, val2) ) ) {
-                return false;
-            } else continue;
-        }
+//         if ( areValuesArrays ) {
+//             if ( !( areArraysEqual(val1, val2) ) ) {
+//                 return false;
+//             } else continue;
+//         }
 
-        if ( val1 !== val2 ) {
-            return false;
-        }
-    }
+//         if ( val1 !== val2 ) {
+//             return false;
+//         }
+//     }
 
-    return true;
-};
+//     return true;
+// };
 
-let result = areArraysEqual(arr1, arr2);
+// let result = areArraysEqual(arr1, arr2);
 
-console.log( result );
+// console.log( result );
 
+
+//Урок 16
 
