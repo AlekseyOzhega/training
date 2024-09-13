@@ -40,6 +40,15 @@ const areArraysEqual = (arr1, arr2) => {
         return false;
     }
 
+    for (let i; i < arr1.length; i++) {
+        const val1 = arr1[i];
+        const val2 = arr2[i];
+
+        if ( val1 !== val2 ) {
+            return false;
+        }
+    }
+
     return true;
 };
 
