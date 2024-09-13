@@ -30,3 +30,6 @@
 let arr1 = [1, 2, 3];
 let arr2 = ['A', 'B', 'C'];
 
+let newArr = [...arr1, ...arr2];
+
+console.log( newArr );
