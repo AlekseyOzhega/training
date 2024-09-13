@@ -27,3 +27,6 @@
 // console.log( arr ); 
 // console.log( arr.at(-1) ); 
 
+let arr1 = [1, 2, 3];
+let arr2 = ['A', 'B', 'C'];
+
