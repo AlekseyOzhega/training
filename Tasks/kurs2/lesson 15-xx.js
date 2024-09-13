@@ -34,3 +34,13 @@ let arr2 = [1, 2, 'C'];
 
 // console.log( newArr );
 
+const areArraysEqual = (arr1, arr2) => {
+
+    if ( arr1.length !== arr2.length ) {
+        return false;
+    }
+
+    return true;
+};
+
+Console.log( areArraysEqual(arr1, arr2) );
