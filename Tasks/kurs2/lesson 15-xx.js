@@ -43,4 +43,6 @@ const areArraysEqual = (arr1, arr2) => {
     return true;
 };
 
-Console.log( areArraysEqual(arr1, arr2) );
+let result = areArraysEqual(arr1, arr2);
+
+console.log( result );
