@@ -69,8 +69,10 @@
 
 //Урок 16
 
-let arr = ['John', 33, true];
+// let arr = ['John', 33, true];
 
-let [name, age, medIn] = arr;
+// let [name, age, medIn] = arr;
 
-console.log( 'name =', name, ', age = ', age, ' medIn = ', medIn, '.' );
+// console.log( 'name =', name, ', age = ', age, ' medIn = ', medIn, '.' );
+
+
