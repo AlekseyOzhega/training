@@ -94,3 +94,4 @@ let arr = [1, 2, 3, {name: 'John', age: 33}, 4];
 // }))
 
 console.log( arr.findIndex( (user) => user.age === 33));
+
