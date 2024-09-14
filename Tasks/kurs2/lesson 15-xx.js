@@ -84,3 +84,10 @@
 // })
 
 
+let arr = [1, 2, {name: 'John', age: 33}, 4];
+
+console.log( arr.findIndex( (element) => {
+    if ( element.age === 33 ) {
+        return true;
+    }
+}))
