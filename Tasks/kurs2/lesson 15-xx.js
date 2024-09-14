@@ -76,3 +76,8 @@
 // console.log( 'name =', name, ', age = ', age, ' medIn = ', medIn, '.' );
 
 
+let arr = ['John', 33, true];
+
+arr.forEach( (elem, index, array) => {
+    console.log(`Под индексом ${index} находится элемент ${elem}.`);
+})
