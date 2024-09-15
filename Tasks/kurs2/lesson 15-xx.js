@@ -96,3 +96,4 @@
 // console.log( arr.findIndex( (user) => user.age === 33));
 
 
+let num = Math.round(Math.random() * 100);
