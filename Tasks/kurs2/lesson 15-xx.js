@@ -96,11 +96,16 @@
 // console.log( arr.findIndex( (user) => user.age === 33));
 
 
-let num = Math.round(Math.random() * 100);
+// let num = Math.round(Math.random() * 100);
 
 // num = num.toString(2);
 
+let arr = [21, 43, 11, 76, 49, 92, 55];
 
-alert( num );
+let num = Math.min(...arr);
+
+let num2 = Math.max(...arr);
+
+alert('Минимальное из чисел = ' + num + 'максимальное из чисел = ' + ' и ' + num2 );
 
 
