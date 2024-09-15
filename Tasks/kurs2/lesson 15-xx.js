@@ -97,3 +97,5 @@
 
 
 let num = Math.round(Math.random() * 100);
+
+alert( num );
