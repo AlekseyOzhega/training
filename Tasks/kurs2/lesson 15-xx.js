@@ -101,11 +101,8 @@
 // num = num.toString(2);
 
 // let arr = [21, 43, 11, 76, 49, 92, 55];
-
 // let num = Math.min(...arr);
-
 // let num2 = Math.max(...arr);
 
 // alert('Минимальное из чисел = ' + num + ' и ' + ' максимальное из чисел = ' + num2 );
-
 
