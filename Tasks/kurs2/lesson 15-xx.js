@@ -98,7 +98,8 @@
 
 let num = Math.round(Math.random() * 100);
 
-num = num.toString(2);
+// num = num.toString(2);
+
 
 alert( num );
 
