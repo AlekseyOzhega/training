@@ -107,7 +107,13 @@
 // alert('Минимальное из чисел = ' + num + ' и ' + ' максимальное из чисел = ' + num2 );
 
 
-let arr = [21, 43, 11, 76, 49, 92, 55];
+let arr = [
+    {name: "Bill", age:22},
+    {name: "Will", age:26},
+    {name: "John", age:21},
+    {name: "Steeve", age:23},
+    {name: "John", age:30},
+];
 
 let result = arr.find( (item) => item.name === 'John');
 
