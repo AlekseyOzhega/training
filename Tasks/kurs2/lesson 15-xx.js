@@ -115,6 +115,8 @@ let arr = [
     {name: "John", age:30, city: 'Пекин'},
 ];
 
-let result = arr.filter( (item) => item.name === 'John');
+let result = arr.filter( ({city, age}) => {
+    return city === 'Москва' || age > 22;
+});
 
 console.log( result );
