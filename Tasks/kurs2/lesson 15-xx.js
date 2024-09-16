@@ -119,8 +119,8 @@ let arr = [
 //     return city === 'Москва' || age > 23;
 // });
 
-let res = arr.map( (user) => {
-    return `${user.name}, ${user.age} лет, живет в г.${user.city}.`;
-})
+// let res = arr.map( (user) => {
+//     return `${user.name}, ${user.age} лет, живет в г.${user.city}.`;
+// })
 
-console.log( res );
+// console.log( res );
