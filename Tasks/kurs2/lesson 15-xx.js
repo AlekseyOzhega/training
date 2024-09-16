@@ -108,11 +108,11 @@
 
 
 let arr = [
-    {name: "Bill", age:22},
-    {name: "Will", age:26},
-    {name: "John", age:21},
-    {name: "Steeve", age:23},
-    {name: "John", age:30},
+    {name: "Bill", age:22, city: 'Москва'},
+    {name: "Will", age:26, city: 'Санкт-Питербург'},
+    {name: "John", age:21, city: 'Лондон'},
+    {name: "Steeve", age:23, city: 'Вашингтон'},
+    {name: "John", age:30, city: 'Пекин'},
 ];
 
 let result = arr.filter( (item) => item.name === 'John');
