@@ -115,8 +115,12 @@ let arr = [
     {name: "John", age:30, city: 'Пекин'},
 ];
 
-let result = arr.filter( ({city, age}) => {
-    return city === 'Москва' || age > 22;
-});
+// let result = arr.filter( ({city, age}) => {
+//     return city === 'Москва' || age > 23;
+// });
+
+let res = arr.map( (user) => {
+    return ``
+})
 
 console.log( result );
