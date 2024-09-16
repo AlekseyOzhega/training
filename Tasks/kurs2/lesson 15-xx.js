@@ -120,7 +120,7 @@ let arr = [
 // });
 
 let res = arr.map( (user) => {
-    return ``
+    return `${user.name}, лет, живет в г. `
 })
 
 console.log( result );
