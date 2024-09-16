@@ -123,4 +123,4 @@ let res = arr.map( (user) => {
     return `${user.name}, ${user.age} лет, живет в г.${user.city}.`;
 })
 
-console.log( result );
+console.log( res );
