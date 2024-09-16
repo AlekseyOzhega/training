@@ -115,6 +115,6 @@ let arr = [
     {name: "John", age:30},
 ];
 
-let result = arr.find( (item) => item.name === 'John');
+let result = arr.filter( (item) => item.name === 'John');
 
 console.log( result );
