@@ -126,3 +126,12 @@
 // console.log( res );
 
 
+
+let arr = [
+    {name: "Bill", age:22, city: 'Москва'},
+    {name: "Will", age:26, city: 'Санкт-Питербург'},
+    {name: "John", age:21, city: 'Лондон'},
+    {name: "Steeve", age:23, city: 'Вашингтон'},
+    {name: "John", age:30, city: 'Пекин'},
+];
+
