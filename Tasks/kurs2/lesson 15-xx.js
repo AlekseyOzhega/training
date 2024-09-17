@@ -127,7 +127,7 @@
 
 
 
-let arr = [23, 22, 1, 66, 34, 100, -3, 500];
+// let arr = [23, 22, 1, 66, 34, 100, -3, 500];
 
 // debugger
 // let ageSum = arr.reduce( (sum, {age}) => sum + age, 0);
@@ -136,8 +136,10 @@ let arr = [23, 22, 1, 66, 34, 100, -3, 500];
 
 // arr.reverse();
 
-console.log( arr );
+// console.log( arr );
 
-arr.sort( (a, b) => (a / 2) - b );
+// arr.sort( (a, b) => (a / 2) - b );
 
-console.log( arr );
+// console.log( arr );
+
+
