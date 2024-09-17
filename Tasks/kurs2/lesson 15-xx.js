@@ -107,13 +107,13 @@
 // alert('Минимальное из чисел = ' + num + ' и ' + ' максимальное из чисел = ' + num2 );
 
 
-let arr = [
-    {name: "Bill", age:22, city: 'Москва'},
-    {name: "Will", age:26, city: 'Санкт-Питербург'},
-    {name: "John", age:21, city: 'Лондон'},
-    {name: "Steeve", age:23, city: 'Вашингтон'},
-    {name: "John", age:30, city: 'Пекин'},
-];
+// let arr = [
+//     {name: "Bill", age:22, city: 'Москва'},
+//     {name: "Will", age:26, city: 'Санкт-Питербург'},
+//     {name: "John", age:21, city: 'Лондон'},
+//     {name: "Steeve", age:23, city: 'Вашингтон'},
+//     {name: "John", age:30, city: 'Пекин'},
+// ];
 
 // let result = arr.filter( ({city, age}) => {
 //     return city === 'Москва' || age > 23;
@@ -124,3 +124,5 @@ let arr = [
 // })
 
 // console.log( res );
+
+
