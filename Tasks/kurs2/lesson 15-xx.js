@@ -129,12 +129,17 @@
 
 let arr = [
     {name: "Bill", age:22, city: 'Москва'},
-    {name: "Will", age:26, city: 'Санкт-Питербург'},
-    {name: "John", age:21, city: 'Лондон'},
-    {name: "Steeve", age:23, city: 'Вашингтон'},
-    {name: "John", age:30, city: 'Пекин'},
+    {name: "Will", age:24, city: 'Санкт-Питербург'},
+    {name: "John", age:22, city: 'Лондон'},
+    {name: "Steeve", age:24, city: 'Вашингтон'},
+    {name: "John", age:23, city: 'Пекин'},
 ];
 
-let ageSum = arr.reduce( (sum, {age}) => sum + age, 0);
+// debugger
+// let ageSum = arr.reduce( (sum, {age}) => sum + age, 0);
 
-console.log( 'Средний возраст = ', ageSum / arr.length );
+// console.log( 'Средний возраст = ', ageSum / arr.length );
+
+arr.reverse();
+
+console.log( arr );
