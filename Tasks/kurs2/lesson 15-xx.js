@@ -142,6 +142,8 @@ let arr = [
 
 // arr.reverse();
 
+console.log( arr );
 
+arr.sort()
 
 console.log( arr );
