@@ -127,13 +127,7 @@
 
 
 
-let arr = [
-    {name: "Bill", age:22, city: 'Москва'},
-    {name: "Will", age:24, city: 'Санкт-Питербург'},
-    {name: "John", age:22, city: 'Лондон'},
-    {name: "Steeve", age:24, city: 'Вашингтон'},
-    {name: "John", age:23, city: 'Пекин'},
-];
+let arr = [23, 22, 1, 66, 34, 100, -3, 500];
 
 // debugger
 // let ageSum = arr.reduce( (sum, {age}) => sum + age, 0);
