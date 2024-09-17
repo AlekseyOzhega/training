@@ -135,3 +135,5 @@ let arr = [
     {name: "John", age:30, city: 'Пекин'},
 ];
 
+let ageSum = arr.reduce( (sum, {age}) => sum + age, 0);
+
