@@ -140,6 +140,8 @@ let arr = [
 
 // console.log( 'Средний возраст = ', ageSum / arr.length );
 
-arr.reverse();
+// arr.reverse();
+
+
 
 console.log( arr );
