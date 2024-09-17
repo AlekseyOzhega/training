@@ -138,6 +138,6 @@ let arr = [23, 22, 1, 66, 34, 100, -3, 500];
 
 console.log( arr );
 
-arr.sort()
+arr.sort( (a, b) => (a / 2) - b );
 
 console.log( arr );
