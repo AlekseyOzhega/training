@@ -137,3 +137,4 @@ let arr = [
 
 let ageSum = arr.reduce( (sum, {age}) => sum + age, 0);
 
+console.log( 'Средний возраст = ', ageSum / arr.length );
