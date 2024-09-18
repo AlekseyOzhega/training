@@ -146,3 +146,5 @@
 //Урок 17
 
 
+let obj = {name: "Bill", age:22, city: 'Москва'};
+
