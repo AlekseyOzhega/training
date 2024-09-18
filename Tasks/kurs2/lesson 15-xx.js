@@ -160,3 +160,6 @@
 // console.log( values );
 
 
+let obj = {name: "Bill", age:22, city: 'Москва'};
+let objEntries = Object.entries( obj );
+
