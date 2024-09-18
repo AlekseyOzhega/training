@@ -148,3 +148,5 @@
 
 let obj = {name: "Bill", age:22, city: 'Москва'};
 
+let keys = Object.keys( obj );
+let values = Object.values( obj );
