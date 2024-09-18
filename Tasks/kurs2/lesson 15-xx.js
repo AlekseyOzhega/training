@@ -152,10 +152,7 @@ let obj = {name: "Bill", age:22, city: 'Москва'};
 // let values = Object.values( obj );
 let objEntries = Object.entries( obj );
 
-objEntries.forEach( (item) => {
-    let key = item[0];
-    let value = item[1];
-
+objEntries.forEach( ([key, value]) => {
     console.log(`Под ключом ${key} находится значение ${value}.`)
 })
 
