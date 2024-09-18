@@ -156,7 +156,7 @@ objEntries.forEach( (item) => {
     let key = item[0];
     let value = item[1];
 
-    console.log(`Под ключом  находится значение`)
+    console.log(`Под ключом ${key} находится значение ${value}.`)
 })
 
 // console.log( keys );
