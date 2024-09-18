@@ -163,3 +163,6 @@
 let obj = {name: "Bill", age:22, city: 'Москва'};
 let objEntries = Object.entries( obj );
 
+let objEntriesFormatted = objEntries.map( ([key, value]) => {
+    return (key.toUpperCase(), `==> ${value} <==`)
+}) 
