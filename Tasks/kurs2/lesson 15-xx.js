@@ -146,15 +146,17 @@
 //Урок 17
 
 
-let obj = {name: "Bill", age:22, city: 'Москва'};
+// let obj = {name: "Bill", age:22, city: 'Москва'};
 
 // let keys = Object.keys( obj );
 // let values = Object.values( obj );
-let objEntries = Object.entries( obj );
+// let objEntries = Object.entries( obj );
 
-objEntries.forEach( ([key, value]) => {
-    console.log(`Под ключом ${key} находится значение ${value}.`)
-})
+// objEntries.forEach( ([key, value]) => {
+//     console.log(`Под ключом ${key} находится значение ${value}.`)
+// })
 
 // console.log( keys );
 // console.log( values );
+
+
