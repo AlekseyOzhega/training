@@ -148,8 +148,16 @@
 
 let obj = {name: "Bill", age:22, city: 'Москва'};
 
-let keys = Object.keys( obj );
-let values = Object.values( obj );
+// let keys = Object.keys( obj );
+// let values = Object.values( obj );
+let objEntries = Object.entries( obj );
 
-console.log( keys );
-console.log( values );
+objEntries.forEach( (item) => {
+    let key = item[0];
+    let value = item[1];
+
+    console.log(`Под ключом  находится значение`)
+})
+
+// console.log( keys );
+// console.log( values );
