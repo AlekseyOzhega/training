@@ -176,3 +176,4 @@
 // console.log( backToStartObject );
 
 
+let mapColl = new Map([1, 'Broock']);
