@@ -176,4 +176,6 @@
 // console.log( backToStartObject );
 
 
-let mapColl = new Map([1, 'Broock']);
+let mapColl = new Map([1, 'Broock'], ['2', 'Eddy']);
+
+
