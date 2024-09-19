@@ -180,4 +180,4 @@ let mapColl = new Map([1, 'Broock'], ['2', 'Eddy']);
 
 mapColl.set(3, 'Jr.');
 
-
+console.log( mapColl );
