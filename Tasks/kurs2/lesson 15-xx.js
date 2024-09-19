@@ -160,17 +160,19 @@
 // console.log( values );
 
 
-let obj = {name: "Bill", age:22, city: 'Москва'};
-let objEntries = Object.entries( obj );
+// let obj = {name: "Bill", age:22, city: 'Москва'};
+// let objEntries = Object.entries( obj );
 
-console.log( objEntries );
+// console.log( objEntries );
 
-let objEntriesFormatted = objEntries.map( ([key, value]) => {
-    return ([key.toUpperCase(), `==> ${value} <==`])
-});
+// let objEntriesFormatted = objEntries.map( ([key, value]) => {
+//     return ([key.toUpperCase(), `==> ${value} <==`])
+// });
 
-console.log( objEntriesFormatted );
+// console.log( objEntriesFormatted );
 
-let backToStartObject = Object.fromEntries(objEntriesFormatted);
+// let backToStartObject = Object.fromEntries(objEntriesFormatted);
 
-console.log( backToStartObject );
+// console.log( backToStartObject );
+
+
