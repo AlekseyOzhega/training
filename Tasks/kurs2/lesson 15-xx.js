@@ -170,3 +170,7 @@ let objEntriesFormatted = objEntries.map( ([key, value]) => {
 });
 
 console.log( objEntriesFormatted );
+
+let backToStartObject = Object.fromEntries(objEntriesFormatted);
+
+console.log( backToStartObject );
