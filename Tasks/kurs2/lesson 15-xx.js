@@ -183,6 +183,11 @@ let mapColl = new Map([
 
 mapColl.set(3, 'Jr.');
 
+for (let key of mapColl.keys()) {
+    console.log('ключ: ', key);
+};
+
+
 
 
 // console.log( mapColl );
