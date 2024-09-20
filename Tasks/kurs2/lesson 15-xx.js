@@ -185,4 +185,4 @@ mapColl.set(3, 'Jr.');
 
 console.log( mapColl );
 
-console.log( mapColl.entries() );
+// console.log( mapColl.entries() );
