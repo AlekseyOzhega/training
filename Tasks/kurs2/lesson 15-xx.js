@@ -183,4 +183,4 @@ let mapColl = new Map([
 
 mapColl.set(3, 'Jr.');
 
-console.log( mapColl.size );
+console.log( mapColl.keys() );
