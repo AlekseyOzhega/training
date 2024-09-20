@@ -176,12 +176,12 @@
 // console.log( backToStartObject );
 
 
-let mapColl = new Map([
-    [1, 'Broock'], 
-    ['2', 'Eddy']
-]);
+// let mapColl = new Map([
+//     [1, 'Broock'], 
+//     ['2', 'Eddy']
+// ]);
 
-mapColl.set(3, 'Jr.');
+// mapColl.set(3, 'Jr.');
 
 // for (let key of mapColl.keys()) {
 //     console.log('ключ: ', key);
@@ -200,3 +200,9 @@ mapColl.set(3, 'Jr.');
 // console.log( mapColl.entries() );
 
 
+let mapColl = new Map([
+    [1, 'Broock'], 
+    ['2', 'Eddy'],
+    [3, 'Jr.'],
+    ['medIn', true]
+]);
