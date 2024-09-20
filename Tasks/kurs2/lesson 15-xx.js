@@ -183,20 +183,20 @@ let mapColl = new Map([
 
 mapColl.set(3, 'Jr.');
 
-for (let key of mapColl.keys()) {
-    console.log('ключ: ', key);
-};
+// for (let key of mapColl.keys()) {
+//     console.log('ключ: ', key);
+// };
 
-for (let value of mapColl.values()) {
-    console.log('значение: ', value);
-};
+// for (let value of mapColl.values()) {
+//     console.log('значение: ', value);
+// };
 
-for ( let entrie of mapColl.entries() ) {
-    console.log( 'энтрие: ', entrie );
-};
-
-
+// for ( let entrie of mapColl.entries() ) {
+//     console.log( 'энтрие: ', entrie );
+// };
 
 // console.log( mapColl );
 
 // console.log( mapColl.entries() );
+
+
