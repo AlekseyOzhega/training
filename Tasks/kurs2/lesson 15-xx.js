@@ -223,6 +223,13 @@ let user = {
         housNumber: 22,
         appartmentNumber: 313
     },
-    phoneNumber: '8-(925)-123-45-67'
+    phoneNumber: '8 (925) 123-45-67'
 };
 
+let userToString = JSON.stringify(user);
+
+console.log( userToString );
+
+let userParse = JSON.parse(userToString);
+
+console.log( userParse );
