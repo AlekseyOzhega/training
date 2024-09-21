@@ -200,11 +200,14 @@
 // console.log( mapColl.entries() );
 
 
-let set = new Set([1, 2, 1, 2, 3, 3, 1, 2, 3]);
+// let set = new Set([1, 2, 1, 2, 3, 3, 1, 2, 3]);
 
-set.add('Book');
-set.delete(1);
+// set.clear();
+// set.add('Book');
+// set.delete(1);
 
-console.log( set );
-console.log( set.has(1) );
-console.log( set.size );
+// console.log( set );
+// console.log( set.has(1) );
+// console.log( set.size );
+
+
