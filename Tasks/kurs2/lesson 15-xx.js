@@ -211,25 +211,27 @@
 // console.log( set.size );
 
 
-let user = {
-    name: 'John',
-    age: 32,
-    languages: ['Russian', 'English'],
-    medIn: true,
-    adress: {
-        countrie: "Russia",
-        city: "Sankt-Piterburg",
-        street: 'Rayonnaya',
-        housNumber: 22,
-        appartmentNumber: 313
-    },
-    phoneNumber: '8 (925) 123-45-67'
-};
+// let user = {
+//     name: 'John',
+//     age: 32,
+//     languages: ['Russian', 'English'],
+//     medIn: true,
+//     adress: {
+//         countrie: "Russia",
+//         city: "Sankt-Piterburg",
+//         street: 'Rayonnaya',
+//         housNumber: 22,
+//         appartmentNumber: 313
+//     },
+//     phoneNumber: '8 (925) 123-45-67'
+// };
 
-let userToString = JSON.stringify(user);
+// let userToString = JSON.stringify(user, null, 4);
 
-console.log( userToString );
+// console.log( userToString );
 
-let userParse = JSON.parse(userToString);
+// let userParse = JSON.parse(userToString);
 
-console.log( userParse );
+// console.log( userParse );
+
+
