@@ -200,9 +200,5 @@
 // console.log( mapColl.entries() );
 
 
-let mapColl = new Map([
-    [1, 'Broock'], 
-    ['2', 'Eddy'],
-    [3, 'Jr.'],
-    ['medIn', true]
-]);
+let set = new Set([1, 2, 1, 2, 3, 3, 1, 2, 3]);
+
