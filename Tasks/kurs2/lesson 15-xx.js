@@ -206,3 +206,4 @@ set.add('Book');
 set.delete(1);
 
 console.log( set );
+console.log( set.has(1) );
