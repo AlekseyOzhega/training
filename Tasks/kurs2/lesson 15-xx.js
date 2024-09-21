@@ -203,6 +203,6 @@
 let set = new Set([1, 2, 1, 2, 3, 3, 1, 2, 3]);
 
 set.add('Book');
-
+set.delete(1);
 
 console.log( set );
