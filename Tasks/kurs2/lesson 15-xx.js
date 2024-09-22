@@ -253,3 +253,6 @@ let user = {
         return 'User is a cool guy!';
     }
 };
+
+let userToJSON = JSON.stringify(user);
+
