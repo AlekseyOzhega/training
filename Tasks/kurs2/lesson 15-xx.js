@@ -260,3 +260,7 @@
 // console.log('JSON объекта: ', userToJSON );
 
 
+let user = {
+    name: 'John',
+    age: 25
+}
