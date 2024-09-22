@@ -235,3 +235,18 @@
 // console.log( userParse );
 
 
+
+let user = {
+    name: 'John',
+    age: 32,
+    languages: ['Russian', 'English'],
+    medIn: true,
+    adress: {
+        countrie: "Russia",
+        city: "Sankt-Piterburg",
+        street: 'Rayonnaya',
+        housNumber: 22,
+        appartmentNumber: 313
+    },
+    phoneNumber: '8 (925) 123-45-67'
+};
