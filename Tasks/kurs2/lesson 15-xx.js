@@ -254,5 +254,7 @@ let user = {
     }
 };
 
+console.log( user );
+
 let userToJSON = JSON.stringify(user);
 
