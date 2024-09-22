@@ -258,4 +258,4 @@ console.log( user );
 
 let userToJSON = JSON.stringify(user);
 
-console.log( userToJSON );
+console.log('JSON объекта: ', userToJSON );
