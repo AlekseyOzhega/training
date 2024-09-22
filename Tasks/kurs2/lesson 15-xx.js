@@ -248,5 +248,8 @@ let user = {
         housNumber: 22,
         appartmentNumber: 313
     },
-    phoneNumber: '8 (925) 123-45-67'
+    phoneNumber: '8 (925) 123-45-67',
+    toJSON() {
+        return 'User is a cool guy!';
+    }
 };
