@@ -235,7 +235,6 @@
 // console.log( userParse );
 
 
-
 // let user = {
 //     name: 'John',
 //     age: 32,
@@ -249,14 +248,14 @@
 //         appartmentNumber: 313
 //     },
 //     phoneNumber: '8 (925) 123-45-67',
-//     toJSON() {
-//         return 'User is a cool guy!';
-//     }
+//     // toJSON() {
+//     //     return 'User is a cool guy!';
+//     // }
 // };
 
 // console.log( user );
 
-// let userToJSON = JSON.stringify(user);
+// let userToJSON = JSON.stringify(user, null, 2);
 
 // console.log('JSON объекта: ', userToJSON );
 
