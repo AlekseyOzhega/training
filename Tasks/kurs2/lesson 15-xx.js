@@ -264,3 +264,11 @@ let user = {
     name: 'John',
     age: 25
 }
+
+let json = JSON.stringify(user);
+
+console.log(json);
+
+let back = JSON.parse(json);
+
+console.log( back );
