@@ -236,26 +236,28 @@
 
 
 
-let user = {
-    name: 'John',
-    age: 32,
-    languages: ['Russian', 'English'],
-    medIn: true,
-    adress: {
-        countrie: "Russia",
-        city: "Sankt-Piterburg",
-        street: 'Rayonnaya',
-        housNumber: 22,
-        appartmentNumber: 313
-    },
-    phoneNumber: '8 (925) 123-45-67',
-    toJSON() {
-        return 'User is a cool guy!';
-    }
-};
+// let user = {
+//     name: 'John',
+//     age: 32,
+//     languages: ['Russian', 'English'],
+//     medIn: true,
+//     adress: {
+//         countrie: "Russia",
+//         city: "Sankt-Piterburg",
+//         street: 'Rayonnaya',
+//         housNumber: 22,
+//         appartmentNumber: 313
+//     },
+//     phoneNumber: '8 (925) 123-45-67',
+//     toJSON() {
+//         return 'User is a cool guy!';
+//     }
+// };
 
-console.log( user );
+// console.log( user );
 
-let userToJSON = JSON.stringify(user);
+// let userToJSON = JSON.stringify(user);
 
-console.log('JSON объекта: ', userToJSON );
+// console.log('JSON объекта: ', userToJSON );
+
+
