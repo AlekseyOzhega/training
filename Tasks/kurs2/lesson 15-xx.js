@@ -285,16 +285,18 @@
 // console.log( meetup );
 
 
-let room = {
-    number: 23
-  };
+// let room = {
+//     number: 23
+//   };
   
-  let meetup = {
-    title: "Совещание",
-    occupiedBy: [{name: "Иванов"}, {name: "Петров"}],
-    place: room
-  };
+//   let meetup = {
+//     title: "Совещание",
+//     occupiedBy: [{name: "Иванов"}, {name: "Петров"}],
+//     place: room
+//   };
 
-  console.log( JSON.stringify(meetup, function replacer(key, value) {
-    return (key == 'place') ? undefined: value;
-  }, 2));
+//   console.log( JSON.stringify(meetup, (key, value) => {
+//     return (key == 'place') ? undefined: value;
+//   }, 2));
+
+
