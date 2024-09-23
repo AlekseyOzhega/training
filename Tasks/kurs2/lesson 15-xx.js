@@ -285,3 +285,14 @@
 // console.log( meetup );
 
 
+let room = {
+    number: 23
+  };
+  
+  let meetup = {
+    title: "Совещание",
+    occupiedBy: [{name: "Иванов"}, {name: "Петров"}],
+    place: room
+  };
+
+  
