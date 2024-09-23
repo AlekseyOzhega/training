@@ -282,4 +282,4 @@ let meetup = JSON.parse( str, function(key, value) {
     return value;
 });
 
-console.log()
+console.log( meetup );
