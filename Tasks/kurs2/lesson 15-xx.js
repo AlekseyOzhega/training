@@ -295,4 +295,6 @@ let room = {
     place: room
   };
 
-  
+  console.log( JSON.stringify(meetup, function replacer(key, value) {
+    return (key == 'place') ? undefined: value;
+  }, 2));
