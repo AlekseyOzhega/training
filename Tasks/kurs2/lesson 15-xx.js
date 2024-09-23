@@ -300,3 +300,17 @@
 //   }, 2));
 
 
+class Student {
+    city = 'Ducksburg';
+    kurse = 1;
+    constructor(name, age) {
+        this.name = name;
+        this.age = age;
+    }
+}
+
+let firstStudent = new Student('Billy', 19);
+let secondStudent = new Student('Willy', 18);
+
+console.log( firstStudent );
+console.log( secondStudent );
