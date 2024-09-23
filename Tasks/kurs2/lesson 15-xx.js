@@ -260,15 +260,18 @@
 // console.log('JSON объекта: ', userToJSON );
 
 
-let user = {
-    name: 'John',
-    age: 25
-}
+// let user = {
+//     name: 'John',
+//     age: 25,
+//     keys: [22, 85, 19]
+// }
 
-let json = JSON.stringify(user);
+// let json = JSON.stringify(user, null, 2);
 
-console.log(json);
+// console.log(json);
 
-let back = JSON.parse(json);
+// let back = JSON.parse(json, 2);
 
-console.log( back );
+// console.log( back );
+
+
