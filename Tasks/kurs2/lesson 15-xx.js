@@ -307,6 +307,10 @@ class Student {
         this.name = name;
         this.age = age;
     }
+
+    logAge() {
+        console.log( this.age );
+    }
 }
 
 let firstStudent = new Student('Billy', 19);
