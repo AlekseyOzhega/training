@@ -320,3 +320,5 @@ let therstStudent = new Student('Dilly', 18);
 console.log( firstStudent );
 console.log( secondStudent );
 console.log( therstStudent );
+
+secondStudent.logAge();
