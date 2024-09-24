@@ -313,6 +313,10 @@ class Student {
     }
 }
 
+function midleAge(obj1, obj2, obj3) {
+    
+}
+
 let firstStudent = new Student('Billy', 19);
 let secondStudent = new Student('Willy', 18);
 let therstStudent = new Student('Dilly', 18);
