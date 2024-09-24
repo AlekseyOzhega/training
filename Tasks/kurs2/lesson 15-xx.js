@@ -314,7 +314,7 @@ class Student {
 }
 
 function midleAge(obj1, obj2, obj3) {
-    
+    return ( obj1.age + obj2.age + obj3.age) / 3;
 }
 
 let firstStudent = new Student('Billy', 19);
