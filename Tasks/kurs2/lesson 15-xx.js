@@ -326,3 +326,5 @@ console.log( secondStudent );
 console.log( therstStudent );
 
 secondStudent.logAge();
+
+console.log( midleAge( firstStudent, secondStudent, therstStudent ) );
