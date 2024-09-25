@@ -336,14 +336,16 @@
 
 class File {
 
-    constructor(name, str) {
+    constructor(name, info) {
         this.name = name
-        this.str = prompt('Введите данные: ', 0)
+        this.info = prompt('Введите данные: ', 0)
     }
 
     readFile() {
-        alert(this.str);
+        alert(this.info);
     }
 
-    
+    editingFile() {
+        this.info = prompt('Введите новые данные.');
+    }
 }
