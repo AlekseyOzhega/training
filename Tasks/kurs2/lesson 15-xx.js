@@ -352,7 +352,7 @@ class File {
     }
 
     length() {
-        return
+        return this.info.length;
     }
 
 }
