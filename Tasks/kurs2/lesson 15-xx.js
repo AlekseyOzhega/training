@@ -334,29 +334,30 @@
 // ) );
 
 
-class File {
+// class File {
+
+//     constructor(name) {
+//         this.name = name
+//         this.info = prompt('Введите данные: ', 0)
+//     }
+
+//     readFile() {
+//         alert(this.info);
+//     }
+
+//     editingFile() {
+//         this.info = prompt('Введите новые данные.');
+//     }
+
+//     length() {
+//         let length = this.info;
+//         console.log(length.length)
+//     }
+
+// }
+
+// let file1 = new File('Приветствие');
+
+// console.log(file1);
 
 
-
-    constructor(name) {
-        this.name = name
-        this.info = prompt('Введите данные: ', 0)
-    }
-
-    readFile() {
-        alert(this.info);
-    }
-
-    editingFile() {
-        this.info = prompt('Введите новые данные.');
-    }
-
-    length() {
-        return this.info.length;
-    }
-
-}
-
-let file1 = new File('Приветствие');
-
-console.log(file1);
