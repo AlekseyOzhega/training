@@ -334,3 +334,10 @@
 // ) );
 
 
+class File {
+
+    constructor(name, str) {
+        this.name = name
+        
+    }
+}
