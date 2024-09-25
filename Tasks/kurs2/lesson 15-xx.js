@@ -341,5 +341,9 @@ class File {
         this.str = prompt('Введите данные: ', 0)
     }
 
+    readFile() {
+        alert(this.str);
+    }
+
     
 }
