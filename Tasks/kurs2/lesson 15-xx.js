@@ -336,7 +336,7 @@
 
 class File {
 
-    constructor(name, info) {
+    constructor(name) {
         this.name = name
         this.info = prompt('Введите данные: ', 0)
     }
@@ -348,4 +348,7 @@ class File {
     editingFile() {
         this.info = prompt('Введите новые данные.');
     }
+
+    
+
 }
