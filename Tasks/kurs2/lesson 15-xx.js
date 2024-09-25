@@ -358,3 +358,5 @@ class File {
 }
 
 let file1 = new File('Приветствие');
+
+console.log(file1);
