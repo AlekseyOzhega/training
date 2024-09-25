@@ -338,6 +338,8 @@ class File {
 
     constructor(name, str) {
         this.name = name
-        
+        this.str = prompt('Введите данные: ', 0)
     }
+
+    
 }
