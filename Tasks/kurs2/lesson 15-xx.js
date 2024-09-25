@@ -300,31 +300,37 @@
 //   }, 2));
 
 
-class Student {
-    city = 'Ducksburg';
-    kurse = 1;
-    constructor(name, age) {
-        this.name = name;
-        this.age = age;
-    }
+// class Student {
+//     city = 'Ducksburg';
+//     kurse = 1;
+//     constructor(name, age) {
+//         this.name = name;
+//         this.age = age;
+//     }
 
-    logAge() {
-        console.log( this.age );
-    }
-}
+//     logAge() {
+//         console.log( this.age );
+//     }
+// }
 
-function midleAge(obj1, obj2, obj3) {
-    return Math.(( obj1.age + obj2.age + obj3.age) / 3);
-}
+// function midleAge(obj1, obj2, obj3) {
+//     return Math.round(( obj1.age + obj2.age + obj3.age) / 3);
+// }
 
-let firstStudent = new Student('Billy', 19);
-let secondStudent = new Student('Willy', 18);
-let therstStudent = new Student('Dilly', 18);
+// let firstStudent = new Student('Billy', 19);
+// let secondStudent = new Student('Willy', 18);
+// let therstStudent = new Student('Dilly', 18);
 
-console.log( firstStudent );
-console.log( secondStudent );
-console.log( therstStudent );
+// console.log( firstStudent );
+// console.log( secondStudent );
+// console.log( therstStudent );
 
-secondStudent.logAge();
+// secondStudent.logAge();
 
-console.log( midleAge( firstStudent, secondStudent, therstStudent ) );
+// console.log('Средний возраст: ' ,  midleAge( 
+//     firstStudent, 
+//     secondStudent, 
+//     therstStudent 
+// ) );
+
+
