@@ -382,6 +382,10 @@ class Student {
     }
 
     get city() {
-        return `г. ${}`
+        return `г. ${this._city}`
     }
 }
+
+let firstStudent = new Student('Billy', 16);
+
+console.log()
