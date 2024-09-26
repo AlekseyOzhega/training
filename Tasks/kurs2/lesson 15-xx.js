@@ -381,5 +381,7 @@ class Student {
         this._city = `${firstLetter}${fromSecondLetter}`;
     }
 
-    
+    get city() {
+        return `г. ${}`
+    }
 }
