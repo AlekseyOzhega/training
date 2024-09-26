@@ -361,3 +361,19 @@
 // console.log(file1);
 
 
+
+class Student {
+    
+    kurse = 1;
+
+    constructor(name, age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    logAge() {
+        console.log( this.age );
+    }
+
+    
+}
