@@ -362,34 +362,34 @@
 
 
 
-// class Student {
+class Student {
     
-//     kurse = 1;
+    kurse = 1;
 
-//     constructor(name, age) {
-//         this.name = name;
-//         this.age = age;
-//     }
+    constructor(name, age) {
+        this.name = name;
+        this.age = age;
+    }
 
-//     logAge() {
-//         console.log( this.age );
-//     }
+    logAge() {
+        console.log( this.age );
+    }
 
-//     set city(value) {
-//         let firstLetter = value[0].toUpperCase();
-//         let fromSecondLetter = value.slice(1).toLowerCase();
-//         this._city = `${firstLetter}${fromSecondLetter}`;
-//     }
+    set city(value) {
+        let firstLetter = value[0].toUpperCase();
+        let fromSecondLetter = value.slice(1).toLowerCase();
+        this._city = `${firstLetter}${fromSecondLetter}`;
+    }
 
-//     get city() {
-//         return `г. ${this._city}`
-//     }
-// }
+    get city() {
+        return `г. ${this._city}`
+    }
+}
 
-// let firstStudent = new Student('Billy', 16);
-// firstStudent.city = 'ducksBurg';
+let firstStudent = new Student('Billy', 16);
+firstStudent.city = 'ducksBurg';
 
-// console.log(firstStudent);
-// console.log(firstStudent.city);
+console.log(firstStudent);
+console.log(firstStudent.city);
 
 
