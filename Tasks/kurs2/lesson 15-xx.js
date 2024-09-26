@@ -378,6 +378,8 @@ class Student {
     set city(value) {
         let firstLetter = value[0].toUpperCase();
         let fromSecondLetter = value.slice(1).toLowerCase();
-        
+        this._city = `${firstLetter}${fromSecondLetter}`;
     }
+
+    
 }
