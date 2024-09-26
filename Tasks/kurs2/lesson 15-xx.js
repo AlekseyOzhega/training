@@ -375,5 +375,7 @@ class Student {
         console.log( this.age );
     }
 
-    
+    set city(value) {
+        
+    }
 }
