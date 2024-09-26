@@ -387,7 +387,7 @@ class Student {
 }
 
 let firstStudent = new Student('Billy', 16);
-firstStudent.city = 'Ducksburg';
+firstStudent.city = 'ducksBurg';
 
 console.log(firstStudent);
-console.log()
+console.log(firstStudent.city);
