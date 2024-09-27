@@ -395,7 +395,7 @@ firstStudent.city = 'ducksBurg';
 
 console.log(firstStudent);
 
-console.log(Student.kurse);
+console.log('Изначальнный курс: ' , Student.kurse);
 console.log(Student.sayHi());
 
 Student.kurse += 1;
