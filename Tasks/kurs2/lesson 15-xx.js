@@ -404,7 +404,7 @@ Student.kurse += 1;
 
 console.log('Измененный курс: ' , Student.kurse);
 
-console.log(Student.count);
+console.log('Количество студентов: ' , Student.count);
 // console.log(firstStudent.city);
 
 
