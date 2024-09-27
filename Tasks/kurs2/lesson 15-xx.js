@@ -394,6 +394,7 @@ let firstStudent = new Student('Billy', 16);
 firstStudent.city = 'ducksBurg';
 
 console.log(firstStudent);
-console.log(firstStudent.city);
+
+// console.log(firstStudent.city);
 
 
