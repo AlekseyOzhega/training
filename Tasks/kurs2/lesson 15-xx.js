@@ -400,6 +400,8 @@ console.log(Student.sayHi());
 
 Student.kurse += 1;
 
+console.log('Измененный курс: ' , Student.kurse);
+
 // console.log(firstStudent.city);
 
 
