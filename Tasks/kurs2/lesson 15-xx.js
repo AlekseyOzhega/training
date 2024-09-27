@@ -398,6 +398,7 @@ console.log(firstStudent);
 console.log(Student.kurse);
 console.log(Student.sayHi());
 
+Student.kurse += 1;
 
 // console.log(firstStudent.city);
 
