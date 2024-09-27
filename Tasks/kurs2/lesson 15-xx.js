@@ -395,6 +395,9 @@ firstStudent.city = 'ducksBurg';
 
 console.log(firstStudent);
 
+console.log(Student.kurse);
+
+
 // console.log(firstStudent.city);
 
 
