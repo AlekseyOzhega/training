@@ -364,11 +364,15 @@
 
 class Student {
     
-    kurse = 1;
+    static kurse = 1;
 
     constructor(name, age) {
         this.name = name;
         this.age = age;
+    }
+
+    static sayHi() {
+        alert(`Привет!`)
     }
 
     logAge() {
