@@ -365,10 +365,12 @@
 class Student {
     
     static kurse = 1;
+    static count = 0;
 
     constructor(name, age) {
         this.name = name;
         this.age = age;
+        this.count++;
     }
 
     static sayHi() {
@@ -402,6 +404,7 @@ Student.kurse += 1;
 
 console.log('Измененный курс: ' , Student.kurse);
 
+console.log(Student.count);
 // console.log(firstStudent.city);
 
 
