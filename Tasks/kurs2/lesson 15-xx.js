@@ -362,49 +362,56 @@
 
 
 
-class Student {
+// class Student {
     
-    static kurse = 1;
-    static count = 0;
+//     static kurse = 1;
+//     static count = 0;
 
-    constructor(name, age) {
-        this.name = name;
-        this.age = age;
-        this.count++;
-    }
+//     constructor(name, age) {
+//         this.name = name;
+//         this.age = age;
+//         this.count += 1;
+//     }
 
-    static sayHi() {
-        alert(`Привет!`)
-    }
+//     static sayHi() {
+//         alert(`Привет!`)
+//     }
 
-    logAge() {
-        console.log( this.age );
-    }
+//     static showNumberOfStudents() {
+//         console.log('Количество студентов: ' , Student.count);
+//     }
 
-    set city(value) {
-        let firstLetter = value[0].toUpperCase();
-        let fromSecondLetter = value.slice(1).toLowerCase();
-        this._city = `${firstLetter}${fromSecondLetter}`;
-    }
+//     logAge() {
+//         console.log( this.age );
+//     }
 
-    get city() {
-        return `г. ${this._city}`
-    }
-}
+//     set city(value) {
+//         let firstLetter = value[0].toUpperCase();
+//         let fromSecondLetter = value.slice(1).toLowerCase();
+//         this._city = `${firstLetter}${fromSecondLetter}`;
+//     }
 
-let firstStudent = new Student('Billy', 16);
-firstStudent.city = 'ducksBurg';
+//     get city() {
+//         return `г. ${this._city}`
+//     }
+// }
 
-console.log(firstStudent);
+// let firstStudent = new Student('Billy', 16);
+// firstStudent.city = 'ducksBurg';
 
-console.log('Изначальнный курс: ' , Student.kurse);
-console.log(Student.sayHi());
+// console.log(firstStudent);
 
-Student.kurse += 1;
+// console.log('Изначальнный курс: ' , Student.kurse);
+// console.log(Student.sayHi());
 
-console.log('Измененный курс: ' , Student.kurse);
+// Student.kurse += 1;
 
-console.log('Количество студентов: ' , Student.count);
+// console.log('Измененный курс: ' , Student.kurse);
+
+// console.log(Student.showNumberOfStudents());
 // console.log(firstStudent.city);
 
 
+class Person {
+    
+}
