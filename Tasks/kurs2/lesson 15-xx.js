@@ -433,6 +433,7 @@ class Developer extends Person {
     }
 
     sleep() {
-        console.log('')
+        console.log('Лучше еще попишу код...')
+        this.writeCode()
     }
 }
