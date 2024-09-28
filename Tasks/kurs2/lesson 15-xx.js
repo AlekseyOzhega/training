@@ -437,3 +437,6 @@ class Developer extends Person {
         this.writeCode()
     }
 }
+
+let Cook = new Person('Миша', 25);
+let Broock = new Developer('Гриша', 33);
