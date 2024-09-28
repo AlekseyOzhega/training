@@ -421,8 +421,14 @@ class Person {
     eat() {
         console.log('Ем...')
     }
+
+    sleep() {
+        console.log('Сплю...')
+    }
 }
 
 class Developer extends Person {
-
+    writeCode() {
+        console.log
+    }
 }
