@@ -442,4 +442,4 @@ let Cook = new Person('Миша', 25);
 let Broock = new Developer('Гриша', 33);
 
 console.log(Cook);
-console.log()
+console.log(Broock);
