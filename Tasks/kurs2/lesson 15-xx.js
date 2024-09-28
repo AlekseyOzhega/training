@@ -429,6 +429,10 @@ class Person {
 
 class Developer extends Person {
     writeCode() {
-        console.log
+        console.log('Пишу код...')
+    }
+
+    sleep() {
+        console.log('')
     }
 }
