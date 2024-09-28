@@ -443,3 +443,6 @@ let Broock = new Developer('Гриша', 33);
 
 console.log(Cook);
 console.log(Broock);
+
+Cook.sleep();
+Broock.sleep();
