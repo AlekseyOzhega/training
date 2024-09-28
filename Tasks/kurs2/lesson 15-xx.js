@@ -417,5 +417,12 @@ class Person {
         this.name = name
         this.age = age
     }
+
+    eat() {
+        console.log('Ем...')
+    }
 }
 
+class Developer extends Person {
+
+}
