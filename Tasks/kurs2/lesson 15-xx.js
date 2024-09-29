@@ -461,9 +461,16 @@
 //Урок 20
 
 function logMessage(name, age, profession) {
-    alert(`Здравствуйте, меня зовут ${name}, мне ${age} лет и я ${profession}.`)
+    if (age < 18) {
+    alert(`Здравствуйте, меня зовут ${name}, мне ${age} лет.`)
+    } else {
+        alert(`Здравствуйте, меня зовут ${name}, мне ${age} лет и я ${profession}.`)
+    }
+
 }
 
-let firstMessage = setTimeout(logMessage, 3000, 'Dilly', 30)
+let firstMessage = setTimeout(logMessage, 3000, 'Dilly', 30, 'юрист')
+
+let secondMessage = setTimeout(logMessage, 3000, 'Willy', 14)
 
 // clearTimeout(firstMessage)
