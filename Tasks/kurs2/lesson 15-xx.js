@@ -460,10 +460,10 @@
 
 //Урок 20
 
-function logMessage(name, age) {
-    alert(`Здравствуйте, меня зовут ${name}, мне ${age} лет.`)
+function logMessage(name, age, profession) {
+    alert(`Здравствуйте, меня зовут ${name}, мне ${age} лет и я ${profession}.`)
 }
 
 let firstMessage = setTimeout(logMessage, 3000, 'Dilly', 30)
 
-clearTimeout(firstMessage)
+// clearTimeout(firstMessage)
