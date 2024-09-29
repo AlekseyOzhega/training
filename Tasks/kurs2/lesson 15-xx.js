@@ -428,6 +428,8 @@ class Person {
 }
 
 class Developer extends Person {
+    developer = true
+
     writeCode() {
         console.log('Пишу код...')
     }
@@ -435,6 +437,8 @@ class Developer extends Person {
     sleep() {
         console.log('Лучше еще попишу код...')
         this.writeCode()
+        console.log('Закончим на сегодня...')
+        super.sleep()
     }
 }
 
@@ -445,4 +449,5 @@ console.log(Cook);
 console.log(Broock);
 
 Cook.sleep();
+console.log()
 Broock.sleep();
