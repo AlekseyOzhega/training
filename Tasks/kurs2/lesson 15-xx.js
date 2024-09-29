@@ -448,6 +448,7 @@ let Broock = new Developer('Гриша', 33);
 console.log(Cook);
 console.log(Broock);
 
+console.log('Cпать отправится Кук...')
 Cook.sleep();
-console.log()
+console.log('А теперь спать отправится Брук...')
 Broock.sleep();
