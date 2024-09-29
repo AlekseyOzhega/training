@@ -428,7 +428,11 @@ class Person {
 }
 
 class Developer extends Person {
-    developer = true
+    constructor(name, age, developer) {
+        super(name, age)
+        
+    }
+    
 
     writeCode() {
         console.log('Пишу код...')
