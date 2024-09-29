@@ -412,47 +412,51 @@
 // console.log(firstStudent.city);
 
 
-class Person {
-    constructor(name, age) {
-        this.name = name
-        this.age = age
-    }
+// class Person {
+//     constructor(name, age) {
+//         this.name = name
+//         this.age = age
+//     }
 
-    eat() {
-        console.log('Ем...')
-    }
+//     eat() {
+//         console.log('Ем...')
+//     }
 
-    sleep() {
-        console.log('Сплю...')
-    }
-}
+//     sleep() {
+//         console.log('Сплю...')
+//     }
+// }
 
-class Developer extends Person {
-    constructor(name, age, developer) {
-        super(name, age)
-        this.developer = developer
-    }
+// class Developer extends Person {
+//     constructor(name, age, developer) {
+//         super(name, age)
+//         this.developer = developer
+//     }
     
 
-    writeCode() {
-        console.log('Пишу код...')
-    }
+//     writeCode() {
+//         console.log('Пишу код...')
+//     }
 
-    sleep() {
-        console.log('Лучше еще попишу код...')
-        this.writeCode()
-        console.log('Закончим на сегодня...')
-        super.sleep()
-    }
-}
+//     sleep() {
+//         console.log('Лучше еще попишу код...')
+//         this.writeCode()
+//         console.log('Закончим на сегодня...')
+//         super.sleep()
+//     }
+// }
 
-let Cook = new Person('Миша', 25);
-let Broock = new Developer('Гриша', 33, true);
+// let Cook = new Person('Миша', 25);
+// let Broock = new Developer('Гриша', 33, true);
 
-console.log(Cook);
-console.log(Broock);
+// console.log(Cook);
+// console.log(Broock);
 
-console.log('Cпать отправится Кук...')
-Cook.sleep();
-console.log('А теперь спать отправится Брук...')
-Broock.sleep();
+// console.log('Cпать отправится Кук...')
+// Cook.sleep();
+// console.log('А теперь спать отправится Брук...')
+// Broock.sleep();
+
+
+//Урок 20
+
