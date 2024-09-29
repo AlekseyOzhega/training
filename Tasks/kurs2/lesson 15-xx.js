@@ -460,3 +460,6 @@
 
 //Урок 20
 
+function logMessage(name, age) {
+    alert(`Здравствуйте, меня зовут ${name}, мне ${age} лет.`)
+}
