@@ -466,3 +466,4 @@ function logMessage(name, age) {
 
 let firstMessage = setTimeout(logMessage, 3000, 'Dilly', 30)
 
+clearTimeout(firstMessage)
