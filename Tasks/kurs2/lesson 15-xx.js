@@ -463,3 +463,6 @@
 function logMessage(name, age) {
     alert(`Здравствуйте, меня зовут ${name}, мне ${age} лет.`)
 }
+
+let firstMessage = setTimeout(logMessage, 3000, 'Dilly', 30)
+
