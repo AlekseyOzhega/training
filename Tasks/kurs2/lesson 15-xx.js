@@ -487,13 +487,16 @@
 
 //Урок 21
 
+try {
+    console.log('Начало кода...');
 
-console.log('Начало кода');
+    let userData = undefined;
 
-let userData = undefined;
+    names.forEach( (name) => {
+        console.log('Name: ', name)
+    })
+} catch (error) {
+    console.log('')
+}
 
-names.forEach( (name) => {
-    console.log('Name: ', name)
-})
-
-console.log('Конец кода');
+console.log('Конец кода...');
