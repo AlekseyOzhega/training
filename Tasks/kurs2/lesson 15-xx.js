@@ -487,16 +487,22 @@
 
 //Урок 21
 
+console.log('Начало кода...');
+
+// try {
+//     let userData = undefined;
+
+//     names.forEach( (name) => {
+//         console.log('Name: ', name)
+//     })
+// } catch (error) {
+//     console.log('Возникла ошибка: ', error)
+// }
+
 try {
-    console.log('Начало кода...');
 
-    let userData = undefined;
-
-    names.forEach( (name) => {
-        console.log('Name: ', name)
-    })
-} catch (error) {
-    console.log('Возникла ошибка: ', error)
+} catch(error) {
+    
 }
 
 console.log('Конец кода...');
