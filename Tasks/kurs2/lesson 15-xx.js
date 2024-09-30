@@ -500,9 +500,11 @@ console.log('Начало кода...');
 // }
 
 try {
-
+    setTimeout( () => {
+        
+    })
 } catch(error) {
-    
+
 }
 
 console.log('Конец кода...');
