@@ -490,4 +490,10 @@
 
 console.log('Начало кода');
 
+let userData = undefined;
+
+names.forEach( (name) => {
+    console.log('Name: ', name)
+})
+
 console.log('Конец кода');
