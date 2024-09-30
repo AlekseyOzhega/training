@@ -460,17 +460,30 @@
 
 //Урок 20
 
-function logMessage(name, age, profession) {
-    if (age < 18) {
-    alert(`Здравствуйте, меня зовут ${name}, мне ${age} лет.`)
-    } else {
-        alert(`Здравствуйте, меня зовут ${name}, мне ${age} лет и я ${profession}.`)
-    }
+// function logMessage(name, age, profession) {
+//     if (age < 18) {
+//     alert(`Здравствуйте, меня зовут ${name}, мне ${age} лет.`)
+//     } else {
+//         alert(`Здравствуйте, меня зовут ${name}, мне ${age} лет и я ${profession}.`)
+//     }
 
-}
+// }
 
-let firstMessage = setTimeout(logMessage, 3000, 'Dilly', 30, 'юрист')
+// let firstMessage = setTimeout(logMessage, 3000, 'Dilly', 30, 'юрист')
 
-let secondMessage = setTimeout(logMessage, 3000, 'Willy', 14)
+// let secondMessage = setTimeout(logMessage, 6000, 'Willy', 14)
 
 // clearTimeout(firstMessage)
+
+
+// let interval = setInterval( () => {
+//     console.log('Привет!')
+// }, 1000)
+
+// setTimeout( () => {
+//     clearInterval(interval)
+// }, 7000)
+
+
+//Урок 21
+
