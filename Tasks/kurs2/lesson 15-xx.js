@@ -506,9 +506,9 @@ try {
         names.forEach( (name) => {
             console.log('Name: ', name)
         })
-    })
+    }, 3000)
 } catch(error) {
-
+    console.log('Возникла ошибка: ', error)
 }
 
 console.log('Конец кода...');
