@@ -501,7 +501,11 @@ console.log('Начало кода...');
 
 try {
     setTimeout( () => {
-        
+        let names = undefined
+
+        names.forEach( (name) => {
+            console.log('Name: ', name)
+        })
     })
 } catch(error) {
 
