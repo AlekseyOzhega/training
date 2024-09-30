@@ -496,7 +496,7 @@ try {
         console.log('Name: ', name)
     })
 } catch (error) {
-    console.log('')
+    console.log('Возникла ошибка: ', error)
 }
 
 console.log('Конец кода...');
