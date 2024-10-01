@@ -499,22 +499,25 @@ console.log('Начало кода...');
 //     console.log('Возникла ошибка: ', error)
 // }
 
-try {
-    setTimeout( () => {
-        try {
+
+setTimeout( () => {
+    try {
         let names = undefined
 
         names.forEach( (name) => {
             console.log('Name: ', name)
         })
-        }
-    } catch(error) {
+
         
+
+    } catch(error) {
+        console.log('Возникла ошибка: ', error)
+    } finally {
+        console.log('Последняя часть...')
     }
-    , 3000)
+    
+    console.log('Конец кода...');
+}, 3000)
 
-} catch(error) {
-    console.log('Возникла ошибка: ', error)
-}
 
-console.log('Конец кода...');
+
