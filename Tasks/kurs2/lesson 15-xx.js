@@ -521,7 +521,16 @@
 
 
 try {
-    let userJSON = `{}`
+    let userJSON = `{
+    "age": 24
+    }`
+
+    let user = JSON.parse(userJSON)
+    let {name, age} = user
+
+    if (!name) {
+        throw ''
+    }
 
 } catch {
 
