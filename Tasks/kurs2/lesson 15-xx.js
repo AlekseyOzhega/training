@@ -487,7 +487,7 @@
 
 //Урок 21
 
-console.log('Начало кода...');
+// console.log('Начало кода...');
 
 // try {
 //     let userData = undefined;
@@ -500,24 +500,24 @@ console.log('Начало кода...');
 // }
 
 
-setTimeout( () => {
-    try {
-        let names = undefined
+// setTimeout( () => {
+//     try {
+//         let names = undefined
 
-        names.forEach( (name) => {
-            console.log('Name: ', name)
-        })
+//         names.forEach( (name) => {
+//             console.log('Name: ', name)
+//         })
 
         
 
-    } catch(error) {
-        console.log('Возникла ошибка: ', error)
-    } finally {
-        console.log('Последняя часть обработки ошибки...')
-    }
+//     } catch(error) {
+//         console.log('Возникла ошибка: ', error)
+//     } finally {
+//         console.log('Последняя часть обработки ошибки...')
+//     }
     
-    console.log('Конец кода...');
-}, 3000)
+//     console.log('Конец кода...');
+// }, 3000)
 
 
 
