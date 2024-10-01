@@ -513,7 +513,7 @@ setTimeout( () => {
     } catch(error) {
         console.log('Возникла ошибка: ', error)
     } finally {
-        console.log('Последняя часть...')
+        console.log('Последняя часть обработки ошибки...')
     }
     
     console.log('Конец кода...');
