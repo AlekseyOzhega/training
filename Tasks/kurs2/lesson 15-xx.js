@@ -524,14 +524,17 @@ console.log('Начало кода...');
 
 try {
     let userJSON = `{
-    "age": 24
+    "age": 24,
+// "name": "John"
     }`
 
     let user = JSON.parse(userJSON)
     let {name, age} = user
 
+    let errorMessage = 'Имя не указано';
+
     if (!name) {
-        throw 'Имя не указано'
+        throw new Error(errorMessage)
     }
 
     console.log(`
@@ -541,6 +544,7 @@ try {
 
 } catch(error) {
     console.log('Возникла ошибка: ', error)
+    console.log('А далее подробнее...')
 }
 
 console.log('Конец кода...');
