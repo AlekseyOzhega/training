@@ -538,5 +538,5 @@ try {
     );
 
 } catch(error) {
-    
+    console.log('Возникла ошибка: ', error)
 }
