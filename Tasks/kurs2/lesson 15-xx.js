@@ -545,6 +545,9 @@ try {
 } catch(error) {
     console.log('Возникла ошибка: ', error)
     console.log('А далее подробнее...')
+    console.log('Name: ', error.name)
+    console.log('Message: ', error.message)
+    console.log('Stack: ', error.stack)
 }
 
 console.log('Конец кода...');
