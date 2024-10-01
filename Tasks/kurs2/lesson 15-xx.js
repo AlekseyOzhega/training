@@ -520,6 +520,8 @@
 // }, 3000)
 
 
+console.log('Начало кода...');
+
 try {
     let userJSON = `{
     "age": 24
@@ -540,3 +542,5 @@ try {
 } catch(error) {
     console.log('Возникла ошибка: ', error)
 }
+
+console.log('Конец кода...');
