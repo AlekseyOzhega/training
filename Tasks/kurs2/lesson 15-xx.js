@@ -520,34 +520,35 @@
 // }, 3000)
 
 
-console.log('Начало кода...');
+// console.log('Начало кода...');
 
-try {
-    let userJSON = `{
-    "age": 24,
-// "name": "John"
-    }`
+// try {
+//     let userJSON = `{
+//     "age": 24
+//     }`
 
-    let user = JSON.parse(userJSON)
-    let {name, age} = user
+//     let user = JSON.parse(userJSON)
+//     let {name, age} = user
 
-    let errorMessage = 'Имя не указано';
+//     let errorMessage = 'Имя не указано';
 
-    if (!name) {
-        throw new Error(errorMessage)
-    }
+//     if (!name) {
+//         throw new Error(errorMessage)
+//     }
 
-    console.log(`
-        Привет ${name}!
-        Твой возраст ${age}?`
-    );
+//     console.log(`
+//         Привет ${name}!
+//         Твой возраст ${age}?`
+//     );
 
-} catch(error) {
-    console.log('Возникла ошибка: ', error)
-    console.log('А далее подробнее...')
-    console.log('Name: ', error.name)
-    console.log('Message: ', error.message)
-    console.log('Stack: ', error.stack)
-}
+// } catch(error) {
+//     console.log('Возникла ошибка: ', error)
+//     console.log('А далее подробнее...')
+//     console.log('Name: ', error.name)
+//     console.log('Message: ', error.message)
+//     console.log('Stack: ', error.stack)
+// }
 
-console.log('Конец кода...');
+// console.log('Конец кода...');
+
+
