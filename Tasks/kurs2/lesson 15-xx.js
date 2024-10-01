@@ -529,9 +529,14 @@ try {
     let {name, age} = user
 
     if (!name) {
-        throw ''
+        throw 'Имя не указано'
     }
 
-} catch {
+    console.log(`
+        Привет ${name}!
+        Твой возраст ${age}?`
+    );
 
+} catch(error) {
+    
 }
