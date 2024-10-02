@@ -556,13 +556,15 @@
 
 
 let wait = (ms, callback) => {
-    let now = new Date().getTime()
+    // let now = new Date().getTime()
 
-    while (new Date().getTime() < now + ms) {
+    // while (new Date().getTime() < now + ms) {
 
-    }
+    // }
 
-    callback()
+    // callback()
+
+    setTimeout(callback, ms)
 }
 
 console.log(1)
