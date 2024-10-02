@@ -565,3 +565,6 @@ let wait = (ms, callback) => {
     callback()
 }
 
+console.log(1)
+wait(5000, () => console.log(2))
+console.log(3)
