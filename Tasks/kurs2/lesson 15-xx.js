@@ -556,5 +556,5 @@
 
 
 let wait = (ms, callback) => {
-    
+    let now = new Date().getTime()
 }
