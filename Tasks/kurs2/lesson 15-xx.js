@@ -554,3 +554,7 @@
 
 //Урок 22
 
+
+let wait = (ms, callback) => {
+    
+}
