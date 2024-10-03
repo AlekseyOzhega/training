@@ -574,4 +574,8 @@
 
 // Повторение
 
-let map = new Map()
+let map = new Map([
+    ['name', 'Johny',],
+    ['age', 32]
+]);
+
