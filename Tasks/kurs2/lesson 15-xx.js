@@ -576,7 +576,8 @@
 
 let map = new Map([
     ['name', 'Johny',],
-    ['age', 32]
+    ['age', 32],
+    ['medIn', true]
 ]);
 
 console.log( map );
