@@ -583,5 +583,5 @@ let map = new Map([
 map.set('devoloper', true);
 
 
-
+console.log( map.get('age'))
 console.log( map );
