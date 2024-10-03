@@ -582,6 +582,6 @@ let map = new Map([
 
 map.set('devoloper', true);
 
-
-console.log( map.get('age'))
 console.log( map );
+console.log( map.has(isAdmin) )
+console.log('Name: ' , map.get('name'))
