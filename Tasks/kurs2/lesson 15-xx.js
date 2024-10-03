@@ -579,3 +579,4 @@ let map = new Map([
     ['age', 32]
 ]);
 
+console.log( map );
