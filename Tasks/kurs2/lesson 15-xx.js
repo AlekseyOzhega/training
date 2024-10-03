@@ -572,3 +572,6 @@
 // console.log(3)
 
 
+// Повторение
+
+let map = new Map()
