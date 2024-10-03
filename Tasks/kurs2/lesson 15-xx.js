@@ -580,4 +580,8 @@ let map = new Map([
     ['medIn', true]
 ]);
 
+map.set('devoloper', true);
+
+
+
 console.log( map );
