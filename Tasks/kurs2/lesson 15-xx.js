@@ -583,5 +583,5 @@ let map = new Map([
 map.set('devoloper', true);
 
 console.log( map );
-console.log( map.has(isAdmin) )
+console.log('isAdmin: ', map.has("isAdmin") )
 console.log('Name: ' , map.get('name'))
