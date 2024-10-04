@@ -611,4 +611,6 @@ promise
     .catch( (errorData) => {
         console.log('Ошибка. Получены данные: ', errorData)
     })
-    
+    .finally( () => {
+        console.log('Код выполняющийся в самом конце, независимо от результата.')
+    })
