@@ -593,5 +593,7 @@
 
 
 let promise = new Promise( (fulfill, reject) => {
+    console.log('Начало, состояние panding...')
+
     
 })
