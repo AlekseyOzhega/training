@@ -605,5 +605,7 @@ let promise = new Promise( (fulfill, reject) => {
 })
 
 promise
-    .then( )
+    .then( (succesData) => {
+        
+    })
     .catch()
