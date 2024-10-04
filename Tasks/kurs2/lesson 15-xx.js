@@ -595,5 +595,11 @@
 let promise = new Promise( (fulfill, reject) => {
     console.log('Начало, состояние panding...')
 
-    
+    setTimeout(() => {
+        if (Math.random() > 0.5) {
+            fulfill('Ура, состояние fulfilled :-)')
+        } else {
+            
+        }
+    }, 3000);
 })
