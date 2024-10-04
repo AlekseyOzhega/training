@@ -608,4 +608,6 @@ promise
     .then( (succesData) => {
         console.log('Успех! Получены данные: ', succesData)
     })
-    .catch()
+    .catch( (errorData) => {
+        
+    })
