@@ -599,7 +599,8 @@ let promise = new Promise( (fulfill, reject) => {
         if (Math.random() > 0.5) {
             fulfill('Ура, состояние fulfilled :-)')
         } else {
-            
+            reject('Увы, состояние rejected :-(')
         }
     }, 3000);
 })
+
