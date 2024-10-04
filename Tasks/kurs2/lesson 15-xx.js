@@ -606,6 +606,6 @@ let promise = new Promise( (fulfill, reject) => {
 
 promise
     .then( (succesData) => {
-        
+        console.log('Успех! Получены данные: ', succesData)
     })
     .catch()
