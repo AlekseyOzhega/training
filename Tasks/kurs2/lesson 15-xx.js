@@ -609,5 +609,6 @@ promise
         console.log('Успех! Получены данные: ', succesData)
     })
     .catch( (errorData) => {
-        
+        console.log('Ошибка. Получены данные: ', errorData)
     })
+    
