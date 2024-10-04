@@ -604,3 +604,6 @@ let promise = new Promise( (fulfill, reject) => {
     }, 3000);
 })
 
+promise
+    .then( )
+    .catch()
