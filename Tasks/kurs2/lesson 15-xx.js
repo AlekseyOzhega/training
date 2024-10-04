@@ -574,19 +574,24 @@
 
 // Повторение
 
-let map = new Map([
-    ['name', 'Johny',],
-    ['age', 32],
-    ['medIn', true]
-]);
+// let map = new Map([
+//     ['name', 'Johny',],
+//     ['age', 32],
+//     ['medIn', true]
+// ]);
 
-map.set('devoloper', true);
+// map.set('devoloper', true);
 
-console.log( map );
-console.log( 'isAdmin: ', map.has("isAdmin") );
-console.log( 'Name: ' , map.get('name'));
-console.log('Size: ', map.size );
-console.log( map.delete('isAdmin'));
-console.log('Size: ', map.size );
+// console.log( map );
+// console.log( 'isAdmin: ', map.has("isAdmin") );
+// console.log( 'Name: ' , map.get('name'));
+// console.log('Size: ', map.size );
+// map.delete('age');
+// console.log('Size: ', map.size );
+// map.clear();
+// console.log('Size: ', map.size );
 
-console.log('Size: ', map.size );
+
+let promise = new Promise( (fulfill, reject) => {
+    
+})
