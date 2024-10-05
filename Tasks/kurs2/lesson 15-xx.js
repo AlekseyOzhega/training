@@ -622,4 +622,6 @@ let testSet = new Set([21, 34, 21, 45, 'jr',21]);
 
 testSet.add(33, 21, 45);
 
+testSet.delete(33);
+
 console.log(testSet)
