@@ -592,25 +592,27 @@
 // console.log('Size: ', map.size );
 
 
-let promise = new Promise( (fulfill, reject) => {
-    console.log('Начало, состояние panding...')
+// let promise = new Promise( (fulfill, reject) => {
+//     console.log('Начало, состояние panding...')
 
-    setTimeout(() => {
-        if (Math.random() > 0.5) {
-            fulfill('Ура, состояние fulfilled :-)')
-        } else {
-            reject('Увы, состояние rejected :-(')
-        }
-    }, 3000);
-})
+//     setTimeout(() => {
+//         if (Math.random() > 0.5) {
+//             fulfill('Ура, состояние fulfilled :-)')
+//         } else {
+//             reject('Увы, состояние rejected :-(')
+//         }
+//     }, 3000);
+// })
 
-promise
-    .then( (succesData) => {
-        console.log('Успех! Получены данные: ', succesData)
-    })
-    .catch( (errorData) => {
-        console.log('Ошибка. Получены данные: ', errorData)
-    })
-    .finally( () => {
-        console.log('Код выполняющийся в самом конце, независимо от результата.')
-    })
+// promise
+//     .then( (succesData) => {
+//         console.log('Успех! Получены данные: ', succesData)
+//     })
+//     .catch( (errorData) => {
+//         console.log('Ошибка. Получены данные: ', errorData)
+//     })
+//     .finally( () => {
+//         console.log('Код выполняющийся в самом конце, независимо от результата.')
+//     })
+
+
