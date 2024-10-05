@@ -624,4 +624,7 @@ testSet.add(33, 21, 45);
 
 testSet.delete(33);
 
-console.log(testSet)
+
+
+console.log(testSet);
+console.log('Есть ли элемент 21: ' , testSet.has(21))
