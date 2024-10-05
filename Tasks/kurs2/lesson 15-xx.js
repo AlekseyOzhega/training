@@ -627,4 +627,5 @@ testSet.delete(33);
 
 
 console.log(testSet);
-console.log('Есть ли элемент 21: ' , testSet.has(21))
+console.log('Есть ли элемент 21: ' , testSet.has(21));
+console.log('Размер объекта: ', testSet.size);
