@@ -632,10 +632,10 @@
 
 
 let items = ['Вентилятор', 'Лампа настольная', 'Чайник', 'Фонарик'];
-let sellerStatus = "legal";
-let balance = 12000;
-let violations = 'none';
+// let sellerStatus = "legal";
+// let balance = 12000;
+// let violations = 'none';
 
-let sellerZ = [items, sellerStatus, balance, violations];
+let sellerZ = new Map([items, sellerStatus, balance, violations]);
 
 console.log( sellerZ );
