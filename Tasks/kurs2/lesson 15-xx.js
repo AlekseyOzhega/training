@@ -631,16 +631,16 @@
 // console.log(testSet.entries());
 
 
-let items = ['Вентилятор', 'Лампа настольная', 'Чайник', 'Фонарик'];
+// let items = ['Вентилятор', 'Лампа настольная', 'Чайник', 'Фонарик'];
 // let sellerStatus = "legal";
 // let balance = 12000;
 // let violations = 'none';
 
-let sellerZ = new Map([
-    ['sellerStatus', 'legal'],
-    ['balance', 12000],
-    ['violatations', 'none'],
-    ['sellerItems', items]
-    ]);
+// let sellerZ = new Map([
+//     ['sellerStatus', 'legal'],
+//     ['balance', 12000],
+//     ['violatations', 'none'],
+//     ['sellerItems', items]
+//     ]);
 
-console.log( sellerZ );
+// console.log( sellerZ );
