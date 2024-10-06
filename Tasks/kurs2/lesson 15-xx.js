@@ -631,5 +631,6 @@
 // console.log(testSet.entries());
 
 
-let massiv = ['Вентилятор', 'Лампа настольная', 'Чайник', 'Фонарик'];
+let items = ['Вентилятор', 'Лампа настольная', 'Чайник', 'Фонарик'];
 
+let seller = [items, sellerStatus, balance, ]
