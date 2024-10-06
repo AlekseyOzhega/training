@@ -632,5 +632,9 @@
 
 
 let items = ['Вентилятор', 'Лампа настольная', 'Чайник', 'Фонарик'];
+let sellerStatus = "legal";
+let balance = 12000;
 
-let seller = [items, sellerStatus, balance, violations];
+
+
+let sellerZ = [items, sellerStatus, balance, violations];
