@@ -636,6 +636,11 @@ let items = ['Вентилятор', 'Лампа настольная', 'Чай�
 // let balance = 12000;
 // let violations = 'none';
 
-let sellerZ = new Map([items, sellerStatus, balance, violations]);
+let sellerZ = new Map([
+    ['sellerStatus', 'legal'],
+    ['balance', 12000],
+    ['violatations', 'none'],
+    ['sellerItems', items]
+    ]);
 
 console.log( sellerZ );
