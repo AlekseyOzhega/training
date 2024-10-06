@@ -637,3 +637,5 @@ let balance = 12000;
 let violations = 'none';
 
 let sellerZ = [items, sellerStatus, balance, violations];
+
+console.log( sellerZ );
