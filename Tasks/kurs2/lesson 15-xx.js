@@ -633,4 +633,4 @@
 
 let items = ['Вентилятор', 'Лампа настольная', 'Чайник', 'Фонарик'];
 
-let seller = [items, sellerStatus, balance, ]
+let seller = [items, sellerStatus, balance, violations];
