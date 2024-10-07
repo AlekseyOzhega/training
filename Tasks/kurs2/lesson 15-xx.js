@@ -653,3 +653,6 @@ async function getSomething() {
         }, 3000);
     })    
 }
+
+let something = getSomething();
+
