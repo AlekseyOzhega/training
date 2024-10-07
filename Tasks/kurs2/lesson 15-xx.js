@@ -646,18 +646,20 @@
 // console.log( sellerZ );
 
 
-async function getSomething() {
-    return new Promise( (fulfill) => {
-        setTimeout(() => {
-            fulfill ('Привет!')
-        }, 3000);
-    })    
-}
+// async function getSomething() {
+//     return new Promise( (fulfill) => {
+//         setTimeout(() => {
+//             fulfill ('Привет!')
+//         }, 3000);
+//     })    
+// }
 
-console.log('Начало...');
+// console.log('Начало...');
 
-let something =  getSomething();
+// let something = getSomething();
 
-console.log(something);
+// console.log(something);
 
-console.log('Конец...');
+// console.log('Конец...');
+
+
