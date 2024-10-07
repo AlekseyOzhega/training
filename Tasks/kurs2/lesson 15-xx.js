@@ -646,3 +646,10 @@
 // console.log( sellerZ );
 
 
+async function getSomething() {
+    return new Promise(fulfill) {
+        setTimeout(() => {
+            fulfill ('Привет!')
+        }, 3000);
+    }    
+}
