@@ -656,7 +656,7 @@ async function getSomething() {
 
 console.log('Начало...');
 
-let something = await getSomething();
+let something =  getSomething();
 
 console.log(something);
 
