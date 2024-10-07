@@ -655,6 +655,9 @@ async function getSomething() {
 }
 
 console.log('Начало...');
+
 let something = getSomething();
 
 console.log(something);
+
+console.log('Конец...');
