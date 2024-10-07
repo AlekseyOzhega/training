@@ -647,9 +647,9 @@
 
 
 async function getSomething() {
-    return new Promise(fulfill) {
+    return new Promise( (fulfill) => {
         setTimeout(() => {
             fulfill ('Привет!')
         }, 3000);
-    }    
+    })    
 }
