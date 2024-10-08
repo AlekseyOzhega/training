@@ -671,7 +671,7 @@ let sqNum = Math.sqrt(newNum);
 
 console.log('Number: ', num );
 console.log('New number: ', newNum );
-console.log('New number: ', newNum );
+console.log('Sqrt number: ', sqNum );
 
 //Урок 23
 
