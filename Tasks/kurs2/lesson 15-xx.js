@@ -665,13 +665,14 @@
 
 //Повтор
 
-let num = Math.round(Math.random() * 100);
-let newNum = Math.pow(num, 2);
-let sqNum = Math.sqrt(newNum);
+// let num = Math.round(Math.random() * 100);
+// let newNum = Math.pow(num, 2);
+// let sqNum = Math.sqrt(newNum);
 
-console.log('Number: ', num );
-console.log('New number: ', newNum );
-console.log('Sqrt number: ', sqNum );
+// console.log('Number: ', num );
+// console.log('New number: ', newNum );
+// console.log('Sqrt number: ', sqNum );
+
 
 //Урок 23
 
