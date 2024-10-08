@@ -666,8 +666,10 @@
 //Повтор
 
 let num = Math.round(Math.random() * 100);
+let newNum = Math.pow(num, 2);
 
 console.log('Number: ', num );
+console.log('New number: ', newNum );
 
 //Урок 23
 
