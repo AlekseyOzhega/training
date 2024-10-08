@@ -667,8 +667,10 @@
 
 let num = Math.round(Math.random() * 100);
 let newNum = Math.pow(num, 2);
+let sqNum = Math.sqrt(newNum);
 
 console.log('Number: ', num );
+console.log('New number: ', newNum );
 console.log('New number: ', newNum );
 
 //Урок 23
