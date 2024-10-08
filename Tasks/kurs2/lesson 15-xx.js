@@ -665,6 +665,8 @@
 
 //Повтор
 
+let num = Math.round(Math.random() * 100)
+
 
 
 //Урок 23
