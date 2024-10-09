@@ -677,6 +677,10 @@
 //Thenable
 
 class Thenable {
+    constructor(num) {
+        this.num = num;
+    }
+
     
 }
 
