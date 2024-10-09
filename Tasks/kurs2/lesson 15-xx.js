@@ -676,25 +676,27 @@
 
 //Thenable
 
-class Thenable {
-    constructor(num) {
-        this.num = num;
-    }
+// class Thenable {
+//     constructor(num) {
+//         this.num = num;
+//     }
 
-    then(resolve, reject) {
-        alert(resolve);
+//     then(resolve, reject) {
+//         alert(resolve);
 
-        setTimeout(() => {
-            return resolve(this.num * 2)
-        }, 3000);
-    }
-}
+//         setTimeout(() => {
+//             return resolve(this.num * 2)
+//         }, 3000);
 
-new Promise( resolve => resolve(1) )
-    .then(result => {
-        return new Thenable(result);
-    })
-    .then(alert);
+
+//     }
+// }
+
+// new Promise( resolve => resolve(1) )
+//     .then(result => {
+//         return new Thenable(result);
+//     })
+//     .then(alert);
 
 
 //Урок 23
