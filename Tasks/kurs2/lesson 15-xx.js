@@ -690,6 +690,8 @@ class Thenable {
     }
 }
 
+new Promise( resolve => resolve(1) )
+
 
 //Урок 23
 
