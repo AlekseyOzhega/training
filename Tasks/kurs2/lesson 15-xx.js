@@ -681,7 +681,9 @@ class Thenable {
         this.num = num;
     }
 
-    
+    then(resolve, reject) {
+        
+    }
 }
 
 
