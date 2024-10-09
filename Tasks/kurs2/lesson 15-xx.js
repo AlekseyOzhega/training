@@ -694,6 +694,7 @@ new Promise( resolve => resolve(1) )
     .then(result => {
         return new Thenable(result);
     })
+    .then(alert);
 
 
 //Урок 23
