@@ -674,6 +674,10 @@
 // console.log('Sqrt number: ', sqNum );
 
 
+//Thenable
+
+
+
 
 //Урок 23
 
