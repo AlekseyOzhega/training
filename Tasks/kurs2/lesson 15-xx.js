@@ -682,7 +682,11 @@ class Thenable {
     }
 
     then(resolve, reject) {
-        
+        alert(resolve);
+
+        setTimeout(() => {
+            return resolve(this.num * 2)
+        }, 3000);
     }
 }
 
