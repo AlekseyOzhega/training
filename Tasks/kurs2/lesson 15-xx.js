@@ -676,7 +676,9 @@
 
 //Thenable
 
-
+class Thenable {
+    
+}
 
 
 //Урок 23
