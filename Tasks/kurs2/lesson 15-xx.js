@@ -691,6 +691,9 @@ class Thenable {
 }
 
 new Promise( resolve => resolve(1) )
+    .then(result => {
+        return new Thenable(result);
+    })
 
 
 //Урок 23
