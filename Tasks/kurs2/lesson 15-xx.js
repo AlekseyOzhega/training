@@ -674,6 +674,7 @@
 // console.log('Sqrt number: ', sqNum );
 
 
+
 //Thenable
 
 // class Thenable {
