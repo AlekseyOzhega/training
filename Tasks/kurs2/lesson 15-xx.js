@@ -674,6 +674,12 @@
 // console.log('Sqrt number: ', sqNum );
 
 
+// let rand = Math.round(Math.random() * 100);
+// rand = Math.round(rand / 5.555);
+// let rand2 = Math.round(Math.random() * 100);
+// rand2 = Math.round(rand / 5.555);
+// console.log('Результат гадания: ' , rand, ' и ', rand2);
+
 
 //Thenable
 
