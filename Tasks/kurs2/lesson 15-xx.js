@@ -711,3 +711,9 @@
 
 //Повтор
 
+class Character {
+
+    constructor(name) {
+        
+    }
+}
