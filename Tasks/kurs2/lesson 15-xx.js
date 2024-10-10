@@ -723,8 +723,14 @@ class Character {
     def = 0
     hpMax = 10
     hp = 10
+    heroIsALive = true
 
-    takeDamage() {
-        
+    takeDamage(enemyDamage) {
+        hp = hp - enemyDamage;
+        if (hp <= 0) {
+            alert('Ваш персонаж умер!');
+            return 
+        }
+
     }
 }
