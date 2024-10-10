@@ -717,5 +717,7 @@ class Character {
         this.name = name;
     }
 
+    lvl = 1
+    exp = 0
     
 }
