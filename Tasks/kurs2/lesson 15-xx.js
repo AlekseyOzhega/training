@@ -723,4 +723,8 @@ class Character {
     def = 0
     hpMax = 10
     hp = 10
+
+    takeDamage() {
+        
+    }
 }
