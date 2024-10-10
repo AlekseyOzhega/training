@@ -719,5 +719,8 @@ class Character {
 
     lvl = 1
     exp = 0
-    
+    ata = 1
+    def = 0
+    hpMax = 10
+    hp = 10
 }
