@@ -738,3 +738,6 @@ class Character {
 
 let heroMax = new Character('Max');
 
+console.log(heroMax);
+
+heroMax.takeDamage(3);
