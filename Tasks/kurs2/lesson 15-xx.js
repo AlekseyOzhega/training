@@ -729,8 +729,12 @@ class Character {
         hp = hp - enemyDamage;
         if (hp <= 0) {
             alert('Ваш персонаж умер!');
-            return 
+            return this.heroIsALive = false;
         }
 
     }
 }
+
+
+let heroMax = new Character('Max');
+
