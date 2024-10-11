@@ -742,7 +742,10 @@ class Character {
     takeExp(expRise) {
         this.exp += expRise;
 
-        
+        if (this.exp >= this.maxExp) {
+            this.lvl++;
+            
+        }
     }
 }
 
