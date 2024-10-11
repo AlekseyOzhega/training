@@ -716,6 +716,7 @@ class Character {
 
     lvl = 1
     exp = 0
+    maxExp = 10
     ata = 1
     def = 0
     hpMax = 10
@@ -737,17 +738,23 @@ class Character {
         }
 
     }
+
+    takeExp(expRise) {
+        this.exp += expRise;
+
+        
+    }
 }
 
 let startGame = prompt('Да начнется игра! ВВедите имя персонажа...');
-let heroMax = new Character(startGame);
+let hero = new Character(startGame);
 
-console.log(heroMax);
+console.log(hero);
 
 heroMax.takeDamage(3);
 heroMax.takeDamage(9);
 
-console.log(heroMax);
+console.log(hero);
  
 
 
