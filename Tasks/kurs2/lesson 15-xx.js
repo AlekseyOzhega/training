@@ -739,12 +739,13 @@ class Character {
     }
 }
 
-
-let heroMax = new Character('Max');
+let startGame = prompt('Да начнется игра! ВВедите имя персонажа...');
+let heroMax = new Character(startGame);
 
 console.log(heroMax);
 
 heroMax.takeDamage(3);
+heroMax.takeDamage(9);
 
 console.log(heroMax);
  
