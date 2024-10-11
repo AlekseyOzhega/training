@@ -706,60 +706,67 @@
 //     .then(alert);
 
 
-//Повтор
+//Разработка
 
-class Character {
+// class Character {
 
-    constructor(name) {
-        this.name = name;
-    }
+//     constructor(name) {
+//         this.name = name;
+//     }
 
-    lvl = 1
-    exp = 0
-    maxExp = 10
-    ata = 1
-    def = 0
-    hpMax = 10
-    hp = 10
-    heroIsALive = true
+//     lvl = 1
+//     exp = 0
+//     maxExp = 10
+//     ata = 1
+//     def = 0
+//     hpMax = 10
+//     hp = 10
+//     heroIsALive = true
 
-    takeDamage(enemyDamage) {
-        this.hp = this.hp - enemyDamage;
+//     takeDamage(enemyDamage) {
+//         this.hp = this.hp - enemyDamage;
 
-        if (this.hp < 0) {
-            this.hp = 0;
-        }
+//         if (this.hp < 0) {
+//             this.hp = 0;
+//         }
 
-        console.log(`${this.name} получил урон и у него осталось ${this.hp} хп!`)
+//         console.log(`${this.name} получил урон и у него осталось ${this.hp} хп!`)
 
-        if (this.hp <= 0) {
-            alert('Ваш персонаж умер!');
-            return this.heroIsALive = false;
-        }
+//         if (this.hp <= 0) {
+//             alert('Ваш персонаж умер!');
+//             return this.heroIsALive = false;
+//         }
 
-    }
+//     }
 
-    takeExp(expRise) {
-        this.exp += expRise;
+//     takeExp(expRise) {
+//         this.exp += expRise;
 
-        if (this.exp >= this.maxExp) {
-            this.lvl++;
-            this.maxExp = (this.maxExp * 2) * 20%;
-        }
-    }
-}
+//         console.log(`${this.name} получил ${expRise} опыта!`)
 
-let startGame = prompt('Да начнется игра! ВВедите имя персонажа...');
-let hero = new Character(startGame);
+//         if (this.exp >= this.maxExp) {
+//             this.exp = 0;
+//             this.lvl++;
+//             this.maxExp = (this.maxExp * 2.5);
+//             this.hpMax = (this.hpMax * 2.2);
+//             this.hp = this.hpMax;
 
-console.log(hero);
+//             console.log(`${this.name} повысил уровень!`)
+//         }
 
-heroMax.takeDamage(3);
-heroMax.takeDamage(9);
+//     }
+// }
 
-console.log(hero);
+// let startGame = prompt('Да начнется игра! ВВедите имя персонажа...');
+// let hero = new Character(startGame);
+
+// hero.takeDamage(3);
+// hero.takeDamage(2);
+// hero.takeExp(6);
+// hero.takeExp(6);
+
+// console.log(hero);
  
-
 
 
 //Урок 23
