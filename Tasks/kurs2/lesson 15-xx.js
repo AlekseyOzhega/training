@@ -744,7 +744,7 @@ class Character {
 
         if (this.exp >= this.maxExp) {
             this.lvl++;
-            
+            this.maxExp = this.maxExp * 
         }
     }
 }
