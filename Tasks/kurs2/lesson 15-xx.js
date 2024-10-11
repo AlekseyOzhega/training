@@ -725,6 +725,10 @@ class Character {
     takeDamage(enemyDamage) {
         this.hp = this.hp - enemyDamage;
 
+        if (this.hp < 0) {
+            this.hp = 0;
+        }
+
         console.log(`${this.name} получил урон и у него осталось ${this.hp} хп!`)
 
         if (this.hp <= 0) {
@@ -741,8 +745,6 @@ let heroMax = new Character('Max');
 console.log(heroMax);
 
 heroMax.takeDamage(3);
-heroMax.takeDamage(3);
-heroMax.takeDamage(5);
 
 console.log(heroMax);
  
