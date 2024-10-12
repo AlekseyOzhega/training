@@ -3,17 +3,21 @@
 //Урок 23
 
 
-let tabSelectors = 
+// let tabSelectors = 
 function initTabs() {
-    console.log('initTabs');
+    console.log('initTabs!');
 }
 
-let modalSelectors =
+// let modalSelectors =
 function initModals() {
-    console.log('initModals');
+    console.log('initModals!');
 }
 
-let slidersSelectors =
+// let slidersSelectors =
 function initSliders() {
-    console.log('initSliders');
+    console.log('initSliders!');
 }
+
+initTabs()
+initModals()
+initSliders()
