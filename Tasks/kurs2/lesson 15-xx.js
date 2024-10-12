@@ -771,3 +771,15 @@
 
 //Урок 23
 
+
+let tabSelectors = {
+    console.log('initTabs');
+}
+
+let modalSelectors = {
+    console.log('initModals');
+}
+
+let tabSelectors = {
+    console.log('initTabs');
+}
