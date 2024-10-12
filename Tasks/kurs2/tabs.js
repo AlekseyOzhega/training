@@ -1,9 +1,9 @@
 'use strict';
 
 
-let tabSelectors = undefined;
-function initTabs() {
-    console.log('initTabs!');
+let tabSelectors = 111;
+function initTabs(num) {
+    console.log('initTabs! ', num);
 }
 
-initTabs()
+initTabs(tabSelectors)
