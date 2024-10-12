@@ -2,7 +2,7 @@
 
 
 
-let modalSelectors = undefined;
+let modalSelectors = 222;
 function initModals() {
     console.log('initModals!');
 }
