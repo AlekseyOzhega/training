@@ -772,14 +772,17 @@
 //Урок 23
 
 
-let tabSelectors = {
+let tabSelectors = 
+function initTabs() {
     console.log('initTabs');
 }
 
-let modalSelectors = {
+let modalSelectors =
+function initModals() {
     console.log('initModals');
 }
 
-let tabSelectors = {
-    console.log('initTabs');
+let slidersSelectors =
+function initSliders() {
+    console.log('initSliders');
 }
