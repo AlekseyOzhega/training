@@ -8,3 +8,7 @@ function initModals() {
 }
 
 initModals()
+
+export default function add(n1, n2) {
+    
+}
