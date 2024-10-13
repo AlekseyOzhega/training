@@ -7,3 +7,5 @@ function initTabs(num) {
 }
 
 initTabs(tabSelectors)
+
+import "./modals.js";
