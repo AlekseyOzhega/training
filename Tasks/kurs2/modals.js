@@ -1,4 +1,4 @@
-import {tabSelectors} from './tabs.js'
+import {tabSelectors, tabsData} from './tabs.js'
 
 
 
@@ -10,3 +10,4 @@ function initModals() {
 initModals()
 
 console.log(tabSelectors);
+console.log(tabsData);
