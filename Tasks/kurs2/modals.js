@@ -9,5 +9,4 @@ function initModals() {
 
 initModals()
 
-tabSelectors = 999;
 console.log(tabSelectors);
