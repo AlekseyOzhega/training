@@ -2,9 +2,8 @@
 
 
 let slidersSelectors = undefined;
-function initSliders() {
+export function initSliders() {
     console.log('initSliders!');
 }
 
 
-initSliders()

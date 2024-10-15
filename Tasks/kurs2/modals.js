@@ -2,8 +2,8 @@ import {tabSelectors, tabsData} from './tabs.js'
 
 
 
-let modalSelectors = 222;
-function initModals() {
+export let modalSelectors = 222;
+export function initModals() {
     console.log('initModals!', modalSelectors);
 }
 
