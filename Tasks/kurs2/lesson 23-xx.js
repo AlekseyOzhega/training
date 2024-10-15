@@ -1,6 +1,6 @@
 import { initTabs, tabSelectors, tabsData} from './tabs.js'
 import { initModals, modalSelectors} from './modals.js'
-import { initSliders} from './sliders.js'
+import initSliders, {slidersSelectors} from './sliders.js'
 
 //Урок 23
 
@@ -8,3 +8,4 @@ import { initSliders} from './sliders.js'
 initTabs(tabSelectors)
 initModals()
 initSliders()
+console.log(slidersSelectors)

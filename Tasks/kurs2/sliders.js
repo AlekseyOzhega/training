@@ -1,7 +1,7 @@
 'use strict';
 
 
-let slidersSelectors = undefined;
+export let slidersSelectors = 'Sliders!!!!';
 export default function () {
     console.log('initSliders!');
 }
