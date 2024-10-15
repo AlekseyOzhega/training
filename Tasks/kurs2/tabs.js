@@ -7,6 +7,6 @@ function initTabs(num) {
     console.log('initTabs!', num);
 }
 
-initTabs(tabSelectors)
+
 
 export { tabSelectors, tabsData };

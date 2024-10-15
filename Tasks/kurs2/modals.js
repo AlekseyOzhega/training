@@ -7,7 +7,4 @@ function initModals() {
     console.log('initModals!', modalSelectors);
 }
 
-initModals()
 
-console.log(tabSelectors);
-console.log(tabsData);
