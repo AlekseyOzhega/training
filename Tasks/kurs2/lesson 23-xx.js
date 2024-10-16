@@ -12,4 +12,7 @@ import * as sliders from './sliders.js'
 // initSliders()
 // console.log(slidersSelectors)
 
-console.log(a);
+console.log(sliders.a);
+console.log(sliders.b);
+console.log(sliders.c);
+
