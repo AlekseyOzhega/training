@@ -11,3 +11,6 @@ let a = 'first';
 let b = 'second';
 let c = 'last';
 
+function smile() {
+    console.log(' :-) ')
+}
