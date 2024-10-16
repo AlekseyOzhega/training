@@ -16,3 +16,4 @@ console.log(sliders.a);
 console.log(sliders.b);
 console.log(sliders.c);
 
+sliders.default();
