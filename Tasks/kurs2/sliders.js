@@ -7,10 +7,10 @@
 // }
 
 
-let a = 'first';
-let b = 'second';
-let c = 'last';
+export let a = 'first';
+export let b = 'second';
+export let c = 'last';
 
-function smile() {
+export default function smile() {
     console.log(' :-) ')
 }
