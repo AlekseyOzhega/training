@@ -5,7 +5,7 @@ import initSliders, {slidersSelectors} from './sliders.js'
 //Урок 23
 
 
-initTabs(tabSelectors)
-initModals()
-initSliders()
-console.log(slidersSelectors)
+// initTabs(tabSelectors)
+// initModals()
+// initSliders()
+// console.log(slidersSelectors)
