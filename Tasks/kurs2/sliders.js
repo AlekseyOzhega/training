@@ -8,3 +8,6 @@
 
 
 let a = 'first';
+let b = 'second';
+let c = 'last';
+
