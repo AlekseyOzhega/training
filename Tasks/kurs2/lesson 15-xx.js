@@ -758,7 +758,8 @@ class Character {
         this.maxExp = (this.maxExp * 2.5);
         this.hpMax = (this.hpMax * 2.2);
         this.hp = this.hpMax;
-
+        this.ata += 2;
+        this.def++;
         console.log(`${this.name} повысил уровень!`)
     }
 }
