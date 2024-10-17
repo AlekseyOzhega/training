@@ -708,71 +708,77 @@
 
 //Разработка
 
-class Character {
+// class Character {
 
-    constructor(name) {
-        if (name === null) {
-            this.name = 'Аноним';
-        }
-        this.name = name;
-    }
+//     constructor(name) {
+//         if (name === null) {
+//             this.name = 'Аноним';
+//         }
+//         this.name = name;
+//     }
 
-    lvl = 1
-    exp = 0
-    maxExp = 10
-    ata = 1
-    def = 0
-    hpMax = 10
-    hp = 10
-    heroIsALive = true
+//     static lvl = 1
+//     static exp = 0
+//     static maxExp = 10
+//     static ata = 1
+//     static def = 0
+//     static hpMax = 10
+//     static hp = 10
+//     static heroIsALive = true
 
-    static takeDamage(enemyDamage) {
-        this.hp = this.hp - enemyDamage;
+//     static takeDamage(enemyDamage) {
+//         this.hp = this.hp - enemyDamage;
 
-        if (this.hp < 0) {
-            this.hp = 0;
-        }
+//         if (this.hp < 0) {
+//             this.hp = 0;
+//         }
 
-        console.log(`${this.name} получил урон и у него осталось ${this.hp} хп!`)
+//         console.log(`${this.name} получил урон и у него осталось ${this.hp} хп!`)
 
-        if (this.hp <= 0) {
-            alert('Ваш персонаж умер!');
-            return this.heroIsALive = false;
-        }
+//         if (this.hp <= 0) {
+//             alert('Ваш персонаж умер!');
+//             return this.heroIsALive = false;
+//         }
 
-    }
+//     }
 
-    static takeExp(expRise) {
-        this.exp += expRise;
+//     static takeExp(expRise) {
+//         this.exp += expRise;
 
-        console.log(`${this.name} получил ${expRise} опыта!`)
+//         console.log(`${this.name} получил ${expRise} опыта!`)
 
-        if (this.exp >= this.maxExp) {
-            this.levelUp();
-        }
-    }
+//         if (this.exp >= this.maxExp) {
+//             this.levelUp();
+//         }
+//     }
 
-    static levelUp() {
-        this.exp = 0;
-        this.lvl++;
-        this.maxExp = (this.maxExp * 2.5);
-        this.hpMax = (this.hpMax * 2.2);
-        this.hp = this.hpMax;
-        this.ata += 2;
-        this.def++;
-        console.log(`${this.name} повысил уровень!`)
-    }
-}
+//     static levelUp() {
+//         this.exp = 0;
+//         this.lvl++;
+//         this.maxExp = (this.maxExp * 2.5);
+//         this.hpMax = (this.hpMax * 2.2);
+//         this.hp = this.hpMax;
+//         this.ata += 2;
+//         this.def++;
+//         console.log(`${this.name} повысил уровень!`)
+//     }
 
-let startGame = prompt('Да начнется игра! ВВедите имя персонажа...');
-let hero = new Character(startGame);
+//     specifications = {
+//         'Уровень: ': Character.lvl,
+//         'Опыт: ': `${Character.exp}/${Character.maxExp}`,
+//         'Имя: ': this.name
+//     }
+// }
 
-Character.takeDamage(3);
-Character.takeDamage(2);
-Character.takeExp(6);
-Character.takeExp(6);
+// let startGame = prompt('Да начнется игра! ВВедите имя персонажа...');
+// let hero = new Character(startGame);
 
-console.log(hero);
+// Character.takeDamage(3);
+// Character.takeDamage(2);
+// Character.takeExp(6);
+// Character.takeExp(6);
+
+// console.log(hero);
  
 
 
