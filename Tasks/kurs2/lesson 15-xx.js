@@ -764,15 +764,15 @@ class Character {
     }
 }
 
-// let startGame = prompt('Да начнется игра! ВВедите имя персонажа...');
-// let hero = new Character(startGame);
+let startGame = prompt('Да начнется игра! ВВедите имя персонажа...');
+let hero = new Character(startGame);
 
-// hero.takeDamage(3);
-// hero.takeDamage(2);
-// hero.takeExp(6);
-// hero.takeExp(6);
+hero.takeDamage(3);
+hero.takeDamage(2);
+hero.takeExp(6);
+hero.takeExp(6);
 
-// console.log(hero);
+console.log(hero);
  
 
 
