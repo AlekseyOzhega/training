@@ -726,7 +726,7 @@ class Character {
     hp = 10
     heroIsALive = true
 
-    takeDamage(enemyDamage) {
+    static takeDamage(enemyDamage) {
         this.hp = this.hp - enemyDamage;
 
         if (this.hp < 0) {
@@ -742,7 +742,7 @@ class Character {
 
     }
 
-    takeExp(expRise) {
+    static takeExp(expRise) {
         this.exp += expRise;
 
         console.log(`${this.name} получил ${expRise} опыта!`)
@@ -752,7 +752,7 @@ class Character {
         }
     }
 
-    levelUp() {
+    static levelUp() {
         this.exp = 0;
         this.lvl++;
         this.maxExp = (this.maxExp * 2.5);
@@ -767,10 +767,10 @@ class Character {
 let startGame = prompt('Да начнется игра! ВВедите имя персонажа...');
 let hero = new Character(startGame);
 
-hero.takeDamage(3);
-hero.takeDamage(2);
-hero.takeExp(6);
-hero.takeExp(6);
+Character.takeDamage(3);
+Character.takeDamage(2);
+Character.takeExp(6);
+Character.takeExp(6);
 
 console.log(hero);
  
