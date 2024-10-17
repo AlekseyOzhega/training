@@ -712,7 +712,7 @@ class Character {
 
     constructor(name) {
         if (name === null) {
-            
+            this.name = 'Аноним';
         }
         this.name = name;
     }
