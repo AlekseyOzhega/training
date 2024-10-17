@@ -756,7 +756,13 @@ class Character {
     }
 
     levelUp() {
-        
+        this.exp = 0;
+        this.lvl++;
+            this.maxExp = (this.maxExp * 2.5);
+            this.hpMax = (this.hpMax * 2.2);
+            this.hp = this.hpMax;
+
+            console.log(`${this.name} повысил уровень!`)
     }
 }
 
