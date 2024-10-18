@@ -1,4 +1,4 @@
-import * as sliders from './moduls/folder1/folder2/sliders.js'
+import * as moduls from './moduls'
 
 
 
