@@ -1,4 +1,4 @@
-import * as sliders from './sliders.js'
+import * as sliders from './moduls/folder1/folder2/sliders.js'
 
 // import { initTabs, tabSelectors, tabsData} from './tabs.js'
 // import { initModals, modalSelectors} from './modals.js'
