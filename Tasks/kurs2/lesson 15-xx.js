@@ -725,6 +725,7 @@ class Character {
     static hpMax = 10
     static hp = 10
     static heroIsALive = true
+    static nameH = "Pol"
 
     static takeDamage(enemyDamage) {
         this.hp = this.hp - enemyDamage;
@@ -766,7 +767,7 @@ class Character {
     specifications = {
         'Уровень: ': Character.lvl,
         'Опыт: ': `${Character.exp}/${Character.maxExp}`,
-        'Имя: ': this.name
+        'Имя: ': Character.nameH
     }
 }
 
