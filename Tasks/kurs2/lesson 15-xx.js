@@ -709,14 +709,7 @@
 //Разработка
 
 class Character {
-
-    constructor(name) {
-        if (name === null) {
-            this.name = 'Аноним';
-        }
-        this.name = name;
-    }
-
+    
     static lvl = 1
     static exp = 0
     static maxExp = 10
@@ -726,6 +719,15 @@ class Character {
     static hp = 10
     static heroIsALive = true
     static nameH = "Pol"
+
+    constructor(name) {
+        if (name === null) {
+            this.name = 'Аноним';
+        }
+        this.name = name;
+        nameH = name;
+    }
+
 
     static takeDamage(enemyDamage) {
         this.hp = this.hp - enemyDamage;
