@@ -725,7 +725,7 @@ class Character {
             this.name = 'Аноним';
         }
         this.name = name;
-        nameH = name;
+        this.nameH = name;
     }
 
 
