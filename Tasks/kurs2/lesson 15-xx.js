@@ -761,10 +761,12 @@ class Character {
         console.log(`${this.name} повысил уровень!`)
     }
 
-    static specifications = {
-        'Уровень: ': Character.lvl,
-        'Опыт: ': `${Character.exp}/${Character.maxExp}`,
-        'Имя: ': this.name
+    static specifications() {
+        console.log(`Уровень: ${Character.lvl}`)
+
+        // 'Уровень: ': Character.lvl,
+        // 'Опыт: ': `${Character.exp}/${Character.maxExp}`,
+        // 'Имя: ': this.name
     }
 }
 
@@ -776,7 +778,7 @@ Character.takeDamage(3);
 Character.takeDamage(2);
 Character.takeExp(6);
 Character.takeExp(6);
-console.log('Характеристика: ', Character.specifications)
+Character.specifications()
 
 console.log(hero);
  
