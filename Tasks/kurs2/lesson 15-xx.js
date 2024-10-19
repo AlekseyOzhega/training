@@ -764,9 +764,13 @@ class Character {
 
     static specifications() {
         console.log(
-`Имя   :${Character.name}
+`
+Характеристики:
+Имя   :${Character.nameH}
 Уровень: ${Character.lvl}
-Опыт   : ${Character.exp}/${Character.maxExp}`)
+Опыт   : ${Character.exp}/${Character.maxExp}
+
+`)
 
     }
 }
@@ -779,6 +783,7 @@ Character.takeDamage(3);
 Character.takeDamage(2);
 Character.takeExp(6);
 Character.takeExp(6);
+Character.takeExp(11);
 Character.specifications()
 
 console.log(hero);
