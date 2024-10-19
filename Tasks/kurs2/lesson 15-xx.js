@@ -721,13 +721,8 @@ class Character {
     static nameH = "Pol"
 
     constructor(name) {
-        if (name === null) {
-            this.name = 'Аноним';
-        }
         this.name = name;
-        this.nameH = name;
     }
-
 
     static takeDamage(enemyDamage) {
         this.hp = this.hp - enemyDamage;
@@ -766,10 +761,10 @@ class Character {
         console.log(`${this.name} повысил уровень!`)
     }
 
-    specifications = {
+    static specifications = {
         'Уровень: ': Character.lvl,
         'Опыт: ': `${Character.exp}/${Character.maxExp}`,
-        'Имя: ': Character.nameH
+        'Имя: ': this.name
     }
 }
 
@@ -781,6 +776,7 @@ Character.takeDamage(3);
 Character.takeDamage(2);
 Character.takeExp(6);
 Character.takeExp(6);
+console.log('Характеристика: ', Character.specifications)
 
 console.log(hero);
  
