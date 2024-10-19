@@ -766,7 +766,8 @@ class Character {
         console.log(
 `
 Характеристики:
-Имя   :${Character.nameH}
+
+Имя    : ${Character.nameH}
 Уровень: ${Character.lvl}
 Опыт   : ${Character.exp}/${Character.maxExp}
 
