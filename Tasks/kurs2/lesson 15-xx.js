@@ -722,6 +722,7 @@ class Character {
 
     constructor(name) {
         this.name = name;
+        Character.nameH = name
     }
 
     static takeDamage(enemyDamage) {
@@ -762,11 +763,11 @@ class Character {
     }
 
     static specifications() {
-        console.log(`Уровень: ${Character.lvl}`)
+        console.log(
+`Имя   :${Character.name}
+Уровень: ${Character.lvl}
+Опыт   : ${Character.exp}/${Character.maxExp}`)
 
-        // 'Уровень: ': Character.lvl,
-        // 'Опыт: ': `${Character.exp}/${Character.maxExp}`,
-        // 'Имя: ': this.name
     }
 }
 
