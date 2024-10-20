@@ -741,7 +741,8 @@ class Character {
 
     }
 
-    static dealDamage() {
+    static dealDamage({}) {
+        let damage = enemyAta - Character.def;
         
     }
 
