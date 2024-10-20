@@ -743,7 +743,7 @@ class Character {
 
     static dealDamage({}) {
         let damage = enemyAta - Character.def;
-        
+
     }
 
     static takeExp(expRise) {
@@ -787,6 +787,10 @@ class Character {
 Защита: ${Character.def}
             `)
     }
+}
+
+class Enemy {
+    
 }
 
 // let startGame = prompt('Да начнется игра! ВВедите имя персонажа...');
