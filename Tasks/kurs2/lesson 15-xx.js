@@ -779,7 +779,8 @@ class Character {
         console.log(`
 Статус:
 Атака : ${Character.ata}
-Защита: ${}
+Защита: ${Character.def}
+
 
             `)
     }
