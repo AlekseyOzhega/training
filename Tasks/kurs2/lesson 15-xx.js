@@ -741,6 +741,10 @@ class Character {
 
     }
 
+    static dealDamage() {
+        
+    }
+
     static takeExp(expRise) {
         this.exp += expRise;
 
