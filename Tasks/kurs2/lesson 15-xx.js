@@ -799,6 +799,8 @@ class Enemy {
     static hp = 5
     static heroIsALive = true
     static nameE = "Slime"
+
+    
 }
 
 // let startGame = prompt('Да начнется игра! ВВедите имя персонажа...');
