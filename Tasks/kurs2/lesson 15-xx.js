@@ -790,7 +790,15 @@ class Character {
 }
 
 class Enemy {
-    
+    static lvl = 1
+    static exp = 0
+    static maxExp = 10
+    static ata = 1
+    static def = 0
+    static hpMax = 5
+    static hp = 5
+    static heroIsALive = true
+    static nameE = "Slime"
 }
 
 // let startGame = prompt('Да начнется игра! ВВедите имя персонажа...');
