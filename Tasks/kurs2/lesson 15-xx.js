@@ -769,8 +769,7 @@ class Character {
 
 Имя    : ${Character.nameH}
 Уровень: ${Character.lvl}
-Опыт   : ${Character.exp}/${Character.maxExp}
-
+Опыт   : ${Character.exp}/${Character.maxExp}   
 `)
 
     }
@@ -778,10 +777,9 @@ class Character {
     static status() {
         console.log(`
 Статус:
+
 Атака : ${Character.ata}
 Защита: ${Character.def}
-
-
             `)
     }
 }
