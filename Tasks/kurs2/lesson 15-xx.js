@@ -777,8 +777,10 @@ class Character {
 
     static status() {
         console.log(`
-            Статус: 
-            
+Статус:
+Атака : ${Character.ata}
+Защита: ${}
+
             `)
     }
 }
@@ -794,6 +796,7 @@ Character.takeExp(6);
 Character.takeExp(11);
 
 Character.specifications()
+Character.status()
 
 console.log(hero);
  
