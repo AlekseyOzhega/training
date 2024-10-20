@@ -774,6 +774,13 @@ class Character {
 `)
 
     }
+
+    static status() {
+        console.log(`
+            Статус: 
+            
+            `)
+    }
 }
 
 // let startGame = prompt('Да начнется игра! ВВедите имя персонажа...');
@@ -785,6 +792,7 @@ Character.takeDamage(2);
 Character.takeExp(6);
 Character.takeExp(6);
 Character.takeExp(11);
+
 Character.specifications()
 
 console.log(hero);
