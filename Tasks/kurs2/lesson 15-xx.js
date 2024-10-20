@@ -800,7 +800,10 @@ class Enemy {
     static heroIsALive = true
     static nameE = "Slime"
 
-    
+    constructor(name) {
+        this.name = name;
+        Enemy.nameE = name
+    }
 }
 
 // let startGame = prompt('Да начнется игра! ВВедите имя персонажа...');
