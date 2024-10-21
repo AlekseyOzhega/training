@@ -844,6 +844,7 @@ Character.status()
 
 console.log('Map: ', Enemy.data);
 Enemy.takeDamage(3);
+Enemy.takeDamage(13);
 
 console.log(hero);
  
