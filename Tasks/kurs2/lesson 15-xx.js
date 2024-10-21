@@ -790,6 +790,12 @@ class Character {
 }
 
 class Enemy {
+
+    static data = new Map(
+        ['lvl', 1],
+        ['exp', 0],
+        ['maxExp', 10]
+    )
     static lvl = 1
     static exp = 0
     static maxExp = 10
@@ -813,7 +819,7 @@ let hero = new Character(startGame);
 Character.takeDamage(3);
 Character.takeDamage(2);
 Character.takeExp(6);
-Character.takeExp(6);
+Character.takeExp(7);
 Character.takeExp(11);
 
 Character.specifications()
