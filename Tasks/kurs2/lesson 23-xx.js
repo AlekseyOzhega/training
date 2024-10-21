@@ -9,3 +9,7 @@
 // console.log(constants.b)
 // console.log(constants.c)
 // constants.smile()
+
+
+//Повтор
+
