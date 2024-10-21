@@ -815,13 +815,16 @@ class Enemy {
 
     constructor(name) {
         this.name = name;
-        Enemy.nameE = name
+        Enemy.data.nameE = name
     }
+
+    
 }
 
 // let startGame = prompt('Да начнется игра! ВВедите имя персонажа...');
 let startGame = "Герой";
 let hero = new Character(startGame);
+let enemy = new Enemy('Sli');
 
 Character.takeDamage(3);
 Character.takeDamage(2);
