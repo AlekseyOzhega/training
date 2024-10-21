@@ -825,6 +825,8 @@ Character.takeExp(11);
 Character.specifications()
 Character.status()
 
+console.log(Character.data);
+
 console.log(hero);
  
 
