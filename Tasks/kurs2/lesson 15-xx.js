@@ -791,11 +791,18 @@ class Character {
 
 class Enemy {
 
-    static data = new Map(
+    static data = new Map([
         ['lvl', 1],
         ['exp', 0],
-        ['maxExp', 10]
-    )
+        ['maxExp', 10],
+        ['ata', 1],
+        ['def', 0],
+        ['hpMax', 10],
+        ['hp', 5],
+        ['EnemyIsAlive', true],
+        ['nameE', 'Slime']
+    ])
+
     static lvl = 1
     static exp = 0
     static maxExp = 10
@@ -825,7 +832,7 @@ Character.takeExp(11);
 Character.specifications()
 Character.status()
 
-console.log(Character.data);
+console.log('Map: ', Enemy.data);
 
 console.log(hero);
  
