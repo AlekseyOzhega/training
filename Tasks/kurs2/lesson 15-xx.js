@@ -792,6 +792,7 @@ class Character {
 class Enemy {
 
     static data = new Map([
+        ['nameE', 'Slime'],
         ['lvl', 1],
         ['exp', 0],
         ['maxExp', 10],
@@ -799,8 +800,7 @@ class Enemy {
         ['def', 0],
         ['hpMax', 10],
         ['hp', 5],
-        ['EnemyIsAlive', true],
-        ['nameE', 'Slime']
+        ['EnemyIsAlive', true]
     ])
 
     static lvl = 1
@@ -814,11 +814,13 @@ class Enemy {
     static nameE = "Slime"
 
     constructor(name) {
-        this.name = name;
         Enemy.data.set('nameE', name);
     }
 
-    
+    static takeDamage(heroDamage) {
+        let result = Enemy.data.get('hp') - heroDamage;
+        
+    }
 }
 
 // let startGame = prompt('Да начнется игра! ВВедите имя персонажа...');
