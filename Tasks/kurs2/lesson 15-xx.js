@@ -819,7 +819,7 @@ class Enemy {
 
     static takeDamage(heroDamage) {
         let result = Enemy.data.get('hp') - heroDamage;
-        
+        console.log('Damage taken.');
     }
 }
 
@@ -838,6 +838,7 @@ Character.specifications()
 Character.status()
 
 console.log('Map: ', Enemy.data);
+Enemy.takeDamage(3);
 
 console.log(hero);
  
