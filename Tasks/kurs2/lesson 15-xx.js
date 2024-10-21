@@ -815,7 +815,7 @@ class Enemy {
 
     constructor(name) {
         this.name = name;
-        Enemy.data.nameE = name
+        Enemy.data.set('nameE', name);
     }
 
     
