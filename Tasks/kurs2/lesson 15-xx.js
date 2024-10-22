@@ -822,9 +822,11 @@ class Enemy {
         console.log(`Враг ${Enemy.data.get('nameE')} получил ${heroDamage} урона.`);
 
         if (result <= 0) {
-            Enemy.data.set('EnemyIsAlive') = false;
+            Enemy.data.set('EnemyIsAlive', false);
             console.log(`Враг ${Enemy.data.get('nameE')} побежден!`)
         }
+
+        
     }
 }
 
