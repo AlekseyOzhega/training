@@ -820,6 +820,10 @@ class Enemy {
 
         Enemy.data.set('hp', result)
     }
+
+    static dealDamage(dam) {
+        
+    }
 }
 
 // let startGame = prompt('Да начнется игра! ВВедите имя персонажа...');
