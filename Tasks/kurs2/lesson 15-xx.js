@@ -846,7 +846,6 @@ Enemy.takeDamage(1);
 
 console.log(hero);
 
-console.log('Урон врага равен: ', Enemy.dealDamage())
  
 
 
