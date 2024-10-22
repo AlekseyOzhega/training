@@ -793,6 +793,7 @@ class Character {
 }
 
 class Items {
+    static potions = new Set()
     
 }
 
