@@ -709,6 +709,9 @@
 //Разработка
 
 class Character {
+    static inventory = new Map([
+        []
+    ])
     
     static lvl = 1
     static exp = 0
