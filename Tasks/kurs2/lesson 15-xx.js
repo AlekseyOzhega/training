@@ -821,7 +821,7 @@ class Enemy {
         Enemy.data.set('hp', result)
     }
 
-    static dealDamage(dam) {
+    static dealDamage() {
         return Enemy.data.get('ata')
     }
 }
@@ -845,6 +845,8 @@ Enemy.takeDamage(3);
 Enemy.takeDamage(1);
 
 console.log(hero);
+
+console.log('Урон врага равен: ', Enemy.dealDamage())
  
 
 
