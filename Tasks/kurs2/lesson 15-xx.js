@@ -792,6 +792,10 @@ class Character {
     }
 }
 
+class Items {
+    
+}
+
 class Enemy {
 
     static data = new Map([
