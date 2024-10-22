@@ -822,7 +822,7 @@ class Enemy {
     }
 
     static dealDamage(dam) {
-        
+        return Enemy.data.get('ata')
     }
 }
 
