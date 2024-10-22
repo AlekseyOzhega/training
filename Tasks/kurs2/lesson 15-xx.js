@@ -798,7 +798,7 @@ class Enemy {
         ['maxExp', 10],
         ['ata', 1],
         ['def', 0],
-        ['hpMax', 10],
+        ['hpMax', 5],
         ['hp', 5],
         ['EnemyIsAlive', true]
     ])
@@ -827,6 +827,8 @@ class Enemy {
             Enemy.data.set('hp', 0)
         }
 
+        Enemy.data.set('hp', result)
+
 
     }
 }
@@ -847,7 +849,7 @@ Character.status()
 
 console.log('Map: ', Enemy.data);
 Enemy.takeDamage(3);
-Enemy.takeDamage(13);
+Enemy.takeDamage(1);
 
 console.log(hero);
  
