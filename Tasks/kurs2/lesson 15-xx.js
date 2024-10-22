@@ -803,15 +803,6 @@ class Enemy {
         ['EnemyIsAlive', true]
     ])
 
-    static lvl = 1
-    static exp = 0
-    static maxExp = 10
-    static ata = 1
-    static def = 0
-    static hpMax = 5
-    static hp = 5
-    static heroIsALive = true
-    static nameE = "Slime"
 
     constructor(name) {
         Enemy.data.set('nameE', name);
@@ -828,8 +819,6 @@ class Enemy {
         }
 
         Enemy.data.set('hp', result)
-
-
     }
 }
 
