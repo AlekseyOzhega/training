@@ -38,3 +38,6 @@
 // console.log(document.body);
 
 
+
+console.log(document.parentElement);
+console.log(document.children);
