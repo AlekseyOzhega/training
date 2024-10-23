@@ -39,5 +39,5 @@
 
 
 
-console.log(document.parentElement);
-console.log(document.children);
+console.log('Parents: ', document.body.parentElement);
+console.log('Children: ', document.body.children);
