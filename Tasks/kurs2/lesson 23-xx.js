@@ -15,16 +15,18 @@
 
 //Урок 24
 
-console.log(window);
-console.log(
-    `Мой браузер: `, 
-    window.navigator.userAgent
-);
-console.log(
-    'Высота окна браузера: ',
-    window.screen.height
-)
-console.log(
-    'Длина "истории" текущей сессии браузера: ',
-    window.history.length
-)
+// console.log(window);
+// console.log(
+//     `Мой браузер: `, 
+//     window.navigator.userAgent
+// );
+// console.log(
+//     'Высота окна браузера: ',
+//     window.screen.height
+// )
+// console.log(
+//     'Длина "истории" текущей сессии браузера: ',
+//     window.history.length
+// )
+
+
