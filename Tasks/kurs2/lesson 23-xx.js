@@ -13,3 +13,10 @@
 
 //Повтор
 
+//Урок 24
+
+console.log(window);
+console.log(
+    `Мой браузер: `, 
+    window.navigator.userAgent
+);
