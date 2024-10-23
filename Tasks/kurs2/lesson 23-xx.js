@@ -24,3 +24,7 @@ console.log(
     'Высота окна браузера: ',
     window.screen.height
 )
+console.log(
+    'Длина "истории" текущей сессии браузера: ',
+    window.history.length
+)
