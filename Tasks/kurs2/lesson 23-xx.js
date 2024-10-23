@@ -20,3 +20,7 @@ console.log(
     `Мой браузер: `, 
     window.navigator.userAgent
 );
+console.log(
+    'Высота окна браузера: ',
+    window.screen.height
+)
