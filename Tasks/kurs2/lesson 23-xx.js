@@ -38,6 +38,5 @@
 // console.log(document.body);
 
 
-
-console.log('Parents: ', document.body.parentElement);
-console.log('Children: ', document.body.children);
+// console.log('Parents: ', document.body.parentElement);
+// console.log('Children: ', document.body.children);
