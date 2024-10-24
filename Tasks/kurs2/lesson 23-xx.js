@@ -13,12 +13,12 @@
 
 //Повтор
 
-let set = new Set('Kvazimodo');
+let set = new Set('Mo');
 set.add('John');
 set.add('Oscar');
 set.add('Billy');
 set.add('Oscar');
-set.add('Billy');
+set.add('Pacstone');
 
 console.log(set);
 
