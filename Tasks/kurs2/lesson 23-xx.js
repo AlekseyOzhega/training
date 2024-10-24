@@ -14,12 +14,15 @@
 //Повтор
 
 let mass = ['Kva', 'Mo', 'Do'];
+let mass2 = [23, 33, 43];
 let set = new Set(mass);
 set.add('John');
 set.add('Oscar');
 set.add('Billy');
 set.add('Oscar');
 set.add('Pacstone');
+set.add('Billy');
+set.add(mass2);
 
 console.log(set);
 
