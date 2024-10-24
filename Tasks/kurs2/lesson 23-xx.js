@@ -13,7 +13,7 @@
 
 //Повтор
 
-let set = new Set();
+let set = new Set('Kvazimodo');
 set.add('John');
 set.add('Oscar');
 set.add('Billy');
