@@ -14,7 +14,9 @@
 //Повтор
 
 let set = new Set();
+set.add('John');
 
+console.log(set);
 
 
 //Урок 24
