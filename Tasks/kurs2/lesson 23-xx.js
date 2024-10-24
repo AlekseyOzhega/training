@@ -17,6 +17,8 @@ let set = new Set();
 set.add('John');
 set.add('Oscar');
 set.add('Billy');
+set.add('Oscar');
+set.add('Billy');
 
 console.log(set);
 
