@@ -13,7 +13,8 @@
 
 //Повтор
 
-let set = new Set('Mo');
+let mass = ['Kva', 'Mo', 'Do'];
+let set = new Set(mass);
 set.add('John');
 set.add('Oscar');
 set.add('Billy');
