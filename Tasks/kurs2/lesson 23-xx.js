@@ -13,6 +13,10 @@
 
 //Повтор
 
+let set = new Set();
+
+
+
 //Урок 24
 
 // console.log(window);
