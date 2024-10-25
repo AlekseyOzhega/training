@@ -57,4 +57,11 @@
 
 
 // console.log('Parents: ', document.body.parentElement);
-// console.log('Children: ', document.body.children);
+// console.log('Children: ', document.body.children[2]);
+
+
+let divDom = document.body.children[2];
+
+console.log(divDom);
+
+
