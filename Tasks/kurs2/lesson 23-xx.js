@@ -65,3 +65,4 @@ let divDom = document.body.children[2];
 console.log(divDom);
 
 console.log('Первый дочерний элемент: ', divDom.firstElementChild);
+console.log('Последний дочерний элемент: ', divDom.lastElementChild);
