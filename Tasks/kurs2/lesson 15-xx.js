@@ -709,9 +709,7 @@
 //Разработка
 
 class Character {
-    static inventory = new Map([
-        []
-    ])
+    static inventory = new Map()
     
     static lvl = 1
     static exp = 0
@@ -865,7 +863,4 @@ console.log(hero);
 
 console.log(Items.potions);
 console.log(Items.keys);
-
- 
-
 
