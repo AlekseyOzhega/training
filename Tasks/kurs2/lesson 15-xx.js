@@ -711,7 +711,9 @@
 class Character {
     static inventory = new Map()
     static addToInventory(item) {
-        Character.inventory.has(item)
+        if (Character.inventory.has(item)) {
+            
+        }
     }
     
     static lvl = 1
