@@ -799,6 +799,10 @@ class Items {
         {"bigHealPotion": 0}
     ])
     
+    static keys = new Set([
+        {'oldKey': 0},
+        {'bronzeKey': 0}
+    ])
 }
 
 class Enemy {
