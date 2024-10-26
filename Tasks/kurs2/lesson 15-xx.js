@@ -712,7 +712,7 @@ class Character {
     static inventory = new Map()
     static addToInventory(item) {
         if (Character.inventory.has(item)) {
-            
+            Character.inventory.set()
         }
     }
     
