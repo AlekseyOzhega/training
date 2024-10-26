@@ -710,6 +710,9 @@
 
 class Character {
     static inventory = new Map()
+    static addToInventory() {
+        
+    }
     
     static lvl = 1
     static exp = 0
