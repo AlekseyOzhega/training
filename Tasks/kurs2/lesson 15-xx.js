@@ -793,10 +793,13 @@ class Character {
 }
 
 class Items {
+    smallHealPotion = 1;
+    mediumHealPotion = 0;
+    bigHealPotion = 0;
+
     static potions = new Set([
-        smallHealPotion = 1,
-        mediumHealPotion = 0,
-        bigHealPotion = 0,
+        {"smallHealPotion": 1},
+        {"mediumHealPotion": 0}
     ])
     
 }
@@ -857,6 +860,8 @@ Enemy.takeDamage(3);
 Enemy.takeDamage(1);
 
 console.log(hero);
+
+console.log(Items.potions);
 
  
 
