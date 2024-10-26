@@ -793,13 +793,10 @@ class Character {
 }
 
 class Items {
-    smallHealPotion = 1;
-    mediumHealPotion = 0;
-    bigHealPotion = 0;
-
     static potions = new Set([
         {"smallHealPotion": 1},
-        {"mediumHealPotion": 0}
+        {"mediumHealPotion": 0},
+        {"bigHealPotion": 0}
     ])
     
 }
