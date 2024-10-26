@@ -801,7 +801,8 @@ class Items {
     
     static keys = new Set([
         {'oldKey': 0},
-        {'bronzeKey': 0}
+        {'bronzeKey': 0},
+        {'ironKey': 0}
     ])
 }
 
@@ -863,6 +864,7 @@ Enemy.takeDamage(1);
 console.log(hero);
 
 console.log(Items.potions);
+console.log(Items.keys);
 
  
 
