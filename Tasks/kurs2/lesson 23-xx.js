@@ -33,8 +33,9 @@
 
 let massSize = +prompt('Введит число, размер массива..', 1);
 let mass = [];
-for (let i = 1; massSize < i; i++) {
-    
+for (let i = 1; i < massSize; i++) {
+    let rand = Math.round(Math.random * 100);
+    alert(rand);
 }
 
 
