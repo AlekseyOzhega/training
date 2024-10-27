@@ -36,6 +36,7 @@ let mass = [];
 for (let i = 1; i < massSize; i++) {
     let rand = Math.round(Math.random * 100);
     alert(rand);
+    mass.push(rand);
 }
 
 
