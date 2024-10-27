@@ -40,10 +40,11 @@ for (let i = 1; i <= massSize; i++) {
 }
 
 for (let key of mass) {
-
+    midNumbMass += key;
 }
 
 console.log(mass);
+console.log(midNumbMass);
 
 
 
