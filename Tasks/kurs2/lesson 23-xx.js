@@ -32,7 +32,8 @@
 //Среднеарифметическое массива
 
 let massSize = +prompt('Введит число, размер массива..', 1);
-for (let i = 1; massSize > i; i++) {
+let mass = [];
+for (let i = 1; massSize < i; i++) {
     
 }
 
