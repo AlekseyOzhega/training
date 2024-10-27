@@ -33,9 +33,14 @@
 
 let massSize = +prompt('Введит число, размер массива..', 1);
 let mass = [];
+let midNumbMass = 0;
 for (let i = 1; i <= massSize; i++) {
     let rand = Math.round(Math.random() * 100);
     mass.push(rand);
+}
+
+for (let key of mass) {
+
 }
 
 console.log(mass);
