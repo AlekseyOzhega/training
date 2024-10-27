@@ -38,7 +38,7 @@ for (let i = 1; i <= massSize; i++) {
     mass.push(rand);
 }
 
-
+console.log(mass);
 
 
 
