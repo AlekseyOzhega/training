@@ -29,6 +29,10 @@
 
 // console.log(set);
 
+//Среднеарифметическое массива
+
+
+
 
 
 //Урок 24
@@ -60,11 +64,11 @@
 // console.log('Children: ', document.body.children[2]);
 
 
-let divDom = document.body.children[2];
+// let divDom = document.body.children[2];
 
-console.log(divDom);
+// console.log(divDom);
 
-console.log('Первый дочерний элемент: ', divDom.firstElementChild);
-console.log('Последний дочерний элемент: ', divDom.lastElementChild);
+// console.log('Первый дочерний элемент: ', divDom.firstElementChild);
+// console.log('Последний дочерний элемент: ', divDom.lastElementChild);
 
 
