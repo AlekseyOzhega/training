@@ -48,6 +48,7 @@ console.log(midNumbMass);
 
 
 
+
 //Урок 24
 
 // console.log(window);
