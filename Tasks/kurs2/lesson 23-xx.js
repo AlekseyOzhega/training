@@ -38,6 +38,7 @@ function midNum(arr) {
         midNumbMass += key;
     }
 
+    midNumbMass = midNumbMass / arr.length;
 
 }
 
