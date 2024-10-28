@@ -40,6 +40,8 @@ function midNum(arr) {
 
     midNumbMass = midNumbMass / arr.length;
 
+    return midNumbMass;
+
 }
 
 let massSize = +prompt('Введит число, размер массива..', 1);
