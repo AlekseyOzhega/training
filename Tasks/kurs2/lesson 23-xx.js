@@ -32,6 +32,12 @@
 //Среднеарифметическое массива
 
 function midNum(arr) {
+    let mass = [];
+    for (let i = 1; i <= arr; i++) {
+        let rand = Math.round(Math.random() * 10);
+        mass.push(rand);
+    }
+
     
 }
 
