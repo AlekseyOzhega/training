@@ -46,12 +46,13 @@ function midNum(arr) {
 
 let massSize = +prompt('Введит число, размер массива..', 1);
 
-// let mass = [];
+let mass = [];
 // let midNumbMass = 0;
-// for (let i = 1; i <= massSize; i++) {
-//     let rand = Math.round(Math.random() * 10);
-//     mass.push(rand);
-// }
+
+for (let i = 1; i <= massSize; i++) {
+    let rand = Math.round(Math.random() * 10);
+    mass.push(rand);
+}
 
 // for (let key of mass) {
 //     midNumbMass += key;
@@ -59,8 +60,9 @@ let massSize = +prompt('Введит число, размер массива..',
 
 // midNumbMass = midNumbMass / massSize;
 
-// console.log(mass);
-console.log(midNumbMass);
+console.log(mass);
+
+console.log( midNum(mass) );
 
 
 
