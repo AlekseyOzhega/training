@@ -31,6 +31,10 @@
 
 //Среднеарифметическое массива
 
+function midNum(arr) {
+    
+}
+
 let massSize = +prompt('Введит число, размер массива..', 1);
 let mass = [];
 let midNumbMass = 0;
