@@ -32,6 +32,7 @@
 //Среднеарифметическое массива
 
 function midNum(arr) {
+    let midNumbMass = 0;
     
     for (let key of arr) {
         midNumbMass += key;
