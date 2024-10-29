@@ -81,7 +81,7 @@ function bigestElement(arr) {
         }
     }
 
-    
+    return maxElem;
 }
 
 
