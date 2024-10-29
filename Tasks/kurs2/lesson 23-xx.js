@@ -62,30 +62,29 @@
 
 //Наибольший элемент массива
 
+// let massSize = +prompt('Введит число, размер массива..', 1);
 
-let massSize = +prompt('Введит число, размер массива..', 1);
+// let mass = [];
 
-let mass = [];
+// for (let i = 1; i <= massSize; i++) {
+//     let rand = Math.round(Math.random() * 100);
+//     mass.push(rand);
+// }
 
-for (let i = 1; i <= massSize; i++) {
-    let rand = Math.round(Math.random() * 10);
-    mass.push(rand);
-}
+// function bigestElement(arr) {
+//     let maxElem = 0;
 
-function bigestElement(arr) {
-    let maxElem = 0;
+//     for (let key of arr) {
+//         if (key > maxElem) {
+//             maxElem = key;
+//         }
+//     }
 
-    for (let key of arr) {
-        if (key > maxElem) {
-            maxElem = key;
-        }
-    }
+//     return maxElem;
+// }
 
-    return maxElem;
-}
-
-console.log(mass);
-console.log(bigestElement(mass));
+// console.log(mass);
+// console.log(bigestElement(mass));
 
 
 //Урок 24
