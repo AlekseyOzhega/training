@@ -85,7 +85,7 @@ function bigestElement(arr) {
 }
 
 console.log(mass);
-console.log()
+console.log(bigestElement(mass));
 
 
 //Урок 24
