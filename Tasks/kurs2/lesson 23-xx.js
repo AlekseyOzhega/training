@@ -76,8 +76,12 @@ function bigestElement(arr) {
     let maxElem = 0;
 
     for (let key of arr) {
-        if ()
+        if (key > maxElem) {
+            maxElem = key;
+        }
     }
+
+    
 }
 
 
