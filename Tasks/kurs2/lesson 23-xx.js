@@ -73,7 +73,11 @@ for (let i = 1; i <= massSize; i++) {
 }
 
 function bigestElement(arr) {
-    
+    let maxElem = 0;
+
+    for (let key of arr) {
+        if ()
+    }
 }
 
 
