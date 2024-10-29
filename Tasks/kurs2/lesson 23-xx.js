@@ -33,7 +33,7 @@
 
 // function midNum(arr) {
 //     let midNumbMass = 0;
-    
+ 
 //     for (let key of arr) {
 //         midNumbMass += key;
 //     }
@@ -56,10 +56,12 @@
 // }
 
 // midNumbMass = midNumbMass / massSize;
-
 // console.log(mass);
-
 // console.log( midNum(mass) );
+
+
+//Наибольший элемент массива
+
 
 
 
