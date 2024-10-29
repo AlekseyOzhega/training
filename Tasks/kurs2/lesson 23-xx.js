@@ -31,25 +31,25 @@
 
 //Среднеарифметическое массива
 
-function midNum(arr) {
-    let midNumbMass = 0;
+// function midNum(arr) {
+//     let midNumbMass = 0;
     
-    for (let key of arr) {
-        midNumbMass += key;
-    }
+//     for (let key of arr) {
+//         midNumbMass += key;
+//     }
 
-    return midNumbMass / arr.length;
-}
+//     return midNumbMass / arr.length;
+// }
 
-let massSize = +prompt('Введит число, размер массива..', 1);
+// let massSize = +prompt('Введит число, размер массива..', 1);
 
-let mass = [];
+// let mass = [];
 // let midNumbMass = 0;
 
-for (let i = 1; i <= massSize; i++) {
-    let rand = Math.round(Math.random() * 10);
-    mass.push(rand);
-}
+// for (let i = 1; i <= massSize; i++) {
+//     let rand = Math.round(Math.random() * 10);
+//     mass.push(rand);
+// }
 
 // for (let key of mass) {
 //     midNumbMass += key;
@@ -57,9 +57,9 @@ for (let i = 1; i <= massSize; i++) {
 
 // midNumbMass = midNumbMass / massSize;
 
-console.log(mass);
+// console.log(mass);
 
-console.log( midNum(mass) );
+// console.log( midNum(mass) );
 
 
 
