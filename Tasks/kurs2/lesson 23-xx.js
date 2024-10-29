@@ -38,10 +38,7 @@ function midNum(arr) {
         midNumbMass += key;
     }
 
-    midNumbMass = midNumbMass / arr.length;
-
-    return midNumbMass;
-
+    return midNumbMass / arr.length;
 }
 
 let massSize = +prompt('Введит число, размер массива..', 1);
