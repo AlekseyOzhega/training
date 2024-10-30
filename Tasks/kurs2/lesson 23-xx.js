@@ -98,20 +98,20 @@ for (let i = 1; i <= massSize; i++) {
     mass.push(rand);
 }
 
-function bigestElement(arr) {
-    let maxElem = 0;
+function smallestElement(arr) {
+    let minElem = 0;
 
     for (let key of arr) {
-        if (key > maxElem) {
-            maxElem = key;
+        if (key > minElem) {
+            minElem = key;
         }
     }
 
-    return maxElem;
+    return minElem;
 }
 
 console.log(mass);
-console.log(bigestElement(mass));
+console.log(smallestElement(mass));
 
 
 
