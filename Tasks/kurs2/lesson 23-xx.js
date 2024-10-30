@@ -129,3 +129,4 @@
 
 let pElements = document.querySelectorAll('.elem');
 
+console.log('Элемнты: ', pElements);
