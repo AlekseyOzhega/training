@@ -99,10 +99,10 @@ for (let i = 1; i <= massSize; i++) {
 }
 
 function smallestElement(arr) {
-    let minElem = 0;
+    let minElem;
 
     for (let key of arr) {
-        if (key > minElem) {
+        if (key < minElem) {
             minElem = key;
         }
     }
