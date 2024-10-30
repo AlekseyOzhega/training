@@ -127,10 +127,10 @@
 // console.log('Последний дочерний элемент: ', divDom.lastElementChild);
 
 
-let pElements = document.querySelectorAll('.elem');
+// let pElements = document.querySelectorAll('.elem');
 
-console.log('Элемeнты: ', pElements);
+// console.log('Элемeнты: ', pElements);
 
-pElements.forEach((elem) => {
-    console.log('Элемент текста: ', elem)
-})
+// pElements.forEach((elem) => {
+//     console.log('Элемент текста: ', elem)
+// })
