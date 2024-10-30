@@ -87,6 +87,9 @@
 // console.log(bigestElement(mass));
 
 
+//
+
+
 //Урок 24
 
 // console.log(window);
@@ -123,4 +126,6 @@
 // console.log('Первый дочерний элемент: ', divDom.firstElementChild);
 // console.log('Последний дочерний элемент: ', divDom.lastElementChild);
 
+
+let pElements = document.querySelectorAll('.elem');
 
