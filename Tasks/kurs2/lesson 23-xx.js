@@ -132,5 +132,5 @@ let pElements = document.querySelectorAll('.elem');
 console.log('Элемeнты: ', pElements);
 
 pElements.forEach((elem) => {
-    
+    console.log('Элемент текста: ', elem)
 })
