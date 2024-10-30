@@ -129,4 +129,8 @@
 
 let pElements = document.querySelectorAll('.elem');
 
-console.log('Элемнты: ', pElements);
+console.log('Элемeнты: ', pElements);
+
+pElements.forEach((elem) => {
+    
+})
