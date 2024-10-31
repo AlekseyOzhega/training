@@ -125,9 +125,13 @@ for (let i = 1; i <= massSize; i++) {
 }
 
 function searchElement(elem, arr) {
-    arr.forEach(element => {
-        
-    });
+    let result = -1;
+    
+    for (let key of arr) {
+        if (key == elem) {
+
+        }
+    }
 }
 
 
