@@ -113,6 +113,8 @@
 // console.log(mass);
 // console.log(smallestElement(mass));
 
+//Поиск элемента в массиве
+
 
 
 
