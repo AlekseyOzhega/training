@@ -138,6 +138,8 @@ function searchElement(elem, arr) {
             result = index;
         }
     })
+
+    return result;
 }
 
 
