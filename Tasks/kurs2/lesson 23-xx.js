@@ -124,6 +124,10 @@ for (let i = 1; i <= massSize; i++) {
     mass.push(rand);
 }
 
+function searchElement(elem, arr) {
+    
+}
+
 
 //Урок 24
 
