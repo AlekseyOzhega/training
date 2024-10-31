@@ -133,8 +133,10 @@ function searchElement(elem, arr) {
     //     }
     // }
 
-    arr.forEach( (elem, index) => {
-        
+    arr.forEach( (element, index) => {
+        if (element == elem) {
+            result = index;
+        }
     })
 }
 
