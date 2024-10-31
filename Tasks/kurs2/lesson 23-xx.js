@@ -126,10 +126,10 @@ for (let i = 1; i <= massSize; i++) {
 
 function searchElement(elem, arr) {
     let result = -1;
-    
+
     for (let key of arr) {
         if (key == elem) {
-
+            result = key
         }
     }
 }
