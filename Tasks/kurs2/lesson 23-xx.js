@@ -89,29 +89,30 @@
 
 //Наименьший элемент массива
 
-let massSize = +prompt('Введит число, размер массива..', 1);
+// let massSize = +prompt('Введит число, размер массива..', 1);
 
-let mass = [];
+// let mass = [];
 
-for (let i = 1; i <= massSize; i++) {
-    let rand = Math.round(Math.random() * 100);
-    mass.push(rand);
-}
+// for (let i = 1; i <= massSize; i++) {
+//     let rand = Math.round(Math.random() * 100);
+//     mass.push(rand);
+// }
 
-function smallestElement(arr) {
-    let minElem;
+// function smallestElement(arr) {
+//     let minElem = arr[0];
 
-    for (let key of arr) {
-        if (key < minElem) {
-            minElem = key;
-        }
-    }
+//     for (let key of arr) {
+//         if (key < minElem) {
+//             minElem = key;
+//         }
+//     }
 
-    return minElem;
-}
+//     return minElem;
+// }
 
-console.log(mass);
-console.log(smallestElement(mass));
+// console.log(mass);
+// console.log(smallestElement(mass));
+
 
 
 
