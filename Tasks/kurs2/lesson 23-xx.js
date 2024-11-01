@@ -138,7 +138,13 @@ function searchElement(elem, arr) {
 }
 
 console.log(mass);
-console.log()
+console.log(`
+    Пробелы
+    Пробелы
+    Пробелы
+    Пробелы
+    Пробелы
+    Пробелы`)
 
 let searchElem = +prompt('Введите искомое число.');
 
