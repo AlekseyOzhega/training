@@ -137,7 +137,7 @@ function searchElement(elem, arr) {
     return result;
 }
 
-console.log(mass);
+
 console.log('Hello!');
 console.log(`
     Пробелы
@@ -145,7 +145,8 @@ console.log(`
     Пробелы
     Пробелы
     Пробелы
-    Пробелы`)
+    Пробелы`);
+console.log(mass);
 
 let searchElem = +prompt('Введите искомое число.');
 
