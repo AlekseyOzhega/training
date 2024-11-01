@@ -150,7 +150,7 @@ console.log(mass);
 
 let searchElem = +prompt('Введите искомое число.');
 
-console.log(searchElement(mass, searchElem));
+console.log(searchElement(searchElem, mass));
 
 
 //Урок 24
