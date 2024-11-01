@@ -130,7 +130,7 @@ function searchElement(elem, arr) {
 
     for (let i = 0; i <= arr.length; i++) {
         if (arr[i] == elem) {
-            
+            return i;
         }
     }
 
@@ -138,6 +138,7 @@ function searchElement(elem, arr) {
 }
 
 console.log(mass);
+console.log()
 
 let searchElem = +prompt('Введите искомое число.');
 
