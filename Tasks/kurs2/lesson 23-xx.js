@@ -126,21 +126,16 @@ for (let i = 1; i <= massSize; i++) {
 
 function searchElement(elem, arr) {
     let result = -1;
-
-    // for (let key of arr) {
-    //     if (key == elem) {
-    //         result = key;
-    //     }
-    // }
-
-    arr.forEach( (element, index) => {
-        if (element == elem) {
-            result = index;
-        }
-    })
+    let coun = 0;
 
     return result;
 }
+
+console.log(mass);
+
+let searchElem = +prompt('Введите искомое число.');
+
+console.log(searchElement(mass, searchElem));
 
 
 //Урок 24
