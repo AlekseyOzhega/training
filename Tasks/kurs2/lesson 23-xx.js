@@ -128,7 +128,11 @@ function searchElement(elem, arr) {
     let result = -1;
     let coun = 0;
 
-    for (let i = 0; i <= arr.length; i++)
+    for (let i = 0; i <= arr.length; i++) {
+        if (arr[i] == elem) {
+            
+        }
+    }
 
     return result;
 }
