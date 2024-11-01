@@ -125,16 +125,13 @@ for (let i = 1; i <= massSize; i++) {
 }
 
 function searchElement(elem, arr) {
-    let result = -1;
-    let coun = 0;
-
     for (let i = 0; i <= arr.length; i++) {
         if (arr[i] == elem) {
             return i;
         }
     }
 
-    return result;
+    return -1;
 }
 
 
