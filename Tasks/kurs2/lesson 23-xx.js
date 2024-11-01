@@ -138,6 +138,7 @@ function searchElement(elem, arr) {
 }
 
 console.log(mass);
+console.log('Hello!');
 console.log(`
     Пробелы
     Пробелы
