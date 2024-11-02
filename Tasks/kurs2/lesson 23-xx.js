@@ -157,7 +157,7 @@ let massSize = +prompt('Введит число, размер массива..',
 let mass = [];
 
 for (let i = 1; i <= massSize; i++) {
-    let rand = Math.round(Math.random() * 100);
+    let rand = Math.round(Math.random() * 10);
     mass.push(rand);
 }
 
@@ -165,8 +165,9 @@ for (let i = 1; i <= massSize; i++) {
 function calculateAverage(arr) {
     let sum =0;
     for (let key of arr) {
-
+        sum += key;
     }
+    return sum / key.length;
 }
 
 
