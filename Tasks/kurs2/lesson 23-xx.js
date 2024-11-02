@@ -150,6 +150,14 @@
 // console.log('Индекс элемента: ', searchElement(searchElem, mass));
 
 
+
+//Среднеарефметичепское от суммы массива
+
+
+
+
+
+
 //Урок 24
 
 // console.log(window);
