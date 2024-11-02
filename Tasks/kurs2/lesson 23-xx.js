@@ -153,7 +153,7 @@
 
 //Среднеарефметичепское от суммы массива
 
-
+let massSize = +prompt('Введит число, размер массива..', 1);
 let mass = [];
 
 for (let i = 1; i <= massSize; i++) {
@@ -163,7 +163,7 @@ for (let i = 1; i <= massSize; i++) {
 
 
 function calculateAverage(arr) {
-    
+
 }
 
 
