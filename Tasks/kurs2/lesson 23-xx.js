@@ -170,8 +170,17 @@ function calculateAverage(arr) {
     return sum / key.length;
 }
 
+console.log(`
+    Пробелы
+    Пробелы
+    Пробелы
+    Пробелы
+    Пробелы
+    Пробелы
 
+`);
 console.log(mass);
+
 
 
 
