@@ -162,6 +162,14 @@ for (let i = 1; i <= massSize; i++) {
 }
 
 
+function calculateAverage(arr) {
+    
+}
+
+
+console.log(mass);
+
+
 
 
 //Урок 24
