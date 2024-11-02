@@ -163,7 +163,10 @@ for (let i = 1; i <= massSize; i++) {
 
 
 function calculateAverage(arr) {
+    let sum =0;
+    for (let key of arr) {
 
+    }
 }
 
 
