@@ -180,7 +180,7 @@ console.log(`
 
 `);
 console.log(mass);
-
+console.log(calculateAverage(mass));
 
 
 
