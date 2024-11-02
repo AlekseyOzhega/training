@@ -154,6 +154,12 @@
 //Среднеарефметичепское от суммы массива
 
 
+let mass = [];
+
+for (let i = 1; i <= massSize; i++) {
+    let rand = Math.round(Math.random() * 100);
+    mass.push(rand);
+}
 
 
 
