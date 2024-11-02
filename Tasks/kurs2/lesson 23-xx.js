@@ -153,34 +153,33 @@
 
 //Среднеарефметичепское от суммы массива
 
-let massSize = +prompt('Введит число, размер массива..', 1);
-let mass = [];
+// let massSize = +prompt('Введит число, размер массива..', 1);
+// let mass = [];
 
-for (let i = 1; i <= massSize; i++) {
-    let rand = Math.round(Math.random() * 10);
-    mass.push(rand);
-}
+// for (let i = 1; i <= massSize; i++) {
+//     let rand = Math.round(Math.random() * 10);
+//     mass.push(rand);
+// }
 
+// function calculateAverage(arr) {
+//     let sum =0;
+//     for (let key of arr) {
+//         sum += key;
+//     }
+//     return sum / arr.length;
+// }
 
-function calculateAverage(arr) {
-    let sum =0;
-    for (let key of arr) {
-        sum += key;
-    }
-    return sum / key.length;
-}
+// console.log(`
+//     Пробелы
+//     Пробелы
+//     Пробелы
+//     Пробелы
+//     Пробелы
+//     Пробелы
 
-console.log(`
-    Пробелы
-    Пробелы
-    Пробелы
-    Пробелы
-    Пробелы
-    Пробелы
-
-`);
-console.log(mass);
-console.log(calculateAverage(mass));
+// `);
+// console.log(mass);
+// console.log(calculateAverage(mass));
 
 
 
