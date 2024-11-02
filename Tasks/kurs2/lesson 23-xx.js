@@ -115,39 +115,39 @@
 
 //Поиск элемента в массиве
 
-let massSize = +prompt('Введит число, размер массива..', 1);
+// let massSize = +prompt('Введит число, размер массива..', 1);
 
-let mass = [];
+// let mass = [];
 
-for (let i = 1; i <= massSize; i++) {
-    let rand = Math.round(Math.random() * 100);
-    mass.push(rand);
-}
+// for (let i = 1; i <= massSize; i++) {
+//     let rand = Math.round(Math.random() * 100);
+//     mass.push(rand);
+// }
 
-function searchElement(elem, arr) {
-    for (let i = 0; i <= arr.length; i++) {
-        if (arr[i] == elem) {
-            return i;
-        }
-    }
+// function searchElement(elem, arr) {
+//     for (let i = 0; i <= arr.length; i++) {
+//         if (arr[i] == elem) {
+//             return i;
+//         }
+//     }
 
-    return -1;
-}
+//     return -1;
+// }
 
 
-console.log('Hello!');
-console.log(`
-    Пробелы
-    Пробелы
-    Пробелы
-    Пробелы
-    Пробелы
-    Пробелы`);
-console.log(mass);
+// console.log('Hello!');
+// console.log(`
+//     Пробелы
+//     Пробелы
+//     Пробелы
+//     Пробелы
+//     Пробелы
+//     Пробелы`);
+// console.log(mass);
 
-let searchElem = +prompt('Введите искомое число.');
+// let searchElem = +prompt('Введите искомое число.');
 
-console.log('Индекс элемента: ', searchElement(searchElem, mass));
+// console.log('Индекс элемента: ', searchElement(searchElem, mass));
 
 
 //Урок 24
