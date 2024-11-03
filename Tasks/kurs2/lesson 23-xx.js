@@ -228,3 +228,5 @@
 // pElements.forEach((elem) => {
 //     console.log('Элемент текста: ', elem)
 // })
+
+
