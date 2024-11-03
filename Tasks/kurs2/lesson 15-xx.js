@@ -708,165 +708,165 @@
 
 //Разработка
 
-class Character {
-    static inventory = new Map()
-    static addToInventory(key) {
+// class Character {
+//     static inventory = new Map()
+//     static addToInventory(key) {
         
-        if (Character.inventory.has(key)) {
-            Character.inventory.set(key, value + 1);
-        }
-    }
+//         if (Character.inventory.has(key)) {
+//             Character.inventory.set(key, value + 1);
+//         }
+//     }
     
-    static lvl = 1
-    static exp = 0
-    static maxExp = 10
-    static ata = 1
-    static def = 0
-    static hpMax = 10
-    static hp = 10
-    static heroIsALive = true
-    static nameH = "Pol"
+//     static lvl = 1
+//     static exp = 0
+//     static maxExp = 10
+//     static ata = 1
+//     static def = 0
+//     static hpMax = 10
+//     static hp = 10
+//     static heroIsALive = true
+//     static nameH = "Pol"
 
-    constructor(name) {
-        this.name = name;
-        Character.nameH = name
-    }
+//     constructor(name) {
+//         this.name = name;
+//         Character.nameH = name
+//     }
 
-    static takeDamage(enemyDamage) {
-        this.hp = this.hp - enemyDamage;
+//     static takeDamage(enemyDamage) {
+//         this.hp = this.hp - enemyDamage;
 
-        if (this.hp < 0) {
-            this.hp = 0;
-        }
+//         if (this.hp < 0) {
+//             this.hp = 0;
+//         }
 
-        console.log(`${this.name} получил урон и у него осталось ${this.hp} хп!`)
+//         console.log(`${this.name} получил урон и у него осталось ${this.hp} хп!`)
 
-        if (this.hp <= 0) {
-            alert('Ваш персонаж умер!');
-            return this.heroIsALive = false;
-        }
+//         if (this.hp <= 0) {
+//             alert('Ваш персонаж умер!');
+//             return this.heroIsALive = false;
+//         }
 
-    }
+//     }
 
-    static dealDamage({}) {
-        let damage = enemyAta - Character.def;
+//     static dealDamage({}) {
+//         let damage = enemyAta - Character.def;
 
-    }
+//     }
 
-    static takeExp(expRise) {
-        this.exp += expRise;
+//     static takeExp(expRise) {
+//         this.exp += expRise;
 
-        console.log(`${this.name} получил ${expRise} опыта!`)
+//         console.log(`${this.name} получил ${expRise} опыта!`)
 
-        if (this.exp >= this.maxExp) {
-            this.levelUp();
-        }
-    }
+//         if (this.exp >= this.maxExp) {
+//             this.levelUp();
+//         }
+//     }
 
-    static levelUp() {
-        this.exp = 0;
-        this.lvl++;
-        this.maxExp = (this.maxExp * 2.5);
-        this.hpMax = (this.hpMax * 2.2);
-        this.hp = this.hpMax;
-        this.ata += 2;
-        this.def++;
-        console.log(`${this.name} повысил уровень!`)
-    }
+//     static levelUp() {
+//         this.exp = 0;
+//         this.lvl++;
+//         this.maxExp = (this.maxExp * 2.5);
+//         this.hpMax = (this.hpMax * 2.2);
+//         this.hp = this.hpMax;
+//         this.ata += 2;
+//         this.def++;
+//         console.log(`${this.name} повысил уровень!`)
+//     }
 
-    static specifications() {
-        console.log(
-`
-Характеристики:
+//     static specifications() {
+//         console.log(
+// `
+// Характеристики:
 
-Имя    : ${Character.nameH}
-Уровень: ${Character.lvl}
-Опыт   : ${Character.exp}/${Character.maxExp}   
-`)
+// Имя    : ${Character.nameH}
+// Уровень: ${Character.lvl}
+// Опыт   : ${Character.exp}/${Character.maxExp}   
+// `)
 
-    }
+//     }
 
-    static status() {
-        console.log(`
-Статус:
+//     static status() {
+//         console.log(`
+// Статус:
 
-Атака : ${Character.ata}
-Защита: ${Character.def}
-            `)
-    }
-}
+// Атака : ${Character.ata}
+// Защита: ${Character.def}
+//             `)
+//     }
+// }
 
-class Items {
-    static potions = new Set([
-        {"smallHealPotion": 1},
-        {"mediumHealPotion": 0},
-        {"bigHealPotion": 0}
-    ])
+// class Items {
+//     static potions = new Set([
+//         {"smallHealPotion": 1},
+//         {"mediumHealPotion": 0},
+//         {"bigHealPotion": 0}
+//     ])
     
-    static keys = new Set([
-        {'oldKey': 0},
-        {'bronzeKey': 0},
-        {'ironKey': 0}
-    ])
-}
+//     static keys = new Set([
+//         {'oldKey': 0},
+//         {'bronzeKey': 0},
+//         {'ironKey': 0}
+//     ])
+// }
 
-class Enemy {
+// class Enemy {
 
-    static data = new Map([
-        ['nameE', 'Slime'],
-        ['lvl', 1],
-        ['exp', 0],
-        ['maxExp', 10],
-        ['ata', 1],
-        ['def', 0],
-        ['hpMax', 5],
-        ['hp', 5],
-        ['EnemyIsAlive', true]
-    ])
+//     static data = new Map([
+//         ['nameE', 'Slime'],
+//         ['lvl', 1],
+//         ['exp', 0],
+//         ['maxExp', 10],
+//         ['ata', 1],
+//         ['def', 0],
+//         ['hpMax', 5],
+//         ['hp', 5],
+//         ['EnemyIsAlive', true]
+//     ])
 
 
-    constructor(name) {
-        Enemy.data.set('nameE', name);
-    }
+//     constructor(name) {
+//         Enemy.data.set('nameE', name);
+//     }
 
-    static takeDamage(heroDamage) {
-        let result = Enemy.data.get('hp') - heroDamage;
-        console.log(`Враг ${Enemy.data.get('nameE')} получил ${heroDamage} урона.`);
+//     static takeDamage(heroDamage) {
+//         let result = Enemy.data.get('hp') - heroDamage;
+//         console.log(`Враг ${Enemy.data.get('nameE')} получил ${heroDamage} урона.`);
 
-        if (result <= 0) {
-            Enemy.data.set('EnemyIsAlive', false);
-            console.log(`Враг ${Enemy.data.get('nameE')} побежден!`)
-            Enemy.data.set('hp', 0)
-        }
+//         if (result <= 0) {
+//             Enemy.data.set('EnemyIsAlive', false);
+//             console.log(`Враг ${Enemy.data.get('nameE')} побежден!`)
+//             Enemy.data.set('hp', 0)
+//         }
 
-        Enemy.data.set('hp', result)
-    }
+//         Enemy.data.set('hp', result)
+//     }
 
-    static dealDamage() {
-        return Enemy.data.get('ata')
-    }
-}
+//     static dealDamage() {
+//         return Enemy.data.get('ata')
+//     }
+// }
 
-// let startGame = prompt('Да начнется игра! ВВедите имя персонажа...');
-let startGame = "Герой";
-let hero = new Character(startGame);
-let enemy = new Enemy('Sli');
+// // let startGame = prompt('Да начнется игра! ВВедите имя персонажа...');
+// let startGame = "Герой";
+// let hero = new Character(startGame);
+// let enemy = new Enemy('Sli');
 
-Character.takeDamage(3);
-Character.takeDamage(2);
-Character.takeExp(6);
-Character.takeExp(7);
-Character.takeExp(11);
+// Character.takeDamage(3);
+// Character.takeDamage(2);
+// Character.takeExp(6);
+// Character.takeExp(7);
+// Character.takeExp(11);
 
-Character.specifications()
-Character.status()
+// Character.specifications()
+// Character.status()
 
-console.log('Map: ', Enemy.data);
-Enemy.takeDamage(3);
-Enemy.takeDamage(1);
+// console.log('Map: ', Enemy.data);
+// Enemy.takeDamage(3);
+// Enemy.takeDamage(1);
 
-console.log(hero);
+// console.log(hero);
 
-console.log(Items.potions);
-console.log(Items.keys);
+// console.log(Items.potions);
+// console.log(Items.keys);
 

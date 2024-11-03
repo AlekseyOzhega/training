@@ -10,3 +10,5 @@ console.log(formElement);
 console.log(loginInputElement);
 console.log(passwordInputElement);
 console.log(submitButtonElement);
+
+console.log('formElement action: ', formElement.action);
