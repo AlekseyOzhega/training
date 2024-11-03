@@ -1,9 +1,9 @@
 body {
     background: repeating-linear-gradient(
         90deg,
-        rgb(144, 17, 64),
-        rgb(213, 71, 196),
-        rgb(255, 208, 225));
+        rgb(144, 104, 17),
+        rgb(226, 226, 42),
+        rgb(255, 253, 208));
 }
 
 section {
