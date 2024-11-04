@@ -26,3 +26,11 @@ console.log('==========================================')
 
 console.log('data-js-form: ', formElement.getAttribute('data-js-form'));
 console.log('qwerty:       ', formElement.getAttribute('qwerty'));
+
+formElement.removeAttribute('qwerty');
+
+console.log('==========================================')
+
+console.log('data-js-form: ', formElement.getAttribute('data-js-form'));
+console.log('qwerty:       ', formElement.getAttribute('qwerty'));
+console.log('has data-js-form: ', formElement.hasAttribute('data-js-form'));
