@@ -16,9 +16,11 @@ let submitButtonElement = document.querySelector('.form__button')
 
 console.dir(formElement);
 
-console.log(formElement.getAttribute('data-js-form'));
-console.log(formElement.getAttribute('qwerty'));
+console.log('data-js-form: ', formElement.getAttribute('data-js-form'));
+console.log('qwerty:       ', formElement.getAttribute('qwerty'));
 
 formElement.setAttribute('datd-js-form', 'new12345');
 
-console.log(formElement.getAttribute('data-js-form'));
+console.log('==========================================')
+
+console.log('data-js-form: ', formElement.getAttribute('data-js-form'));
