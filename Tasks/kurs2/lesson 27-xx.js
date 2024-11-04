@@ -19,8 +19,10 @@ console.dir(formElement);
 console.log('data-js-form: ', formElement.getAttribute('data-js-form'));
 console.log('qwerty:       ', formElement.getAttribute('qwerty'));
 
-formElement.setAttribute('datd-js-form', 'new12345');
+formElement.setAttribute('data-js-form', 'new12345');
+formElement.setAttribute('qwerty', 'newTest');
 
 console.log('==========================================')
 
 console.log('data-js-form: ', formElement.getAttribute('data-js-form'));
+console.log('qwerty:       ', formElement.getAttribute('qwerty'));
