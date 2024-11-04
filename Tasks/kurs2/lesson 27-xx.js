@@ -15,3 +15,9 @@ let submitButtonElement = document.querySelector('.form__button')
 // console.log('formElement action: ', formElement.action);
 
 console.dir(formElement);
+
+console.log(formElement.getAttribute('data-js-form'));
+
+formElement.setAttribute('datd-js-form', 'new12345');
+
+console.log(formElement.getAttribute('data-js-form'));
