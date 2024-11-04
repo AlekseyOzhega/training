@@ -14,23 +14,24 @@ let submitButtonElement = document.querySelector('.form__button')
 // formElement.action = '/register';
 // console.log('formElement action: ', formElement.action);
 
-console.dir(formElement);
+// console.dir(formElement);
 
-console.log('data-js-form: ', formElement.getAttribute('data-js-form'));
-console.log('qwerty:       ', formElement.getAttribute('qwerty'));
+// console.log('data-js-form: ', formElement.getAttribute('data-js-form'));
+// console.log('qwerty:       ', formElement.getAttribute('qwerty'));
 
-formElement.setAttribute('data-js-form', 'new12345');
-formElement.setAttribute('qwerty', 'newTest');
+// formElement.setAttribute('data-js-form', 'new12345');
+// formElement.setAttribute('qwerty', 'newTest');
 
-console.log('==========================================')
+// console.log('==========================================')
 
-console.log('data-js-form: ', formElement.getAttribute('data-js-form'));
-console.log('qwerty:       ', formElement.getAttribute('qwerty'));
+// console.log('data-js-form: ', formElement.getAttribute('data-js-form'));
+// console.log('qwerty:       ', formElement.getAttribute('qwerty'));
 
-formElement.removeAttribute('qwerty');
+// formElement.removeAttribute('qwerty');
 
-console.log('==========================================')
+// console.log('==========================================')
 
-console.log('data-js-form: ', formElement.getAttribute('data-js-form'));
-console.log('qwerty:       ', formElement.getAttribute('qwerty'));
-console.log('has data-js-form: ', formElement.hasAttribute('data-js-form'));
+// console.log('data-js-form: ', formElement.getAttribute('data-js-form'));
+// console.log('qwerty:       ', formElement.getAttribute('qwerty'));
+// console.log('has data-js-form: ', formElement.hasAttribute('data-js-form'));
+
