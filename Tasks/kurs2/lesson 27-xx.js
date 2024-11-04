@@ -11,6 +11,6 @@ console.log(loginInputElement);
 console.log(passwordInputElement);
 console.log(submitButtonElement);
 
-formElement.action = '/register';
+// formElement.action = '/register';
 
 console.log('formElement action: ', formElement.action);
