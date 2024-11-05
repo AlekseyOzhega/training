@@ -37,4 +37,4 @@ let submitButtonElement = document.querySelector('.form__button')
 
 // formElement.setAttribute('name', 'newTest');
 
-// console.dir(formElement)
+console.dir(formElement)
