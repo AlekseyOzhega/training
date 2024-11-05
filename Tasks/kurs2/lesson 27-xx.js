@@ -1,10 +1,10 @@
 'use strict';
 
 
-let formElement = document.querySelector('.forma');
-let loginInputElement = document.querySelector('.form__input[name="login"]')
-let passwordInputElement = document.querySelector('.form__input[name="password"]')
-let submitButtonElement = document.querySelector('.form__button')
+// let formElement = document.querySelector('.forma');
+// let loginInputElement = document.querySelector('.form__input[name="login"]')
+// let passwordInputElement = document.querySelector('.form__input[name="password"]')
+// let submitButtonElement = document.querySelector('.form__button')
 
 // console.log(formElement);
 // console.log(loginInputElement);
@@ -37,4 +37,5 @@ let submitButtonElement = document.querySelector('.form__button')
 
 // formElement.setAttribute('name', 'newTest');
 
-console.dir(formElement)
+// console.dir(formElement)
+
