@@ -35,6 +35,6 @@ let submitButtonElement = document.querySelector('.form__button')
 // console.log('qwerty:       ', formElement.getAttribute('qwerty'));
 // console.log('has data-js-form: ', formElement.hasAttribute('data-js-form'));
 
-// formElement.setAttribute('qwerty', 'newTest');
+formElement.setAttribute('name', 'newTest');
 
-// console.log(formElement.qwerty)
+console.dir(formElement)
