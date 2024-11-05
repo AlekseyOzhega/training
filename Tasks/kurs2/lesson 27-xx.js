@@ -39,9 +39,14 @@
 
 // console.dir(formElement)
 
-let formFactorElement = document.querySelector('[data-js-formfactor]');
-let getFormFactor = JSON.parse(
-    formFactorElement.getAttribute('data-js-formfactor')
-)
+// let formFactorElement = document.querySelector('[data-js-formfactor]');
+// let getFormFactor = JSON.parse(
+//     formFactorElement.getAttribute('data-js-formfactor')
+// )
 
-console.log(getFormFactor);
+// console.log(getFormFactor);
+
+// getFormFactor.age = 33;
+
+// console.log(getFormFactor);
+
