@@ -39,3 +39,7 @@
 
 // console.dir(formElement)
 
+let formElement = document.querySelector('.forma');
+let formFactorElement = formElement.querySelector('data-js-formfactor');
+
+console.log(formFactorElement);
