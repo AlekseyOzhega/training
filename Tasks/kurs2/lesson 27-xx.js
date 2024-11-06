@@ -50,3 +50,6 @@
 
 // console.log(getFormFactor);
 
+
+//Повтор
+
