@@ -53,25 +53,29 @@
 
 //Повтор
 
-function glueArr(arr1, arr2) {
-    for (let key of arr1) {
-        arr2.push(key);
-    }
+// function glueArr(arr1, arr2) {
+//     let mass = [];
 
-    for (let key of arr1) {
-        
-    }
-}
+//     for (let key of arr2) {
+//         mass.push(key);
+//     }
 
-let arrA = [23, 32, 33, 22];
-let arrB = ['A', 'B', 'C', 'd'];
+//     for (let key of arr1) {
+//         mass.push(key);
+//     }
+
+//     return mass;
+// }
+
+// let arrA = [23, 32, 33, 22];
+// let arrB = ['A', 'B', 'C', 'd'];
+
+// console.log('Первый массив: ', arrA);
+// console.log('Второй массив: ', arrB);
+
+// let sumArr = glueArr(arrA, arrB);
+
+// console.log('Сложенные массивы: ', sumArr)
 
 
-
-console.log('Первый массив: ', arrA);
-console.log('Второй массив: ', arrB);
-
-let sumArr = glueArr(arrA, arrB);
-console.log('Второй массив: ', arrB);
-
-console.log('Сложенные массивы: ', sumArr)
+//Урок 28
