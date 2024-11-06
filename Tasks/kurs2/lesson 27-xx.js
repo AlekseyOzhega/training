@@ -62,3 +62,5 @@ function glueArr(arr1, arr2) {
 let arrA = [23, 32, 33, 22];
 let arrB = ['A', 'B', 'C', 'd'];
 
+let sumArr = glueArr(arrA, arrB);
+
