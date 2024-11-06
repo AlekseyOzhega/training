@@ -54,5 +54,7 @@
 //Повтор
 
 function glueArr(arr1, arr2) {
-    
+    for (let key of arr1) {
+        arr2.push(key);
+    }
 }
