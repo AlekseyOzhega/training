@@ -58,3 +58,7 @@ function glueArr(arr1, arr2) {
         arr2.push(key);
     }
 }
+
+let arrA = [23, 32, 33, 22];
+let arrB = ['A', 'B', 'C', 'd'];
+
