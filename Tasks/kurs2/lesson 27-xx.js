@@ -57,6 +57,10 @@ function glueArr(arr1, arr2) {
     for (let key of arr1) {
         arr2.push(key);
     }
+
+    for (let key of arr1) {
+        
+    }
 }
 
 let arrA = [23, 32, 33, 22];
