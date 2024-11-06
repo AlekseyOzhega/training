@@ -64,3 +64,4 @@ let arrB = ['A', 'B', 'C', 'd'];
 
 let sumArr = glueArr(arrA, arrB);
 
+console.log('Сложенные массивы: ', sumArr)
