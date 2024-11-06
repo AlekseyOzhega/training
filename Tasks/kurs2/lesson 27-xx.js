@@ -53,3 +53,6 @@
 
 //Повтор
 
+function glueArr(arr1, arr2) {
+    
+}
