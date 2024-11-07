@@ -84,8 +84,8 @@ let buttonElement = document.querySelector('.form__button');
 console.log(buttonElement.style)
 // buttonElement.style.backgroundColor = 'red'
 buttonElement.style.cssText = `
-backgroundColor: red;
-border: 
+background-color: red;
+border: 2px solid blue;
 `
 
 console.log(buttonElement);
