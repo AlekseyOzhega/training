@@ -46,3 +46,7 @@ header a:hover {
     padding: 10px;
     background-color: rgb(89, 247, 237);
 }
+
+.form__button {
+    background-color: greenyellow;
+}
