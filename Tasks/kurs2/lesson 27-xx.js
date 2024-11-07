@@ -80,6 +80,28 @@
 
 //Урок 28
 
+// let firstRadioElement = document.getElementById('rb');
+// let secondRadioElement = document.getElementById('rb2');
+// let statusE = firstRadioElement.checked;
+
+// if (statusE = true) {
+//     buttonElement.style.cssText += `
+//     background-color: red;
+//     `;
+// }
+
+//не работает
+
+
+// buttonElement.style.cssText += `
+// background-color: red;
+// `;
+
+// console.log(buttonElement);
+// console.log(firstRadioElement);
+// console.log(secondRadioElement);
+
+
 let buttonElement = document.querySelector('.form__button');
 console.log(buttonElement.style)
 // buttonElement.style.backgroundColor = 'red'
@@ -87,17 +109,3 @@ console.log(buttonElement.style)
 buttonElement.style.cssText += `
 border: 2px solid blue;
 `;
-
-let firstRadioElement = document.getElementById('rb');
-let secondRadioElement = document.getElementById('rb2');
-
-firstRadioElement.checked = true;
-
-
-// buttonElement.style.cssText += `
-// background-color: red;
-// `;
-
-console.log(buttonElement);
-console.log(firstRadioElement);
-console.log(secondRadioElement);
