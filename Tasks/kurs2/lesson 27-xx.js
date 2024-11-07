@@ -89,6 +89,10 @@ border: 2px solid blue;
 `;
 
 let firstRadioElement = document.getElementById('rb');
+let secondRadioElement = document.getElementById('rb2');
+
+firstRadioElement.checked = true;
+
 
 // buttonElement.style.cssText += `
 // background-color: red;
@@ -96,3 +100,4 @@ let firstRadioElement = document.getElementById('rb');
 
 console.log(buttonElement);
 console.log(firstRadioElement);
+console.log(secondRadioElement);
