@@ -88,8 +88,11 @@ buttonElement.style.cssText += `
 border: 2px solid blue;
 `;
 
-buttonElement.style.cssText += `
-background-color: red;
-`;
+let firstRadioElement = document.getElementById('rb');
+
+// buttonElement.style.cssText += `
+// background-color: red;
+// `;
 
 console.log(buttonElement);
+console.log(firstRadioElement);
