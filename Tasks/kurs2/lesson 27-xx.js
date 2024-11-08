@@ -110,3 +110,6 @@
 // border: 2px solid blue;
 // `;
 
+let formElement = document.querySelector('.forma');
+
+console.log(formElement);
