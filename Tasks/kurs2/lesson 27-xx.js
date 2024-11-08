@@ -111,5 +111,6 @@
 // `;
 
 let formElement = document.querySelector('.forma');
+console.log(formElement.className);
 
 console.log(formElement);
