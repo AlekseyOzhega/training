@@ -111,8 +111,10 @@
 // `;
 
 let formElement = document.querySelector('.forma');
-console.log(formElement.className);
+
 
 formElement.classList.add('red');
+
+console.log(formElement.className);
 
 console.log(formElement);
