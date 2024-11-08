@@ -114,7 +114,8 @@ let formElement = document.querySelector('.forma');
 
 
 formElement.classList.add('red');
-formElement.classList.remove('forma')
+formElement.classList.remove('forma');
+formElement.classList.toggle('forma');
 
 console.log(formElement.className);
 
