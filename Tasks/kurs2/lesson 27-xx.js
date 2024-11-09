@@ -81,15 +81,15 @@
 
 //функия для ввыда данных из массива
 
-function ptintArray(arr) {
+function printArray(arr) {
     for (let key of arr) {
-        console.log(`Элемент массива: `, key)
+        console.log(`Элемент массива: ${key}`)
     }
 }
 
 let mass = [23, 32, 'Fred', true];
 
-
+printArray(mass);
 
 
 
