@@ -78,6 +78,15 @@
 // console.log('Сложенные массивы: ', sumArr)
 
 
+
+//функия для ввыда данных из массива
+
+
+
+
+
+
+
 //Урок 28
 
 // let firstRadioElement = document.getElementById('rb');
