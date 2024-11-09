@@ -82,7 +82,9 @@
 //функия для ввыда данных из массива
 
 function ptintArray(arr) {
-    
+    for (let key of arr) {
+        console.log()
+    }
 }
 
 
