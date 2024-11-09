@@ -83,7 +83,7 @@
 
 function ptintArray(arr) {
     for (let key of arr) {
-        console.log()
+        console.log(`Элемент массива: `, key)
     }
 }
 
