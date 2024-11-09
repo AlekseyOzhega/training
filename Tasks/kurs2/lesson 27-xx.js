@@ -82,6 +82,7 @@
 //функия для ввыда данных из массива
 
 function printArray(arr) {
+    console.log(`Массив состоит из ${arr.length} элементов.`)
     for (let key of arr) {
         console.log(`Элемент массива: ${key}`)
     }
