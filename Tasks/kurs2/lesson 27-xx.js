@@ -96,25 +96,25 @@
 
 //функия для ввыда данных из двумерного массива
 
-let mart = [[1, 2, 3], 'Book', ['a', 'b', 'c'], [true, false, true]];
+// let mart = [[1, 2, 3], 'Book', ['a', 'b', 'c'], [true, false, true]];
 
-function printMatrix(arr) {
-    for (let key of arr) {
-        if (Array.isArray(key)) {
-            console.log('==================================')
-            for (let keyM of key) {
-                console.log(`  Элемент: ${keyM}`)
-            }
-            console.log('==================================')
-        } else {
-            console.log(`Элемент: ${key}`)
-        }
+// function printMatrix(arr) {
+//     for (let key of arr) {
+//         if (Array.isArray(key)) {
+//             console.log('==================================')
+//             for (let keyM of key) {
+//                 console.log(`  Элемент: ${keyM}`)
+//             }
+//             console.log('==================================')
+//         } else {
+//             console.log(`Элемент: ${key}`)
+//         }
 
 
-    }
-}
+//     }
+// }
 
-printMatrix(mart);
+// printMatrix(mart);
 
 // console.table(mart);
 
