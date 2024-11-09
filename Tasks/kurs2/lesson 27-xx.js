@@ -87,6 +87,10 @@ function ptintArray(arr) {
     }
 }
 
+let mass = [23, 32, 'Fred', true];
+
+
+
 
 
 
