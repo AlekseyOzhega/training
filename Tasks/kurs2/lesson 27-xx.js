@@ -124,7 +124,9 @@ function inputArray() {
     let mass = [];
 
     while (true) {
-        let add = prompt('Введите эелемент массива: ');
+        let add = prompt(`
+            Текущая длина массива ${mass.length}
+            Введите эелемент массива: `);
 
         if (add) {
             mass.push(add);
