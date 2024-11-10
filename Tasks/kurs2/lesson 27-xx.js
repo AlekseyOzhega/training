@@ -124,8 +124,13 @@ function inputArray() {
     let mass = [];
 
     while (true) {
+        let add = prompt('Введите эелемент массива: ');
 
-        return mass;
+        if (add) {
+            mass.push(add);
+        } else {
+            return mass;
+        }
     }
 }
 
