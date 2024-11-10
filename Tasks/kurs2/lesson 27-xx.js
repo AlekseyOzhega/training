@@ -134,6 +134,9 @@ function inputArray() {
     }
 }
 
+console.log(inputArray())
+
+
 
 
 
