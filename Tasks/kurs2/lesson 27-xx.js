@@ -122,6 +122,11 @@
 
 function inputArray() {
     let mass = [];
+
+    while (true) {
+
+        return mass;
+    }
 }
 
 
