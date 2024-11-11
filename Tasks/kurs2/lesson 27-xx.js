@@ -142,26 +142,33 @@
 
 function inputMatrixArray() {
     let mass = [];
-    let massElem = [];
 
     let massLength = +prompt('Сколько строк будет в матрице?', 1);
 
-    for (let i; i <= massLength; i++) {
-        
+    for (let i = 1; i <= massLength; i++) {
+        let massElem = [];
+
+        while (true) {
+            let add = prompt(`
+                Текущая длина строки матрицы ${massElem.length}
+                Введите эелемент массива: `);
+
+            if (add) {
+                massElem.push(add);
+            } else {
+                break;
+            }
+
+            
+        }   
+
+        return mass.push(massElem);
     }
 
-    while (true) {
-        let add = prompt(`
-            Текущая длина массива ${mass.length}
-            Введите эелемент массива: `);
-
-        if (add) {
-            mass.push(add);
-        } else {
-            return mass;
-        }
-    }
+    return mass;
 }
+
+console.log('Матрица: ', inputMatrixArray());
 
 
 
