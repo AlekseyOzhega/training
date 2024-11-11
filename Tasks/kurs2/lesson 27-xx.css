@@ -45,8 +45,10 @@ header a:hover {
     margin: 30px 40px;
     padding: 10px;
     background-color: rgb(89, 247, 237);
+    transition: background-color 4s;
 }
 
 .orange {
     background-color: orange;
+    transition: background-color 4s;
 }
