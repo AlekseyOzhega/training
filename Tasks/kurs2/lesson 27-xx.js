@@ -188,8 +188,9 @@
 
 // console.log(formElement);
 
-let formElement = document.querySelector('.forma');
+// let formElement = document.querySelector('.forma');
 
-let inntervalColor = setInterval( () => {
-    formElement.classList.toggle('orange');
-}, 14000);
+// let inntervalColor = setInterval( () => {
+//     formElement.classList.toggle('orange');
+// }, 14000);
+
