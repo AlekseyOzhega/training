@@ -143,7 +143,7 @@
 function inputMatrixArray() {
     let mass = [];
 
-    let massLength = +prompt('') 
+    let massLength = +prompt('Сколько строк будет в матрице?', 1) 
 
     while (true) {
         let add = prompt(`
