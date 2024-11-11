@@ -143,6 +143,8 @@
 function inputMatrixArray() {
     let mass = [];
 
+    let massLength = +prompt('') 
+
     while (true) {
         let add = prompt(`
             Текущая длина массива ${mass.length}
