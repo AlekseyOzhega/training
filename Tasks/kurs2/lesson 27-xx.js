@@ -141,7 +141,19 @@
 //Функция для создания матрицы массива
 
 function inputMatrixArray() {
-    
+    let mass = [];
+
+    while (true) {
+        let add = prompt(`
+            Текущая длина массива ${mass.length}
+            Введите эелемент массива: `);
+
+        if (add) {
+            mass.push(add);
+        } else {
+            return mass;
+        }
+    }
 }
 
 
