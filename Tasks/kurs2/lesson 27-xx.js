@@ -222,3 +222,6 @@
 
 //Урок 29
 
+let formElement = document.querySelector('.forma');
+
+console.log('Ширина: ', formElement.offsetWidth);
