@@ -222,7 +222,7 @@
 
 //Урок 29
 
-let formElement = document.querySelector('.forma');
+let boxElement = document.querySelector('.box');
 
-console.log('Ширина: ', formElement.offsetWidth);
-console.log('Высота: ', formElement.offsetHeight);
+console.log('Ширина: ', boxElement.offsetWidth);
+console.log('Высота: ', boxElement.offsetHeight);
