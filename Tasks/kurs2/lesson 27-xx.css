@@ -42,6 +42,9 @@ header a:hover {
 .forma {
     border: 2px solid blue;
     border-radius: 4px;
+    overflow: auto;
+    width: 80vw;
+    height: 5vh;
     margin: 30px 40px;
     padding: 10px;
     background-color: rgb(89, 247, 237);
