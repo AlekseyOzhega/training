@@ -140,32 +140,32 @@
 
 //Функция для создания матрицы массива
 
-function inputMatrixArray() {
-    let mass = [];
+// function inputMatrixArray() {
+//     let mass = [];
 
-    let massLength = +prompt('Сколько строк будет в матрице?', 1);
+//     let massLength = +prompt('Сколько строк будет в матрице?', 1);
 
-    for (let i = 0; i < massLength; i++) {
-        let massElem = [];
+//     for (let i = 0; i < massLength; i++) {
+//         let massElem = [];
 
-        while (true) {
-            let add = prompt(`
-                Текущая длина строки матрицы ${massElem.length}
-                Введите эелемент массива: `);
+//         while (true) {
+//             let add = prompt(`
+//                 Текущая длина строки матрицы ${massElem.length}
+//                 Введите эелемент массива: `);
 
-            if (add) {
-                massElem.push(add);
-            } else {
-                mass.push(massElem);
-                break;
-            }
-        }           
-    }
+//             if (add) {
+//                 massElem.push(add);
+//             } else {
+//                 mass.push(massElem);
+//                 break;
+//             }
+//         }           
+//     }
 
-    return mass;
-}
+//     return mass;
+// }
 
-console.log('Матрица: ', inputMatrixArray());
+// console.log('Матрица: ', inputMatrixArray());
 
 
 
