@@ -225,3 +225,4 @@
 let formElement = document.querySelector('.forma');
 
 console.log('Ширина: ', formElement.offsetWidth);
+console.log('Высота: ', formElement.offsetHeight);
