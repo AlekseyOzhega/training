@@ -233,3 +233,6 @@ console.log('Ширина верхней рамки: ', boxElement.clientTop);
 console.log('Ширина без учета рамки и скролла: ', boxElement.clientWidth);
 console.log('Высота без учета рамки и скролла: ', boxElement.clientHeight);
 
+console.log('Полный размер элемента по ширине : ', boxElement.scrollWidth);
+console.log('Полный размер элемента по высоте : ', boxElement.scrollHeight);
+
