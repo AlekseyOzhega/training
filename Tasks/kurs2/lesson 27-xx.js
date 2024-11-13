@@ -236,3 +236,5 @@ console.log('Высота без учета рамки и скролла: ', box
 console.log('Полный размер элемента по ширине : ', boxElement.scrollWidth);
 console.log('Полный размер элемента по высоте : ', boxElement.scrollHeight);
 
+console.log('Ширина невидимой, уже прокрученной области: ', boxElement.scrollLeft);
+console.log('Высота невидимой, уже прокрученной области: ', boxElement.scrollTop);
