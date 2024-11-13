@@ -222,25 +222,25 @@
 
 //Урок 29
 
-let boxElement = document.querySelector('.box');
+// let boxElement = document.querySelector('.box');
 
-console.log('Ширина: ', boxElement.offsetWidth);
-console.log('Высота: ', boxElement.offsetHeight);
+// console.log('Ширина: ', boxElement.offsetWidth);
+// console.log('Высота: ', boxElement.offsetHeight);
 
-console.log('Ширина левой рамки: ', boxElement.clientLeft);
-console.log('Ширина верхней рамки: ', boxElement.clientTop);
+// console.log('Ширина левой рамки: ', boxElement.clientLeft);
+// console.log('Ширина верхней рамки: ', boxElement.clientTop);
 
-console.log('Ширина без учета рамки и скролла: ', boxElement.clientWidth);
-console.log('Высота без учета рамки и скролла: ', boxElement.clientHeight);
+// console.log('Ширина без учета рамки и скролла: ', boxElement.clientWidth);
+// console.log('Высота без учета рамки и скролла: ', boxElement.clientHeight);
 
-console.log('Полный размер элемента по ширине : ', boxElement.scrollWidth);
-console.log('Полный размер элемента по высоте : ', boxElement.scrollHeight);
+// console.log('Полный размер элемента по ширине : ', boxElement.scrollWidth);
+// console.log('Полный размер элемента по высоте : ', boxElement.scrollHeight);
 
 // boxElement.scrollLeft = 10;
 // boxElement.scrollTop = 50;
 
-boxElement.scroll(10, 50);
+// boxElement.scroll(10, 50);
 
-console.log('Ширина невидимой, уже прокрученной области: ', boxElement.scrollLeft);
-console.log('Высота невидимой, уже прокрученной области: ', boxElement.scrollTop);
+// console.log('Ширина невидимой, уже прокрученной области: ', boxElement.scrollLeft);
+// console.log('Высота невидимой, уже прокрученной области: ', boxElement.scrollTop);
 
