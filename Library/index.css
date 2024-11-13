@@ -29,4 +29,6 @@ header a:hover {
     background-color: antiquewhite;
     border: 3px solid blue;
     min-height: 60vh;
+    width: 80vw;
+    margin: 20px auto;
 }
