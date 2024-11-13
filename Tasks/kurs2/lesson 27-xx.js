@@ -226,3 +226,6 @@ let boxElement = document.querySelector('.box');
 
 console.log('Ширина: ', boxElement.offsetWidth);
 console.log('Высота: ', boxElement.offsetHeight);
+
+console.log('Ширина левой рамки: ', boxElement.clientLeft);
+console.log('Ширина верхней рамки: ', boxElement.clientTop);
