@@ -27,4 +27,13 @@ section {
     width: 85vw;
     min-height: 70vh;
     margin: 5px auto;
+    padding: 10px;
+}
+
+section ul li {
+    background-color: aquamarine;
+    margin: 5px;
+    border: 2px solid grey;
+    border-radius: 8px;
+    min-height: 8vh;
 }
