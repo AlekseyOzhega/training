@@ -8,6 +8,7 @@ body {
 
 header {
     margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 header a {
@@ -17,4 +18,10 @@ header a {
     padding: 7px;
     margin: 15px 5px;
     color: white;
+}
+
+section {
+    background-color: aliceblue;
+    border-radius: 10px;
+    border: 4px solid blue;
 }
