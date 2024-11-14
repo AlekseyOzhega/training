@@ -57,10 +57,10 @@ header a:hover {
 }
 
 .box {
-    width: 100px;
-    height: 100px;
+    width: 80vw;
+    height: 30vh;
     overflow: auto;
     padding: 30px;
     background-color: lightseagreen;
-    border: 20px solid indianred;
+    border: 2px solid indianred;
 }
