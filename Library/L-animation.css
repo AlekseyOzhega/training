@@ -1,0 +1,20 @@
+body {
+    background: repeating-linear-gradient(
+        90deg,
+        rgb(52, 228, 29),
+        rgb(195, 195, 24),
+        rgb(148, 119, 47));;
+}
+
+header {
+    margin-top: 20px;
+}
+
+header a {
+    background-color: rgb(60, 131, 131);
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 7px;
+    margin: 15px 5px;
+    color: white;
+}
