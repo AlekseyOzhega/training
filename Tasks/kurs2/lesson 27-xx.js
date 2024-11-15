@@ -266,3 +266,6 @@ console.log('Координаты левого нижнего угла элем�
     boxElementParams.left, 
     boxElementParams.bottom
 );
+
+console.log('window.scrollX: ', window.scrollX)
+console.log('window.scrollY: ', window.scrollY)
