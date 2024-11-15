@@ -249,3 +249,5 @@ let boxElement = document.querySelector('.box');
 let boxElementParams = boxElement.getBoundingClientRect();
 
 console.log(boxElementParams);
+
+console.log(boxElementParams.x);
