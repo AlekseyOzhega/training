@@ -251,4 +251,7 @@ let boxElementParams = boxElement.getBoundingClientRect();
 console.log(boxElementParams);
 
 console.log('Координаты по осям X и Y: ', boxElementParams.x, boxElementParams.y);
-console.log('Координаты правого нижнего угла элемента: ', boxElementParams.right, boxElementParams.bottom);
+console.log('Координаты правого нижнего угла элемента: ', 
+    boxElementParams.right, 
+    boxElementParams.bottom
+);
