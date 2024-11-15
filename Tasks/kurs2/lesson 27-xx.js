@@ -261,3 +261,8 @@ console.log('Координаты правого верхнего угла эл�
     boxElementParams.right, 
     boxElementParams.top
 );
+
+console.log('Координаты левого нижнего угла элемента: ', 
+    boxElementParams.left, 
+    boxElementParams.bottom
+);
