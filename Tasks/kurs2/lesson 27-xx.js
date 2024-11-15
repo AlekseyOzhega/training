@@ -244,3 +244,8 @@
 // console.log('Ширина невидимой, уже прокрученной области: ', boxElement.scrollLeft);
 // console.log('Высота невидимой, уже прокрученной области: ', boxElement.scrollTop);
 
+
+let boxElement = document.querySelector('.box');
+let boxElementParams = boxElement.getBoundingClientRect();
+
+console.log(boxElementParams);
