@@ -31,7 +31,7 @@ section {
 }
 
 section ul li {
-    background-color: aquamarine;
+    padding: 3px;
     margin: 5px;
     border: 2px solid grey;
     border-radius: 8px;
