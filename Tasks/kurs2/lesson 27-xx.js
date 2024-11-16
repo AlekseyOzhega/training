@@ -284,3 +284,5 @@ console.log('Высота: ', htmlElement.clientHeight);
 console.log('Ширина страницы: ', htmlElement.scrollWidth);
 
 console.log('Высота страницы: ', htmlElement.scrollHeight);
+
+console.log('Наверняка корректная высота страницы: ')
