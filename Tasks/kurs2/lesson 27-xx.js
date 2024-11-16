@@ -278,5 +278,7 @@ let htmlElement = document.documentElement;
 console.log('Ширина: ', htmlElement.clientWidth);
 console.log('Высота: ', htmlElement.clientHeight);
 
-console.log('Ширина окна через window: ', window.innerWidth);
-console.log('Высота окна через window: ', window.innerHeight);
+// console.log('Ширина окна через window: ', window.innerWidth);
+// console.log('Высота окна через window: ', window.innerHeight);
+
+console.log('Ширина страницы: ', htmlElement.scrollWidth);
