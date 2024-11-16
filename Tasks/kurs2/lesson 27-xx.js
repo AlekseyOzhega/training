@@ -288,6 +288,8 @@ console.log('Высота страницы: ', htmlElement.scrollHeight);
 
 console.log('Наверняка корректная высота страницы: ',
     Math.max(
-        
+        htmlElement.clientHeight, htmlElement.scrollHeight, htmlElement.offsetHeight,
+        bodyElement.clientHeight, bodyElement.scrollHeight, bodyElement.offsetHeight
     )
-)
+);
+
