@@ -273,3 +273,5 @@
 
 //урок 30
 
+let htmlElement = document.documentElement;
+console.log('Ширина: ', htmlElement.clientWidth);
