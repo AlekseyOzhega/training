@@ -245,27 +245,27 @@
 // console.log('Высота невидимой, уже прокрученной области: ', boxElement.scrollTop);
 
 
-let boxElement = document.querySelector('.box');
-let boxElementParams = boxElement.getBoundingClientRect();
+// let boxElement = document.querySelector('.box');
+// let boxElementParams = boxElement.getBoundingClientRect();
 
-console.log(boxElementParams);
+// console.log(boxElementParams);
 
-console.log('Координаты по осям X и Y: ', boxElementParams.x, boxElementParams.y);
+// console.log('Координаты по осям X и Y: ', boxElementParams.x, boxElementParams.y);
 
-console.log('Координаты правого нижнего угла элемента: ', 
-    boxElementParams.right, 
-    boxElementParams.bottom
-);
+// console.log('Координаты правого нижнего угла элемента: ', 
+//     boxElementParams.right, 
+//     boxElementParams.bottom
+// );
 
-console.log('Координаты правого верхнего угла элемента: ', 
-    boxElementParams.right, 
-    boxElementParams.top
-);
+// console.log('Координаты правого верхнего угла элемента: ', 
+//     boxElementParams.right, 
+//     boxElementParams.top
+// );
 
-console.log('Координаты левого нижнего угла элемента: ', 
-    boxElementParams.left, 
-    boxElementParams.bottom
-);
+// console.log('Координаты левого нижнего угла элемента: ', 
+//     boxElementParams.left, 
+//     boxElementParams.bottom
+// );
 
-console.log('window.scrollX: ', window.scrollX)
-console.log('window.scrollY: ', window.scrollY)
+// console.log('window.scrollX: ', window.scrollX)
+// console.log('window.scrollY: ', window.scrollY)
