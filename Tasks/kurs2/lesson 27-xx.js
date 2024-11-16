@@ -282,3 +282,5 @@ console.log('Высота: ', htmlElement.clientHeight);
 // console.log('Высота окна через window: ', window.innerHeight);
 
 console.log('Ширина страницы: ', htmlElement.scrollWidth);
+
+console.log('Высота страницы: ', htmlElement.scrollHeight);
