@@ -269,3 +269,7 @@
 
 // console.log('window.scrollX: ', window.scrollX)
 // console.log('window.scrollY: ', window.scrollY)
+
+
+//урок 30
+
