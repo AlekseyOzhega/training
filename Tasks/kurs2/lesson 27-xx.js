@@ -275,3 +275,4 @@
 
 let htmlElement = document.documentElement;
 console.log('Ширина: ', htmlElement.clientWidth);
+console.log('Высота: ', htmlElement.clientHeight);
