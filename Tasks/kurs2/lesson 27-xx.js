@@ -273,23 +273,23 @@
 
 //урок 30
 
-let htmlElement = document.documentElement;
-let bodyElement = document.body;
+// let htmlElement = document.documentElement;
+// let bodyElement = document.body;
 
-console.log('Ширина: ', htmlElement.clientWidth);
-console.log('Высота: ', htmlElement.clientHeight);
+// console.log('Ширина: ', htmlElement.clientWidth);
+// console.log('Высота: ', htmlElement.clientHeight);
 
 // console.log('Ширина окна через window: ', window.innerWidth);
 // console.log('Высота окна через window: ', window.innerHeight);
 
-console.log('Ширина страницы: ', htmlElement.scrollWidth);
+// console.log('Ширина страницы: ', htmlElement.scrollWidth);
 
-console.log('Высота страницы: ', htmlElement.scrollHeight);
+// console.log('Высота страницы: ', htmlElement.scrollHeight);
 
-console.log('Наверняка корректная высота страницы: ',
-    Math.max(
-        htmlElement.clientHeight, htmlElement.scrollHeight, htmlElement.offsetHeight,
-        bodyElement.clientHeight, bodyElement.scrollHeight, bodyElement.offsetHeight
-    )
-);
+// console.log('Наверняка корректная высота страницы: ',
+//     Math.max(
+//         htmlElement.clientHeight, htmlElement.scrollHeight, htmlElement.offsetHeight,
+//         bodyElement.clientHeight, bodyElement.scrollHeight, bodyElement.offsetHeight
+//     )
+// );
 
