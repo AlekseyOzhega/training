@@ -314,3 +314,5 @@
 // }, 6000)
 
 
+let preendElement = document.querySelector('.preend');
+
