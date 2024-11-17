@@ -294,21 +294,23 @@
 // );
 
 
-window.scroll({
-    top: 200,
-    behavior: 'smooth',
-})
+// window.scroll({
+//     top: 200,
+//     behavior: 'smooth',
+// })
 
-setTimeout( () => {
-    window.scroll({
-        top: 50,
-        behavior: 'smooth',
-    })
-}, 3000)
+// setTimeout( () => {
+//     window.scroll({
+//         top: 50,
+//         behavior: 'smooth',
+//     })
+// }, 3000)
 
-setTimeout( () => {
-    window.scroll({
-        top: 150,
-        behavior: 'smooth',
-    })
-}, 6000)
+// setTimeout( () => {
+//     window.scroll({
+//         top: 150,
+//         behavior: 'smooth',
+//     })
+// }, 6000)
+
+
