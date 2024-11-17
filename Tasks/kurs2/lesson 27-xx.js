@@ -314,13 +314,14 @@
 // }, 6000)
 
 
-let preendElement = document.querySelector('.preend');
+// let preendElement = document.querySelector('.preend');
 
 
 
-setTimeout(() => {
-    preendElement.scrollIntoView({
-        behavior: 'smooth',
-        block: 'center'
-    })
-}, 300);
+// setTimeout(() => {
+//     preendElement.scrollIntoView({
+//         behavior: 'smooth',
+//         block: 'center'
+//     })
+// }, 300);
+
