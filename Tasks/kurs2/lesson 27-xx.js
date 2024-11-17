@@ -293,3 +293,9 @@
 //     )
 // );
 
+
+window.scroll({
+    top: 200,
+    behavior: 'smooth',
+})
+
