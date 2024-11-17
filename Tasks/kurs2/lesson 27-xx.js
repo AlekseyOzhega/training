@@ -299,3 +299,9 @@ window.scroll({
     behavior: 'smooth',
 })
 
+setTimeout( () => {
+    window.scroll({
+        top: 50,
+        behavior: 'smooth',
+    })
+}, 3000)
