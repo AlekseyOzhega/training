@@ -316,3 +316,7 @@
 
 let preendElement = document.querySelector('.preend');
 
+preendElement.scrollIntoView({
+    behavior: 'smooth',
+    block: 'end'
+})
