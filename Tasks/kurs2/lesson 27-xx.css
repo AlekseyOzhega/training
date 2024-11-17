@@ -65,3 +65,12 @@ header a:hover {
     background-color: rgb(27, 137, 131);
     /* border: 2px solid indianred; */
 }
+
+p {
+    margin: 30px 5px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    padding: 7px;
+    height: 70vh;
+}
