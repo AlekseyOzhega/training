@@ -192,6 +192,8 @@ bookInfo(book2);
 
 
 
+
+
 //Урок 28
 
 // let firstRadioElement = document.getElementById('rb');
