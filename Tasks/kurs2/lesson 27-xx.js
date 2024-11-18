@@ -177,8 +177,8 @@ class Book {
     }
 }
 
-function bookInfo(boj) {
-    
+function bookInfo(obj) {
+    console.log(`Книга под названием "${obj.name} за авторством ${obj.author} "`)
 }
 
 let book1 = new Book('Хоббит', 'Толкиен', 1972);
