@@ -178,6 +178,9 @@ class Book {
 }
 
 let book1 = new Book('Хоббит', 'Толкиен', 1972);
+let book2 = new Book('Стальная крыса', 'Гарри Гаррисон', 1988);
+
+console.log(book1, book2)
 
 
 
