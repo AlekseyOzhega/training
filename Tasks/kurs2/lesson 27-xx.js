@@ -177,6 +177,10 @@ class Book {
     }
 }
 
+function bookInfo(boj) {
+    
+}
+
 let book1 = new Book('Хоббит', 'Толкиен', 1972);
 let book2 = new Book('Стальная крыса', 'Гарри Гаррисон', 1988);
 
