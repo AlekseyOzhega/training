@@ -167,6 +167,14 @@
 
 // console.log('Матрица: ', inputMatrixArray());
 
+//Book
+
+class Book {
+    constructor(name, author, year) {
+        this.name = name;
+    }
+}
+
 
 
 
