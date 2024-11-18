@@ -172,8 +172,12 @@
 class Book {
     constructor(name, author, year) {
         this.name = name;
+        this.author = author;
+        this.year = year;
     }
 }
+
+let book1 = new Book('Хоббит', 'Толкиен', 1972);
 
 
 
