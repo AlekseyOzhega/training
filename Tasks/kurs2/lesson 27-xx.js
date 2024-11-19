@@ -198,7 +198,7 @@ class Company {
     }
 }
 
-let testCo = new Company({'city': 'London'});
+let testCo = new Company({'city': 'London', 'street': 'Bayker'});
 
 console.log(testCo)
 
