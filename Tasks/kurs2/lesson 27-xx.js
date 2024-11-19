@@ -194,8 +194,11 @@
 class Company {
     constructor(obj) {
         this.adress = {'city': city};
+        this.adress = {'street': street};
     }
 }
+
+let testCo = new Company({'city': 'London'});
 
 
 
