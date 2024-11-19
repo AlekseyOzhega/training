@@ -200,7 +200,8 @@ class Company {
 
 let object1 = {'city': 'London', 'street': 'Bayker'}
 
-let testCo = new Company({'city': 'London', 'street': 'Bayker'});
+// let testCo = new Company({'city': 'London', 'street': 'Bayker'});
+let testCo2 = new Company(object1)
 
 console.log(testCo)
 
