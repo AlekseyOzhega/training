@@ -191,21 +191,21 @@
 
 //Company
 
-class Company {
-    constructor(obj) {
-        this.adreee = {};
-        this.adress.city = obj.city;
-        // this.adress.street = obj.street;
-    }
-}
+// class Company {
+//     constructor(obj) {
+//         this.adreee = {'city': 1};
+//         this.adress[city] = obj.city;
+//         // this.adress.street = obj.street;
+//     }
+// }
 
-let object1 = {'city': 'London', 'street': 'Bayker'}
+// let object1 = {'city': 'London', 'street': 'Bayker'}
 
-// let testCo = new Company({'city': 'London', 'street': 'Bayker'});
+// // let testCo = new Company({'city': 'London', 'street': 'Bayker'});
 
-let testCo2 = new Company(object1)
+// let testCo2 = new Company(object1)
 
-console.log(testCo2)
+// console.log(testCo2)
 
 
 
