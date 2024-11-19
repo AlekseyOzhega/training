@@ -193,7 +193,7 @@
 
 class Company {
     constructor(obj) {
-        
+        this.adress = {'city': city};
     }
 }
 
