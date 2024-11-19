@@ -191,7 +191,11 @@
 
 //Company
 
-
+class Company {
+    constructor(obj) {
+        
+    }
+}
 
 
 
