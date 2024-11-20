@@ -37,3 +37,32 @@ section ul li {
     border-radius: 8px;
     min-height: 8vh;
 }
+
+.zagolov {
+    margin: 20px auto;
+    padding: 5px;
+    background-color: aliceblue;
+    border: 2px solid blue;
+    border-radius: 6px;
+    width: 30vw;
+    min-height: 5vh;
+}
+
+p {
+    margin: 5px 3vw;
+    padding: 5px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: black;
+    transition: color 1s;
+}
+
+p:hover {
+    color: rgb(200, 80, 156);
+    transition: color 1s;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+}
