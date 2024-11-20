@@ -1,0 +1,39 @@
+body {
+    background: repeating-linear-gradient(
+        90deg,
+        rgb(76, 198, 59),
+        rgb(195, 195, 24),
+        rgb(148, 119, 47));;
+}
+
+header {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+header a {
+    background-color: rgb(60, 131, 131);
+    border: 2px solid white;
+    border-radius: 6px;
+    padding: 7px;
+    margin: 15px 5px;
+    color: white;
+}
+
+section {
+    background-color: aliceblue;
+    border-radius: 10px;
+    border: 4px solid blue;
+    width: 85vw;
+    min-height: 70vh;
+    margin: 5px auto;
+    padding: 10px;
+}
+
+section ul li {
+    padding: 3px;
+    margin: 5px;
+    border: 2px solid grey;
+    border-radius: 8px;
+    min-height: 8vh;
+}
