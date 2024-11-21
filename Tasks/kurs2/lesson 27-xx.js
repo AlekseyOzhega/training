@@ -370,7 +370,7 @@
 //Урок 31
 
 let boxElement = document.querySelector('.box');
+boxElement.textContent += 'Новый текст'
+console.log('Содержимое элемента: ', boxElement.textContent);
 
-console.log('Содержимое элемента: ', boxElement.textContent)ж
-
-console.log('Содержимое эелемента вместе с тэгами: ', boxElement.innerHTML);
+// console.log('Содержимое эелемента вместе с тэгами: ', boxElement.innerHTML);
