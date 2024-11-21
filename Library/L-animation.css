@@ -57,10 +57,22 @@ p {
     transition: color 1s;
 }
 
-p:hover {
+/* p:hover {
     color: rgb(200, 80, 156);
     transition: color 1s;
     cursor: pointer;
+} */
+
+@keyframes title {
+    from {
+        color: black;
+    }
+    50% {
+        color: red;
+    }
+    to {
+        color: black;
+    }
 }
 
 ul {
