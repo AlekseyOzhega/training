@@ -371,4 +371,6 @@
 
 let boxElement = document.querySelector('.box');
 
-console.log()
+console.log('Содержимое элемента: ', boxElement.textContent)ж
+
+console.log('Содержимое эелемента вместе с тэгами: ', boxElement.innerHTML);
