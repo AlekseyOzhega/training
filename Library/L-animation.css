@@ -41,7 +41,7 @@ section ul li {
 .zagolov {
     margin: 20px auto;
     padding: 5px;
-    background-color: aliceblue;
+    background-color: rgb(8, 52, 91);
     border: 2px solid blue;
     border-radius: 6px;
     width: 30vw;
@@ -54,24 +54,27 @@ p {
     font-size: 36px;
     font-weight: bolder;
     color: black;
-    transition: color 1s;
+    animation-name: title;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    /* transition: color 1s; */
 }
-
-/* p:hover {
-    color: rgb(200, 80, 156);
-    transition: color 1s;
-    cursor: pointer;
-} */
 
 @keyframes title {
     from {
-        color: black;
+        color: white;
+    }
+    25% {
+        color: gold;
     }
     50% {
-        color: red;
+        color: greenyellow;
+    }
+    75% {
+        color: gold;
     }
     to {
-        color: black;
+        color: white;
     }
 }
 
