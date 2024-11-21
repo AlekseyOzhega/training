@@ -369,3 +369,6 @@
 
 //Урок 31
 
+let boxElement = document.querySelector('.box');
+
+console.log()
