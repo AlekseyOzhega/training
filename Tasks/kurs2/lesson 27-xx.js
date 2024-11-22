@@ -394,6 +394,9 @@ let boxElement = document.querySelector('.box');
 // console.log('Содержимое элемента: ', boxElement.textContent);
 
 let newElementP = document.createElement('p');
+newElementP.textContent = 'Новый элемент.';
+newElementP.classList.add('red');
+
 let newElementSpan = document.createElement('span');
 
 console.log(newElementP.outerHTML);
