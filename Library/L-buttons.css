@@ -37,3 +37,14 @@ section ul li {
     border-radius: 8px;
     min-height: 8vh;
 }
+
+.title {
+    margin: 20px auto;
+    padding: 5px;
+    border: 2px solid white ;
+    border-radius: 5px;
+    width: 30vw;
+    height: 7vh;
+    background-color: rgb(48, 200, 200);
+    color: white;
+}
