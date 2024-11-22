@@ -49,6 +49,11 @@ section ul li {
     text-align: center;
 }
 
+.title:active {
+    background-color: rgb(56, 243, 65);
+    color: rgb(36, 64, 219);
+}
+
 .title2 {
     margin: 20px auto;
     /* padding: 10px 20px; */
