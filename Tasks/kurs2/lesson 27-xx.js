@@ -375,20 +375,21 @@ let boxElement = document.querySelector('.box');
 
 // console.log('Содержимое эелемента вместе с тэгами: ', boxElement.innerHTML);
 
-boxElement.innerHTML = `
-New element
-<p class='red'>Element</p>
-`
-console.log('Содержимое эелемента вместе с тэгами: ', boxElement.innerHTML);
+// boxElement.innerHTML = `
+// New element
+// <p class='red'>Element</p>
+// `
+// console.log('Содержимое эелемента вместе с тэгами: ', boxElement.innerHTML);
 
-boxElement.outerHTML = `
-    <article class='box'>123
-        <ol>
-            <li>Первый</li>
-            <li>Второй</li>
-            <li>Третий</li>
-        </ol>
-    </article>`
+// boxElement.outerHTML = `
+//     <article class='box'>123
+//         <ol>
+//             <li>Первый</li>
+//             <li class='red'>Второй</li>
+//             <li>Третий</li>
+//         </ol>
+//     </article>`
 
-console.log('Содержимое эелемента вместе с тэгами: ', boxElement.innerHTML);
-console.log('Содержимое элемента: ', boxElement.textContent);
+// console.log('Содержимое эелемента вместе с тэгами: ', boxElement.innerHTML);
+// console.log('Содержимое элемента: ', boxElement.textContent);
+
