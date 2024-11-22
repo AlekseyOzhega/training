@@ -379,5 +379,16 @@ boxElement.innerHTML = `
 New element
 <p class='red'>Element</p>
 `
+console.log('Содержимое эелемента вместе с тэгами: ', boxElement.innerHTML);
+
+boxElement.outerHTML = `
+    <article class='box'>123
+        <ol>
+            <li>Первый</li>
+            <li>Второй</li>
+            <li>Третий</li>
+        </ol>
+    </article>`
 
 console.log('Содержимое эелемента вместе с тэгами: ', boxElement.innerHTML);
+console.log('Содержимое элемента: ', boxElement.textContent);
