@@ -369,7 +369,7 @@
 
 //Урок 31
 
-let boxElement = document.querySelector('.box');
+// let boxElement = document.querySelector('.box');
 // boxElement.textContent += 'Новый текст'
 // console.log('Содержимое элемента: ', boxElement.textContent);
 
@@ -396,6 +396,8 @@ let boxElement = document.querySelector('.box');
 let newElementP = document.createElement('p');
 newElementP.textContent = 'Новый элемент.';
 newElementP.classList.add('red');
+
+let boxElement = document.querySelector('.box');
 
 let newElementSpan = document.createElement('span');
 
