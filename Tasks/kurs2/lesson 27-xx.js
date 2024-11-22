@@ -403,3 +403,5 @@ let newElementSpan = document.createElement('span');
 
 console.log(newElementP.outerHTML);
 console.log(newElementSpan.outerHTML);
+
+boxElement.append(newElementP);
