@@ -396,3 +396,5 @@ let boxElement = document.querySelector('.box');
 let newElementP = document.createElement('p');
 let newElementSpan = document.createElement('span');
 
+console.log(newElementP.outerHTML);
+console.log(newElementSpan.outerHTML);
