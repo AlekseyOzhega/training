@@ -40,11 +40,14 @@ section ul li {
 
 .title {
     margin: 20px auto;
-    padding: 5px;
+    padding: 10px 20px;
     border: 2px solid white ;
     border-radius: 5px;
     width: 30vw;
     height: 7vh;
     background-color: rgb(48, 200, 200);
     color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
 }
