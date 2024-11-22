@@ -393,3 +393,6 @@ let boxElement = document.querySelector('.box');
 // console.log('Содержимое эелемента вместе с тэгами: ', boxElement.innerHTML);
 // console.log('Содержимое элемента: ', boxElement.textContent);
 
+let newElementP = document.createElement('p');
+let newElementSpan = document.createElement('span');
+
