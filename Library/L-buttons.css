@@ -59,15 +59,7 @@ section ul li {
     margin: 20px auto;
     border: 2px solid white ;
     border-radius: 5px;
-    width: 30vw;
-    height: 7vh;
-    padding: 20px;
+    width: 31vw;
+    height: 10vh;
 }
 
-.btn {
-    margin: 20px 510px;
-    width: 20vw;
-    height: 6vh;
-    font-size: 40px;
-
-}
