@@ -400,6 +400,8 @@ newElementP.classList.add('red');
 let boxElement = document.querySelector('.box');
 
 let newElementSpan = document.createElement('span');
+newElementSpan.textContent = 'Подэлемент';
+
 
 console.log(newElementP.outerHTML);
 console.log(newElementSpan.outerHTML);
