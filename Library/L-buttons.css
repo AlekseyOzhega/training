@@ -46,6 +46,8 @@ section ul li {
     font-size: 40px;
     font-weight: bolder;
     text-align: center;
+    padding: 5px;
+
 }
 
 .title:active {
@@ -59,5 +61,5 @@ section ul li {
     border-radius: 5px;
     width: 30vw;
     height: 7vh;
-
+    padding: 20px;
 }
