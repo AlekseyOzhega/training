@@ -63,3 +63,9 @@ section ul li {
     height: 7vh;
     padding: 20px;
 }
+
+.btn {
+    margin: 20px auto;
+    width: 20vw;
+    height: 10vh;
+}
