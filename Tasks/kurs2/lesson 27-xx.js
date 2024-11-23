@@ -407,4 +407,4 @@ console.log(newElementP.outerHTML);
 console.log(newElementSpan.outerHTML);
 
 boxElement.append(newElementP);
-boxElement.prepend(newElementSpan);
+boxElement.after(newElementSpan);

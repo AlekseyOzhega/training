@@ -70,4 +70,6 @@ header a:hover {
 
 .green {
     color: green;
+    background-color: aliceblue;
+    padding: 2px;
 }
