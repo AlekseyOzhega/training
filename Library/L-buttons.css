@@ -65,7 +65,9 @@ section ul li {
 }
 
 .btn {
-    margin: 20px auto;
+    margin: 20px 510px;
     width: 20vw;
-    height: 10vh;
+    height: 6vh;
+    font-size: 40px;
+
 }
