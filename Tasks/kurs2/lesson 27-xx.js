@@ -401,9 +401,10 @@ let boxElement = document.querySelector('.box');
 
 let newElementSpan = document.createElement('span');
 newElementSpan.textContent = 'Подэлемент';
-
+newElementSpan.classList.add('green')
 
 console.log(newElementP.outerHTML);
 console.log(newElementSpan.outerHTML);
 
 boxElement.append(newElementP);
+boxElement.prepend(newElementSpan);
