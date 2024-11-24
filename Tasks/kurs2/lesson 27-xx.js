@@ -409,3 +409,7 @@
 // boxElement.append(newElementP);
 // boxElement.after(newElementSpan);
 
+let boxElement1 = document.querySelector('.start1');
+let boxElement2 = document.querySelector('.start2');
+let boxElement3 = document.querySelector('.start3');
+
