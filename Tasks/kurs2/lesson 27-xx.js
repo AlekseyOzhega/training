@@ -420,4 +420,13 @@ function getNewParagraphElement() {
     return newElement;
 }
 
+function getNewArticleElement() {
+    let newElement = document.createElement('article');
+    newElement.classList.add('red');
+    newElement.textContent = 'Новый текст';
+    return newElement;
+}
+
 boxElement1.append(getNewParagraphElement());
+boxElement2.append(getNewParagraphElement());
+boxElement3.append(getNewParagraphElement());
