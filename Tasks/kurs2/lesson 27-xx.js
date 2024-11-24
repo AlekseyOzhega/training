@@ -409,40 +409,41 @@
 // boxElement.append(newElementP);
 // boxElement.after(newElementSpan);
 
-let boxElement1 = document.querySelector('.start1');
-let boxElement2 = document.querySelector('.start2');
-let boxElement3 = document.querySelector('.start3');
+// let boxElement1 = document.querySelector('.start1');
+// let boxElement2 = document.querySelector('.start2');
+// let boxElement3 = document.querySelector('.start3');
 
-function getNewParagraphElement() {
-    let newElement = document.createElement('p');
-    newElement.classList.add('green');
-    newElement.textContent = 'Новый параграф';
-    return newElement;
-}
+// function getNewParagraphElement() {
+//     let newElement = document.createElement('p');
+//     newElement.classList.add('green');
+//     newElement.textContent = 'Новый параграф';
+//     return newElement;
+// }
 
-function getNewArticleElement() {
-    let newElement = document.createElement('article');
-    newElement.classList.add('red');
-    newElement.textContent = 'Новый текст';
-    return newElement;
-}
+// function getNewArticleElement() {
+//     let newElement = document.createElement('article');
+//     newElement.classList.add('red');
+//     newElement.textContent = 'Новый текст';
+//     return newElement;
+// }
 
-let justText = 'Просто текст для проверки работы метода.'
-let razmetka = '<p>Вставленный текст через инсерт..</p>'
+// let justText = 'Просто текст для проверки работы метода.'
+// let razmetka = '<p>Вставленный текст через инсерт..</p>'
 
-boxElement1.append(getNewParagraphElement(), justText);
+// boxElement1.append(getNewParagraphElement(), justText);
 
-boxElement2.append(
-    getNewParagraphElement(), 
-    getNewArticleElement(), 
-    getNewArticleElement() 
-);
+// boxElement2.append(
+//     getNewParagraphElement(), 
+//     getNewArticleElement(), 
+//     getNewArticleElement() 
+// );
 
-boxElement3.append(getNewParagraphElement());
+// boxElement3.append(getNewParagraphElement());
 
-boxElement3.insertAdjacentHTML('afterbegin', razmetka);
+// boxElement3.insertAdjacentHTML('afterbegin', razmetka);
 
-let cloneElement = boxElement1.cloneNode(true);
+// let cloneElement = boxElement1.cloneNode(true);
 
-boxElement3.after(cloneElement);
-boxElement3.insertAdjacentElement('afterbegin', boxElement2);
+// boxElement3.after(cloneElement);
+// boxElement3.insertAdjacentElement('afterend', boxElement2);
+
