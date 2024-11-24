@@ -441,3 +441,7 @@ boxElement2.append(
 boxElement3.append(getNewParagraphElement());
 
 boxElement3.insertAdjacentHTML('afterbegin', razmetka);
+
+let cloneElement = boxElement1.cloneNode();
+
+boxElement1.after(cloneElement);
