@@ -427,11 +427,14 @@ function getNewArticleElement() {
     return newElement;
 }
 
-boxElement1.append(getNewParagraphElement());
+let justText = 'Просто текст для проверки работы метода.'
+
+boxElement1.append(getNewParagraphElement(), justText);
 
 boxElement2.append(
     getNewParagraphElement(), 
     getNewArticleElement(), 
     getNewArticleElement() 
 );
+
 boxElement3.append(getNewParagraphElement());
