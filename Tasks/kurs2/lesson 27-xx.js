@@ -445,3 +445,4 @@ boxElement3.insertAdjacentHTML('afterbegin', razmetka);
 let cloneElement = boxElement1.cloneNode(true);
 
 boxElement3.after(cloneElement);
+boxElement3.insertAdjacentElement('afterbegin', boxElement2);
