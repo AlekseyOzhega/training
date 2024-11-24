@@ -393,18 +393,19 @@
 // console.log('Содержимое эелемента вместе с тэгами: ', boxElement.innerHTML);
 // console.log('Содержимое элемента: ', boxElement.textContent);
 
-let newElementP = document.createElement('p');
-newElementP.textContent = 'Новый элемент.';
-newElementP.classList.add('red');
+// let newElementP = document.createElement('p');
+// newElementP.textContent = 'Новый элемент.';
+// newElementP.classList.add('red');
 
-let boxElement = document.querySelector('.box');
+// let boxElement = document.querySelector('.box');
 
-let newElementSpan = document.createElement('span');
-newElementSpan.textContent = 'Подэлемент';
-newElementSpan.classList.add('green')
+// let newElementSpan = document.createElement('span');
+// newElementSpan.textContent = 'Подэлемент';
+// newElementSpan.classList.add('green')
 
-console.log(newElementP.outerHTML);
-console.log(newElementSpan.outerHTML);
+// console.log(newElementP.outerHTML);
+// console.log(newElementSpan.outerHTML);
 
-boxElement.append(newElementP);
-boxElement.after(newElementSpan);
+// boxElement.append(newElementP);
+// boxElement.after(newElementSpan);
+
