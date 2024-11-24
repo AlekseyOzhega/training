@@ -428,5 +428,10 @@ function getNewArticleElement() {
 }
 
 boxElement1.append(getNewParagraphElement());
-boxElement2.append(getNewParagraphElement());
+
+boxElement2.append(
+    getNewParagraphElement(), 
+    getNewArticleElement(), 
+    getNewArticleElement() 
+);
 boxElement3.append(getNewParagraphElement());
