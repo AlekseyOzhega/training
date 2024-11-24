@@ -413,3 +413,11 @@ let boxElement1 = document.querySelector('.start1');
 let boxElement2 = document.querySelector('.start2');
 let boxElement3 = document.querySelector('.start3');
 
+function getNewParagraphElement() {
+    let newElement = document.createElement('p');
+    newElement.classList.add('green');
+    newElement.textContent = 'Новый параграф';
+    return newElement;
+}
+
+boxElement1.append(getNewParagraphElement());
