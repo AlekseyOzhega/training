@@ -428,6 +428,7 @@ function getNewArticleElement() {
 }
 
 let justText = 'Просто текст для проверки работы метода.'
+let razmetka = '<p>Вставленный текст через инсерт..</p>'
 
 boxElement1.append(getNewParagraphElement(), justText);
 
@@ -438,3 +439,5 @@ boxElement2.append(
 );
 
 boxElement3.append(getNewParagraphElement());
+
+boxElement3.insertAdjacentHTML('afterbegin', razmetka);
