@@ -81,3 +81,8 @@ p {
 ul {
     list-style-type: none;
 }
+
+.liter {
+    margin: 0;
+    padding: 0;
+}
