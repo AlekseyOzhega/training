@@ -73,3 +73,8 @@ header a:hover {
     background-color: aliceblue;
     padding: 2px;
 }
+
+.study {
+    margin: 20px 200px;
+    background-color: greenyellow;
+}
