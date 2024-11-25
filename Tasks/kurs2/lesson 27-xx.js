@@ -451,3 +451,8 @@
 //Урок 32
 
 
+let buttonElem = document.querySelector('.study button');
+
+buttonElem.onclick = () => {
+    console.log('Клик');
+}
