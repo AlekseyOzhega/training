@@ -75,6 +75,16 @@ header a:hover {
 }
 
 .study {
-    margin: 20px 200px;
-    background-color: greenyellow;
+    margin: 20px 20px 20px 300px;
+}
+
+.study button {
+    background-color: blue;
+    color: white;
+    border: 1px solid white;
+    padding: 7px;
+}
+
+.study button:active {
+    border: 3px;
 }
