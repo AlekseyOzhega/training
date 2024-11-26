@@ -461,4 +461,11 @@ function logNumberOne() {
     console.log('1')
 }
 
-buttonElem.addEventListener('click', )
+
+function logNumberTwo() {
+    console.log('2')
+}
+
+buttonElem.addEventListener('click', logNumberOne);
+
+buttonElem.addEventListener('click', logNumberTwo);
