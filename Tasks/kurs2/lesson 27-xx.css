@@ -81,10 +81,10 @@ header a:hover {
 .study button {
     background-color: blue;
     color: white;
-    border: 1px solid white;
+    border: 2px solid white;
     padding: 7px;
 }
 
 .study button:active {
-    border: 3px;
+    background-color: rgb(120, 120, 245);
 }
