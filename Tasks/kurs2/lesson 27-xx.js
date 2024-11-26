@@ -461,12 +461,11 @@ let buttonElem2 = document.querySelector('.btn2');
 function logNumberOne() {
     console.log('1')
 }
-
-
 function logNumberTwo() {
     console.log('2')
 }
 
 buttonElem1.addEventListener('click', logNumberOne);
-
 buttonElem1.addEventListener('click', logNumberTwo);
+
+buttonElem2.removeEventListener('click', logNumberTwo);
