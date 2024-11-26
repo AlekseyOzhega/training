@@ -453,6 +453,12 @@
 
 let buttonElem = document.querySelector('.study button');
 
-buttonElem.onclick = () => {
-    console.log('Клик');
+// buttonElem.onclick = () => {
+//     console.log('Клик');
+// }
+
+function logNumberOne() {
+    console.log('1')
 }
+
+buttonElem.addEventListener('click', )
