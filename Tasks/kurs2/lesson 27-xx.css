@@ -92,3 +92,19 @@ header a:hover {
 .btn1 {
     margin-right: 20px;
 }
+
+.box1st {
+    margin: 20px 50px;
+    background-color: blue;
+    width: 60vw;
+    height: 30vh;
+    border: 2px solid white;
+}
+
+.box2nd {
+    background-color: orange;
+    margin: 20px;
+    width: 30vw;
+    height: 15vh;
+    border: 2px solid white;
+}
