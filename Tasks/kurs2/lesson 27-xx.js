@@ -458,8 +458,8 @@ let buttonElem2 = document.querySelector('.btn2');
 //     console.log('Клик');
 // }
 
-function logNumberOne() {
-    console.log('1')
+function logNumberOne(event) {
+    console.log(event)
 }
 function logNumberTwo() {
     console.log('2')
@@ -468,4 +468,7 @@ function logNumberTwo() {
 buttonElem1.addEventListener('click', logNumberOne);
 buttonElem1.addEventListener('click', logNumberTwo);
 
-buttonElem2.removeEventListener('click', logNumberTwo);
+buttonElem2.addEventListener('click', () => {
+    buttonElem1.removeEventListener('click', logNumberTwo);
+})
+
