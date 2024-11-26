@@ -451,7 +451,8 @@
 //Урок 32
 
 
-let buttonElem = document.querySelector('.study button');
+let buttonElem1 = document.querySelector('.btn1');
+let buttonElem2 = document.querySelector('.btn2');
 
 // buttonElem.onclick = () => {
 //     console.log('Клик');
@@ -466,6 +467,6 @@ function logNumberTwo() {
     console.log('2')
 }
 
-buttonElem.addEventListener('click', logNumberOne);
+buttonElem1.addEventListener('click', logNumberOne);
 
-buttonElem.addEventListener('click', logNumberTwo);
+buttonElem1.addEventListener('click', logNumberTwo);
