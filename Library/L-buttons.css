@@ -87,7 +87,7 @@ ul {
     transition: all var(--sp) ease 0s;
   }
   
-  body {
+  /* body {
     margin: 0;
     padding: 0;
     width: 100vw;
@@ -100,9 +100,9 @@ ul {
     background: linear-gradient(135deg, #1f1f23, #2d2d31, #101012);
     background: linear-gradient(135deg, #161618, #212125, #060606);
     
-  }
+  } */
   
-  body:before, body:after {
+  /* body:before, body:after {
     content: "";
     position: absolute;
     width: 100%;
@@ -112,7 +112,7 @@ ul {
       repeating-conic-gradient(#0002 0.00001%, #fff0 .00009%, #fff0 .00075%, #fff0 .000025%);
     opacity: 0.75;
     filter: blur(0.75px);
-  }
+  } */
   
   .toggle {
     position: relative;
@@ -123,11 +123,11 @@ ul {
     justify-content: center;
   }
   
-  input {
+  .toggle input {
     display: none;
   }
   
-  label[for=btn] {
+  .toggle label[for=btn] {
     position: absolute;
     width: calc(var(--sz) * 5.55);
     height: calc(var(--sz) * 2);
@@ -146,7 +146,7 @@ ul {
       radial-gradient(circle at 50% calc(var(--sz) / -0.1025), #fff0 calc(var(--sz) / 0.1), #000 calc(calc(var(--sz) / 0.1) + 1px) calc(var(--sz) / 0.0875), #fff0 calc(calc(var(--sz) / 0.0875) + 1px) 100%);
   }
   
-  label[for=btn]:before {
+  .toggle label[for=btn]:before {
     content: "";
     position: absolute;
     width: 100%;
