@@ -63,3 +63,6 @@ section ul li {
     height: 10vh;
 }
 
+ul {
+    list-style-type: none;
+}

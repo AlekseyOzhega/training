@@ -95,16 +95,33 @@ header a:hover {
 
 .box1st {
     margin: 20px 50px;
-    background-color: blue;
+    background-color: rgb(13, 13, 198);
     width: 60vw;
     height: 30vh;
     border: 2px solid white;
+    padding: 5px;
+    color: white;
+    font-size: 18px;
 }
 
 .box2nd {
-    background-color: orange;
+    background-color: rgb(185, 125, 15);
     margin: 20px;
     width: 30vw;
     height: 15vh;
     border: 2px solid white;
+    padding: 5px;
+    color: white;
+    font-size: 18px;
+}
+
+.box3st {
+    background-color: rgb(97, 150, 18);
+    margin: 10px 1px 1px 60px;
+    width: 15vw;
+    height: 7vh;
+    border: 2px solid white;
+    padding: 2px;
+    color: white;
+    font-size: 18px;
 }
