@@ -460,14 +460,14 @@ let bodyElem = document.body;
 //     console.log('Клик');
 // }
 
-function logNumberOne(event) {
+function changeZFon(event) {
     bodyElem.classList.toggle('anotherBGC')
 }
 function logNumberTwo() {
     console.log('2')
 }
 
-buttonElem1.addEventListener('click', logNumberOne);
+buttonElem1.addEventListener('click', changeZFon);
 buttonElem1.addEventListener('click', logNumberTwo);
 
 buttonElem2.addEventListener('click', () => {
