@@ -454,14 +454,14 @@
 let buttonElem1 = document.querySelector('.btn1');
 let buttonElem2 = document.querySelector('.btn2');
 let bodyElem = document.body;
-let zFon = bodyElem.classList.toggle('anotherBGC')
+// let zFon = bodyElem.classList.toggle('anotherBGC')
 
 // buttonElem.onclick = () => {
 //     console.log('Клик');
 // }
 
 function logNumberOne(event) {
-    console.log(event)
+    bodyElem.classList.toggle('anotherBGC')
 }
 function logNumberTwo() {
     console.log('2')
