@@ -453,6 +453,7 @@
 
 let buttonElem1 = document.querySelector('.btn1');
 let buttonElem2 = document.querySelector('.btn2');
+let zFon = document.body;
 
 // buttonElem.onclick = () => {
 //     console.log('Клик');
