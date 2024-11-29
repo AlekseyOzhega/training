@@ -468,9 +468,9 @@ function logNumberTwo() {
 }
 
 buttonElem1.addEventListener('click', changeZFon);
-buttonElem1.addEventListener('click', logNumberTwo);
+// buttonElem1.addEventListener('click', logNumberTwo);
 
 buttonElem2.addEventListener('click', () => {
-    buttonElem1.removeEventListener('click', logNumberTwo);
+    buttonElem1.removeEventListener('click', changeZFon);
 })
 
