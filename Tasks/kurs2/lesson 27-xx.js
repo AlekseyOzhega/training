@@ -487,10 +487,11 @@ boxElem1.addEventListener('click', function() {
 })
 
 boxElem2.addEventListener('click', function() {
-    console.log('2', this)
+    console.log('2')
+
 })
 
 boxElem3.addEventListener('click', (event) => {
     console.log('3')
     event.stopPropagation()
-})
+}, true)
