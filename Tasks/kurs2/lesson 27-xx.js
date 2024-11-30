@@ -474,3 +474,7 @@ buttonElem2.addEventListener('click', () => {
     buttonElem1.removeEventListener('click', changeZFon);
 })
 
+let boxElem1 = document.querySelector('.box1st');
+let boxElem2 = document.querySelector('.box2nd');
+let boxElem3 = document.querySelector('.box3st');
+
