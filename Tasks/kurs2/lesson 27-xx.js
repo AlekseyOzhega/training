@@ -478,3 +478,6 @@ let boxElem1 = document.querySelector('.box1st');
 let boxElem2 = document.querySelector('.box2nd');
 let boxElem3 = document.querySelector('.box3st');
 
+console.log(boxElem1);
+console.log(boxElem2);
+console.log(boxElem3);
