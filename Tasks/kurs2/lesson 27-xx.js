@@ -488,10 +488,10 @@ boxElem1.addEventListener('click', function() {
 
 boxElem2.addEventListener('click', function() {
     console.log('2')
-
-})
+    event.stopPropagation()
+}, true)
 
 boxElem3.addEventListener('click', (event) => {
     console.log('3')
-    event.stopPropagation()
-}, true)
+    // event.stopPropagation()
+})
