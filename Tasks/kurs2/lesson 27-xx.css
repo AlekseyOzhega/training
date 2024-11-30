@@ -107,6 +107,7 @@ header a:hover {
     width: 60vw;
     height: 30vh;
     border: 2px solid white;
+    border-radius: 9px;
     padding: 5px;
     color: white;
     font-size: 18px;
@@ -118,6 +119,7 @@ header a:hover {
     width: 30vw;
     height: 15vh;
     border: 2px solid white;
+    border-radius: 9px;
     padding: 5px;
     color: white;
     font-size: 18px;
@@ -129,6 +131,7 @@ header a:hover {
     width: 15vw;
     height: 7vh;
     border: 2px solid white;
+    border-radius: 9px;
     padding: 2px;
     color: white;
     font-size: 18px;
