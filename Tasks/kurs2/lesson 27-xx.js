@@ -482,14 +482,14 @@ let boxElem3 = document.querySelector('.box3st');
 // console.log(boxElem2);
 // console.log(boxElem3);
 
-boxElem1.addEventListener('click', () => {
-    console.log('1')
+boxElem1.addEventListener('click', function() {
+    console.log('1', this)
 })
 
-boxElem2.addEventListener('click', () => {
-    console.log('2')
+boxElem2.addEventListener('click', function() {
+    console.log('2', this)
 })
 
-boxElem3.addEventListener('click', () => {
-    console.log('3')
+boxElem3.addEventListener('click', function() {
+    console.log('3', this)
 })
