@@ -493,5 +493,4 @@ boxElem2.addEventListener('click', function() {
 
 boxElem3.addEventListener('click', (event) => {
     console.log('3')
-    // event.stopPropagation()
 })
