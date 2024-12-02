@@ -9,7 +9,7 @@ function negative() {
 }
 
 
-buttonElem.addEventListener('click', )
+buttonElem.addEventListener('click', negative)
 
 
 console.log(buttonElem)
