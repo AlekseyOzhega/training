@@ -39,3 +39,13 @@ header a {
 header a:hover {
     background-color: rgb(36, 187, 247);
 }   
+
+.negativ {
+    margin: 20px;
+    padding: 5px;
+
+}
+
+.negativ button {
+    margin: 20px 45%;
+}
