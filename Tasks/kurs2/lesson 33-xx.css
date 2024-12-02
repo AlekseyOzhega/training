@@ -60,6 +60,8 @@ header a:hover {
     color: rgb(75, 75, 75);
 }
 
-.negativ-on {
-
+.negativ-on-button {
+    background-color: rgb(1, 85, 85);
+    color: white;
+    border: 1px solid white;
 }
