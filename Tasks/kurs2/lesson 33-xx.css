@@ -57,6 +57,7 @@ header a:hover {
 
 .negativ button:active {
     background-color: rgb(190, 250, 250);
+    color: rgb(75, 75, 75);
 }
 
 .negativ-on {
