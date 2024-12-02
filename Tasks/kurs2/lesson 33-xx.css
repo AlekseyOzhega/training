@@ -55,6 +55,10 @@ header a:hover {
     border-radius: 4px;
 }
 
+.negativ button:active {
+    background-color: rgb(190, 250, 250);
+}
+
 .negativ-on {
-    
+
 }
