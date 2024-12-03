@@ -47,12 +47,14 @@ header a:hover {
 }
 
 .btn {
-    margin: 20px 45%;
+    margin: 40px 45%;
     background-color: aqua;
     padding: 6px 15px;
     font-weight: bolder;
     border: 1px solid black;
-    border-radius: 90vw;
+    border-radius: 99vw;
+    width: 90px;
+    height: 90px;
 }
 
 .btn:active {
@@ -65,4 +67,7 @@ header a:hover {
     color: white;
     border: 1px solid white;
     border-radius: 4px;
+    width: 90px;
+    height: 40px;
+    top: 20px;
 }
