@@ -69,5 +69,6 @@ header a:hover {
     border-radius: 4px;
     width: 90px;
     height: 40px;
-    top: 20px;
+    position: relative;
+    top: 24px;
 }
