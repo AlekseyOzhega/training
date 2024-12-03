@@ -89,7 +89,20 @@ header a:hover {
     padding: 5px;
 }
 
+ul {
+    list-style-type: none;
+}
+
 .todo-item {
     margin: 5px;
     border: 2px solid black;
+    width: 5rem;
+}
+
+.todo-item:hover {
+    cursor: pointer;
+}
+
+.green {
+    background-color: greenyellow;
 }
