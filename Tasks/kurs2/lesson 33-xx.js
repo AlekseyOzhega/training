@@ -10,9 +10,14 @@ function negative() {
 
 }
 
-
 buttonElem.addEventListener('click', negative)
-
 
 console.log(buttonElem)
 console.log(bodyElem)
+
+
+
+
+//Урок 33
+
+
