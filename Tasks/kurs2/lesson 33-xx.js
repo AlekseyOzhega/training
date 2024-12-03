@@ -21,3 +21,8 @@ console.log(bodyElem)
 //Урок 33
 
 
+let todoItemElement = document.querySelector('todo-item');
+
+todoItemElement.forEach( (todoItemElement) => {
+    todoItemElement.classList.add('green')
+})
