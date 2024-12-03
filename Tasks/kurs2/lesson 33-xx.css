@@ -81,3 +81,15 @@ header a:hover {
     position: relative;
     top: 24px;
 }
+
+.todo {
+    background-color: antiquewhite;
+    width: 60vw;
+    margin: 20px 20px 20px 40px;
+    padding: 5px;
+}
+
+.todo-item {
+    margin: 5px;
+    border: 2px solid black;
+}
