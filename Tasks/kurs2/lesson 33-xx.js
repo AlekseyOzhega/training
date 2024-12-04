@@ -23,9 +23,9 @@ console.log(bodyElem)
 
 let todoItemElement = document.querySelector('todo-item');
 
-todoItemElement.forEach(todoItemElement => {
-    todoItemElement.classList.add('green')
-});
+// todoItemElement.forEach(todoItemElement => {
+//     todoItemElement.classList.add('green')
+// });
 
 // todoItemElement.forEach( (todoItemElement) => {
 
