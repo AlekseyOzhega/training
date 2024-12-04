@@ -23,9 +23,8 @@ console.log(bodyElem)
 
 let todoItemElement = document.querySelector('todo-item');
 
+todoItemElement.foreach
+
 todoItemElement.forEach( (todoItemElement) => {
-    todoItemElement.array.forEach(element => {
-        
-    });
     todoItemElement.classList.add('green')
 })
