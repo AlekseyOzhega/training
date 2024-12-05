@@ -90,6 +90,7 @@ header a:hover {
     padding: 5px;
     border: 3px solid orange;
     display: flex;
+    justify-content: center;
 }
 
 ul {
@@ -108,4 +109,8 @@ ul {
 
 .green {
     background-color: greenyellow;
+}
+
+.plus {
+    padding: 20px 10px;
 }
