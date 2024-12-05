@@ -21,11 +21,14 @@ console.log(bodyElem)
 //Урок 33
 
 
-let todoItemElement = document.querySelector('todo-item');
+let todoItemElement = document.querySelectorAll('.todo-item');
 
-// todoItemElement.forEach(todoItemElement => {
-//     todoItemElement.classList.add('green')
-// });
+
+todoItemElement.forEach((todoItemElement) => {
+    todoItemElement.addEventListener('click', () => {
+        todoItemElement.classList.add('green')
+    })
+})
 
 // todoItemElement.forEach( (todoItemElement) => {
 
