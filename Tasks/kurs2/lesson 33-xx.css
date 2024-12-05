@@ -118,5 +118,11 @@ ul {
 .btn-plus {
     background-color: beige;
     padding: 0.5rem;
+    border-radius: 7px;
+}
+
+.btn-plus:active {
+    background-color: rgb(48, 140, 214);
+    color: white;
     
 }
