@@ -26,7 +26,7 @@ let todoItemElement = document.querySelectorAll('.todo-item');
 
 todoItemElement.forEach((todoItemElement) => {
     todoItemElement.addEventListener('click', () => {
-        todoItemElement.classList.add('green')
+        todoItemElement.classList.toggle('green')
     })
 })
 
