@@ -30,7 +30,3 @@ todoItemElement.forEach((todoItemElement) => {
     })
 })
 
-// todoItemElement.forEach( (todoItemElement) => {
-
-//     todoItemElement.classList.add('green')
-// })
