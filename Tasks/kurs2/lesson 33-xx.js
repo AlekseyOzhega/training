@@ -40,13 +40,17 @@ function addTodoItem() {
     todoListElement.insertAdjacentHTML('beforeend', newTodoItemElement)
 }
 
-btnPlusElement.addEventListener('click', addTodoItem)
-
-document.addEventListener('click', (event) => {
-    if (event.target.classList.contains('todo-item'))
-})
+btnPlusElement.addEventListener('click', addTodoItem);
 
 let onTodoItemClick = (todoItemElement) => {
     todoItemElement.classList.toggle('green')
-}
+};
+
+document.addEventListener('click', (event) => {
+    if (event.target.classList.contains('todo-item') {
+        onTodoItemClick();
+    }
+})
+
+
 
