@@ -27,11 +27,11 @@ let btnPlusElement = document.querySelector('.btn-plus');
 // console.log(btnPlusElement);
 
 
-todoItemElement.forEach((todoItemElement) => {
-    todoItemElement.addEventListener('click', () => {
-        todoItemElement.classList.toggle('green')
-    })
-})
+// todoItemElement.forEach((todoItemElement) => {
+//     todoItemElement.addEventListener('click', () => {
+//         todoItemElement.classList.toggle('green')
+//     })
+// })
 
 function addTodoItem() {
     let todoListElement = document.querySelector('.todo-list');
@@ -45,3 +45,4 @@ btnPlusElement.addEventListener('click', addTodoItem)
 document.addEventListener('click', (event) => {
     console.log(event.target)
 })
+
