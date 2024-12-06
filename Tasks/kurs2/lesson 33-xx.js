@@ -40,5 +40,8 @@ function addTodoItem() {
     todoListElement.insertAdjacentHTML('beforeend', newTodoItemElement)
 }
 
-
 btnPlusElement.addEventListener('click', addTodoItem)
+
+document.addEventListener('click', (event) => {
+    console.log(event.target)
+})
