@@ -46,3 +46,6 @@ document.addEventListener('click', (event) => {
     console.log(event.target)
 })
 
+let onTodoItemClick = (todoItemElement) => {
+    todoItemElement.classList.toggle('green')
+}
