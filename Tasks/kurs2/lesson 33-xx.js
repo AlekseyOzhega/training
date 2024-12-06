@@ -34,7 +34,8 @@ todoItemElement.forEach((todoItemElement) => {
 })
 
 function addTodoItem() {
-    
+    let todoListElement = document.querySelector('.todo-list');
+    let newTodoItemElement = `<li class="todo-item">Todo item...</li>`;
 }
 
 
