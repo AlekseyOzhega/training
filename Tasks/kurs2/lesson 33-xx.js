@@ -43,9 +43,10 @@ function addTodoItem() {
 btnPlusElement.addEventListener('click', addTodoItem)
 
 document.addEventListener('click', (event) => {
-    console.log(event.target)
+    if (event.target.classList.contains('todo-item'))
 })
 
 let onTodoItemClick = (todoItemElement) => {
     todoItemElement.classList.toggle('green')
 }
+
