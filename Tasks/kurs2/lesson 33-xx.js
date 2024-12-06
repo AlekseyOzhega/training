@@ -22,7 +22,9 @@ buttonElem.addEventListener('click', negative)
 
 
 let todoItemElement = document.querySelectorAll('.todo-item');
-let btnPlusElement = document.querySelector('.btn-plus')
+let btnPlusElement = document.querySelector('.btn-plus');
+
+console.log(btnPlusElement);
 
 
 todoItemElement.forEach((todoItemElement) => {
