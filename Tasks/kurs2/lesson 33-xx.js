@@ -12,8 +12,8 @@ function negative() {
 
 buttonElem.addEventListener('click', negative)
 
-console.log(buttonElem)
-console.log(bodyElem)
+// console.log(buttonElem)
+// console.log(bodyElem)
 
 
 
@@ -22,6 +22,7 @@ console.log(bodyElem)
 
 
 let todoItemElement = document.querySelectorAll('.todo-item');
+let btnPlusElement = document.querySelector('.btn-plus')
 
 
 todoItemElement.forEach((todoItemElement) => {
