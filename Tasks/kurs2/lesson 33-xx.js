@@ -21,8 +21,6 @@ buttonElem.addEventListener('click', negative)
 //Урок 33
 
 
-let todoItemElement = document.querySelectorAll('.todo-item');
-let btnPlusElement = document.querySelector('.btn-plus');
 
 // console.log(btnPlusElement);
 
@@ -31,6 +29,10 @@ let btnPlusElement = document.querySelector('.btn-plus');
 //         todoItemElement.classList.toggle('green')
 //     })
 // })
+
+
+let todoItemElement = document.querySelectorAll('.todo-item');
+let btnPlusElement = document.querySelector('.btn-plus');
 
 function addTodoItem() {
     let todoListElement = document.querySelector('.todo-list');
@@ -46,6 +48,7 @@ let onTodoItemClick = (todoItemElement) => {
 };
 
 document.addEventListener('click', (event) => {
+    let todoItemElement = event.target.closest('todo-item')
     if (event.target.classList.contains('todo-item')) {
         onTodoItemClick(event.target)
     }
