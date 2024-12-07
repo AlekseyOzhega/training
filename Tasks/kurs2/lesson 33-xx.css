@@ -32,7 +32,8 @@ h1 {
 }
 
 .another-h1 {
-    
+    background-color: rgb(114, 91, 62);
+    color: rgb(209, 192, 225);
 }
 
 header {
