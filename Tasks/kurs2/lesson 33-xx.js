@@ -26,7 +26,6 @@ let btnPlusElement = document.querySelector('.btn-plus');
 
 // console.log(btnPlusElement);
 
-
 // todoItemElement.forEach((todoItemElement) => {
 //     todoItemElement.addEventListener('click', () => {
 //         todoItemElement.classList.toggle('green')
@@ -47,8 +46,8 @@ let onTodoItemClick = (todoItemElement) => {
 };
 
 document.addEventListener('click', (event) => {
-    if (event.target.classList.contains('todo-item') {
-        onTodoItemClick();
+    if (event.target.classList.contains('todo-item')) {
+        onTodoItemClick(event.target)
     }
 })
 
