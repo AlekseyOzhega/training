@@ -48,7 +48,7 @@ let onTodoItemClick = (todoItemElement) => {
 };
 
 document.addEventListener('click', (event) => {
-    let todoItemElement = event.target.closest('todo-item');
+    let todoItemElement = event.target.closest('.todo-item');
 
     if (todoItemElement) {
         onTodoItemClick(todoItemElement)
