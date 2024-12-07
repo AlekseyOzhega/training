@@ -34,7 +34,7 @@ let btnPlusElement = document.querySelector('.btn-plus');
 
 function addTodoItem() {
     let todoListElement = document.querySelector('.todo-list');
-    let newTodoItemElement = `<li class="todo-item">Todo item...</li>`;
+    let newTodoItemElement = `<li class="todo-item"><span>Todo item...</span></li>`;
 
     todoListElement.insertAdjacentHTML('beforeend', newTodoItemElement)
 }
