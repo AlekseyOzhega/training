@@ -4,8 +4,6 @@ let buttonElem = document.querySelector('.negativ button');
 let bodyElem = document.body;
 let h1Element = document.querySelector('h1');
 
-console.log(h1Element)
-
 
 function negative() {
     buttonElem.classList.toggle('negativ-on-button')
