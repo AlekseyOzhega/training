@@ -56,9 +56,10 @@ header a:hover {
 }   
 
 .negativ {
-    margin: 20px;
+    /* margin: 20px; */
     padding: 5px;
-
+    display: flex;
+    justify-content: space-between;
 }
 
 .btn {
