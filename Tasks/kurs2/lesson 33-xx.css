@@ -34,7 +34,6 @@ h1 {
 .another-h1 {
     background-color: rgb(114, 91, 62);
     color: rgb(225, 221, 229);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 header {
@@ -70,6 +69,10 @@ header a:hover {
     border: 1px solid black;
     border-radius: 4px;
     /* margin-bottom: 10px; */
+}
+
+.btn a {
+    text-decoration: none;
 }
 
 .btn:active {
