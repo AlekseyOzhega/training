@@ -4,13 +4,13 @@ let buttonElem = document.querySelector('.negativ button');
 let bodyElem = document.body;
 let h1Element = document.querySelector('h1');
 
-console.log()
+console.log(h1Element)
 
 
 function negative() {
     buttonElem.classList.toggle('negativ-on-button')
     bodyElem.classList.toggle('bg-negative')
-
+    h1Element.
 }
 
 buttonElem.addEventListener('click', negative)
