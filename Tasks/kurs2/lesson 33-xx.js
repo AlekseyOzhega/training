@@ -10,7 +10,7 @@ console.log(h1Element)
 function negative() {
     buttonElem.classList.toggle('negativ-on-button')
     bodyElem.classList.toggle('bg-negative')
-    h1Element.classList.toggle('bg-negative')
+    h1Element.classList.toggle('another-h1')
 }
 
 buttonElem.addEventListener('click', negative)
