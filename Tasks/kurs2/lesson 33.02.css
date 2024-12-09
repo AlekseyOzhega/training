@@ -10,11 +10,23 @@ section {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.preloader {
+/* .preloader {
     background-color: aqua;
     width: 100%;
     height: 100vh;
     position: absolute;
-    top: 120px;
+    top: 0px;
     opacity: 0.3;
+} */
+
+.preloader {
+    position: fixed;
+    z-index: calc(infinity);
+    inset: 0;
+    background-color: rebeccapurple;
+    animation-name: fade-out;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    opacity: 0;
+    pointer-events: none;
 }
