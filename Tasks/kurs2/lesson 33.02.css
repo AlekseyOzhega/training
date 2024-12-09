@@ -30,3 +30,13 @@ section {
     opacity: 0;
     pointer-events: none;
 }
+
+.preloader-in {
+    position: absolute;
+    inset: 0;
+    background-color: coral;
+    animation-name: circle;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    clip-path: circle(75%);
+}
