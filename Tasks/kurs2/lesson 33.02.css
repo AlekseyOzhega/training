@@ -30,7 +30,7 @@ section:not(.is-visible):nth-child(even) {
     position: fixed;
     z-index: calc(infinity);
     inset: 0;
-    background-color: rebeccapurple;
+    background-color: rgb(119, 17, 221);
     animation-name: fade-out;
     animation-duration: 3s;
     animation-iteration-count: 1;
@@ -41,7 +41,7 @@ section:not(.is-visible):nth-child(even) {
 .preloader-in {
     position: absolute;
     inset: 0;
-    background-color: coral;
+    background-color: rgb(241, 199, 48);
     animation-name: circle;
     animation-duration: 3s;
     animation-iteration-count: 1;

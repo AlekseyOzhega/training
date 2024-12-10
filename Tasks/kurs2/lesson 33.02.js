@@ -9,10 +9,11 @@ let animateSection = () => {
     })
 }
 
-animateSection()
 
 let preloaderElement = document.querySelector('.preloader');
 
 preloaderElement.addEventListener('animationend', (event) => {
-    console.log(event)
+    if (event.animationName === 'fade-out') {
+        animateSection()
+    }
 })
