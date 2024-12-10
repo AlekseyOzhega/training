@@ -10,3 +10,9 @@ let animateSection = () => {
 }
 
 animateSection()
+
+let preloaderElement = document.querySelector('.preloader');
+
+preloaderElement.addEventListener('animationend', (event) => {
+    console.log(event)
+})
