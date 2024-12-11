@@ -7,3 +7,7 @@ let animateSection = () => {
         sectionElement.classList.add('is-visible')
     })
 }
+
+document.addEventListener('preloaderClose', () => {
+    animateSection()
+})
