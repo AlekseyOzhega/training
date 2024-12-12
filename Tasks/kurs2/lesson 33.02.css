@@ -70,3 +70,8 @@ p {
     color: orange;
     transition: color 1s;
 }
+
+.body-bgc {
+    background-color: blueviolet;
+    transition: color 1s;
+}
