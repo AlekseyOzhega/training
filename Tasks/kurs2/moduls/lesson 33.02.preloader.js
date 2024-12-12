@@ -1,8 +1,8 @@
-console.log('Preloader.')
+// console.log('Preloader.')
 
 let preloaderElement = document.querySelector('.preloader')
 
-console.log('preloaderElement', preloaderElement)
+// console.log('preloaderElement', preloaderElement)
 let preloaederCloseEvent = new Event('preloaderClose', {bubbles: true})
 
 // preloaderElement.addEventListener('animationend', (event) => {

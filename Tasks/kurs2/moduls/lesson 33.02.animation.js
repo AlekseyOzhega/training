@@ -1,7 +1,7 @@
-console.log('Animation.')
+// console.log('Animation.')
 
 let sectionElement = document.querySelectorAll('section');
-console.log('sectionElement: ', sectionElement)
+// console.log('sectionElement: ', sectionElement)
 
 let animateSection = () => {
     sectionElement.forEach((sectionElement) => {
