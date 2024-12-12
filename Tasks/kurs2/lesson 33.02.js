@@ -4,6 +4,9 @@
 
 console.log('Начало кода..');
 
+function animationText() {
+    
+}
 setTimeout(() => {
     try {
         
