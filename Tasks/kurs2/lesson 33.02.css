@@ -1,6 +1,6 @@
 body {
     background-color: aliceblue;
-    transition: color 1s;
+    transition: background-color 1s;
 }
 
 section {
@@ -64,15 +64,15 @@ p {
     font-weight: bolder;
     font-size: 25px;
     color: rgb(119, 17, 221);
-    transition: color 1s;
+    transition: color 3s;
 }
 
 .p-color {
     color: rgb(241, 199, 48);
-    transition: color 1s;
+    transition: color 3s;
 }
 
 .body-bgc {
     background-color: rgb(119, 17, 221);
-    transition: color 1s;
+    transition: background-color 1s;
 }

@@ -18,7 +18,7 @@ function animationText() {
 document.addEventListener('preloaderClose', () => {
     setTimeout(() => {
         animationText()
-    }, 4000);
+    }, 2000);
 })
 
 // setTimeout(() => {

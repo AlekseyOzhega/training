@@ -9,7 +9,7 @@ let animateSection = () => {
     })
 }
 
-document.addEventListener('preloaderClose', () => {
+document.addEventListener('preloaderClose', (event) => {
     animateSection()
-    
+    console.log('event', event.detail)
 })

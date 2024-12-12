@@ -12,7 +12,13 @@ let preloaederCloseEvent = new Event('preloaderClose', {bubbles: true})
 preloaderElement.addEventListener('animationend', (event) => {
     if (event.animationName === 'fade-out') {
         preloaderElement.dispatchEvent(
-            new Event('preloaderClose', {bubbles: true})
+            new CustomEvent('preloaderClose', {
+                bubbles: true,
+                detail: {
+                    closeAnimationName: event.animationName,
+                    closeAnimationDuration: event.elapsedTime,
+                }
+            })
         )
     }
 })
