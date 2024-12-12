@@ -4,9 +4,13 @@
 
 console.log('Начало кода..');
 
-let pElement = 
-function animationText() {
+let pElement = document.querySelectorAll('p');
 
+
+function animationText() {
+    pElement.forEach( (pElement) => {
+        pElement.classList.add('p-color')
+    })
 }
 setTimeout(() => {
     try {
