@@ -11,4 +11,5 @@ let animateSection = () => {
 
 document.addEventListener('preloaderClose', () => {
     animateSection()
+    
 })
