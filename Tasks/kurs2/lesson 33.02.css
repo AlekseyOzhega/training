@@ -1,6 +1,6 @@
 body {
     background-color: aliceblue;
-
+    transition: color 1s;
 }
 
 section {
@@ -63,15 +63,16 @@ section:not(.is-visible):nth-child(even) {
 p {
     font-weight: bolder;
     font-size: 25px;
+    color: rgb(119, 17, 221);
     transition: color 1s;
 }
 
 .p-color {
-    color: orange;
+    color: rgb(241, 199, 48);
     transition: color 1s;
 }
 
 .body-bgc {
-    background-color: blueviolet;
+    background-color: rgb(119, 17, 221);
     transition: color 1s;
 }
