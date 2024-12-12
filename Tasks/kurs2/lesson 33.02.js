@@ -20,9 +20,9 @@ document.addEventListener('preloaderClose', () => {
     }, 6000);
 })
 
-setTimeout(() => {
-    try {
+// setTimeout(() => {
+//     try {
         
-    }
-}, 4000);
+//     }
+// }, 4000);
 
