@@ -59,3 +59,8 @@ section:not(.is-visible):nth-child(even) {
     80% {clip-path: circle(15%)}
     100% {clip-path: circle(75%)}
 }
+
+p {
+    font-weight: bolder;
+    font-size: 25px;
+}
