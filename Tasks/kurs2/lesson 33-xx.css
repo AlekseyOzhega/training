@@ -122,11 +122,19 @@ ul {
 .btn-plus {
     background-color: beige;
     padding: 0.5rem;
-    border-radius: 7px;
+    border-radius: 1px;
+    zoom: 0.9;
+    position: fixed;
+    left: 370px;
 }
 
 .btn-plus:active {
     background-color: rgb(48, 140, 214);
     color: white;
-    
+}
+
+.btn-plus:hover {
+    border-radius: 10px;
+    zoom: 1;
+    left: 330px;
 }
