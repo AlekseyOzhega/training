@@ -68,20 +68,20 @@ let plusElement = document.querySelector('.plus')
 let todoElement = document.querySelector('.todo')
 // console.log(todoElement)
 
-btnPlusElement.addEventListener('mousedown', (event) => {
-    console.log('1. mousedown')
-    // console.log('event.target: ', event.target)
-    // console.log('event.relatedTarget: ', event.relatedTarget)
-})
+// btnPlusElement.addEventListener('mousedown', (event) => {
+//     console.log('1. mousedown')
+//     console.log('event.target: ', event.target)
+//     console.log('event.relatedTarget: ', event.relatedTarget)
+// })
 
-btnPlusElement.addEventListener('mouseup', () => {
-    console.log('2. mouseup')
-    // console.log('event.target: ', event.target)
-    // console.log('event.relatedTarget: ', event.relatedTarget)
-})
+// btnPlusElement.addEventListener('mouseup', () => {
+//     console.log('2. mouseup')
+//     console.log('event.target: ', event.target)
+//     console.log('event.relatedTarget: ', event.relatedTarget)
+// })
 
-btnPlusElement.addEventListener('click', () => {
-    console.log('3. click')
-    // console.log('event.target: ', event.target)
-    // console.log('event.relatedTarget: ', event.relatedTarget)
-})
+// btnPlusElement.addEventListener('click', () => {
+//     console.log('3. click')
+//     console.log('event.target: ', event.target)
+//     console.log('event.relatedTarget: ', event.relatedTarget)
+// })
