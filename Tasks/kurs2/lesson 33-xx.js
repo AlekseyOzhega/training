@@ -60,6 +60,14 @@ document.addEventListener('click', (event) => {
 
 //Урок 34
 
-btnPlusElement.addEventListener('mousemove', () => {
-    console.log('Движение над кнопкой.')
+// btnPlusElement.addEventListener('mousemove', () => {
+//     console.log('Движение над кнопкой.')
+// })
+
+btnPlusElement.addEventListener('mouseover', () => {
+    console.log('Курсор зашел в область кнопки.')
+})
+
+btnPlusElement.addEventListener('mouseout', () => {
+    console.log('Курсор вышел из области кнопки.')
 })
