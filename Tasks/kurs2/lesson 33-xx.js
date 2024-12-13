@@ -64,10 +64,12 @@ document.addEventListener('click', (event) => {
 //     console.log('Движение над кнопкой.')
 // })
 
-btnPlusElement.addEventListener('mouseover', () => {
+btnPlusElement.addEventListener('mouseover', (event) => {
     console.log('Курсор зашел в область кнопки.')
+    console.log('event.target: ', event.target)
 })
 
 btnPlusElement.addEventListener('mouseout', () => {
     console.log('Курсор вышел из области кнопки.')
+    console.log('event.relatedTarget: ', event.relatedTarget)
 })
