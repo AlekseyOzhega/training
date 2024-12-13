@@ -123,9 +123,7 @@ ul {
     background-color: beige;
     padding: 0.5rem;
     border-radius: 1px;
-    zoom: 0.9;
-    position: fixed;
-    left: 370px;
+    transition: border-radius 0.5s;
 }
 
 .btn-plus:active {
@@ -134,7 +132,6 @@ ul {
 }
 
 .btn-plus:hover {
-    border-radius: 10px;
-    zoom: 1;
-    left: 330px;
+    border-radius: 20px;
+    transition: border-radius 0.5s;
 }
