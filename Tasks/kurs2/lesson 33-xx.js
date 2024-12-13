@@ -60,3 +60,6 @@ document.addEventListener('click', (event) => {
 
 //Урок 34
 
+btnPlusElement.addEventListener('mousemove', () => {
+    console.log('Движение над кнопкой.')
+})
