@@ -66,15 +66,15 @@ document.addEventListener('click', (event) => {
 
 let plusElement = document.querySelector('.plus')
 let todoElement = document.querySelector('.todo')
-console.log(todoElement)
+// console.log(todoElement)
 
-btnPlusElement.addEventListener('mouseover', (event) => {
+todoElement.addEventListener('mouseenter', (event) => {
     console.log('Курсор зашел в область кнопки.')
     console.log('event.target: ', event.target)
     console.log('event.relatedTarget: ', event.relatedTarget)
 })
 
-btnPlusElement.addEventListener('mouseout', () => {
+todoElement.addEventListener('mouseleave', () => {
     console.log('Курсор вышел из области кнопки.')
     console.log('event.target: ', event.target)
     console.log('event.relatedTarget: ', event.relatedTarget)
