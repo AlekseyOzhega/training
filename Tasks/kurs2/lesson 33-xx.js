@@ -99,5 +99,5 @@ let todoElement = document.querySelector('.todo')
 // })
 
 todoElement.addEventListener('pointerdown', () => {
-    
+    console.log('pointerdown')
 })
