@@ -93,8 +93,8 @@ let todoElement = document.querySelector('.todo')
 //     console.log('click.')
 // })
 
-todoElement.addEventListener('contextmenu', (event) => {
-    // event.preventDefault()
-    console.log('context menu')
+// todoElement.addEventListener('contextmenu', (event) => {
+//     event.preventDefault()
+//     console.log('context menu')
+// })
 
-})
