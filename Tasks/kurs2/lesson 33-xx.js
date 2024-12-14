@@ -98,6 +98,7 @@ let todoElement = document.querySelector('.todo')
 //     console.log('context menu')
 // })
 
-todoElement.addEventListener('pointerdown', () => {
-    console.log('pointerdown')
-})
+// todoElement.addEventListener('pointerdown', () => {
+//     console.log('pointerdown')
+// })
+
