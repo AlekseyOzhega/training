@@ -85,3 +85,10 @@ let todoElement = document.querySelector('.todo')
 //     console.log('event.target: ', event.target)
 //     console.log('event.relatedTarget: ', event.relatedTarget)
 // })
+
+todoElement.addEventListener('dblclick', () => {
+    console.log('double click.')
+})
+todoElement.addEventListener('click', () => {
+    console.log('click.')
+})
