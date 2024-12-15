@@ -14,5 +14,10 @@ let addCircleElement = (x, y, isRed, label) => {
 };
 
 document.addEventListener('pointerdown', (event) => {
-    
-})
+    console.log(event)
+
+    let { x, y, isPrimary, pointerId } = event
+
+    addCircleElement(x, y, isPrimary, pointerId)
+});
+
