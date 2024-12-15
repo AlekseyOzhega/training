@@ -13,3 +13,6 @@ let addCircleElement = (x, y, isRed, label) => {
     document.insertAdjacentHTML('beforeend', circleElementMarkup)
 };
 
+document.addEventListener('pointerdown', (event) => {
+    
+})
