@@ -6,5 +6,8 @@ body {
 
 .circle {
     position: absolute;
+    width: 50px;
+    aspect-ratio: 1;
+    background-color: dodgerblue;
     
 }
