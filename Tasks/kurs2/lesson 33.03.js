@@ -10,5 +10,6 @@ let addCircleElement = (x, y, isRed, label) => {
     </div>
     `
 
-    document.insertAdjacentHTML('beforeend', )
-}
+    document.insertAdjacentHTML('beforeend', circleElementMarkup)
+};
+
