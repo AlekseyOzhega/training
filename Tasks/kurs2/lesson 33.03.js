@@ -7,5 +7,8 @@ let addCircleElement = (x, y, isRed, label) => {
         style="..."
     >
         <span class="circle__label">${label}</span>
+    </div>
     `
+
+    document.insertAdjacentHTML('beforeend', )
 }
