@@ -38,13 +38,13 @@ section ul li {
     min-height: 8vh;
 }
 
-.anim-li {
+.change-li {
     border: 6px solid rgb(0, 106, 255);
     background-color: black;
 
 }
 
-.anim-li a {
+.change-li a {
     color: gold;
 }
 
