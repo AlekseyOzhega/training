@@ -33,3 +33,7 @@ header a:hover {
     margin: 20px auto;
 }
 
+.first li {
+    padding: 3px;
+    list-style-type: none;
+}

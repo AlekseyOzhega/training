@@ -4,13 +4,16 @@ let addCircleElement = (x, y, isRed, label) => {
     let circleElementMarkup = `
     <div 
         class="circle ${isRed ? 'red' : ''}"
-        style="..."
+        style="
+            top: ${y}px;
+            left: ${x}px;    
+        "
     >
         <span class="circle__label">${label}</span>
     </div>
     `
 
-    document.insertAdjacentHTML('beforeend', circleElementMarkup)
+    document.body.insertAdjacentHTML('beforeend', circleElementMarkup)
 };
 
 document.addEventListener('pointerdown', (event) => {
