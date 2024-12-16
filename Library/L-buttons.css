@@ -33,13 +33,13 @@ section {
 section ul li {
     padding: 12px;
     margin: 5px;
-    border: 6px solid rgb(140, 183, 235);
+    border: 6px solid rgb(45, 58, 74);
     border-radius: 8px;
     min-height: 8vh;
 }
 
 .anim-li {
-    border: 6px solid gold;
+    border: 6px solid rgb(0, 106, 255);
     background-color: black;
 
 }
