@@ -39,13 +39,13 @@ section ul li {
 }
 
 .change-li {
-    border: 6px solid rgb(0, 106, 255);
-    background-color: black;
+    border: 6px solid rgb(25, 104, 182);
+    background-color: rgb(213, 213, 73);
 
 }
 
 .change-li a {
-    color: gold;
+    color: rgb(9, 26, 156);
 }
 
 .title {
