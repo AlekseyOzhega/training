@@ -36,4 +36,10 @@ header a:hover {
 .first li {
     padding: 3px;
     list-style-type: none;
+    font-size: 20px;
+
+}
+
+.first li a {
+    text-decoration: none;
 }
