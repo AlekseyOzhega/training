@@ -1,9 +1,13 @@
 'use strict';
 
 class DragAndDrop {
-    selectors
+    selectors = {
+        root: [data-js-dnd],
+    }
 
-    stateClasses
+    stateClasses = {
+        
+    }
 
     initialState
 }
