@@ -13,5 +13,10 @@ class DragAndDrop {
         offsetX: null,
         offsetY: null,
         isDragging: false,
+        currentDraggingElement: null,
+    }
+
+    constructor() {
+        
     }
 }
