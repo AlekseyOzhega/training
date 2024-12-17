@@ -62,13 +62,15 @@ header a:hover {
 }
 
 .btn {
-    /* margin: 40px 45%; */
-    background-color: aqua;
-    padding: 6px 15px;
+    background-color: rgb(0, 201, 201);
+    padding: 6px 5px;
     font-weight: bolder;
     border: 1px solid black;
     border-radius: 4px;
-    /* margin-bottom: 10px; */
+}
+
+.btn a:hover {
+    color: white;
 }
 
 .btn a {
