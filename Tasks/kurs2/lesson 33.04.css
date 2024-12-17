@@ -34,4 +34,13 @@
     position: absolute;
     z-index: 1;
     cursor: grab;
+    transition-property: scale, opacity;
+    transition-duration: 0.2s;
+    touch-action: none;
+}
+
+.draggable.is-dragging {
+    cursor: grabbing;
+    opacity: 0.5;
+    scale: 1.05;
 }
