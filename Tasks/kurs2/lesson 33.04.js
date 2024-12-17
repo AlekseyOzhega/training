@@ -6,8 +6,12 @@ class DragAndDrop {
     }
 
     stateClasses = {
-        
+        isDragging: 'is-dragging',
     }
 
-    initialState
+    initialState = {
+        offsetX: null,
+        offsetY: null,
+        isDragging: false,
+    }
 }
