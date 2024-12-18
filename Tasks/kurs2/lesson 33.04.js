@@ -22,7 +22,17 @@ class DragAndDrop {
     }
 
     onPoinetDown(event) {
-        let isDraggable = event.target.matches()
+        let isDraggable = event.target.matches(this.selectors.root)
+
+        if (!isDraggable) {
+            return;
+        }
+
+        event.target.classList.add(this.stateClasses.isDragging)
+
+        this.state = {
+            
+        }
     }
     onPoinetMove(event) {}
     onPoinetUp() {}
