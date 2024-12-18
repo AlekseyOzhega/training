@@ -18,9 +18,12 @@ class DragAndDrop {
 
     constructor() {
         this.state = { ...this.initialState}
+        this.bindEvents()
     }
 
     bindEvents() {
-        
+        document.addEventListener('pointerdown', () => {})
+        document.addEventListener('pointermove', () => {})
+        document.addEventListener('pointerup', () => {})
     }
 }
