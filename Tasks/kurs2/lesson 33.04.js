@@ -26,7 +26,7 @@ class DragAndDrop {
         let isDraggable = target.matches(this.selectors.root)
 
         if (!isDraggable) {
-            return;
+            return
         }
 
         target.classList.add(this.stateClasses.isDragging)
@@ -41,7 +41,7 @@ class DragAndDrop {
     }
     onPoinetMove(event) {
         if (!this.state.isDragging) {
-            return;
+            return
         }
 
         let x = event.pageX - this.offsetX
