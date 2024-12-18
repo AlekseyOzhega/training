@@ -35,10 +35,29 @@ class DragAndDrop {
         this.state = {
             offsetX: x - left,
             offsetY: y - top,
+            isDragging: true,
+            currentDraggingElement: target,
         }
     }
-    onPoinetMove(event) {}
-    onPoinetUp() {}
+    onPoinetMove(event) {
+        if (!this.state.isDragging) {
+            return;
+        }
+
+        let x = event.pageX - this.offsetX
+        let y = event.pageY - this.offsetY
+
+        this.state.currentDraggingElement.style.left = '${x}px'
+        this.state.currentDraggingElement.style.top = '${y}px'
+    }
+
+    onPoinetUp() {
+        if (!this.state.isDragging) {
+            return;
+        }
+
+        
+    }
 
     bindEvents() {
         document.addEventListener('pointerdown', (event) => this.onPoinetDown(event))
