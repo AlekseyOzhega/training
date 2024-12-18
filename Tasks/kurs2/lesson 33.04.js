@@ -17,6 +17,10 @@ class DragAndDrop {
     }
 
     constructor() {
+        this.state = { ...this.initialState}
+    }
+
+    bindEvents() {
         
     }
 }
