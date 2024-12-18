@@ -2,7 +2,7 @@
 
 class DragAndDrop {
     selectors = {
-        root: [data-js-dnd],
+        root: '[data-js-dnd]',
     }
 
     stateClasses = {
@@ -56,7 +56,8 @@ class DragAndDrop {
             return;
         }
 
-        
+        this.state.currentDraggingElement.classList.remove(this.stateClasses.isDragging)
+        this.state = { ...this.initialState}
     }
 
     bindEvents() {
@@ -65,3 +66,5 @@ class DragAndDrop {
         document.addEventListener('pointerup', () => this.onPoinetUp())
     }
 }
+
+new DragAndDrop()
