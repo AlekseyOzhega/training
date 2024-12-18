@@ -22,16 +22,19 @@ class DragAndDrop {
     }
 
     onPoinetDown(event) {
-        let isDraggable = event.target.matches(this.selectors.root)
+        let { target, x, y } = event
+        let isDraggable = target.matches(this.selectors.root)
 
         if (!isDraggable) {
             return;
         }
 
-        event.target.classList.add(this.stateClasses.isDragging)
+        target.classList.add(this.stateClasses.isDragging)
+        let {left, top} = target.getBoundingClientRect()
 
         this.state = {
-            
+            offsetX: x - left,
+            offsetY: y - top,
         }
     }
     onPoinetMove(event) {}
