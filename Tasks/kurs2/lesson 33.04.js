@@ -21,9 +21,15 @@ class DragAndDrop {
         this.bindEvents()
     }
 
+    onPoinetDown(event) {
+        let isDraggable = event.target.matches()
+    }
+    onPoinetMove(event) {}
+    onPoinetUp() {}
+
     bindEvents() {
-        document.addEventListener('pointerdown', () => {})
-        document.addEventListener('pointermove', () => {})
-        document.addEventListener('pointerup', () => {})
+        document.addEventListener('pointerdown', (event) => this.onPoinetDown(event))
+        document.addEventListener('pointermove', (event) => this.onPoinetMove(event))
+        document.addEventListener('pointerup', () => this.onPoinetUp())
     }
 }
