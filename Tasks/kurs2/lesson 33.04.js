@@ -25,7 +25,6 @@ class DragAndDrop {
         let { target, x, y } = event
         let isDraggable = target.matches(this.selectors.root)
         console.log(isDraggable)
-        console.log('event:  ', event)
 
         if (!isDraggable) {
             console.log('onPoinetDown off.')
