@@ -26,6 +26,7 @@ class DragAndDrop {
         let isDraggable = target.matches(this.selectors.root)
 
         if (!isDraggable) {
+            console.log('onPoinetDown off.')
             return
         }
 
@@ -67,4 +68,5 @@ class DragAndDrop {
     }
 }
 
-new DragAndDrop()
+let test = new DragAndDrop();
+console.log(test);
