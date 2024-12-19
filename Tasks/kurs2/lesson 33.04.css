@@ -1,3 +1,7 @@
+div {
+    border: 3px solid orange;
+}
+
 .fish {
     width: 13vw;
     height: 13vw;
@@ -5,23 +9,31 @@
     top: 2rem;
     left: 2rem;
     background-color: greenyellow;
+
 }
 
 .chicken {
-    width: 13vw;
-    height: 13vw;
+    width: 14vw;
+    height: 14vw;
     position: fixed;
     top: 1rem;
     left: 10rem;
-    background-image: url(../суслики\ мини2.jpg);
+    background-image: url(../суслики\ мини.jpg);
+    background-position: center;
+
 }
 
 .shrimp {
     width: 13vw;
     height: 13vw;
     position: fixed;
-    top: 8rem;
+    top: 9rem;
     left: 6rem;
+}
+
+.shrimp img {
+    width: 100%;
+    height: 100%;
 }
 
 .cat {
