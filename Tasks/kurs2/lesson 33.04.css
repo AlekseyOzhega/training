@@ -4,6 +4,7 @@
     position: fixed;
     top: 2rem;
     left: 2rem;
+    background-color: greenyellow;
 }
 
 .chicken {
@@ -12,6 +13,7 @@
     position: fixed;
     top: 1rem;
     left: 10rem;
+    background-image: url(../суслики\ мини2.jpg);
 }
 
 .shrimp {
