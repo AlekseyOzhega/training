@@ -29,6 +29,7 @@ div {
     position: fixed;
     top: 9rem;
     left: 6rem;
+    border-color: aqua;
 }
 
 .shrimp img {
