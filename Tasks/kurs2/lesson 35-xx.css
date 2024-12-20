@@ -23,6 +23,12 @@ h1 {
     margin: 5px 15%;
 }
 
+h1:hover {
+    border: 5px solid red;
+    color: red;
+    background-color: black;
+}
+
 
 header {
     padding-top: 20px;
