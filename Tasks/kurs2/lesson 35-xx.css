@@ -18,6 +18,7 @@ h1 {
     color: blueviolet;
     padding: 20px 40px;
     background-color: antiquewhite;
+    border: 5px solid black;
     border-radius: 100vw;
     margin: 5px 15%;
 }
