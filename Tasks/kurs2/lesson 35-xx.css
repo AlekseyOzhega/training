@@ -56,4 +56,14 @@ header a:hover {
     background-position: center;
     background-size: contain;
     position: fixed;
+    left: 4rem;
+    top: 18rem;
+
+}
+
+@keyframes ghost-fly {
+    0% {
+        left: 4rem;
+        top: 6rem;
+    }
 }
