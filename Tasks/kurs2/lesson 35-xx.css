@@ -51,7 +51,6 @@ header a:hover {
 .ghost {
     width: 12rem;
     height: 12rem;
-    border: 3px solid orange;
     background-image: url(../ghost-smile.svg);
     background-position: center;
     background-size: contain;
@@ -62,7 +61,7 @@ header a:hover {
     animation-duration: 12s;
     animation-timeline: 5s;
     animation-iteration-count: infinite;
-
+    animation-timing-function: linear;
 }
 
 @keyframes ghost-fly {
