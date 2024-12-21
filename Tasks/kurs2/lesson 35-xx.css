@@ -59,13 +59,14 @@ header a:hover {
     left: 4rem;
     top: 18rem;
     animation-name: ghost-fly;
-    animation-name: 2s;
+    animation-duration: 12s;
     animation-timeline: 5s;
-    /* transition: position2s; */
+    animation-iteration-count: infinite;
+
 }
 
 @keyframes ghost-fly {
-    0% {
+    from {
         left: 4rem;
         top: 18rem;
     }
@@ -89,7 +90,7 @@ header a:hover {
         left: 14rem;
         top: 18rem;
     }
-    100% {
+    to {
         left: 4rem;
         top: 18rem;
     }
