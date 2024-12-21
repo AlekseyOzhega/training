@@ -56,8 +56,11 @@ header a:hover {
     background-position: center;
     background-size: contain;
     position: fixed;
-    left: 54rem;
-    top: 15rem;
+    left: 4rem;
+    top: 18rem;
+    animation-name: ghost-fly;
+    animation-name: 2s;
+    animation-timeline: 5s;
     /* transition: position2s; */
 }
 
