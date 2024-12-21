@@ -46,4 +46,10 @@ header a {
 
 header a:hover {
     background-color: rgb(36, 187, 247);
-}   
+}
+
+.ghost {
+    width: 12rem;
+    height: 12rem;
+    border: 3px solid orange;
+}
