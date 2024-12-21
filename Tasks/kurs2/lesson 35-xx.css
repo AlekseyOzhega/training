@@ -56,9 +56,9 @@ header a:hover {
     background-position: center;
     background-size: contain;
     position: fixed;
-    left: 4rem;
-    top: 18rem;
-
+    left: 54rem;
+    top: 15rem;
+    /* transition: position2s; */
 }
 
 @keyframes ghost-fly {
@@ -67,15 +67,23 @@ header a:hover {
         top: 18rem;
     }
     25% {
-        left: 4rem;
-        top: 18rem;
+        left: 14rem;
+        top: 14rem;
     }
     50% {
-        left: 4rem;
-        top: 18rem;
+        left: 48rem;
+        top: 19rem;
     }
     75% {
-        left: 4rem;
+        left: 54rem;
+        top: 15rem;
+    }
+    75% {
+        left: 48rem;
+        top: 14rem;
+    }
+    75% {
+        left: 14rem;
         top: 18rem;
     }
     100% {
