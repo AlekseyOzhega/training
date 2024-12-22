@@ -20,6 +20,7 @@ div {
     left: 10rem;
     background-image: url(../суслики\ мини.jpg);
     background-position: center;
+    pointer-events: none;
 
 }
 

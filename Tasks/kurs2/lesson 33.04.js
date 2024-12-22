@@ -107,21 +107,27 @@ class DragAndDrop {
     onPointerDown(event) {
       const { target, x, y } = event
       const isDraggable = target.matches(this.selectors.root)
+
+      console.log('Нажатие ф1.')
   
       if (!isDraggable) {
         return
       }
-  
+      console.log('Нажатие ф1.5')
       target.classList.add(this.stateClasses.isDragging)
   
       const { left, top } = target.getBoundingClientRect()
-  
+      
+      console.log('Нажатие ф2.')
+
       this.state = {
         offsetX: x - left,
         offsetY: y - top,
         isDragging: true,
         currentDraggingElement: target,
       }
+
+      console.log('Нажатие ф3.')
     }
   
     onPointerMove(event) {
