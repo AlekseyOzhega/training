@@ -109,11 +109,11 @@ class DragAndDrop {
       const isDraggable = target.matches(this.selectors.root)
 
       console.log('Нажатие ф1.')
+      console.log(target)
   
       if (!isDraggable) {
         return
       }
-      console.log('Нажатие ф1.5')
       target.classList.add(this.stateClasses.isDragging)
   
       const { left, top } = target.getBoundingClientRect()
