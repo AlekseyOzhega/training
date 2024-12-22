@@ -10,9 +10,9 @@ body {
 .negativ {
     background: repeating-linear-gradient(
         90deg,
-        rgb(4, 84, 57),
-        rgb(7, 170, 116),
-        rgb(208, 244, 255));
+        rgb(85, 4, 12),
+        rgb(174, 174, 174),
+        rgb(238, 238, 238));
 }
 
 section {
