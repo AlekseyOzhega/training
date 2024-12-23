@@ -29,14 +29,14 @@ h1 {
     border: 5px solid black;
     border-radius: 100vw;
     margin: 5px 15%;
-    transition: border 2s;
+    transition: color 2s, border 2s, background-color 2s;
 }
 
 .red-theme {
     border: 5px solid red;
     color: red;
     background-color: black;
-    transition: border 2s;
+    transition: color 2s, border 2s;;
 }
 
 
