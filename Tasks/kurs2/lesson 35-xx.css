@@ -58,6 +58,16 @@ header a:hover {
     background-color: rgb(36, 187, 247);
 }
 
+.btn-ghost {
+    background-color: aqua;
+    padding: 4px;
+
+}
+
+.btn-ghost button {
+    margin: 5px auto;
+}
+
 .ghost {
     width: 12rem;
     height: 12rem;
