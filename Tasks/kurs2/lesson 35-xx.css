@@ -59,13 +59,13 @@ header a:hover {
 }
 
 .btn-ghost {
-    background-color: aqua;
     padding: 4px;
-
 }
 
 .btn-ghost button {
     margin: 5px 47%;
+    padding: 10px;
+    background-color: aqua;
 }
 
 .ghost {
