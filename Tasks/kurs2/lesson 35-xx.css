@@ -35,7 +35,7 @@ h1 {
 .red-theme {
     border: 5px solid red;
     color: red;
-    background-color: black;
+    /* background-color: black; */
     transition: color 5s, border 5s, background-color 0.2s;
 }
 
@@ -66,6 +66,8 @@ header a:hover {
     margin: 5px 47%;
     padding: 10px;
     background-color: aqua;
+    border: 5px solid red;
+    border-radius: 10px;
 }
 
 .ghost {
