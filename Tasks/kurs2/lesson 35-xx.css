@@ -65,7 +65,8 @@ header a:hover {
 .btn-ghost button {
     margin: 5px 47%;
     padding: 10px;
-    background-color: aqua;
+    background-color: black;
+    color: white;
     border: 5px solid red;
     border-radius: 10px;
 }
