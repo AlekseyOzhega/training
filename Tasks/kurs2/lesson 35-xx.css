@@ -54,6 +54,10 @@ header a {
     font-weight: bold;
 }
 
+.another {
+    background-color: rgb(203, 40, 40);
+}
+
 header a:hover {
     background-color: rgb(36, 187, 247);
 }
