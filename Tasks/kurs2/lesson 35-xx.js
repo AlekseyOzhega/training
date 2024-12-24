@@ -5,11 +5,18 @@ let ghostButtonElement = document.querySelector('.btn-ghost');
 let ghostElement = document.querySelector('.ghost');
 let bodyElement = document.body;
 let buttonsAElement = document.querySelectorAll('header a')
-console.log(buttonsAElement)
+
+function changeAllAButtons() {
+    buttonsAElement.forEach(buttonsAElement) {
+        
+    }
+}
 
 ghostButtonElement.addEventListener('click', () => {
     bodyElement.classList.toggle('negativ')
     ghostElement.classList.toggle('is-visible')
     h1Element.classList.toggle('red-theme')
+
+
 })
 
