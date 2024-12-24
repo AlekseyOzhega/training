@@ -76,6 +76,10 @@ header a:hover {
     border-radius: 10px;
 }
 
+.btn-ghost button:hover {
+    cursor: pointer;
+}
+
 .ghost {
     width: 12rem;
     height: 12rem;
