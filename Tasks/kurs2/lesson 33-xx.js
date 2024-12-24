@@ -109,4 +109,4 @@ let todoElement = document.querySelector('.todo')
 
 let massive = ['John', 'Karter', 'Groove', 'Billy', 'Santiago'];
 
-console.log(massive.at(-2));
+// console.log(massive.at(-2));
