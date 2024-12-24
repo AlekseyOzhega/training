@@ -107,3 +107,4 @@ let todoElement = document.querySelector('.todo')
 
 //Повтор
 
+let massive = ['John', 'Karter', 'Billy', 'Santiago']
