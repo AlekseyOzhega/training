@@ -16,7 +16,7 @@ ghostButtonElement.addEventListener('click', () => {
     bodyElement.classList.toggle('negativ')
     ghostElement.classList.toggle('is-visible')
     h1Element.classList.toggle('red-theme')
-
+    changeAllAButtons()
 
 })
 
