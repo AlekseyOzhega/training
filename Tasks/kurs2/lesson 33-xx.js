@@ -107,4 +107,6 @@ let todoElement = document.querySelector('.todo')
 
 //Повтор
 
-let massive = ['John', 'Karter', 'Billy', 'Santiago']
+let massive = ['John', 'Karter', 'Groove', 'Billy', 'Santiago'];
+
+console.log(massive.at(-2));
