@@ -7,9 +7,9 @@ let bodyElement = document.body;
 let buttonsAElement = document.querySelectorAll('header a')
 
 function changeAllAButtons() {
-    buttonsAElement.forEach(buttonsAElement) {
-        
-    }
+    buttonsAElement.forEach((buttonsAElement) => {
+        buttonsAElement.classList.toggle('another')
+    }) 
 }
 
 ghostButtonElement.addEventListener('click', () => {
