@@ -45,7 +45,10 @@ li {
     padding: 3px;
     list-style-type: none;
     font-size: 20px;
+}
 
+li:hover {
+    list-style-type: circle;
 }
 
 .first li a {
