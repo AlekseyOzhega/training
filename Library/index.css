@@ -35,6 +35,12 @@ header a:hover {
     justify-content: space-around;
 }
 
+ul {
+    border: 1px solid black;
+    border-radius: 9px;
+    padding: 13px;
+}
+
 li {
     padding: 3px;
     list-style-type: none;
