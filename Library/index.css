@@ -31,9 +31,11 @@ header a:hover {
     min-height: 60vh;
     width: 80vw;
     margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
 }
 
-.first li {
+li {
     padding: 3px;
     list-style-type: none;
     font-size: 20px;
