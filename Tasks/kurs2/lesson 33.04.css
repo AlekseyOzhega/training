@@ -2,14 +2,14 @@ div {
     border: 3px solid orange;
 }
 
-.fish {
+.aqua {
     width: 13vw;
     height: 13vw;
     position: fixed;
     top: 2rem;
     left: 2rem;
     background-color: greenyellow;
-
+    border-color: aqua;
 }
 
 .red {
