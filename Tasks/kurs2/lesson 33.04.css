@@ -12,7 +12,7 @@ div {
 
 }
 
-.chick {
+.red {
     width: 14vw;
     height: 14vw;
     position: fixed;
@@ -20,7 +20,7 @@ div {
     left: 10rem;
     background-image: url(../суслики\ мини.jpg);
     background-position: center;
-
+    border-color: red;
 }
 
 .shrimp {
