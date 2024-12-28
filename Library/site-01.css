@@ -16,5 +16,6 @@ header {
 }
 
 .header-btns {
+    width: 60%;
     background-color: aquamarine;
 }
