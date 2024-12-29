@@ -28,12 +28,19 @@ header {
     height: 100%;
     margin: 0;
     padding: 0;
+    padding-bottom: 4px;
     border: 0;
     display: flex;
     justify-content: center;
     align-items: end;
 }
 
+.empty {
+    height: 1rem;
+    background-color: blue;
+}
+
 .header-btns .button:hover {
     background-color: rgb(122, 239, 200);
+    padding-bottom: 0px;
 }
