@@ -29,3 +29,7 @@ header {
     padding: 0;
     border: 0;
 }
+
+.header-btns .button:hover {
+    background-color: rgb(122, 239, 200);
+}
