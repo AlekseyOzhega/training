@@ -20,6 +20,7 @@ header {
     background-color: aquamarine;
     padding: 0;
     display: flex;
+    justify-content: space-between;
 }
 
 .header-btns .button {
@@ -29,7 +30,7 @@ header {
     padding: 0;
     border: 0;
     text-align: center;
-    
+
 }
 
 .header-btns .button:hover {
