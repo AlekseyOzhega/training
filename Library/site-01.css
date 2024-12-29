@@ -18,8 +18,13 @@ header {
 .header-btns {
     width: 60%;
     background-color: aquamarine;
+    padding: 0;
 }
 
 .header-btns button {
-    
+    width: 20%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
