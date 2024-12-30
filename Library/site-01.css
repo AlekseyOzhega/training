@@ -41,6 +41,11 @@ header {
 }
 
 .header-btns .button:hover {
-    background-color: rgb(122, 239, 200);
+    background-color: rgb(50, 149, 116);
+    color: white;
     padding-bottom: 0px;
+}
+
+.header-btns .button:active {
+    background-color: rgb(50, 149, 116);
 }
