@@ -23,7 +23,7 @@ header {
 
 }
 
-.header-btns .button {
+.header-btns .nav-button {
     width: 20%;
     height: 100%;
     margin: 0;
@@ -48,12 +48,12 @@ header {
     margin: 0 auto;
 }
 
-.header-btns .button:hover {
+.header-btns .nav-button:hover {
     background-color: rgb(50, 149, 116);
     color: white;
     padding-bottom: 0px;
 }
 
-.header-btns .button:active {
+.header-btns .nav-button:active {
     background-color: rgb(55, 160, 125);
 }
