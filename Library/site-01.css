@@ -38,7 +38,6 @@ header {
 
 .empty {
     height: 1rem;
-    background-color: blue;
 }
 
 .header-btns .button:hover {
