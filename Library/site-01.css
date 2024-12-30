@@ -31,8 +31,9 @@ header {
     padding-bottom: 4px;
     border: 0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: end;
+    /* align-items: end; */
 }
 
 .empty {
@@ -47,5 +48,5 @@ header {
 }
 
 .header-btns .button:active {
-    background-color: rgb(50, 149, 116);
+    background-color: rgb(55, 160, 125);
 }
