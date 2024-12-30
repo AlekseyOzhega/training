@@ -36,8 +36,16 @@ header {
     /* align-items: end; */
 }
 
-.empty {
+.empty1 {
+    height: 70%;
+}
+
+.empty2 {
     height: 1rem;
+}
+
+.title-nav {
+    margin: 0 auto;
 }
 
 .header-btns .button:hover {
