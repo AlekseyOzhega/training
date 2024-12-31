@@ -13,6 +13,11 @@ header {
     width: 40%;
     height: 100%;
     background-color: rgb(224, 255, 245);
+    padding: 0;
+}
+
+.logo-box p {
+    margin: 40% 10% 0 30%;
 }
 
 .header-btns {
