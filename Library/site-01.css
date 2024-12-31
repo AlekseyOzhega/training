@@ -14,10 +14,15 @@ header {
     height: 100%;
     background-color: rgb(224, 255, 245);
     padding: 0;
+    font-size: 1.5rem;
 }
 
 .logo-box p {
-    margin: 40% 10% 0 30%;
+    margin: 4px 0 0 30%;
+}
+
+.logo-box p:first-child {
+    margin-top: 6%;
 }
 
 .header-btns {
