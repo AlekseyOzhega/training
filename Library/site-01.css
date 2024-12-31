@@ -9,7 +9,7 @@ header {
     display: flex;
 }
 
-.logo {
+.logo-box {
     width: 40%;
     height: 100%;
     background-color: rgb(224, 255, 245);
@@ -56,5 +56,5 @@ header {
 }
 
 .header-btns .nav-button:active {
-    background-color: rgb(55, 160, 125);
+    background-color: rgb(64, 181, 142);
 }
