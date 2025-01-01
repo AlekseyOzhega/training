@@ -4,7 +4,6 @@ body {
 }
 
 header {
-    background-color: aqua;
     height: 15vh;
     display: flex;
 }
@@ -18,7 +17,7 @@ header {
 }
 
 .logo p:last-child {
-    margin-bottom: 5px;
+    margin-bottom: 55px;
 }
 
 .logo-box p {
@@ -28,7 +27,7 @@ header {
 }
 
 .logo-box p:first-child {
-    margin-top: 6%;
+    margin-top: 3%;
     font-size: 1.7rem;
 
 }
