@@ -19,11 +19,13 @@ header {
 
 .logo-box p {
     margin: 0px 0 0 20%;
+    font-weight: bold;
 }
 
 .logo-box p:first-child {
     margin-top: 6%;
     font-size: 1.7rem;
+
 }
 
 .logo-box p span {
