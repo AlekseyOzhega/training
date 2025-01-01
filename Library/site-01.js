@@ -8,4 +8,7 @@ document.addEventListener('pointerdown', (event) => {
     if (event.target == btnNavElements) {
         console.log('bingo')
     }
+
+    console.log('not bingo')
+    console.log('event.target: ', event.target)
 })
