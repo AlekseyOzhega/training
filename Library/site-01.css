@@ -17,9 +17,14 @@ header {
     font-size: 1rem;
 }
 
+.logo {
+    padding-bottom: 5px;
+}
+
 .logo-box p {
     margin: 0px 0 0 20%;
     font-weight: bold;
+    opacity: 0.6;
 }
 
 .logo-box p:first-child {
