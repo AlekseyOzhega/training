@@ -1,4 +1,5 @@
 'use strik';
 
 let btnNavElements = document.querySelectorAll('.nav-button');
-console.log(btnNavElements);
+let titleNavElements = document.querySelectorAll('.title-nav');
+console.log(titleNavElements);
