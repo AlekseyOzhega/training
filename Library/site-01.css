@@ -54,6 +54,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    transition: zoom 2s;
     /* align-items: end; */
 }
 
@@ -74,8 +75,11 @@ header {
     color: white;
     padding-bottom: 0px;
     cursor: pointer;
+    zoom: 1.6;
+    transition: zoom 2s;
 }
 
 .header-btns .nav-button:active {
     background-color: rgb(64, 181, 142);
+
 }
