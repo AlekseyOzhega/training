@@ -75,8 +75,11 @@ header {
     color: white;
     padding-bottom: 0px;
     cursor: pointer;
-    zoom: 1.6;
-    transition: zoom 2s;
+
+}
+
+.header-btns .nav-button:hover title-nav {
+    color: blanchedalmond;
 }
 
 .header-btns .nav-button:active {
