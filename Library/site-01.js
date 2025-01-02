@@ -4,14 +4,16 @@ let btnNavElements = document.querySelectorAll('.nav-button');
 let titleNavElements = document.querySelectorAll('.title-nav');
 console.log(titleNavElements);
 
-// document.addEventListener('pointerdown', (event) => {
-//     if (event.target.matches('.nav-button')) {
-//         console.log('bingo')
-//     }
+document.addEventListener('pointerdown', (event) => {
+    let btnElement = event.target.closest('.title-nav');
 
-//     console.log('not bingo')
-//     console.log('event.target: ', event.target)
-// })
+    if (btnElement) {
+        console.log('bingo')
+    }
+
+    console.log('not bingo')
+    console.log('event.target: ', event.target)
+})
 
 
 let onBtnNavElements = (btnNavElements) => {
