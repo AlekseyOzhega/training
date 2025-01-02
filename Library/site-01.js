@@ -13,10 +13,11 @@ console.log(titleNavElements);
 //     console.log('event.target: ', event.target)
 // })
 
-function btnNavF () {
-    btnNavElements.forEach(btnNavElements) => {
-        btnNavElements.addEventListener('click', function() {
-            event.stopPropagation()
-        })
-    }
-}
+// function btnNavF () {
+//     btnNavElements.forEach(btnNavElements) => {
+//         btnNavElements.addEventListener('click', function() {
+//             event.stopPropagation()
+//         })
+//     }
+// }
+
