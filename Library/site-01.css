@@ -70,6 +70,10 @@ header {
     margin: 0 auto;
 }
 
+.title-nav:hover {
+    scale: 1.6;
+}
+
 .header-btns .nav-button:hover {
     background-color: rgb(50, 149, 116);
     color: white;
