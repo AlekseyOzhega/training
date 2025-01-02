@@ -15,6 +15,8 @@ console.log(titleNavElements);
 
 function btnNavF () {
     btnNavElements.forEach(btnNavElements) {
-        btnNavElements.addEventListener
+        btnNavElements.addEventListener('click' function() {
+            event.stopPropagation()
+        })
     }
 }
