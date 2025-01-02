@@ -14,6 +14,6 @@ console.log(titleNavElements);
 // })
 
 
-let onTodoItemClick = (todoItemElement) => {
-    todoItemElement.classList.toggle('green')
+let onBtnNavElements = (btnNavElements) => {
+    btnNavElements.classList.toggle('green')
 };
