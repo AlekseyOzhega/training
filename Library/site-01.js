@@ -5,7 +5,7 @@ let titleNavElements = document.querySelectorAll('.title-nav');
 console.log(titleNavElements);
 
 document.addEventListener('pointerdown', (event) => {
-    if (event.target == btnNavElements) {
+    if (event.target.matches('.nav-button')) {
         console.log('bingo')
     }
 
