@@ -10,7 +10,11 @@ document.addEventListener('pointerover', (event) => {
 
     if (btnElement) {
         let btnTitleElement = event.target.querySelector('.title-nav');
-        btnTitleElement.classList.toggle('green')
+        console.log(btnTitleElement);
+        if (btnTitleElement) {
+            btnTitleElement.classList.toggle('title-nav-hov')
+        }
+        
     } else {
 
     }
