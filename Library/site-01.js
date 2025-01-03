@@ -11,7 +11,6 @@ document.addEventListener('click', (event) => {
         console.log('bingo!!!')
     } else {
         console.log('not bingo')
-        console.log('event.target: ', event.target)
     }
 
 
