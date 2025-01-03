@@ -2,15 +2,16 @@
 
 let btnNavElements = document.querySelectorAll('.nav-button');
 let titleNavElements = document.querySelectorAll('.title-nav');
-console.log(titleNavElements);
 
-document.addEventListener('click', (event) => {
-    let btnElement = event.target.closest('.title-nav');
+
+document.addEventListener('pointerover', (event) => {
+    let btnElement = event.target.closest('.nav-button');
+    console.log(event)
 
     if (btnElement) {
         console.log('bingo!!!')
     } else {
-        console.log('not bingo')
+
     }
 
 

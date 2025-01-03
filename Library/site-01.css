@@ -71,7 +71,7 @@ header {
     transition: scale 1s;
 }
 
-.title-nav:hover {
+.title-nav-hov {
     scale: 1.6;
     transition: scale 1s;
 }
