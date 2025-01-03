@@ -6,10 +6,11 @@ let titleNavElements = document.querySelectorAll('.title-nav');
 
 document.addEventListener('pointerover', (event) => {
     let btnElement = event.target.closest('.nav-button');
-    console.log(event)
+
 
     if (btnElement) {
-        console.log('bingo!!!')
+        let btnTitleElement = event.target.querySelector('.title-nav');
+        btnTitleElement.classList.toggle('green')
     } else {
 
     }
