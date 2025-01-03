@@ -7,22 +7,24 @@ let titleNavElements = document.querySelectorAll('.title-nav');
 document.addEventListener('pointerover', (event) => {
     let btnElement = event.target.closest('.nav-button');
 
-
     if (btnElement) {
-        let btnTitleElement = event.target.querySelector('.title-nav');
+        let btnTitleElement = btnElement.querySelector('.title-nav');
         console.log(btnTitleElement);
         if (btnTitleElement) {
-            btnTitleElement.classList.toggle('title-nav-hov')
+            btnTitleElement.classList.add('title-nav-hov')
         }
-        
-    } else {
-
     }
-
-
 })
 
+document.addEventListener('pointerout', (event) => {
+    let btnElement = event.target.closest('.nav-button');
 
-let onBtnNavElements = (btnNavElements) => {
-    btnNavElements.classList.toggle('green')
-};
+    if (btnElement) {
+        let btnTitleElement = btnElement.querySelector('.title-nav');
+        console.log(btnTitleElement);
+        if (btnTitleElement) {
+            btnTitleElement.classList.remove('title-nav-hov')
+        }
+    }
+})
+
