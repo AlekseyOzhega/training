@@ -93,6 +93,22 @@ header {
 
 }
 
+.slider {
+    width: 100%;
+    height: 50vh;
+    background-color: bisque;
+}
+
+.btn-sli-left {
+    width: 30vw;
+    height: 100%;
+    background-color: azure;
+    padding: 4vw 4vh;
+}
+
+
+
+
 .green {
     background-color: greenyellow;
 }
