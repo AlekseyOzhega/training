@@ -68,12 +68,16 @@ header {
 
 .title-nav {
     margin: 0 auto;
-    transition: scale 1s;
+    position: fixed;
+    top: 3.5rem;
+    left: 12rem;
+    transition: scale 0.5s;
 }
 
 .title-nav-hov {
-    scale: 1.6;
-    transition: scale 1s;
+    scale: 1.8;
+    top: 3rem;
+    transition: scale 0.5s;
 }
 
 .header-btns .nav-button:hover {
