@@ -96,6 +96,8 @@ header {
 .slider {
     width: 100vw;
     height: 50vh;
+    display: flex;
+    justify-content: space-between;
     background-color: bisque;
 }
 
@@ -108,17 +110,27 @@ header {
 .btn-sli-left {
     font-size: 8rem;
     font-weight: 900;
-    background-color: rgb(213, 189, 236);
+    /* background-color: rgb(213, 189, 236); */
     color: rgb(177, 15, 15);
     padding-top: 6rem;
     padding-left: 11rem;
 }
 
+.btn-sli-left:hover {
+    font-size: 9rem;
+    cursor: pointer;
+}
+
 .btn-sli-right {
     font-size: 8rem;
     font-weight: 900;
-    background-color: rgb(213, 189, 236);
+    /* background-color: rgb(213, 189, 236); */
     color: rgb(177, 15, 15);
+}
+
+.btn-sli-right:hover {
+    font-size: 9rem;
+    cursor: pointer;
 }
 
 .sli-info {
