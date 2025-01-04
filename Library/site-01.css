@@ -99,11 +99,12 @@ header {
     background-color: bisque;
 }
 
-.btn-sli-left {
-    width: 30vw;
+.btn-sli {
+    width: 25vw;
     height: 100%;
     background-color: azure;
     padding: 4vw 4vh;
+    font-size: 7rem;
 }
 
 
