@@ -108,9 +108,10 @@ header {
 }
 
 .btn-sli-left {
+    width: 1rem;
     font-size: 8rem;
     font-weight: 900;
-    /* background-color: rgb(213, 189, 236); */
+    background-color: rgb(213, 189, 236);
     color: rgb(177, 15, 15);
     padding-top: 6rem;
     padding-left: 11rem;
