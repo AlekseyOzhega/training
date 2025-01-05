@@ -103,6 +103,7 @@ header {
 
 .btn-sli {
     width: 25vw;
+    margin: 20px;
     /* height: 100%; */
     background-color: azure;
 }
