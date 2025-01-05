@@ -112,11 +112,10 @@ header {
     /* width: 1rem; */
     font-size: 8rem;
     font-weight: 900;
-    background-color: rgb(213, 189, 236);
     color: rgb(177, 15, 15);
     text-align: end;
     position: fixed;
-    left: 15rem;
+    left: 14rem;
 }
 
 .btn-sli-left:hover {
@@ -124,17 +123,27 @@ header {
     cursor: pointer;
 }
 
+.btn-sli-left:active {
+    left: 13rem;
+}
+
 .btn-sli-right {
     font-size: 8rem;
     font-weight: 900;
-    /* background-color: rgb(213, 189, 236); */
     color: rgb(177, 15, 15);
+    position: fixed;
+    right: 14rem;
 }
 
 .btn-sli-right:hover {
-    font-size: 9rem;
+    scale: 1.2;
     cursor: pointer;
 }
+
+.btn-sli-right:active {
+    right: 13rem;
+}
+
 
 .sli-info {
     width: 60vw;
