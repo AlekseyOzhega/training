@@ -103,13 +103,13 @@ header {
 
 .btn-sli {
     width: 25vw;
-    margin: 20px;
+    margin: 30px 30px;
     /* height: 100%; */
     background-color: azure;
 }
 
 .btn-sli-left {
-    width: 1rem;
+    /* width: 1rem; */
     font-size: 8rem;
     font-weight: 900;
     background-color: rgb(213, 189, 236);
