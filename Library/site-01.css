@@ -102,7 +102,7 @@ header {
 }
 
 .btn-sli {
-    width: 25vw;
+    /* width: 25vw; */
     margin: 60px 50px;
     /* height: 100%; */
     background-color: azure;
@@ -115,7 +115,7 @@ header {
     color: rgb(177, 15, 15);
     text-align: end;
     position: fixed;
-    left: 14rem;
+    left: 10rem;
 }
 
 .btn-sli-left:hover {
@@ -124,7 +124,7 @@ header {
 }
 
 .btn-sli-left:active {
-    left: 13rem;
+    left: 9rem;
 }
 
 .btn-sli-right {
@@ -132,7 +132,7 @@ header {
     font-weight: 900;
     color: rgb(177, 15, 15);
     position: fixed;
-    right: 14rem;
+    right: 10rem;
 }
 
 .btn-sli-right:hover {
@@ -141,7 +141,7 @@ header {
 }
 
 .btn-sli-right:active {
-    right: 13rem;
+    right: 9rem;
 }
 
 
