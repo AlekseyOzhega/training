@@ -103,7 +103,7 @@ header {
 
 .btn-sli {
     width: 25vw;
-    margin: 60px 60px;
+    margin: 60px 50px;
     /* height: 100%; */
     background-color: azure;
 }
@@ -115,12 +115,11 @@ header {
     background-color: rgb(213, 189, 236);
     color: rgb(177, 15, 15);
     text-align: end;
-    /* padding-top: 6rem;
-    padding-left: 11rem; */
+    position: fixed;
+    left: 15rem;
 }
 
 .btn-sli-left:hover {
-    /* font-size: 9rem; */
     scale: 1.2;
     cursor: pointer;
 }
@@ -138,7 +137,7 @@ header {
 }
 
 .sli-info {
-    width: 40vw;
+    width: 60vw;
     height: 48vh;
     background-color: aqua;
 }
