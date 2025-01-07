@@ -98,7 +98,7 @@ header {
     height: 50vh;
     display: flex;
     justify-content: space-between;
-    margin-top: 1rem;
+    padding-top: 1rem;
 }
 
 .btn-sli {
@@ -148,7 +148,31 @@ header {
 .sli-info {
     width: 60vw;
     height: 48vh;
+    border: 2px solid blue;
     background-color: aqua;
+    display: flex;
+
+}
+
+.sli-text {
+    width: 60%;
+    height: 100%;
+    background-color: azure;
+}
+
+.sli-img {
+    width: 40%;
+    height: 100%;
+    background-color: blanchedalmond;
+}
+
+.sli-img img {
+    width: 20vw;
+    height: 20vw;
+    border: 15px solid rgb(50, 149, 116);
+    border-radius: 100vw;
+    position: fixed;
+    left: 45rem;
 }
 
 
