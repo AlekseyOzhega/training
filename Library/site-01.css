@@ -108,8 +108,9 @@ header {
 .btn-sli-left {
     font-size: 8rem;
     font-weight: 900;
-    background-color: aqua;
 
+
+    padding-top: 5rem;
 
 
     /* text-align: end;
