@@ -142,24 +142,26 @@ header {
 
 .sli-info {
     width: 60vw;
-    height: 48vh;
+    height: 49vh;
     border: 2px solid blue;
     background-color: aqua;
     display: flex;
+    overflow: scroll;
 }
 
 .sli-block-info{
     display: flex;
+
 }
 
 .sli-text {
-    width: 60vw;
+    width: 35vw;
     height: 100%;
     background-color: azure;
 }
 
 .sli-img {
-    width: 40vw;
+    width: 24vw;
     height: 100%;
     background-color: blanchedalmond;
 }
