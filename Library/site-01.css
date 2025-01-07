@@ -108,14 +108,8 @@ header {
 .btn-sli-left {
     font-size: 8rem;
     font-weight: 900;
-
-
-    padding-top: 5rem;
-
-
-    /* text-align: end;
-    position: fixed;
-    left: 10rem; */
+    padding-top: 5.5rem;
+    padding-left: 2rem;
 }
 
 .btn-sli-left:hover {
@@ -124,16 +118,15 @@ header {
 }
 
 .btn-sli-left:active {
-    /* left: 9rem; */
-    scale: 1.4;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .btn-sli-right {
     font-size: 8rem;
     font-weight: 900;
-    color: rgb(177, 15, 15);
-    /* position: fixed;
-    right: 8rem; */
+    padding-top: 5.5rem;
+    padding-right: 2rem;
 }
 
 .btn-sli-right:hover {
@@ -142,8 +135,8 @@ header {
 }
 
 .btn-sli-right:active {
-    /* right: 7rem; */
-    scale: 1.4;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 
