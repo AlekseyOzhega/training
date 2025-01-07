@@ -167,12 +167,10 @@ header {
 }
 
 .sli-img img {
-    width: 20vw;
-    height: 20vw;
+    width: 19vw;
+    height: 19vw;
     border: 15px solid rgb(50, 149, 116);
     border-radius: 100vw;
-    position: fixed;
-    left: 45rem;
 }
 
 
