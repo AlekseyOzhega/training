@@ -146,17 +146,20 @@ header {
     border: 2px solid blue;
     background-color: aqua;
     display: flex;
+}
 
+.sli-block-info{
+    display: flex;
 }
 
 .sli-text {
-    width: 60%;
+    width: 60vw;
     height: 100%;
     background-color: azure;
 }
 
 .sli-img {
-    width: 40%;
+    width: 40vw;
     height: 100%;
     background-color: blanchedalmond;
 }
