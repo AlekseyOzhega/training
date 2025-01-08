@@ -185,10 +185,19 @@ header {
     height: 60vh;
     background-color: aquamarine;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    padding: 1rem;
 }
 
+.news article {
+    width: 30%;
+    height: 100%;
+    background-color: chartreuse;
+}
 
+.news article:first-child {
+    margin-right: 2rem;
+}
 
 
 
