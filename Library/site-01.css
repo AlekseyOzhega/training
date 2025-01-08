@@ -157,6 +157,8 @@ header {
 
 .sli-text p {
     text-indent: 10%;
+    text-align: justify;
+    text-justify: auto;
 } 
 
 .sli-img {
