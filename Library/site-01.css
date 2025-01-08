@@ -102,11 +102,13 @@ header {
     font-weight: 900;
     padding-top: 5.5rem;
     padding-left: 2rem;
+    transition: scale .5s;
 }
 
 .btn-sli-left:hover {
     scale: 1.2;
     cursor: pointer;
+    transition: scale .5s;
 }
 
 .btn-sli-left:active {
@@ -119,11 +121,13 @@ header {
     font-weight: 900;
     padding-top: 5.5rem;
     padding-right: 2rem;
+    transition: scale .5s;
 }
 
 .btn-sli-right:hover {
     scale: 1.2;
     cursor: pointer;
+    transition: scale .5s;
 }
 
 .btn-sli-right:active {
