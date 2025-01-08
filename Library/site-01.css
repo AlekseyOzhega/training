@@ -155,6 +155,10 @@ header {
     font-size: 1.05rem;
 }
 
+.sli-text p {
+    text-indent: 10%;
+} 
+
 .sli-img {
     width: 22vw;
     height: 100%;
