@@ -84,10 +84,6 @@ header {
 
 }
 
-.header-btns .nav-button:hover title-nav {
-    color: blanchedalmond;
-}
-
 .header-btns .nav-button:active {
     background-color: rgb(64, 181, 142);
 
@@ -99,10 +95,6 @@ header {
     display: flex;
     justify-content: center;
     padding-top: 1rem;
-}
-
-.btn-sli {
-    background-color: azure;
 }
 
 .btn-sli-left {
@@ -143,8 +135,6 @@ header {
 .sli-info {
     width: 60vw;
     height: 49vh;
-    border: 2px solid blue;
-    background-color: aqua;
     display: flex;
     overflow: scroll;
 }
@@ -157,15 +147,14 @@ header {
 .sli-text {
     width: 35vw;
     height: 100%;
-    background-color: azure;
     padding: 0.5rem;
+    font-size: 1.05rem;
 }
 
 .sli-img {
     width: 22vw;
     height: 100%;
-    background-color: blanchedalmond;
-    padding-left: .5rem;
+    padding: 0 .5rem;
 }
 
 .sli-img img {
@@ -173,6 +162,12 @@ header {
     height: 19vw;
     border: 15px solid rgb(50, 149, 116);
     border-radius: 100vw;
+    transition: border .5s;
+}
+
+.sli-img img:hover {
+    border: 15px solid rgb(20, 208, 145);
+    transition: border .5s;
 }
 
 
