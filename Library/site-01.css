@@ -197,7 +197,7 @@ header {
 
 .news article {
     width: 30%;
-    height: 59vh;
+    /* height: 59vh; */
     background-color: chartreuse;
 }
 
