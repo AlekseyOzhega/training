@@ -94,7 +94,7 @@ header {
     height: 50vh;
     display: flex;
     justify-content: center;
-    padding-top: 1rem;
+    padding-top: 3rem;
 }
 
 .btn-sli-left {
@@ -161,6 +161,12 @@ header {
     text-justify: auto;
 } 
 
+.heading {
+    font-size: larger;
+    font-family: cursive;
+    font-weight: bold;
+}
+
 .sli-img {
     width: 22vw;
     height: 100%;
@@ -186,7 +192,7 @@ header {
     background-color: aquamarine;
     display: flex;
     justify-content: center;
-    padding: 1rem;
+    padding-top: 3rem;
 }
 
 .news article {
@@ -199,11 +205,27 @@ header {
     margin-right: 2rem;
 }
 
+.common-news {
+    padding: 1rem;
+}
+
+.common-news-box {
+    border: 2px solid blue;
+    
+}
 
 
 
 
 
+footer {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.footer-text {
+    text-align: center;
+}
 
 .green {
     background-color: greenyellow;
