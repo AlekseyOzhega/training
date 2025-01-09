@@ -197,7 +197,7 @@ header {
 
 .news article {
     width: 30%;
-    height: 100%;
+    height: 59vh;
     background-color: chartreuse;
 }
 
@@ -212,7 +212,7 @@ header {
 .common-news-box {
     border: 2px solid blue;
     width: 90%;
-    height: 25%;
+    height: 18vh;
     margin: .4rem auto;
 }
 
