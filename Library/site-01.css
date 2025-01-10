@@ -90,6 +90,9 @@ header {
 
 }
 
+
+
+
 .slider {
     width: 100vw;
     height: 50vh;
@@ -139,7 +142,7 @@ header {
 
 .sli-info {
     width: 62vw;
-    height: 49vh;
+    height: 42vh;
     display: flex;
     overflow: scroll;
 }
