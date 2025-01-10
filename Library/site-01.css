@@ -216,8 +216,9 @@ header {
 .common-news-box {
     border: 2px solid blue;
     width: 90%;
-    height: 17vh;
-    margin: .6rem auto;
+    height: 15vh;
+    margin: .7rem auto;
+    background-color: white;
 }
 
 
