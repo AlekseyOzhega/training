@@ -220,7 +220,8 @@ header {
 
 .main-news-box-title .image {
     background-image: url(../Tasks/суслики\ мини2.jpg);
-    background-clip: border-box;
+    background-repeat: no-repeat;
+    background-clip: padding-box;
     width: 7rem;
     height: 7rem;
     border: 1px solid blue;
