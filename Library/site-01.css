@@ -215,11 +215,13 @@ header {
 
 .main-news-box-title {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .main-news-box-title .image {
-    
+    width: 7rem;
+    height: 7rem;
+    border: 1px solid blue;
 }
 
 .common-news-box {
