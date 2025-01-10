@@ -218,7 +218,9 @@ header {
     justify-content: space-between;
 }
 
-
+.main-news-box-title .image {
+    
+}
 
 .common-news-box {
     border: 2px solid blue;
