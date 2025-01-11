@@ -144,7 +144,7 @@ header {
     width: 62vw;
     height: 42vh;
     display: flex;
-    overflow: scroll;
+    overflow: hidden;
 }
 
 .sli-block-info{
@@ -176,6 +176,7 @@ header {
     height: 100%;
     padding: 0 .5rem;
     margin-right: 2rem;
+    margin-left: 1rem;
 }
 
 .sli-img img {
@@ -256,46 +257,8 @@ background-size: cover;
     width: 17rem;
     height: 17rem;
     background-color: paleturquoise;
-    clip-path: circle(4rem);
-    animation: animateClipPath 2s infinite alternate;
+    clip-path: inset(2rem);
 }
-
-@keyframes animateClipPath {
-    from {
-        clip-path: ellipse(4rem farthest-side at left);
-    }
-    10% {
-        clip-path: ellipse(5rem farthest-side at left);
-    }
-    20% {
-        clip-path: ellipse(6rem farthest-side at left);
-    }
-    30% {
-        clip-path: ellipse(7rem farthest-side at left);
-    }
-    40% {
-        clip-path: ellipse(8rem farthest-side at left);
-    }
-    50% {
-        clip-path: ellipse(10rem farthest-side at left);
-    }
-    60% {
-        clip-path: ellipse(12rem farthest-side at left);
-    }
-    70% {
-        clip-path: ellipse(13rem farthest-side at left);
-    }
-    80% {
-        clip-path: ellipse(14rem farthest-side at left);
-    }
-    90% {
-        clip-path: ellipse(15rem farthest-side at left);
-    }
-    100% {
-        clip-path: ellipse(16rem farthest-side at left);
-    }
-}
-
 
 
 
