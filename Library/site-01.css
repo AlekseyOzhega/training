@@ -243,6 +243,12 @@ background-size: cover;
     padding: 2rem;
 }
 
+.test {
+    width: 17rem;
+    height: 17rem;
+    background-color: azure;
+}
+
 footer {
     padding-top: 2rem;
     padding-bottom: 1rem;
