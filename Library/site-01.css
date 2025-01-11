@@ -257,13 +257,10 @@ background-size: cover;
     height: 17rem;
     background-color: paleturquoise;
     clip-path: ellipse(4rem farthest-side at left);
-    transition: clip-path 1s;
+
 }
 
-.test2:hover {
-    clip-path: ellipse(16rem farthest-side at left);
-    transition: clip-path 1s;
-}
+
 
 
 
