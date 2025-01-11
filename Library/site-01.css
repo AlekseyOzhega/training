@@ -237,7 +237,11 @@ background-size: cover;
 
 
 
-
+.old-articles {
+    height: 60vh;
+    background-color: beige;
+    padding: 2rem;
+}
 
 footer {
     padding-top: 2rem;
