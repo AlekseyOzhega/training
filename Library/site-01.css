@@ -256,6 +256,11 @@ background-size: cover;
     width: 17rem;
     height: 17rem;
     background-color: paleturquoise;
+    clip-path: ellipse(4rem farthest-side at left);
+}
+
+.test2:hover {
+    
 }
 
 
