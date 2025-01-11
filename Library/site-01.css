@@ -240,14 +240,25 @@ background-size: cover;
 .old-articles {
     height: 60vh;
     background-color: beige;
-    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .test {
     width: 17rem;
     height: 17rem;
-    background-color: azure;
+    clip-path: circle(54%);
+    margin-right: 2rem;
 }
+
+.test2 {
+    width: 17rem;
+    height: 17rem;
+    background-color: paleturquoise;
+}
+
+
 
 footer {
     padding-top: 2rem;
