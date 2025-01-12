@@ -266,12 +266,19 @@ background-size: cover;
 
 .container {
     display: flex;
-    overflow: scroll;
+    /* overflow: scroll; */
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    position: relative;
+    width: 100%;
+    padding-left: calc(50vw - 50%);
 }
 
 .item1, .item2, .item3 {
+    flex-shrink: 0;
     display: flex;
-
+    
 }
 
 
