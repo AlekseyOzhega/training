@@ -266,14 +266,12 @@ background-size: cover;
 
 .container {
     display: flex;
-    /* overflow: scroll; */
     overflow-x: auto;
     scroll-behavior: smooth;
     scroll-snap-type: x mandatory;
     position: relative;
     width: 100%;
-    /* padding-left: calc(50vw - 50%); */
-    padding-left: 50vw;
+    /* padding-left: 50vw; */
 }
 
 .item1, .item2, .item3 {
@@ -283,11 +281,11 @@ background-size: cover;
 
 }
 
-.container::before {
+/* .container::before {
     content: '';
     width: 50vw;
     float: left;
-}
+} */
 
 
 footer {
