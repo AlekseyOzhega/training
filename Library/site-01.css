@@ -292,11 +292,16 @@ background-size: cover;
 
 .slider2 {
     background-color: rgb(119, 116, 116);
-    width: 1100px;
-    height: 600px;
+    width: 550px;
+    height: 300px;
     border: 15px solid blueviolet;
+    overflow: hidden;
 }
 
+.middle {
+    position: absolute;
+    
+}
 
 
 
