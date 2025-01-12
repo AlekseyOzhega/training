@@ -180,8 +180,8 @@ header {
 }
 
 .sli-img img {
-    width: 18vw;
-    height: 18vw;
+    width: 17vw;
+    height: 17vw;
     border: 15px solid rgb(50, 149, 116);
     border-radius: 100vw;
     transition: border .5s;
@@ -269,9 +269,9 @@ background-size: cover;
     overflow: scroll;
 }
 
-.item {
+.item1, .item2, .item3 {
     display: flex;
-    
+
 }
 
 
