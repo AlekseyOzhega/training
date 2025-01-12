@@ -263,6 +263,18 @@ background-size: cover;
 
 
 
+
+.container {
+    display: flex;
+    overflow: scroll;
+}
+
+.item {
+    display: flex;
+    
+}
+
+
 footer {
     padding-top: 2rem;
     padding-bottom: 1rem;
