@@ -272,13 +272,21 @@ background-size: cover;
     scroll-snap-type: x mandatory;
     position: relative;
     width: 100%;
-    padding-left: calc(50vw - 50%);
+    /* padding-left: calc(50vw - 50%); */
+    padding-left: 50vw;
 }
 
 .item1, .item2, .item3 {
     flex-shrink: 0;
     display: flex;
-    
+    text-align: center;
+
+}
+
+.container::before {
+    content: '';
+    width: 50vw;
+    float: left;
 }
 
 
