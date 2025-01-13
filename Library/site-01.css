@@ -308,7 +308,7 @@ background-size: cover;
 .navigation {
     position: absolute;
     bottom: 16px;
-    left: 260px;
+    left: 50%;
     transform: translateX(-50%);
     display: flex;
 }
@@ -333,6 +333,23 @@ input[name="r"] {
     position: absolute;
     visibility: hidden;
 }
+
+.new-slider {
+    width: 400%;
+    height: 100%;
+    display: flex;
+}
+
+.slide {
+    width: 25%;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+
+
 
 
 
