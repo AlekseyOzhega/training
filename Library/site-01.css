@@ -300,7 +300,7 @@ background-size: cover;
 
 .middle {
     position: absolute;
-    top: 280%;
+    top: 225%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
