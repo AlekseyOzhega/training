@@ -319,6 +319,8 @@ background-size: cover;
     margin: 6px;
     cursor: pointer;
     background-color: aliceblue;
+    opacity: .5;
+    border-radius: 10px;
 }
 
 
