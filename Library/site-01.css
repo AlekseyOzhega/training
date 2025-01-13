@@ -321,8 +321,13 @@ background-size: cover;
     background-color: aliceblue;
     opacity: .5;
     border-radius: 10px;
+    transition: all .4s ease;
 }
 
+.bar:hover {
+    opacity: .8;
+    transform: scale(1.1);
+}
 
 
 
