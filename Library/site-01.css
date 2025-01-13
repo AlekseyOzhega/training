@@ -308,6 +308,8 @@ background-size: cover;
 .navigation {
     position: absolute;
     bottom: 16px;
+    left: 50px;
+    transform: translateX(-50%);
     
 }
 
