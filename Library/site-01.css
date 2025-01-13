@@ -342,6 +342,7 @@ input[name="r"] {
 
 .slide {
     width: 25%;
+    transition: all .4s ease;
 }
 
 .slide img {
