@@ -308,7 +308,7 @@ background-size: cover;
 .navigation {
     position: absolute;
     bottom: 16px;
-    left: 50px;
+    left: 260px;
     transform: translateX(-50%);
     display: flex;
 }
@@ -317,6 +317,8 @@ background-size: cover;
     height: 8px;
     width: 30px;
     margin: 6px;
+    cursor: pointer;
+    background-color: aliceblue;
 }
 
 
