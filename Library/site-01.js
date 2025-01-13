@@ -28,3 +28,44 @@ document.addEventListener('pointerout', (event) => {
     }
 })
 
+
+//Задача с тортом
+
+// let edoki = +prompt('Введите количество людей на один торт..', 1)
+// console.log(edoki)
+
+// function RazreziTorta(edoki) {
+//     let razDiag = 0;
+//     let razRad = 0;
+//     let kuski = edoki;
+//     let chet = edoki % 2;
+
+//     for (let i = edoki; i > 0; i = i - 2) {
+//         console.log('==1==')
+//         razDiag = razDiag + 1;
+
+//         if (i < 0) {
+//             i = 0;
+//             razRad++;
+//         }
+
+//     }
+
+//     if (chet !== 0) {
+//         razDiag--;
+//         razRad++;
+//     }
+    
+//     let result = {
+//         "razDiagonal": razDiag,
+//         "razRadius": razRad,
+//     }
+
+//     return result;
+// }
+// let resu = RazreziTorta(edoki);
+// console.log(resu);
+
+// for (let i = edoki; i > 0; i--) {
+//     console.log('==1==');
+// }
