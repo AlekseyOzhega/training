@@ -264,29 +264,6 @@ background-size: cover;
 
 
 
-.container {
-    display: flex;
-    overflow-x: auto;
-    scroll-behavior: smooth;
-    scroll-snap-type: x mandatory;
-    position: relative;
-    width: 100%;
-    /* padding-left: 50vw; */
-}
-
-.item1, .item2, .item3 {
-    flex-shrink: 0;
-    display: flex;
-    text-align: center;
-
-}
-
-/* .container::before {
-    content: '';
-    width: 50vw;
-    float: left;
-} */
-
 
 
 
