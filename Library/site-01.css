@@ -329,6 +329,11 @@ background-size: cover;
     transform: scale(1.1);
 }
 
+input[name="r"] {
+    position: absolute;
+    visibility: hidden;
+}
+
 
 
 
