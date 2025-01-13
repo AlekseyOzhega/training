@@ -310,7 +310,13 @@ background-size: cover;
     bottom: 16px;
     left: 50px;
     transform: translateX(-50%);
-    
+    display: flex;
+}
+
+.bar {
+    height: 8px;
+    width: 30px;
+    margin: 6px;
 }
 
 
