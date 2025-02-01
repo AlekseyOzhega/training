@@ -249,15 +249,15 @@ background-size: cover;
 .test {
     width: 17rem;
     height: 17rem;
-    clip-path: circle(54%);
+    clip-path: circle(44%);
     margin-right: 2rem;
-    transform: clip-path .5s, scale .5s;
+    transform: scale 1s;
 }
 
 .test:hover {
-    scale: 1.2;
-    clip-path: circle(44%);
-    transform: clip-path .5s, scale .5s;
+    scale: 1.3;
+    clip-path: circle(34%);
+    transform: scale 1s;
 }
 
 .test2 {
