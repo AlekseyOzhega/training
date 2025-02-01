@@ -191,7 +191,7 @@ header {
 
 .sli-img img:hover {
     scale: 1.1;
-    clip-path: circle(45%);
+    clip-path: circle(45.5%);
     border: 5px solid rgb(20, 208, 145);
     transition: border .5s, scale .5s, clip-path .5s;
 }
