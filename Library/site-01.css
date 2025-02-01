@@ -186,14 +186,14 @@ header {
     border: 5px solid rgb(50, 149, 116);
     border-radius: 100vw;
     clip-path: circle(50%);
-    transition: border .5s, scale .5s;
+    transition: border .5s, scale .5s, clip-path .5s;
 }
 
 .sli-img img:hover {
     scale: 1.1;
-    clip-path: circle(40%);
+    clip-path: circle(45%);
     border: 5px solid rgb(20, 208, 145);
-    transition: border .5s, scale .5s;
+    transition: border .5s, scale .5s, clip-path .5s;
 }
 
 .news {
