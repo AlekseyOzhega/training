@@ -177,19 +177,20 @@ header {
     padding: 0 .5rem;
     margin-right: 2rem;
     margin-left: 1rem;
-    clip-path: circle(45%);
 }
 
 .sli-img img {
     width: 17vw;
     height: 17vw;
+    padding-top: 2px;
     border: 5px solid rgb(50, 149, 116);
     border-radius: 100vw;
-
+    clip-path: circle(50%);
     transition: border .5s;
 }
 
 .sli-img img:hover {
+    scale: 1.1;
     border: 5px solid rgb(20, 208, 145);
     transition: border .5s;
 }
