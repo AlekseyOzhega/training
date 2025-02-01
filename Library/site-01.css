@@ -251,6 +251,13 @@ background-size: cover;
     height: 17rem;
     clip-path: circle(54%);
     margin-right: 2rem;
+    transform: clip-path .5s, scale .5s;
+}
+
+.test:hover {
+    scale: 1.2;
+    clip-path: circle(44%);
+    transform: clip-path .5s, scale .5s;
 }
 
 .test2 {
