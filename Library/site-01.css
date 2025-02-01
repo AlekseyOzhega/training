@@ -94,7 +94,7 @@ header {
 
 
 .slider {
-    width: 100vw;
+    width: 98vw;
     height: 50vh;
     display: flex;
     justify-content: center;
@@ -259,12 +259,6 @@ background-size: cover;
     background-color: paleturquoise;
     clip-path: inset(2rem);
 }
-
-
-
-
-
-
 
 
 .slider2 {
