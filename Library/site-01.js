@@ -69,3 +69,7 @@ document.addEventListener('pointerout', (event) => {
 // for (let i = edoki; i > 0; i--) {
 //     console.log('==1==');
 // }
+
+
+//Повторение DOM
+
