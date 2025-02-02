@@ -73,5 +73,6 @@ document.addEventListener('pointerout', (event) => {
 
 //Повторение DOM
 
-console.log(document);
-console.dir(document)
+// console.log(document);
+// console.dir(document);
+
