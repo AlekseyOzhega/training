@@ -76,4 +76,7 @@ document.addEventListener('pointerout', (event) => {
 console.log(document);
 // console.dir(document);
 
-console.log(document.body.header)
+// console.log(document.body.header)
+
+let headerElement = document.querySelector('header');
+console.log(headerElement);
