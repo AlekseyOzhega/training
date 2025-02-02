@@ -73,11 +73,11 @@ document.addEventListener('pointerout', (event) => {
 
 //Повторение DOM
 
-console.log(document);
+// console.log(document);
 // console.dir(document);
 
 // console.log(document.body.header)
 
-// let headerElement = document.querySelector('header');
-// console.log(headerElement.children[1]);
-
+let headerElement = document.querySelector('header');
+console.log(headerElement.children[1]);
+console.log( headerElement.parentNode)
