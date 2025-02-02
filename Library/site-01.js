@@ -78,6 +78,9 @@ document.addEventListener('pointerout', (event) => {
 
 // console.log(document.body.header)
 
-let headerElement = document.querySelector('header');
-console.log(headerElement.children[1]);
-console.log( headerElement.parentNode)
+// let headerElement = document.querySelector('header');
+// console.log(headerElement.children[1]);
+// console.log( headerElement.parentNode);
+
+let sliderElement = document.querySelector('.slider');
+console.log( sliderElement );
