@@ -78,5 +78,6 @@ console.log(document);
 
 // console.log(document.body.header)
 
-let headerElement = document.querySelector('header');
-console.log(headerElement.children);
+// let headerElement = document.querySelector('header');
+// console.log(headerElement.children[1]);
+
