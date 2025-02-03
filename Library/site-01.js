@@ -87,3 +87,6 @@ document.addEventListener('pointerout', (event) => {
 
 let idSelectorSearch = document.querySelector('#leftArrow');
 console.log( idSelectorSearch );
+
+let selectorSearch = document.querySelector('section');
+console.log( selectorSearch );
