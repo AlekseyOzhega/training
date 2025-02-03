@@ -85,3 +85,5 @@ document.addEventListener('pointerout', (event) => {
 // let sliderElement = document.querySelector('.slider');
 // console.log( sliderElement.childNodes );
 
+let idSelectorSearch = document.querySelector('#leftArrow');
+console.log( idSelectorSearch );
