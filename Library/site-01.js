@@ -93,3 +93,6 @@ console.log( selectorSearch );
 
 let classSelectorSearch = document.querySelector('.sli-text');
 console.log( classSelectorSearch );
+
+let hardClassSelectorSearch = document.querySelector('.sli-info > .sli-block-info > .sli-img');
+console.log( hardClassSelectorSearch );
