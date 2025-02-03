@@ -238,12 +238,12 @@ header {
     height: 15vh;
     margin: .7rem auto;
     background-color: white;
-    transition: border-radius .5s;
+    transition: border-radius .3s;
 }
 
 .common-news-box:hover {
     border-radius: 1rem;
-    transition: border-radius .5s;
+    transition: border-radius .3s;
 }
 
 

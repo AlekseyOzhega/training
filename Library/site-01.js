@@ -97,5 +97,9 @@ document.addEventListener('pointerout', (event) => {
 // let hardClassSelectorSearch = document.querySelector('.sli-info > .sli-block-info > .sli-img');
 // console.log( hardClassSelectorSearch );
 
-let newsElements = document.querySelectorAll('.common-news-box');
-console.log( newsElements );
+// let newsElements = document.querySelectorAll('.common-news-box');
+// console.log( newsElements );
+
+let classSelectorSearch = document.querySelector('.sli-text');
+let parenClassSelectortElement = 
+console.log( classSelectorSearch );
