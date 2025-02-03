@@ -226,7 +226,7 @@ header {
 .main-news-box-title .image {
     background-image: url(../Tasks/суслики\ мини2.jpg);
     background-repeat: no-repeat;
-background-size: cover;
+    background-size: cover;
     width: 7rem;
     height: 7rem;
     border: 1px solid blue;
@@ -238,6 +238,12 @@ background-size: cover;
     height: 15vh;
     margin: .7rem auto;
     background-color: white;
+    transition: border-radius .5s;
+}
+
+.common-news-box:hover {
+    border-radius: 1rem;
+    transition: border-radius .5s;
 }
 
 
