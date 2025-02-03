@@ -90,3 +90,6 @@ console.log( idSelectorSearch );
 
 let selectorSearch = document.querySelector('section');
 console.log( selectorSearch );
+
+let classSelectorSearch = document.querySelector('.sli-text');
+console.log( classSelectorSearch );
