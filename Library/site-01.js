@@ -101,5 +101,5 @@ document.addEventListener('pointerout', (event) => {
 // console.log( newsElements );
 
 let classSelectorSearch = document.querySelector('.sli-text');
-let parenClassSelectortElement = 
-console.log( classSelectorSearch );
+let parenClassSelectortElement = classSelectorSearch.closest('.sli-info')
+console.log( parenClassSelectortElement );
