@@ -85,14 +85,15 @@ document.addEventListener('pointerout', (event) => {
 // let sliderElement = document.querySelector('.slider');
 // console.log( sliderElement.childNodes );
 
-let idSelectorSearch = document.querySelector('#leftArrow');
-console.log( idSelectorSearch );
+// let idSelectorSearch = document.querySelector('#leftArrow');
+// console.log( idSelectorSearch );
 
-let selectorSearch = document.querySelector('section');
-console.log( selectorSearch );
+// let selectorSearch = document.querySelector('section');
+// console.log( selectorSearch );
 
-let classSelectorSearch = document.querySelector('.sli-text');
-console.log( classSelectorSearch );
+// let classSelectorSearch = document.querySelector('.sli-text');
+// console.log( classSelectorSearch );
 
-let hardClassSelectorSearch = document.querySelector('.sli-info > .sli-block-info > .sli-img');
-console.log( hardClassSelectorSearch );
+// let hardClassSelectorSearch = document.querySelector('.sli-info > .sli-block-info > .sli-img');
+// console.log( hardClassSelectorSearch );
+
