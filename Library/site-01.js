@@ -100,7 +100,9 @@ document.addEventListener('pointerout', (event) => {
 // let newsElements = document.querySelectorAll('.common-news-box');
 // console.log( newsElements );
 
-let classSelectorSearch = document.querySelector('.sli-text');
-console.log( classSelectorSearch );
-let parenClassSelectortElement = classSelectorSearch.closest('.sli-info')
-console.log( parenClassSelectortElement );
+// let classSelectorSearch = document.querySelector('.sli-text');
+// console.log( classSelectorSearch );
+// let parenClassSelectortElement = classSelectorSearch.closest('.sli-info')
+// console.log( parenClassSelectortElement );
+
+
