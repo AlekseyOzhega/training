@@ -80,6 +80,11 @@ header a:hover {
     cursor: pointer;
 }
 
+.ghost-block {
+    /* background-color: aqua;
+    opacity: .5; */
+}
+
 .ghost {
     width: 12rem;
     height: 12rem;
