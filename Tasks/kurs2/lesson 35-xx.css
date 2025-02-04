@@ -81,8 +81,13 @@ header a:hover {
 }
 
 .ghost-block {
-    /* background-color: aqua;
-    opacity: .5; */
+    opacity: 0;
+    transition: opacity .3s;
+}
+
+.ghost-block:hover {
+    opacity: 1;
+    transition: opacity .3s;
 }
 
 .ghost {

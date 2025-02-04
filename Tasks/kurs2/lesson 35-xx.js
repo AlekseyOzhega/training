@@ -19,3 +19,10 @@ ghostButtonElement.addEventListener('click', () => {
     changeAllAButtons()
 })
 
+// document.addEventListener('keydown', (event) => {
+//     console.log('keydown: ', event);
+// })
+
+document.addEventListener('keyup', (event) => {
+    console.log('keydown: ', event);
+})
