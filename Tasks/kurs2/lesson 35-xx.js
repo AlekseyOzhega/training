@@ -27,14 +27,13 @@ ghostButtonElement.addEventListener('click', () => {
 //     console.log('keydown: ', event);
 // })
 
-document.addEventListener('keydown', (event) => {
-    const {code} = event;
-    console.log('Переменная code; ', code)
+// document.addEventListener('keydown', (event) => {
+//     const {code} = event;
 
-    if (
-        code === 'KeyW'
-    ) {
-        event.preventDefault();
-        console.log('Нажатие кнопки W отменено!');
-    }
-})
+//     if (
+//         code === 'KeyW'
+//     ) {
+//         event.preventDefault();
+//         console.log('Нажатие кнопки W отменено!');
+//     }
+// })
