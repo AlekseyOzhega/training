@@ -23,6 +23,7 @@ ghostButtonElement.addEventListener('click', () => {
 //     console.log('keydown: ', event);
 // })
 
-document.addEventListener('keyup', (event) => {
-    console.log('keydown: ', event);
-})
+// document.addEventListener('keyup', (event) => {
+//     console.log('keydown: ', event);
+// })
+
