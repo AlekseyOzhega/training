@@ -28,5 +28,12 @@ ghostButtonElement.addEventListener('click', () => {
 // })
 
 document.addEventListener('keydown', (event) => {
-    
+    const {code, metaKey} = event;
+
+    if (
+        code === 'keyW'
+    ) {
+        event.preventDefault();
+        console.log('Нажатие кнопки W отменено!');
+    }
 })
