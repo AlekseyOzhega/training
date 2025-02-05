@@ -39,5 +39,8 @@ ghostButtonElement.addEventListener('click', () => {
 // })
 
 document.addEventListener('keydown', (event) => {
-    
+    if (/\d/.test(event.key)) {
+        event.preventDefault()
+        console.log('')
+    }
 })
