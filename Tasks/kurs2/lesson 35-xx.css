@@ -145,8 +145,15 @@ header a:hover {
 }
 
 form {
-    background-color: blanchedalmond;
+    background-color: rgb(255, 171, 44);
     width: 80vw;
     height: 20vh;
-    
+    margin: 1rem auto;
+    border: 1px solid blue;
+    display: flex;
+}
+
+.input-non-digit {
+    width: 80%;
+    margin: .5rem auto;
 }
