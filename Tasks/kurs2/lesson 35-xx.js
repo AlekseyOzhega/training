@@ -41,6 +41,6 @@ ghostButtonElement.addEventListener('click', () => {
 document.addEventListener('keydown', (event) => {
     if (/\d/.test(event.key)) {
         event.preventDefault()
-        console.log('')
+        console.log('Отменён ввод цифры: ', event.key)
     }
 })
