@@ -40,7 +40,12 @@ ghostButtonElement.addEventListener('click', () => {
 
 document.addEventListener('keydown', (event) => {
     if (event.target.matches('input')) {
+        let anyDigitRegExp = /\d/
         
+        if (anyDigitRegExp.test(event.key)) {
+            event.preventDefault()
+            console.log('Отменён ввод цифры: ', event.key)
+        }
     }
 
 })
