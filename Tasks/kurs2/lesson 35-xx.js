@@ -37,3 +37,7 @@ ghostButtonElement.addEventListener('click', () => {
 //         console.log('Нажатие кнопки W отменено!');
 //     }
 // })
+
+document.addEventListener('keydown', (event) => {
+    
+})
