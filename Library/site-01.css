@@ -151,6 +151,10 @@ header {
     display: flex;
 }
 
+.sli-move {
+    margin-left: -33%;
+}
+
 .sli-text {
     width: 35vw;
     height: 100%;
