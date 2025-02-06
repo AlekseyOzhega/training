@@ -31,6 +31,7 @@ document.addEventListener('pointerout', (event) => {
 let leftArrowElement = document.querySelector('.btn-sli-left')
 leftArrowElement.addEventListener('click', (event) => {
     console.log('left arrow')
+    leftArrowElement.classList.toggle('.')
 })
 
 let rightArrowElement = document.querySelector('.btn-sli-right')
