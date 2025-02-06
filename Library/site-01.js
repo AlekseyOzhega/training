@@ -28,6 +28,9 @@ document.addEventListener('pointerout', (event) => {
     }
 })
 
+let leftArrowElement = document.querySelector('.btn-sli-left')
+
+
 
 //Задача с тортом
 
