@@ -28,10 +28,11 @@ document.addEventListener('pointerout', (event) => {
     }
 })
 
+//Анимация слайдера через стрелки
 let leftArrowElement = document.querySelector('.btn-sli-left')
 leftArrowElement.addEventListener('click', (event) => {
     console.log('left arrow')
-    leftArrowElement.classList.toggle('.')
+    leftArrowElement.classList.toggle('.sli-move')
 })
 
 let rightArrowElement = document.querySelector('.btn-sli-right')
