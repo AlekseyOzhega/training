@@ -33,6 +33,11 @@ leftArrowElement.addEventListener('click', (event) => {
     console.log('left arrow')
 })
 
+let rightArrowElement = document.querySelector('.btn-sli-right')
+rightArrowElement.addEventListener('click', (event) => {
+    console.log('right arrow')
+})
+
 
 //Задача с тортом
 
