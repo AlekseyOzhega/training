@@ -29,8 +29,8 @@ document.addEventListener('pointerout', (event) => {
 })
 
 let leftArrowElement = document.querySelector('.btn-sli-left')
-document.addEventListener('click', (event) => {
-    
+leftArrowElement.addEventListener('click', (event) => {
+    console.log('left arrow')
 })
 
 
