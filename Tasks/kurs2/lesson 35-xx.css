@@ -147,7 +147,7 @@ header a:hover {
 form {
     background-color: rgb(255, 171, 44);
     width: 80vw;
-    height: 20vh;
+    /* height: 40vh; */
     margin: 1rem auto;
     border: 1px solid blue;
     display: flex;
@@ -156,5 +156,9 @@ form {
 
 .input-non-digit {
     width: 80%;
+    margin: .5rem auto;
+}
+
+form p {
     margin: .5rem auto;
 }
