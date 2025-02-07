@@ -54,3 +54,6 @@ ghostButtonElement.addEventListener('click', () => {
 let inputElement = document.querySelector('input');
 let nameOutputElement = document.querySelector('.name-output');
 
+inputElement.addEventListener('input', (event) => {
+    
+})
