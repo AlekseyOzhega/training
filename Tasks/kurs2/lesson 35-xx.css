@@ -153,6 +153,11 @@ form {
     flex-direction: column;
 }
 
+.input-js {
+    background-color: aqua;
+    width: 80%;
+}
+
 .input-non-digit {
     width: 80%;
     margin: .5rem auto;
