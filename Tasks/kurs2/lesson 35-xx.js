@@ -58,3 +58,5 @@ inputElement.addEventListener('input', (event) => {
     nameOutputElement.textContent = inputElement.value
 })
 
+
+let input2Element = document.querySelector('[data-js-input2]');
