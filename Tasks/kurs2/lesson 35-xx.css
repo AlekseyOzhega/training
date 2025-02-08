@@ -154,7 +154,6 @@ form {
 }
 
 .input-js {
-    background-color: aqua;
     width: 80%;
     padding: 3px;
 
@@ -181,4 +180,7 @@ form {
 
 form p {
     margin: .5rem auto;
+    border: 2px solid blue;
+    width: 80%;
+    padding: 5px;
 }
