@@ -169,6 +169,11 @@ form {
     margin: .5rem auto;
 }
 
+#error-message {
+    color: red;
+    background-color: white;
+}
+
 .error-m {
     margin-bottom: 2rem;
 }
