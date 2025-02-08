@@ -145,7 +145,7 @@ header a:hover {
 }
 
 form {
-    background-color: rgb(255, 171, 44);
+    background-color: white;
     width: 80vw;
     margin: 1rem auto;
     border: 1px solid blue;
@@ -171,7 +171,8 @@ form {
 
 #error-message {
     color: red;
-    background-color: white;
+    font-weight: bold;
+    padding: 2px;
 }
 
 .error-m {
