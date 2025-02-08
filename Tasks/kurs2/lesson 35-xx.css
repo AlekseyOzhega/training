@@ -157,6 +157,7 @@ form {
     background-color: aqua;
     width: 80%;
     padding: 3px;
+
 }
 
 .input-js input {
@@ -166,6 +167,10 @@ form {
 .input-non-digit {
     width: 80%;
     margin: .5rem auto;
+}
+
+.error-m {
+    margin-bottom: 2rem;
 }
 
 form p {

@@ -60,3 +60,5 @@ inputElement.addEventListener('input', (event) => {
 
 
 let input2Element = document.querySelector('[data-js-input2]');
+let errorMessageElement = document.querySelector('#error-message');
+
