@@ -65,5 +65,7 @@ let errorMessageElement = document.querySelector('#error-message');
 input2Element.addEventListener('change', () => {
     let isInvalid = input2Element.value.length < 5;
     input2Element.classList.toggle('is-invalid', isInvalid);
-    
+    errorMessageElement.textContent = isInvalid
+        ? 'Максимальная длина - 5 символов'
+        : ''
 })
