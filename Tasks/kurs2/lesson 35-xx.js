@@ -69,3 +69,8 @@ input2Element.addEventListener('change', () => {
         ? 'Максимальная длина - 5 символов'
         : ''
 })
+
+
+document.addEventListener('cut', (event) => {
+    console.log('Событие CUT: ', event)
+})
