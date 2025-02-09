@@ -81,8 +81,16 @@ document.addEventListener('cut', (event) => {
 
 document.addEventListener('copy', (event) => {
     console.log('Событие copy: ', event)
+    
+    navigator.clipboard.readText().then((clipboardText) => {
+        console.log('clipboardText: ', clipboardText)
+    })
 })
 
 document.addEventListener('paste', (event) => {
     console.log('Событие paste: ', event)
+    
+    navigator.clipboard.readText().then((clipboardText) => {
+        console.log('clipboardText: ', clipboardText)
+    })
 })
