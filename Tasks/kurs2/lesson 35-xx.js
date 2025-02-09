@@ -103,3 +103,15 @@ let submitButtonElement = document.querySelector('button[type="submit"]');
 // console.log(loginInputElement)
 // console.log(passwordInputElement)
 // console.log(submitButtonElement)
+
+loginInputElement.addEventListener('focus', () => {
+    console.log('В фокусе: поле ввода логина.')
+})
+
+passwordInputElement.addEventListener('focus', () => {
+    console.log('В фокусе: поле ввода пароля.')
+})
+
+submitButtonElement.addEventListener('focus', () => {
+    console.log('В фокусе: кнопка "войти".')
+})
