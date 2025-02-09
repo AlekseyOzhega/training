@@ -74,3 +74,11 @@ input2Element.addEventListener('change', () => {
 document.addEventListener('cut', (event) => {
     console.log('Событие CUT: ', event)
 })
+
+document.addEventListener('copy', (event) => {
+    console.log('Событие copy: ', event)
+})
+
+document.addEventListener('paste', (event) => {
+    console.log('Событие paste: ', event)
+})
