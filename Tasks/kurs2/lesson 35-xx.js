@@ -94,3 +94,12 @@ document.addEventListener('paste', (event) => {
         console.log('clipboardText: ', clipboardText)
     })
 })
+
+
+let loginInputElement = document.querySelector('#login');
+let passwordInputElement = document.querySelector('#password');
+let submitButtonElement = document.querySelector('button[type="submit"]');
+
+// console.log(loginInputElement)
+// console.log(passwordInputElement)
+// console.log(submitButtonElement)
