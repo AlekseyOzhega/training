@@ -122,16 +122,22 @@ document,addEventListener('focusin', (event) => {
     }
 })
 
-
-document,addEventListener('focusщге', (event) => {
+document,addEventListener('focusout', (event) => {
     if (event.target.matches('#login')) {
         console.log('Поле ввода логина больше не в фокусе!')
     }
 })
 
+document,addEventListener('focusin', (event) => {
+    if (event.target.matches('#password')) {
+        console.log('Поле ввода логина в фокусе!')
+    }
+})
 
-// document,addEventListener('focusin', (event) => {
-//     if (event.target.matches('#login')) {
-//         console.log('Поле ввода логина в фокусе!')
-//     }
-// })
+document,addEventListener('focusout', (event) => {
+    if (event.target.matches('#password')) {
+        console.log('Поле ввода логина больше не в фокусе!')
+    }
+})
+
+button[type="submit"]
