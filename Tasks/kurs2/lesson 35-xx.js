@@ -116,3 +116,6 @@ let submitButtonElement = document.querySelector('button[type="submit"]');
 //     console.log('В фокусе: кнопка "войти".')
 // })
 
+document,addEventListener('focusin', (event) => {
+    
+})
