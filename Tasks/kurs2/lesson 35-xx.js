@@ -121,3 +121,17 @@ document,addEventListener('focusin', (event) => {
         console.log('Поле ввода логина в фокусе!')
     }
 })
+
+
+document,addEventListener('focusin', (event) => {
+    if (event.target.matches('#login')) {
+        console.log('Поле ввода логина в фокусе!')
+    }
+})
+
+
+document,addEventListener('focusin', (event) => {
+    if (event.target.matches('#login')) {
+        console.log('Поле ввода логина в фокусе!')
+    }
+})
