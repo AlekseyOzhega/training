@@ -116,6 +116,7 @@ document.addEventListener('paste', (event) => {
 //     console.log('В фокусе: кнопка "войти".')
 // })
 
+
 document,addEventListener('focusin', (event) => {
     if (event.target.matches('#login')) {
         console.log('Поле ввода логина в фокусе!')
@@ -130,25 +131,25 @@ document,addEventListener('focusout', (event) => {
 
 document,addEventListener('focusin', (event) => {
     if (event.target.matches('#password')) {
-        console.log('Поле ввода логина в фокусе!')
+        console.log('Поле ввода пароля в фокусе!')
     }
 })
 
 document,addEventListener('focusout', (event) => {
     if (event.target.matches('#password')) {
-        console.log('Поле ввода логина больше не в фокусе!')
+        console.log('Поле ввода пароля больше не в фокусе!')
     }
 })
 
 document,addEventListener('focusin', (event) => {
     if (event.target.matches('button[type="submit"]')) {
-        console.log('Поле ввода логина в фокусе!')
+        console.log('Кнопка войти в фокусе!')
     }
 })
 
 document,addEventListener('focusout', (event) => {
     if (event.target.matches('button[type="submit"]')) {
-        console.log('Поле ввода логина больше не в фокусе!')
+        console.log('Кнопка войти больше не в фокусе!')
     }
 })
 
