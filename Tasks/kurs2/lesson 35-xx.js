@@ -117,5 +117,7 @@ document.addEventListener('paste', (event) => {
 // })
 
 document,addEventListener('focusin', (event) => {
-    if (event.target.matches())
+    if (event.target.matches('#login')) {
+        console.log('Поле ввода логина в фокусе!')
+    }
 })
