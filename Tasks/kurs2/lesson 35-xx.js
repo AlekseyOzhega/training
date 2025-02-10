@@ -140,4 +140,15 @@ document,addEventListener('focusout', (event) => {
     }
 })
 
-button[type="submit"]
+document,addEventListener('focusin', (event) => {
+    if (event.target.matches('button[type="submit"]')) {
+        console.log('Поле ввода логина в фокусе!')
+    }
+})
+
+document,addEventListener('focusout', (event) => {
+    if (event.target.matches('button[type="submit"]')) {
+        console.log('Поле ввода логина больше не в фокусе!')
+    }
+})
+
