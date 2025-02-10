@@ -123,15 +123,15 @@ document,addEventListener('focusin', (event) => {
 })
 
 
-document,addEventListener('focusin', (event) => {
+document,addEventListener('focusщге', (event) => {
     if (event.target.matches('#login')) {
-        console.log('Поле ввода логина в фокусе!')
+        console.log('Поле ввода логина больше не в фокусе!')
     }
 })
 
 
-document,addEventListener('focusin', (event) => {
-    if (event.target.matches('#login')) {
-        console.log('Поле ввода логина в фокусе!')
-    }
-})
+// document,addEventListener('focusin', (event) => {
+//     if (event.target.matches('#login')) {
+//         console.log('Поле ввода логина в фокусе!')
+//     }
+// })
