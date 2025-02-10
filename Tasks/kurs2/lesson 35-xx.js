@@ -96,9 +96,9 @@ document.addEventListener('paste', (event) => {
 })
 
 
-let loginInputElement = document.querySelector('#login');
-let passwordInputElement = document.querySelector('#password');
-let submitButtonElement = document.querySelector('button[type="submit"]');
+// let loginInputElement = document.querySelector('#login');
+// let passwordInputElement = document.querySelector('#password');
+// let submitButtonElement = document.querySelector('button[type="submit"]');
 
 // console.log(loginInputElement)
 // console.log(passwordInputElement)
@@ -117,5 +117,5 @@ let submitButtonElement = document.querySelector('button[type="submit"]');
 // })
 
 document,addEventListener('focusin', (event) => {
-    
+    if (event.target.matches())
 })
