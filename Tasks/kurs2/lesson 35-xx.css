@@ -144,7 +144,7 @@ header a:hover {
     transition: opacity 2s;
 }
 
-form {
+.form1, .form2 {
     background-color: white;
     width: 80vw;
     margin: 1rem auto;
@@ -185,3 +185,14 @@ form {
     padding: 5px;
 }
 
+.form3, .form4 {
+    border: 2px solid antiquewhite;
+    border-radius: 5px;
+    width: 25vw;
+}
+
+.form3 p, .form4 p {
+    background-color: antiquewhite;
+    margin: .5rem 2rem;
+    padding: 1rem;
+}
