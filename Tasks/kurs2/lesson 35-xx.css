@@ -5,6 +5,9 @@ body {
         rgb(7, 170, 116),
         rgb(208, 244, 255));
     margin: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 .negativ {
@@ -185,14 +188,24 @@ header a:hover {
     padding: 5px;
 }
 
+.form3-4 {
+    background-color: white;
+    width: 80vw;
+    margin: 1rem auto;
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0rem;
+}
+
 .form3, .form4 {
-    border: 2px solid antiquewhite;
+    border: 2px solid rgb(234, 158, 59);
+    background-color: antiquewhite;
     border-radius: 5px;
-    width: 25vw;
+    width: 20vw;
 }
 
 .form3 p, .form4 p {
-    background-color: antiquewhite;
     margin: .5rem 2rem;
     padding: 1rem;
 }
