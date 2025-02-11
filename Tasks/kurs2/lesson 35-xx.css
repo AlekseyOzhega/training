@@ -205,7 +205,7 @@ header a:hover {
     width: 20vw;
 }
 
-.form3 p, .form4 p {
+.form3-4 > * {
     margin: .5rem 2rem;
     padding: 1rem;
 }
