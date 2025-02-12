@@ -198,6 +198,10 @@ header a:hover {
     padding: 2rem 0rem;
 }
 
+.form3-4 label {
+    cursor: pointer;
+}
+
 .form3, .form4 {
     border: 2px solid rgb(234, 158, 59);
     background-color: antiquewhite;
@@ -216,10 +220,11 @@ header a:hover {
 
 .checkbox {
     margin: 1rem 2rem;
+    padding: 2px;
 }
 
 .checkbox input {
-    
+
 }
 
 .form3-4 input, .form3-4 textarea, .form3-4 button {
