@@ -240,6 +240,7 @@ header a:hover {
 input[type="radio"]:checked + label::before {
     background-color: aqua;
     border-color: aquamarine;
+    border-radius: 20vw;
 } 
 
 .form3-4 input, .form3-4 textarea, .form3-4 button {
