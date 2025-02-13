@@ -237,7 +237,7 @@ header a:hover {
     border: 1.5px solid rgb(88, 88, 246);
 }
 
-.checkbox:checked + label::before {
+input[type="radio"]:checked + label::before {
     background-color: aqua;
     border-color: aquamarine;
 } 
