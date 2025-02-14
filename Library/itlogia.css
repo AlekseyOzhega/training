@@ -1,3 +1,10 @@
-h1 {
+.title {
     color: green;
+    background: yellow;
+  }
+
+  p {
+    padding: 50px;
+    border: 1px solid black;
+    border-radius: 30px;
   }
