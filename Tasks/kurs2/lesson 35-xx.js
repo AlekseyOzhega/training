@@ -153,3 +153,5 @@ document,addEventListener('focusout', (event) => {
     }
 })
 
+let phoneFieldElement = document.getElementById('phone');
+console.log(phoneFieldElement)
