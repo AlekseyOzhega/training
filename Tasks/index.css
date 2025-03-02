@@ -1,5 +1,9 @@
 @import url(bazovie_stili.css);
 
+a {
+    text-decoration: none;
+}
+
 h1 {
     margin: 8px 20vw;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -28,7 +32,6 @@ legend {
 
 .tasks {
     width: 80vw;
-    /* border: 2px solid blue; */
     border-radius: 5px;
     box-shadow: 3px 3px 3px grey;
     padding: 10px;
@@ -50,4 +53,9 @@ li a {
 li:hover a {
     background-color: blue;
     color: white;
+}
+
+.practics {
+    display: flex;
+    justify-content: space-around;
 }
