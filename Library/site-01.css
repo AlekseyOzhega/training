@@ -82,7 +82,7 @@ header {
     color: white;
     padding-bottom: 0px;
     cursor: pointer;
-
+    
 }
 
 .header-btns .nav-button:active {
@@ -145,6 +145,7 @@ header {
     height: 42vh;
     display: flex;
     overflow: hidden;
+    justify-content: space-between;
 }
 
 .sli-block-info{
