@@ -18,4 +18,8 @@ function newArray() {
     return array;
 };
 
+let testArray = newArray();
+console.log(testArray);
+
+
 document.querySelector('block1-btn1').addEventListener('click', )
