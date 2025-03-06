@@ -4,13 +4,22 @@
     box-sizing: border-box;
 }
 
+.container {
+    width: 80vw;
+    max-width: 1280px;
+    min-height: 300px;
+    margin: 2rem auto;
+    background-color: gold;
+}
+
+
 nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 100vw;
     height: 15vh;
-    background-color: rgb(248, 238, 225);
+    background-color: gold;
 }
 
 nav a {
@@ -23,5 +32,6 @@ nav a {
 }
 
 nav a:hover {
-    background-color: aqua;
+    background-color: rgb(41, 125, 54);
+    color: white;
 }
