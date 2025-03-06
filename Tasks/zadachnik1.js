@@ -31,8 +31,11 @@ function sumArray(arr) {
 
 
 
-document.querySelector('block1-btn1').addEventListener('click', () => {
-    const step1 = newArray();
-    const step2 = sumArray(step1);
-    alert(`Сумма всех чисел в массиве равна ${step2}.`)
-} )
+let test = document.querySelector('.block1-btn1');
+console.log(test)
+// .addEventListener('click', (event) => {
+//     console.log('Click')
+    // const step1 = newArray();
+    // const step2 = sumArray(step1);
+    // alert(`Сумма всех чисел в массиве равна ${step2}.`);
+// })
