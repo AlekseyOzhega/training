@@ -25,10 +25,14 @@ function sumArray(arr) {
     for (const elem of arr) {
         sum = sum + elem;
     }
+
+    return sum;
 }
 
 
 
-// document.querySelector('block1-btn1').addEventListener('click', () => {
-//     const array1 = newArray();    
-// } )
+document.querySelector('block1-btn1').addEventListener('click', () => {
+    const step1 = newArray();
+    const step2 = sumArray(step1);
+    alert(`Сумма всех чисел в массиве равна ${step2}.`)
+} )
