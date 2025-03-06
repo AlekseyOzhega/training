@@ -82,3 +82,7 @@ fieldset button:hover {
 fieldset button:active {
     scale: 1.1;
 }
+
+.pink {
+    background-color: pink;
+}
