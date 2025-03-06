@@ -51,9 +51,10 @@ nav a:hover {
     justify-content: space-around;
 }
 
-.fieldset {
-    border: 3px solid green;
+fieldset {
+    border: 2px solid green;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     padding: 1rem;
     margin: 2rem;
@@ -61,10 +62,18 @@ nav a:hover {
 
 legend {
     font-size: 24px;
-    
 }
 
-button {
+fieldset button {
     font-size: 16px;
     padding: .5rem;
+    margin: .5rem;
+    border: 1px solid blue;
+}
+
+fieldset button:hover {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    border-color: white;
 }
