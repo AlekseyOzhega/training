@@ -18,8 +18,17 @@ function newArray() {
     return array;
 };
 
-let testArray = newArray();
-console.log(testArray);
+//sum of numbers in an array
+function sumArray(arr) {
+    const sum = 0;
+
+    for (const elem of arr) {
+        sum = sum + elem;
+    }
+}
 
 
-document.querySelector('block1-btn1').addEventListener('click', )
+
+// document.querySelector('block1-btn1').addEventListener('click', () => {
+//     const array1 = newArray();    
+// } )
