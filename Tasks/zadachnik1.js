@@ -42,3 +42,13 @@ document.querySelector('.block1-btn1').addEventListener('click', () => {
 });
 
 
+//
+function findMax(arr) {
+    let max = 0;
+
+    for (let element of arr) {
+        if( element > max) max = element;
+    }
+
+    return max;
+}
