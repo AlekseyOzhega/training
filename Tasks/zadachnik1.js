@@ -42,7 +42,7 @@ document.querySelector('.block1-btn1').addEventListener('click', () => {
 });
 
 
-//
+//find the array element with the maximum value
 function findMax(arr) {
     let max = 0;
 
@@ -53,8 +53,9 @@ function findMax(arr) {
     return max;
 }
 
+//Button No. 2 creates an array and find the array element with the maximum value
 document.querySelector('.block1-btn2').addEventListener('click', () => {
     const step1 = newArray();
     const step2 = findMax(step1);
-    alert(`Элемент массива с максимальным значение это - ${step2}.`);
+    alert(`Элемент массива с максимальным значение это ${step2}.`);
 });
