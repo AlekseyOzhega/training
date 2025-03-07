@@ -52,3 +52,9 @@ function findMax(arr) {
 
     return max;
 }
+
+document.querySelector('.block1-btn2').addEventListener('click', () => {
+    const step1 = newArray();
+    const step2 = findMax(step1);
+    alert(`Элемент массива с максимальным значение это - ${step2}.`);
+});
