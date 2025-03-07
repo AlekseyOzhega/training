@@ -8,12 +8,13 @@ function newArray() {
     while(true) {
         const input = prompt('Введите элемент массива (или нажмите "Отмена" для завершения) ');
         
-        if (typeof(input) === 'number') {
+        if (typeof input === 'number') {
             alert('Число');
         }
 
-        if (!isNaN(input)) {
-            alert('Не число');
+        if (isNaN(input)) {
+            alert('Не число.');
+            alert(isNaN(input))
         }
 
 
