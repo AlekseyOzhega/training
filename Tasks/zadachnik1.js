@@ -34,15 +34,10 @@ function sumArray(arr) {
     return sum;
 }
 
+//Кнопка №1, создаёт массив и показывает сумму его элементов
 const button1Element = document.querySelector('.block1-btn1');
 button1Element.addEventListener('click', () => {
     const step1 = newArray();
-    console.log('step 1')
     const step2 = sumArray(step1);
-    console.log('step 2')
     alert(`Сумма всех чисел в массиве равна ${step2}.`);
 })
-
-console.log(typeof 12 === 'number');
-console.log(typeof 123);
-console.log(typeof false);
