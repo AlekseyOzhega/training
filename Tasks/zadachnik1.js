@@ -6,9 +6,10 @@ function newArray() {
     const array = [];
 
     while(true) {
-        const input = prompt('Введите элемент массива (или нажмите "Отмена" для завершения) ');
+        const input = +prompt('Введите элемент массива (или нажмите "Отмена" для завершения) ');
+        alert(typeof(input));
 
-        if(input === null || input.trim() === "") {
+        if(input === null) {
             break;
         }
 
@@ -20,21 +21,15 @@ function newArray() {
 
 //sum of numbers in an array
 function sumArray(arr) {
-    const sum = 0;
+    let sum = 0;
 
-    for (const elem of arr) {
-        sum = sum + elem;
+    for (let element of arr) {
+        sum = sum + element;
     }
 
     return sum;
 }
 
-
-// const button1Element = document.querySelector('.block1-btn1');
-// console.log(button1Element)
-// button1Element.addEventListener('click', () => {
-//     console.log('click');
-// })
 
 
 const button1Element = document.querySelector('.block1-btn1');
