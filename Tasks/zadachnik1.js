@@ -61,17 +61,20 @@ document.querySelector('.block1-btn2').addEventListener('click', () => {
 });
 
 
-//
+//the function filters the even elements of the array
 function filterEven(arr) {
     let evenArray = [];
 
     for (let element of arr) {
-        if( element > max) evenArray.push(element);
+        if( element%2 === 0 ) evenArray.push(element);
     }
 
-    return max;
+    return evenArray;
 }
 
-console.log( 5%2 );
-console.log( 33%2 );
-console.log( 44%2 );
+//Button No. 3 creates an array and leaves only the even elements of the array
+document.querySelector('.block1-btn3').addEventListener('click', () => {
+    const step1 = newArray();
+    const step2 = filterEven(step1);
+    alert(`Массив с четными элементами [${step2}].`);
+});
