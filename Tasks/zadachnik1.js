@@ -59,3 +59,19 @@ document.querySelector('.block1-btn2').addEventListener('click', () => {
     const step2 = findMax(step1);
     alert(`Элемент массива с максимальным значение это ${step2}.`);
 });
+
+
+//
+function filterEven(arr) {
+    let evenArray = [];
+
+    for (let element of arr) {
+        if( element > max) evenArray.push(element);
+    }
+
+    return max;
+}
+
+console.log( 5%2 );
+console.log( 33%2 );
+console.log( 44%2 );
