@@ -6,8 +6,21 @@ function newArray() {
     const array = [];
 
     while(true) {
-        const input = +prompt('Введите элемент массива (или нажмите "Отмена" для завершения) ');
-        alert(typeof(input));
+        const input = prompt('Введите элемент массива (или нажмите "Отмена" для завершения) ');
+        
+        if (typeof(input) === 'number') {
+            alert('Число');
+        }
+
+        if (!isNaN(input)) {
+            alert('Не число');
+        }
+
+
+        // if (typeof(input) === 'number' && !isNaN(input)) {
+        //     alert('Вводить нужно только числа.')
+        //     continue;
+        // }
 
         if(input === null) {
             break;
