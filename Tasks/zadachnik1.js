@@ -34,10 +34,11 @@ function sumArray(arr) {
     return sum;
 }
 
-//Кнопка №1, создаёт массив и показывает сумму его элементов
-const button1Element = document.querySelector('.block1-btn1');
-button1Element.addEventListener('click', () => {
+//Button No. 1 creates an array and shows the sum of its elements
+document.querySelector('.block1-btn1').addEventListener('click', () => {
     const step1 = newArray();
     const step2 = sumArray(step1);
     alert(`Сумма всех чисел в массиве равна ${step2}.`);
-})
+});
+
+
