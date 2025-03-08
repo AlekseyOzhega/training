@@ -104,6 +104,13 @@ class CarObj {
         console.log(`Марка: ${this.brand}, Модель: ${this.model}, Год выпуска: ${this.year}.`)
     }
 }
-const myCar = new CarObj('Audi', 'MX-21', 2010);
 
-console.log(myCar)
+console.log(myCar);
+document.querySelector('.block1-btn4').addEventListener('click', () => {
+    const carBrend = prompt('Введите бренд вашей машины.');
+    const carModel = prompt('Введите модель вашей машины.');
+    const carYear = prompt('Введите год выпуска вашей машины.');
+    const myCar = new CarObj('Audi', 'MX-21', 2010);
+});
+//
+
