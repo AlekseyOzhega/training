@@ -78,3 +78,20 @@ document.querySelector('.block1-btn3').addEventListener('click', () => {
     const step2 = filterEven(step1);
     alert(`Массив с четными элементами [${step2}].`);
 });
+
+
+//Objects
+class CarObj {
+    constructor(brand, model, year) {
+        this.brand = brand;
+        
+    }
+}
+const carObj = {
+    brand: '',
+    model: '',
+    year: 0,
+    isRunning: false
+};
+
+console.log(carObj)
