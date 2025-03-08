@@ -99,6 +99,10 @@ class CarObj {
         this.isRunning = false;
         console.log('Машина заглохла.')
     }
+
+    getInfo() {
+        console.log(`Марка: ${this.brand}, Модель: ${this.model}, Год выпуска: ${this.year}.`)
+    }
 }
 const myCar = new CarObj('Audi', 'MX-21', 2010);
 
