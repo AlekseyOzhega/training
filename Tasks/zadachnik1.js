@@ -83,11 +83,19 @@ document.querySelector('.block1-btn3').addEventListener('click', () => {
 //Objects
 class CarObj {
     isRunning = false
-    
+
     constructor(brand, model, year) {
         this.brand = brand;
         this.model = model;
         this.year = year;      
+    }
+
+    start() {
+        this.isRunning = true;
+    }
+
+    stop() {
+        this.isRunning = false;
     }
 }
 const carObj = new CarObj('Audi', 'MX-21', 2010);
