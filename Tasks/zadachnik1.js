@@ -92,12 +92,14 @@ class CarObj {
 
     start() {
         this.isRunning = true;
+        console.log('Машина завелась.')
     }
 
     stop() {
         this.isRunning = false;
+        console.log('Машина заглохла.')
     }
 }
-const carObj = new CarObj('Audi', 'MX-21', 2010);
+const myCar = new CarObj('Audi', 'MX-21', 2010);
 
-console.log(carObj)
+console.log(myCar)
