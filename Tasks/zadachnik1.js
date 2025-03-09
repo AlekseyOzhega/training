@@ -142,9 +142,12 @@ class Library {
     }
 
     borrowBook(titl) {
-        this.books.forEach() {
-
-        }
+        const check = titl;
+        this.books.forEach( function(item) {
+            if(item.title === check) {
+                item.isAvialable = false;
+            }
+        })
     }
 }
 
