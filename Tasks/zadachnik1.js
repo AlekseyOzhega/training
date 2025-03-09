@@ -81,6 +81,7 @@ document.querySelector('.block1-btn3').addEventListener('click', () => {
 
 
 //Objects
+//the class creates a car object
 class CarObj {
     isRunning = false
 
@@ -105,7 +106,7 @@ class CarObj {
     }
 }
 
-//
+//button N4, enter information about the car
 let carObj = new CarObj(0, 0, 0);
 document.querySelector('.block1-btn4').addEventListener('click', () => {
     carObj.brand = 0;
@@ -123,5 +124,6 @@ document.querySelector('.block1-btn4').addEventListener('click', () => {
         Год выпуска: ${carObj.year}`
     )
 });
-//
 
+
+//
