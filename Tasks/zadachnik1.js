@@ -105,11 +105,14 @@ class CarObj {
     }
 }
 
-const carObj = {};
+//
+let carObj = new CarObj(0, 0, 0);
 document.querySelector('.block1-btn4').addEventListener('click', () => {
-    carObj = {};
+    carObj.brand = 0;
+    carObj.model = 0;
+    carObj.year = 0;
     const carBrend = prompt('Введите бренд вашей машины.');
-    carObj.brend = carBrend;
+    carObj.brand = carBrend;
     const carModel = prompt('Введите модель вашей машины.');
     carObj.model = carModel;
     const carYear = prompt('Введите год выпуска вашей машины.');
