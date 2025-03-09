@@ -141,3 +141,8 @@ class Library {
         this.books.push(newBook);
     }
 }
+
+let test = new Library;
+console.log(test);
+test.addBook('titl', 'name', '1001');
+console.log(test);
