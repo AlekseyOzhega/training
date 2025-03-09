@@ -142,7 +142,9 @@ class Library {
     }
 
     borrowBook(titl) {
-        this.books.forEach()
+        this.books.forEach() {
+
+        }
     }
 }
 
