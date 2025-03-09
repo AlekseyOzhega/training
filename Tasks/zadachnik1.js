@@ -105,10 +105,11 @@ class CarObj {
     }
 }
 
-
+const carObj = {};
 document.querySelector('.block1-btn4').addEventListener('click', () => {
+    carObj = {};
     const carBrend = prompt('Введите бренд вашей машины.');
-    console.log(carBrend);
+    carObj.Brend = carBrend;
     const carModel = prompt('Введите модель вашей машины.');
     const carYear = prompt('Введите год выпуска вашей машины.');
     const myCar = new CarObj(carBrend, carModel, carYear);
@@ -117,8 +118,6 @@ document.querySelector('.block1-btn4').addEventListener('click', () => {
         Модель: ${myCar.model}, 
         Год выпуска: ${myCar.year}`
     )
-
-    return myCar;
 });
 //
 
