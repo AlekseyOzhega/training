@@ -127,3 +127,17 @@ document.querySelector('.block1-btn4').addEventListener('click', () => {
 
 
 //
+class Library {
+    books = [];
+
+    addBook(tit, au, ye) {
+        const newBook = {
+            title: tit,
+            author: au,
+            year: ye,
+            isAvialable: true
+        }
+
+        this.books.push(newBook);
+    }
+}
