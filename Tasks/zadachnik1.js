@@ -158,6 +158,16 @@ class Library {
             }
         })
     }
+
+    isAvialableBook() {
+        let list = [];
+        this.books.forEach( function(item) {
+            if(item.isAvialable === true) {
+                list.push(item.title);
+                list.push(item.title);
+            }
+        })
+    }
 }
 
 let test = new Library;
