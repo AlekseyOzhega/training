@@ -184,9 +184,9 @@ let test = new Library;
 test.addBook('titl', 'name', 1001);
 test.addBook('Название', 'Автор', 1221);
 test.addBook('Словарь. том 1', 'Даль', 1881);
-test.addBook('Словарь. том 2', 'Даль', 1881);
-test.addBook('Словарь. том 3', 'Даль', 1881);
-test.addBook('Словарь. том 4', 'Даль', 1881);
+// test.addBook('Словарь. том 2', 'Даль', 1881);
+// test.addBook('Словарь. том 3', 'Даль', 1881);
+// test.addBook('Словарь. том 4', 'Даль', 1881);
 test.borrowBook("titl");
 test.borrowBook("Название");
 test.returnBook('titl')
