@@ -149,10 +149,21 @@ class Library {
             }
         })
     }
+
+    returnBook(titl) {
+        const check = titl;
+        this.books.forEach( function(item) {
+            if(item.title === check) {
+                item.isAvialable = true;
+            }
+        })
+    }
 }
 
 let test = new Library;
 test.addBook('titl', 'name', 1001);
 test.addBook('Название', 'Автор', 1221);
 test.borrowBook("titl");
+test.borrowBook("Название");
+test.returnBook('titl')
 console.log(test);
