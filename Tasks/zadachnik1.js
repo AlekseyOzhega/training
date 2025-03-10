@@ -152,7 +152,7 @@ class Library {
 }
 
 let test = new Library;
-console.log(test);
 test.addBook('titl', 'name', 1001);
 test.addBook('Название', 'Автор', 1221);
+test.borrowBook("titl");
 console.log(test);
