@@ -182,8 +182,13 @@ class Library {
     }
 }
 
+//button N5, 
+let myLibrary = new Library;
+document.querySelector('.block1-btn5').addEventListener('click', () => {
 
-let test = new Library;
+});
+
+
 test.addBook('titl', 'name', 1001);
 test.addBook('Название', 'Автор', 1221);
 test.addBook('Словарь. том 1', 'Даль', 1881);
