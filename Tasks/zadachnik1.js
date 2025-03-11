@@ -126,7 +126,7 @@ document.querySelector('.block1-btn4').addEventListener('click', () => {
 });
 
 
-//
+//creating a library with functions for working with it
 class Library {
     books = [];
 
@@ -181,31 +181,6 @@ class Library {
         return finishList;
     }
 }
-
-// let testArr = [
-//     {
-//     author: 'Даль',
-//     title: 'Словарь. том 1'
-// },
-// {
-//     author: 'Даль',
-//     title: 'Словарь. том 2'
-// },
-// {
-//     author: 'Даль',
-//     title: 'Словарь. том 4'
-// }
-// ];
-// console.log(testArr);
-
-// let finishList = '';
-// let testArrList = testArr.forEach( function(item, index) {
-//     finishList = finishList + `${index + 1}. ${item.title}. автор: ${item.author}.
-//     `
-// })
-// console.log(`Результат:
-//     `, finishList);
-
 
 
 let test = new Library;
