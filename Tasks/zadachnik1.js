@@ -187,21 +187,8 @@ let myLibrary = new Library;
 document.querySelector('.block1-btn5').addEventListener('click', () => {
     let title = prompt('Введите название книги.');
     let author = prompt('Введите автора книги.');
+    let year = prompt('Введите год издания книги.');
     myLibrary.addBook(title, author);
     alert(`Книга под названием: ${title}, автора ${author} добавлена.`);
 });
-
-
-test.addBook('titl', 'name', 1001);
-test.addBook('Название', 'Автор', 1221);
-test.addBook('Словарь. том 1', 'Даль', 1881);
-test.addBook('Словарь. том 2', 'Даль', 1881);
-test.addBook('Словарь. том 3', 'Даль', 1881);
-test.addBook('Словарь. том 4', 'Даль', 1881);
-test.borrowBook("titl");
-test.borrowBook("Название");
-test.returnBook('titl')
-console.log(test);
-
-let testList = test.isAvialableBook();
-console.log(testList);
+console.log(myLibrary);
