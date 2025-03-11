@@ -167,18 +167,38 @@ class Library {
             if(item.isAvialable === true) {
                 list.push({
                     "title": item.title,
-                    "item": item.author
+                    "author": item.author
                 });
             }
         })
 
-        list.forEach( function(item) {
-            
+        list.forEach( function(item, index) {
+            finishList = finishList + `${index + 1}. ${item.title}. ${item.author}.`
         })
 
         return list;
     }
 }
+
+let testArr = [
+    {
+    author: 'Даль',
+    title: 'Словарь. том 1'
+},
+{
+    author: 'Даль',
+    title: 'Словарь. том 2'
+},
+{
+    author: 'Даль',
+    title: 'Словарь. том 4'
+}
+]
+// testArr.forEach( function(item, index) {
+//     finishList = finishList + `${index + 1}. ${item.title}. ${item.author}.`
+// })
+
+
 
 let test = new Library;
 test.addBook('titl', 'name', 1001);
