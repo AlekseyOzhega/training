@@ -185,7 +185,8 @@ class Library {
 //button N5, 
 let myLibrary = new Library;
 document.querySelector('.block1-btn5').addEventListener('click', () => {
-
+    let title = prompt('Введите название книги.')
+    myLibrary.addBook(title, author);
 });
 
 
