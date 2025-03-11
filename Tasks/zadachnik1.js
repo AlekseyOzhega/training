@@ -193,10 +193,13 @@ let testArr = [
     author: 'Даль',
     title: 'Словарь. том 4'
 }
-]
-// testArr.forEach( function(item, index) {
-//     finishList = finishList + `${index + 1}. ${item.title}. ${item.author}.`
-// })
+];
+console.log(testArr);
+
+let finishList = '';
+let testArrList = testArr.forEach( function(item, index) {
+    finishList = finishList + `${index + 1}. ${item.title}. ${item.author}.`
+})
 
 
 
