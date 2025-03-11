@@ -182,13 +182,13 @@ class Library {
     }
 }
 
-//button N5, 
+//button N5, add a new book to the library
 let myLibrary = new Library;
 document.querySelector('.block1-btn5').addEventListener('click', () => {
     let title = prompt('Введите название книги.');
     let author = prompt('Введите автора книги.');
     let year = prompt('Введите год издания книги.');
     myLibrary.addBook(title, author);
-    alert(`Книга под названием: ${title}, автора ${author} добавлена.`);
+    alert(`Книга под названием: ${title}, автора ${author}, ${year} года, добавлена.`);
 });
 console.log(myLibrary);
