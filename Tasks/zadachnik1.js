@@ -161,7 +161,8 @@ class Library {
 
     isAvialableBook() {
         let list = [];
-        let finishList = ``;
+        let finishList = `Имеющиеся в данный момент книги:
+`;
 
         this.books.forEach( function(item) {
             if(item.isAvialable === true) {
@@ -173,7 +174,7 @@ class Library {
         })
 
         list.forEach( function(item, index) {
-            finishList = finishList + `${index + 1}. ${item.title}. ${item.author}.
+            finishList = finishList + `   ${index + 1}. ${item.title}. автор: ${item.author}.
 `
         })
 
