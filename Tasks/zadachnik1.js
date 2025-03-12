@@ -199,6 +199,12 @@ class Calculator {
     b = 0;
 
     setValues(a, b) {
-        
+        let valueA = +prompt('Введите первое число.');
+        let valueB = +prompt('Введите второе число.');
+
+        this.a = valueA;
+        this.b = valueB;
+
+        console.log(`первое число: ${a}. второе число: ${b}.`)
     }
 }
