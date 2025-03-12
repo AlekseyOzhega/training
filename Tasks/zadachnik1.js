@@ -191,4 +191,14 @@ document.querySelector('.block1-btn5').addEventListener('click', () => {
     myLibrary.addBook(title, author);
     alert(`Книга под названием: ${title}, автора ${author}, ${year} года, добавлена.`);
 });
-console.log(myLibrary);
+
+
+//
+class Calculator {
+    a = 0;
+    b = 0;
+
+    setValues(a, b) {
+        
+    }
+}
