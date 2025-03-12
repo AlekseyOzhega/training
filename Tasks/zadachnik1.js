@@ -213,14 +213,10 @@ class Calculator {
     }
 }
 
-let myCalculator = new Calculator;
-console.log(myCalculator);
-// myCalculator.setValues();
-console.log(myCalculator);
-let testSum = myCalculator.sum();
-console.log(testSum);
+
 
 //
+let myCalculator = new Calculator;
 document.querySelector('.block1-btn6').addEventListener('click', () => {
     myCalculator.setValues();
     console.log(myCalculator);
