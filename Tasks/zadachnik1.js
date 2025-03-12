@@ -215,6 +215,10 @@ class Calculator {
     multiply() {
         return this.a * this.b;
     }
+
+    divide() {
+        return this.a / this.b;
+    }
 }
 
 
@@ -228,4 +232,6 @@ document.querySelector('.block1-btn6').addEventListener('click', () => {
     console.log('Сумма чисел равна ', testSum);
     let testMul = myCalculator.multiply();
     console.log('Произведение чисел равно ', testMul);
+    let testDiv = myCalculator.divide();
+    console.log('Деление чисел равно ', testDiv);
 });
