@@ -207,9 +207,17 @@ class Calculator {
 
         console.log(`первое число: ${this.a}. второе число: ${this.b}.`)
     }
+
+    sum() {
+        return this.a + this.b;
+    }
 }
 
 let myCalculator = new Calculator;
 console.log(myCalculator);
 myCalculator.setValues();
 console.log(myCalculator);
+let testSum = myCalculator.sum();
+console.log(testSum);
+
+//
