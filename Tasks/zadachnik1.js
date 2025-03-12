@@ -211,6 +211,10 @@ class Calculator {
     sum() {
         return this.a + this.b;
     }
+
+    multiply() {
+        return this.a * this.b;
+    }
 }
 
 
@@ -221,5 +225,7 @@ document.querySelector('.block1-btn6').addEventListener('click', () => {
     myCalculator.setValues();
     console.log(myCalculator);
     let testSum = myCalculator.sum();
-    console.log(testSum);
+    console.log('Сумма чисел равна ', testSum);
+    let testMul = myCalculator.multiply();
+    console.log('Произведение чисел равно ', testMul);
 });
