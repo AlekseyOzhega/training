@@ -205,6 +205,11 @@ class Calculator {
         this.a = valueA;
         this.b = valueB;
 
-        console.log(`первое число: ${a}. второе число: ${b}.`)
+        console.log(`первое число: ${this.a}. второе число: ${this.b}.`)
     }
 }
+
+let myCalculator = new Calculator;
+console.log(myCalculator);
+myCalculator.setValues();
+console.log(myCalculator);
