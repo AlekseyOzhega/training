@@ -242,12 +242,15 @@ document.querySelector('.block1-btn6').addEventListener('click', () => {
 
 
 //
+let intervalId;
 const button7Element = document.querySelector('.block1-btn7');
 button7Element.addEventListener('click', () => {
     let seconds = 0;
+    clearInterval(intervalId);
 
-    setInterval( () => {
+    intervalId = setInterval( () => {
         seconds++;
         button7Element.textContent = `Прошло ${seconds} секунд.`
     }, 1000);
+
 });
