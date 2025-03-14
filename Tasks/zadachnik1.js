@@ -248,6 +248,6 @@ button7Element.addEventListener('click', () => {
 
     setInterval( () => {
         seconds++;
-        
-    })
-}
+        button7Element.textContent = `Прошло ${seconds} секунд.`
+    }, 1000);
+});
