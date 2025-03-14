@@ -242,3 +242,4 @@ document.querySelector('.block1-btn6').addEventListener('click', () => {
     console.log('Разность чисел равно ', testSub);
 });
 
+
