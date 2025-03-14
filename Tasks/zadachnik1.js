@@ -241,3 +241,7 @@ document.querySelector('.block1-btn6').addEventListener('click', () => {
 });
 
 
+//
+document.querySelector('.block1-btn7').addEventListener('click', () => {
+
+}
