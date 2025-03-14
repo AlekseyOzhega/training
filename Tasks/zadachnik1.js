@@ -225,8 +225,6 @@ class Calculator {
     }
 }
 
-
-
 ////button N6,sets two numbers in the calculator
 let myCalculator = new Calculator;
 document.querySelector('.block1-btn6').addEventListener('click', () => {
