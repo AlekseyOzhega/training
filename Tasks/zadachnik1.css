@@ -45,6 +45,7 @@ nav a:hover {
 
 .form-block {
     width: 90%;
+    min-width: 700px;
     padding: 1rem;
     border: 2px solid green;
     display: flex;
