@@ -242,6 +242,12 @@ document.querySelector('.block1-btn6').addEventListener('click', () => {
 
 
 //
-document.querySelector('.block1-btn7').addEventListener('click', () => {
+const button7Element = document.querySelector('.block1-btn7');
+button7Element.addEventListener('click', () => {
+    let seconds = 0;
 
+    setInterval( () => {
+        seconds++;
+        
+    })
 }
