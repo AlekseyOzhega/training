@@ -241,7 +241,7 @@ document.querySelector('.block1-btn6').addEventListener('click', () => {
 });
 
 
-//
+//button N7, starts the timer on the button
 let intervalId;
 const button7Element = document.querySelector('.block1-btn7');
 button7Element.addEventListener('click', () => {
