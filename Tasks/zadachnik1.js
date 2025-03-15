@@ -271,11 +271,12 @@ button9Element.addEventListener('click', () => {
     let seconds2 = +prompt('Сколько отсчитать секунд?');
 
     intervalId2 = setInterval( () => {
-        if(seconds2 === 0) {
-            clearInterval(intervalId);
-        }
-
         seconds2--;
-        button7Element.textContent = `Осталось ${seconds2} секунд.`
+        button9Element.textContent = `Осталось ${seconds2} секунд.`
+
+        if(seconds2 === 0) {
+            clearInterval(intervalId2);
+            button9Element.textContent = `Задача №9`
+        }
     }, 1000);
 });
