@@ -267,7 +267,7 @@ document.querySelector('.block1-btn8').addEventListener('click', () => {
 //button N9,
 let intervalId2;
 document.querySelector('.block1-btn9').addEventListener('click', () => {
-    let seconds2 = 0;
+    let seconds2 = +prompt('Сколько отсчитать секунд?');
 
     intervalId2 = setInterval( () => {
         if(seconds2 === 0) {
