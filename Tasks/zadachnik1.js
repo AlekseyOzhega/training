@@ -265,8 +265,16 @@ document.querySelector('.block1-btn8').addEventListener('click', () => {
 
 
 //button N9,
+let intervalId2;
 document.querySelector('.block1-btn9').addEventListener('click', () => {
-    setTimeout(() => {
-        console.log('Сообщение в консоли.')
-    }, 3000);
+    let seconds2 = 0;
+    clearInterval(intervalId);
+
+    intervalId2 = setInterval( () => {
+        if(seconds2 === 0) {
+            clearInterval(intervalId);
+        }
+        seconds++;
+        button7Element.textContent = `Прошло ${seconds2} секунд.`
+    }, 1000);
 });
