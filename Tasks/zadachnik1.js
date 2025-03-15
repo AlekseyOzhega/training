@@ -256,9 +256,12 @@ button7Element.addEventListener('click', () => {
 });
 
 
-//button N8, 
+//button N8, outputs a message to the console with a delay
 document.querySelector('.block1-btn8').addEventListener('click', () => {
     setTimeout(() => {
         console.log('Сообщение в консоли.')
     }, 3000);
 });
+
+
+//
