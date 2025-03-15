@@ -264,4 +264,9 @@ document.querySelector('.block1-btn8').addEventListener('click', () => {
 });
 
 
-//
+//button N9,
+document.querySelector('.block1-btn9').addEventListener('click', () => {
+    setTimeout(() => {
+        console.log('Сообщение в консоли.')
+    }, 3000);
+});
