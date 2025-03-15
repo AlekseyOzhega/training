@@ -274,9 +274,10 @@ button9Element.addEventListener('click', () => {
         seconds2--;
         button9Element.textContent = `Осталось ${seconds2} секунд.`
 
-        if(seconds2 === 0) {
+        if(seconds2 === -1) {
             clearInterval(intervalId2);
-            button9Element.textContent = `Задача №9`
+
+            button9Element.textContent = `Финиш!`
         }
     }, 1000);
 });
