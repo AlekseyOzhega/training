@@ -266,7 +266,8 @@ document.querySelector('.block1-btn8').addEventListener('click', () => {
 
 //button N9,
 let intervalId2;
-document.querySelector('.block1-btn9').addEventListener('click', () => {
+const button9Element = document.querySelector('.block1-btn9');
+button9Element.addEventListener('click', () => {
     let seconds2 = +prompt('Сколько отсчитать секунд?');
 
     intervalId2 = setInterval( () => {
@@ -274,7 +275,7 @@ document.querySelector('.block1-btn9').addEventListener('click', () => {
             clearInterval(intervalId);
         }
 
-        seconds--;
-        button7Element.textContent = `Прошло ${seconds2} секунд.`
+        seconds2--;
+        button7Element.textContent = `Осталось ${seconds2} секунд.`
     }, 1000);
 });
