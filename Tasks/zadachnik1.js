@@ -277,7 +277,11 @@ button9Element.addEventListener('click', () => {
         if(seconds2 === -1) {
             clearInterval(intervalId2);
 
-            button9Element.textContent = `Финиш!`
+            button9Element.textContent = `Финиш!`;
+
+            setTimeout(() => {
+                button9Element.textContent = `Задание №9`;
+            }, 4000);
         }
     }, 1000);
 });
