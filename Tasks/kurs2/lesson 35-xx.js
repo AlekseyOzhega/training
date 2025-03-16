@@ -159,3 +159,6 @@ let phoneFieldElement = document.getElementById('phone');
 //Урок 37. Формы в ДжС
 
 
+console.log('Все элементы форм на странице', document.forms)
+
+console.log('Форма авторизации ', document.forms[3])
