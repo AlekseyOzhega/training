@@ -154,4 +154,8 @@ document,addEventListener('focusout', (event) => {
 })
 
 let phoneFieldElement = document.getElementById('phone');
-console.log(phoneFieldElement)
+
+
+//Урок 37. Формы в ДжС
+
+
