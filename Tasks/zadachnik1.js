@@ -269,6 +269,7 @@ let intervalId2;
 const button9Element = document.querySelector('.block1-btn9');
 button9Element.addEventListener('click', () => {
     let seconds2 = +prompt('Сколько отсчитать секунд?');
+    seconds2++;
 
     intervalId2 = setInterval( () => {
         seconds2--;
