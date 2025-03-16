@@ -165,3 +165,5 @@ let phoneFieldElement = document.getElementById('phone');
 let form3Elements = document.querySelector('.form3');
 console.log('Третья форма: ', form3Elements.elements);
 console.log('Радиокнопки: ', form3Elements.radiopol);
+
+console.log('Селектор: ', document.querySelector('#form3').form);
