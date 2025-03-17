@@ -162,8 +162,11 @@ let phoneFieldElement = document.getElementById('phone');
 // console.log('Все элементы форм на странице', document.forms)
 // console.log('Форма авторизации ', document.forms[3])
 
-let form3Elements = document.querySelector('.form3');
-console.log('Третья форма: ', form3Elements.elements);
-console.log('Радиокнопки: ', form3Elements.radiopol);
+// let form3Elements = document.querySelector('.form3');
+// console.log('Третья форма: ', form3Elements.elements);
+// console.log('Радиокнопки: ', form3Elements.radiopol);
 
-console.log('Селектор: ', document.querySelector('#form3').form);
+// console.log('Селектор: ', document.querySelector('#city').form);
+
+
+
