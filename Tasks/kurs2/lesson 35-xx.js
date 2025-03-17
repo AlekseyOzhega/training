@@ -169,4 +169,7 @@ let phoneFieldElement = document.getElementById('phone');
 // console.log('Селектор: ', document.querySelector('#city').form);
 
 
+let form3Elements = document.querySelector('.form3');
 
+let loginElement = form3Elements.login2;
+console.log(loginElement);
