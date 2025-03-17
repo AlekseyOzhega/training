@@ -230,7 +230,7 @@ header a:hover {
 .checkbox label::before {
     content: '';
     position: absolute;
-    left: 20.5%;
+    left: 22%;
     width: 12px;
     height: 12px;
     border: 1.5px solid rgb(88, 88, 246);
