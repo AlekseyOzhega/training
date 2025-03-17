@@ -175,3 +175,6 @@ let loginElement = form3Elements.login2;
 console.log(loginElement);
 let abouthElement = form3Elements.abouthYoureself;
 console.log(abouthElement);
+
+loginElement.value = 'TheBest';
+abouthElement.value = 'New World Order'
