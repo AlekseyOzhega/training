@@ -179,7 +179,8 @@ let form3Elements = document.querySelector('.form3');
 // loginElement.value = 'TheBest';
 // abouthElement.value = 'New World Order'
 
-console.log('Радиокнопки', form3Elements.radiopol)
-console.log('value: ', form3Elements.radiopol.value)
-console.log('Показание первой радио кнопки: ', form3Elements.radiopol[0].checked);
-console.log('Показание второй радио кнопки: ', form3Elements.radiopol[1].checked);
+// console.log('Радиокнопки', form3Elements.radiopol)
+// console.log('value: ', form3Elements.radiopol.value)
+// console.log('Показание первой радио кнопки: ', form3Elements.radiopol[0].checked);
+// console.log('Показание второй радио кнопки: ', form3Elements.radiopol[1].checked);
+
