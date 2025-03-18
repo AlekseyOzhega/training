@@ -180,4 +180,4 @@ let form3Elements = document.querySelector('.form3');
 // abouthElement.value = 'New World Order'
 
 console.log('Радиокнопки', form3Elements.radiopol)
-console.log(form3Elements.radiopol.value)
+console.log('value: ', form3Elements.radiopol.value)
