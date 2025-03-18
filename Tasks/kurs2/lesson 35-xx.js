@@ -179,4 +179,5 @@ let form3Elements = document.querySelector('.form3');
 // loginElement.value = 'TheBest';
 // abouthElement.value = 'New World Order'
 
-
+console.log('Радиокнопки', form3Elements.radiopol)
+console.log(form3Elements.radiopol.value)
