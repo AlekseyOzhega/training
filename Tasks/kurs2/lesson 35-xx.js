@@ -186,3 +186,7 @@ let form3Elements = document.querySelector('.form3');
 
 // console.log('Чекбокс: ', form3Elements.agree.checked);
 
+let selectElement = form3Elements.city;
+console.log('select список: ', selectElement.options);
+console.log('select индекс: ', selectElement.selectedIndex);
+console.log('select: ', selectElement.value);
