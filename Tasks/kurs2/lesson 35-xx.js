@@ -184,4 +184,5 @@ let form3Elements = document.querySelector('.form3');
 // console.log('Показание первой радио кнопки: ', form3Elements.radiopol[0].checked);
 // console.log('Показание второй радио кнопки: ', form3Elements.radiopol[1].checked);
 
-console.log('Чекбокс: ', form3Elements.agree.value);
+// console.log('Чекбокс: ', form3Elements.agree.checked);
+
