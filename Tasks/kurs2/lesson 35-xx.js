@@ -194,6 +194,6 @@ let selectElement = form3Elements.city;
 // selectElement.value = 'Бангладеш';
 
 let selectedArr = [...selectElement.selectedOptions]
-.map((value) => value)
+.map(({value}) => value)
 .join(',');
 console.log('Список выбранных вариантов: ', selectedArr);
