@@ -192,3 +192,6 @@ console.log('select индекс: ', selectElement.selectedIndex);
 console.log('select: ', selectElement.value);
 console.log('select непростой способ: ', selectElement.options[selectElement.selectedIndex].value);
 selectElement.value = 'Бангладеш';
+
+let selectedArr = [...selectElement.selectedOptions];
+console.log('Список выбранных вариантов: ', selectedArr);
