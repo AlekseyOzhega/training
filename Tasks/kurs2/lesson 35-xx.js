@@ -169,7 +169,7 @@ let phoneFieldElement = document.getElementById('phone');
 // console.log('Селектор: ', document.querySelector('#city').form);
 
 
-let form3Elements = document.querySelector('.form3');
+// let form3Elements = document.querySelector('.form3');
 
 // let loginElement = form3Elements.login2;
 // console.log(loginElement);
@@ -197,3 +197,9 @@ let form3Elements = document.querySelector('.form3');
 // .map(({value}) => value)
 // .join(',');
 // console.log('Список выбранных вариантов: ', selectedArr);
+
+
+//Урок 38. отправка формы
+let form3Elements = document.querySelector('.form3');
+console.log(form3Elements);
+form3Elements.addEventListener('submit');
