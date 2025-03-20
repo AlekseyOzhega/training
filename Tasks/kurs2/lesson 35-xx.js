@@ -186,14 +186,14 @@ let form3Elements = document.querySelector('.form3');
 
 // console.log('Чекбокс: ', form3Elements.agree.checked);
 
-let selectElement = form3Elements.city;
+// let selectElement = form3Elements.city;
 // console.log('select список: ', selectElement.options);
 // console.log('select индекс: ', selectElement.selectedIndex);
 // console.log('select: ', selectElement.value);
 // console.log('select непростой способ: ', selectElement.options[selectElement.selectedIndex].value);
 // selectElement.value = 'Бангладеш';
 
-let selectedArr = [...selectElement.selectedOptions]
-.map(({value}) => value)
-.join(',');
-console.log('Список выбранных вариантов: ', selectedArr);
+// let selectedArr = [...selectElement.selectedOptions]
+// .map(({value}) => value)
+// .join(',');
+// console.log('Список выбранных вариантов: ', selectedArr);
