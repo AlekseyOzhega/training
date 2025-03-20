@@ -190,3 +190,5 @@ let selectElement = form3Elements.city;
 console.log('select список: ', selectElement.options);
 console.log('select индекс: ', selectElement.selectedIndex);
 console.log('select: ', selectElement.value);
+console.log('select непростой способ: ', selectElement.options[selectElement.selectedIndex].value);
+selectElement.value = 'Бангладеш';
