@@ -208,7 +208,12 @@ form3Elements.addEventListener('submit', (event) => {
 
     const formData = {};
 
+
+
     for (const element of form3Elements.elements) {
+        if (!element.name) {
+            continue
+        }
 
         formData[element.name] = element.value
     }
