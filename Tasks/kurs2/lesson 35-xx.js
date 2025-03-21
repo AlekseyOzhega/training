@@ -117,43 +117,43 @@ document.addEventListener('paste', (event) => {
 // })
 
 
-document,addEventListener('focusin', (event) => {
-    if (event.target.matches('#login')) {
-        console.log('Поле ввода логина в фокусе!')
-    }
-})
+// document,addEventListener('focusin', (event) => {
+//     if (event.target.matches('#login')) {
+//         console.log('Поле ввода логина в фокусе!')
+//     }
+// })
 
-document,addEventListener('focusout', (event) => {
-    if (event.target.matches('#login')) {
-        console.log('Поле ввода логина больше не в фокусе!')
-    }
-})
+// document,addEventListener('focusout', (event) => {
+//     if (event.target.matches('#login')) {
+//         console.log('Поле ввода логина больше не в фокусе!')
+//     }
+// })
 
-document,addEventListener('focusin', (event) => {
-    if (event.target.matches('#password')) {
-        console.log('Поле ввода пароля в фокусе!')
-    }
-})
+// document,addEventListener('focusin', (event) => {
+//     if (event.target.matches('#password')) {
+//         console.log('Поле ввода пароля в фокусе!')
+//     }
+// })
 
-document,addEventListener('focusout', (event) => {
-    if (event.target.matches('#password')) {
-        console.log('Поле ввода пароля больше не в фокусе!')
-    }
-})
+// document,addEventListener('focusout', (event) => {
+//     if (event.target.matches('#password')) {
+//         console.log('Поле ввода пароля больше не в фокусе!')
+//     }
+// })
 
-document,addEventListener('focusin', (event) => {
-    if (event.target.matches('button[type="submit"]')) {
-        console.log('Кнопка войти в фокусе!')
-    }
-})
+// document,addEventListener('focusin', (event) => {
+//     if (event.target.matches('button[type="submit"]')) {
+//         console.log('Кнопка войти в фокусе!')
+//     }
+// })
 
-document,addEventListener('focusout', (event) => {
-    if (event.target.matches('button[type="submit"]')) {
-        console.log('Кнопка войти больше не в фокусе!')
-    }
-})
+// document,addEventListener('focusout', (event) => {
+//     if (event.target.matches('button[type="submit"]')) {
+//         console.log('Кнопка войти больше не в фокусе!')
+//     }
+// })
 
-let phoneFieldElement = document.getElementById('phone');
+// let phoneFieldElement = document.getElementById('phone');
 
 
 //Урок 37. Формы в ДжС
@@ -202,4 +202,6 @@ let phoneFieldElement = document.getElementById('phone');
 //Урок 38. отправка формы
 let form3Elements = document.querySelector('.form3');
 console.log(form3Elements);
-form3Elements.addEventListener('submit');
+form3Elements.addEventListener('submit', (event) => {
+    event.preventDefault();
+});
