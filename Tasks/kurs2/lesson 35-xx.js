@@ -210,10 +210,13 @@ form3Elements.addEventListener('submit', (event) => {
 
     const formData = {};
 
-
-
     for (const element of form3Elements.elements) {
         if (!element.name) {
+            continue
+        }
+
+        if (element.type === 'checkbox') {
+            formData[element.name] = element.checked
             continue
         }
 
