@@ -202,7 +202,7 @@ document.addEventListener('paste', (event) => {
 //Урок 38. отправка формы
 
 let form3Elements = document.querySelector('.form3');
-console.log(form3Elements);
+
 form3Elements.addEventListener('submit', (event) => {
     event.preventDefault();
 
