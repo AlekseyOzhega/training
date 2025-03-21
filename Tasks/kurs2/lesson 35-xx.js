@@ -207,6 +207,9 @@ form3Elements.addEventListener('submit', (event) => {
     event.preventDefault();
 
     for (const element of form3Elements.elements) {
-        console.log('element: ', element)
+
+        FormData[element.name] = element.value
     }
+
+    console.log(FormData);
 });
