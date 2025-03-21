@@ -203,6 +203,8 @@ document.addEventListener('paste', (event) => {
 
 let form3Elements = document.querySelector('.form3');
 
+console.log(form3Elements.gender)
+
 form3Elements.addEventListener('submit', (event) => {
     event.preventDefault();
 
