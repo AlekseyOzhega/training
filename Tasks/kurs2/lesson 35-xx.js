@@ -206,10 +206,12 @@ console.log(form3Elements);
 form3Elements.addEventListener('submit', (event) => {
     event.preventDefault();
 
+    const formData = {};
+
     for (const element of form3Elements.elements) {
 
-        FormData[element.name] = element.value
+        formData[element.name] = element.value
     }
 
-    console.log(FormData);
+    console.log(formData);
 });
