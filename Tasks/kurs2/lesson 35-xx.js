@@ -220,6 +220,10 @@ form3Elements.addEventListener('submit', (event) => {
             continue
         }
 
+        if (element.type === 'radio' && !element.checked) {
+            continue;
+        }
+
         formData[element.name] = element.value
     }
 
