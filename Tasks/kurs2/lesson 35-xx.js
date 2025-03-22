@@ -208,24 +208,24 @@ console.log(form3Elements.gender)
 form3Elements.addEventListener('submit', (event) => {
     event.preventDefault();
 
-    const formData = {};
+    const formData = new FormData(form3Elements);
 
-    for (const element of form3Elements.elements) {
-        if (!element.name) {
-            continue
-        }
+    // for (const element of form3Elements.elements) {
+    //     if (!element.name) {
+    //         continue
+    //     }
 
-        if (element.type === 'checkbox') {
-            formData[element.name] = element.checked
-            continue
-        }
+    //     if (element.type === 'checkbox') {
+    //         formData[element.name] = element.checked
+    //         continue
+    //     }
 
-        if (element.type === 'radio' && !element.checked) {
-            continue;
-        }
+    //     if (element.type === 'radio' && !element.checked) {
+    //         continue;
+    //     }
 
-        formData[element.name] = element.value
-    }
+    //     formData[element.name] = element.value
+    // }
 
-    console.log(formData);
+    console.log('formData; ', formData);
 });
