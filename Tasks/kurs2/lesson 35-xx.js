@@ -203,12 +203,10 @@ document.addEventListener('paste', (event) => {
 
 let form3Elements = document.querySelector('.form3');
 
-console.log(form3Elements.gender)
+// console.log(form3Elements.gender)
 
 form3Elements.addEventListener('submit', (event) => {
     event.preventDefault();
-
-    const formData = new FormData(form3Elements);
 
     // for (const element of form3Elements.elements) {
     //     if (!element.name) {
@@ -226,6 +224,9 @@ form3Elements.addEventListener('submit', (event) => {
 
     //     formData[element.name] = element.value
     // }
+
+    
+    const formData = new FormData(form3Elements);
 
     console.log('formData; ', formData);
 });
