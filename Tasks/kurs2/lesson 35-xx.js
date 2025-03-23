@@ -225,7 +225,6 @@ form3Elements.addEventListener('submit', (event) => {
     //     formData[element.name] = element.value
     // }
 
-    
     const formData = new FormData(form3Elements);
 
     console.log(Object.fromEntries(formData))
@@ -235,4 +234,5 @@ form3Elements.addEventListener('submit', (event) => {
     // })
 
     // console.log('formData; ', formData);
+
 });
