@@ -228,7 +228,7 @@ form3Elements.addEventListener('submit', (event) => {
     
     const formData = new FormData(form3Elements);
 
-    
+    console.log(Object.fromEntries(formData))
 
     // formData.forEach((value, name) => {
     //     console.log(`${name}: ${value}`)
