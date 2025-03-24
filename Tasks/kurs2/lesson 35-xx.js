@@ -243,3 +243,7 @@ document.addEventListener('paste', (event) => {
     // console.log('formData; ', formData);
 
 // });
+
+
+//Урок 39. Валидация форм.
+
