@@ -228,10 +228,13 @@ form3Elements.addEventListener('submit', (event) => {
     const formData = new FormData(form3Elements);
 
     formData.append('example', 'bla-bla-bol');
-    console.log(formData.get('example'));
+
 
     console.log(Object.fromEntries(formData))
+    console.log(formData.get('example'));
 
+    formData.delete('example');
+    console.log(Object.fromEntries(formData))
 
     // formData.forEach((value, name) => {
     //     console.log(`${name}: ${value}`)
