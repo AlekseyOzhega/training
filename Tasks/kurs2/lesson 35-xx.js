@@ -201,12 +201,12 @@ document.addEventListener('paste', (event) => {
 
 //Урок 38. отправка формы
 
-let form3Elements = document.querySelector('.form3');
+// let form3Elements = document.querySelector('.form3');
 
 // console.log(form3Elements.gender)
 
-form3Elements.addEventListener('submit', (event) => {
-    event.preventDefault();
+// form3Elements.addEventListener('submit', (event) => {
+//     event.preventDefault();
 
     // for (const element of form3Elements.elements) {
     //     if (!element.name) {
@@ -225,16 +225,16 @@ form3Elements.addEventListener('submit', (event) => {
     //     formData[element.name] = element.value
     // }
 
-    const formData = new FormData(form3Elements);
+    // const formData = new FormData(form3Elements);
 
-    formData.append('example', 'bla-bla-bol');
+    // formData.append('example', 'bla-bla-bol');
 
 
-    console.log(Object.fromEntries(formData))
-    console.log(formData.get('example'));
+    // console.log(Object.fromEntries(formData))
+    // console.log(formData.get('example'));
 
-    formData.delete('example');
-    console.log(Object.fromEntries(formData))
+    // formData.delete('example');
+    // console.log(Object.fromEntries(formData))
 
     // formData.forEach((value, name) => {
     //     console.log(`${name}: ${value}`)
@@ -242,4 +242,4 @@ form3Elements.addEventListener('submit', (event) => {
 
     // console.log('formData; ', formData);
 
-});
+// });
