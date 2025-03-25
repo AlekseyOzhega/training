@@ -201,6 +201,11 @@ document.addEventListener('paste', (event) => {
 
 //Урок 38. отправка формы
 
+let form3Elements = document.querySelector('.form3');
+form3Elements.addEventListener('submit', (event) => {
+        event.preventDefault();
+});
+
 // let form3Elements = document.querySelector('.form3');
 
 // console.log(form3Elements.gender)
