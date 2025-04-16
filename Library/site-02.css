@@ -4,13 +4,21 @@
     box-sizing: border-box;
 }
 
+
+
+body {
+    background-color: black;
+}
+
+
 nav {
     display: flex;
     justify-content: center;
+    background-color: white;
+    padding-bottom: 14px;
 }
 
 nav a {
-    /* display: block; */
     background-color: blue;
     color: white;
     padding: 20px;
@@ -22,3 +30,8 @@ nav a {
 nav a:hover {
     background-color: rgb(19, 175, 19);
 }
+
+nav a:active {
+    background-color: gold;
+}
+
