@@ -43,10 +43,12 @@ nav a:active {
 
 .logo {
     background-color: white;
-    height: 10vh;
+    display: flex;
+    justify-content: center;
     margin-top: 50px;
 }
 
 .logo img {
-    
+    margin: 19px 0;
+    text-align: center;
 }
