@@ -35,3 +35,9 @@ nav a:active {
     background-color: gold;
 }
 
+
+.logo {
+    background-color: white;
+    height: 8vh;
+    margin-top: 50px;
+}
