@@ -52,3 +52,9 @@ nav a:active {
     margin: 19px 0;
     text-align: center;
 }
+
+
+.sale {
+    height: 100vh;
+    background-color: white;
+}
