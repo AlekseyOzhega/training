@@ -41,6 +41,11 @@ nav a:active {
     margin: 0 auto;
 }
 
+.container2 {
+    width: 552px;
+    margin: 0 auto;
+}
+
 .logo {
     background-color: white;
     display: flex;
@@ -60,7 +65,6 @@ nav a:active {
 }
 
 .sale h1 {
-    margin: 0 24px;
     font-size: 36px;
     font-weight: 50;
     font-family: 'Times New Roman', Times, serif;
