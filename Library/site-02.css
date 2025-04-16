@@ -36,8 +36,17 @@ nav a:active {
 }
 
 
+.container {
+    width: 600px;
+    margin: 0 auto;
+}
+
 .logo {
     background-color: white;
-    height: 8vh;
+    height: 10vh;
     margin-top: 50px;
+}
+
+.logo img {
+    
 }
