@@ -58,3 +58,10 @@ nav a:active {
     height: 100vh;
     background-color: white;
 }
+
+.sale h1 {
+    margin: 0 24px;
+    font-size: 36px;
+    font-weight: 50;
+    font-family: 'Times New Roman', Times, serif;
+}
