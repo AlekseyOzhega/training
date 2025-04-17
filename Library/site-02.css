@@ -60,7 +60,7 @@ nav a:active {
 
 
 .sale {
-    height: 100vh;
+    height: 300vh;
     background-color: white;
 }
 
@@ -95,4 +95,12 @@ nav a:active {
     font-weight: 50;
     font-family: 'Times New Roman', Times, serif;
     height: 24px;
+    color: rgb(0, 136, 255);
+}
+
+.card a {
+    border-radius: 12px;
+    background-color: rgb(0, 136, 255);
+    color: white;
+    padding: 20px 50px;
 }
