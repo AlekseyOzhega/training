@@ -70,8 +70,17 @@ nav a:active {
     font-family: 'Times New Roman', Times, serif;
 }
 
+.cards {
+    display: flex;
+    justify-content: center;
+}
+
 .card {
-    
+    padding: 32px 8px 0 8px;
+}
+
+.card img {
+    border-radius: 6px;
 }
 
 .card_name {
