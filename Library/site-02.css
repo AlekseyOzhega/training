@@ -115,3 +115,9 @@ nav a:active {
     font-size: 20px;
     margin-top: 10px;
 }
+
+
+footer {
+    background-color: white;
+    padding: 24px;
+}
