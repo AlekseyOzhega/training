@@ -83,6 +83,7 @@ nav a:active {
 
 .card img {
     border-radius: 6px;
+    border: 1.5px solid grey;
 }
 
 .card p {
