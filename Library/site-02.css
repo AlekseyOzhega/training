@@ -23,8 +23,10 @@ nav a {
     color: white;
     padding: 20px;
     margin-right: 10px;
-    width: 7vw;
+    width: 10vw;
     border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
 }
 
 nav a:hover {
