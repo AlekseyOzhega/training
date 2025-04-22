@@ -107,7 +107,7 @@ nav a:active {
     color: rgb(0, 136, 255);
 }
 
-.card a {
+.card .buy-btn {
     border-radius: 12px;
     background-color: rgb(0, 136, 255);
     color: white;
@@ -118,9 +118,10 @@ nav a:active {
     font-size: 20px;
     margin-top: 10px;
     transition: transform .1s;
+    cursor: pointer;
 }
 
-.card a:hover {
+.card .buy-btn:hover {
     transform: scale(1.1);
     transition: transform .1s;
 }
