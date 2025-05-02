@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background: repeating-linear-gradient(
         110deg, 
@@ -31,6 +37,7 @@ header a:hover {
     min-height: 60vh;
     width: 80vw;
     margin: 20px auto;
+    padding: 20px 0;
     display: flex;
     justify-content: space-around;
 }
