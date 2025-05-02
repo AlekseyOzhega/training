@@ -39,6 +39,7 @@ header a:hover {
     margin: 20px auto;
     padding: 20px 0;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
@@ -46,7 +47,8 @@ ul {
     border: 1px solid black;
     border-radius: 9px;
     padding: 13px 3rem;
-    width: 30%;
+    margin-bottom: 20px;
+    width: 49%;
     background-color: white;
 }
 
