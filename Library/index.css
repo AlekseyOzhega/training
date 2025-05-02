@@ -52,6 +52,12 @@ ul {
     background-color: white;
 }
 
+ul p {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: rgb(65, 87, 79);
+}
+
 li {
     padding: 3px;
     list-style-type: none;
