@@ -17,3 +17,7 @@ ul li {
 .nav-ul {
     display: flex;
 }
+
+.nav-ul li:not(:first-child) {
+    margin: 0 ;
+}
