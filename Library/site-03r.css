@@ -18,6 +18,18 @@ ul li {
     display: flex;
 }
 
+.nav-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-logo p {
+    color: #2d2d2d;
+    font-weight: 600;
+    font-size: 20px;
+}
+
 .nav-ul li:not(:first-child) {
     margin: 0 10px;
 }
