@@ -14,3 +14,6 @@ ul li {
 }
 
 
+.nav-ul {
+    display: flex;
+}
