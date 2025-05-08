@@ -71,15 +71,15 @@ ul li a {
     margin: 2px 9px;
 }
 
-.demo-btn {
-    background-color: blue;
-    color: white;
-    padding: .7rem 1.8rem;
-}
-
 .demo-btn a, .sign-btn a{
     font-weight: 400;
     font-size: 20px;
     transition: scale .3s;
     cursor: pointer;
+}
+
+.demo-btn a {
+    background-color: blue;
+    color: white;
+    padding: .7rem 1.8rem;
 }
