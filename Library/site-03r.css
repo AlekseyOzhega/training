@@ -25,10 +25,14 @@ ul li {
     margin-right: 2rem;
 }
 
-.nav-btn {
+.nav-btn a {
+    width: 100%;
+    height: 100%;
     padding: 1rem 9px 1rem 9px;
     font-weight: 400;
     font-size: 20px;
+    transition: scale 1s;
+    cursor: pointer;
 }
 
 .nav-logo p {
@@ -42,6 +46,7 @@ ul .nav-btn:hover {
     background-color: blue;
     color: white;
     scale: 1.1;
+    transition: scale 1s;
 }
 
 .nav-ul li a {
