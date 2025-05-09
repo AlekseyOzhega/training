@@ -93,9 +93,16 @@ ul li a {
 }
 
 
+
+
+
+
 .frst-block-btn a{
     font-weight: 400;
     font-size: 20px;
     cursor: pointer;
     border-radius: 2px;
+    background-color: antiquewhite;
+    padding: .5rem 1.5rem;
+    margin: .9rem .2rem;
 }
