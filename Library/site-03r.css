@@ -16,6 +16,7 @@ ul li {
     width: 1130px;
     margin: 0 auto;
     background-color: #ffffff;
+    padding-left: .1rem;
 }
 
 
@@ -33,7 +34,6 @@ ul li {
     justify-content: center;
     align-items: center;
     margin-right: 2rem;
-    margin-left: .1rem;
 }
 
 .nav-btn a {
@@ -94,22 +94,48 @@ ul li a {
 
 
 
+.frstsect {
+    display: flex;
+    justify-content: space-between;
+}
 
 .frst-block-1 {
     padding-top: 51px;
+    width: 52%;
 }
 
 .frst-block-1 h2 {
     font-weight: 500;
-    font-size: 60px;
+    font-size: 80px;
+}
+
+.frst-block-1 p {
+    width: 70%;
+    padding-top: 21px;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.frst-block-btn {
+    padding-top: 31px;
 }
 
 .frst-block-btn a{
     font-weight: 400;
     font-size: 20px;
+    text-decoration: none;
     cursor: pointer;
     border-radius: 2px;
     background-color: antiquewhite;
     padding: .5rem 1.5rem;
     margin: .9rem .2rem;
+}
+
+.frst-block-btn a:hover {
+    background-color: #006B99;
+    color: #ffffff;
+}
+
+.frst-block-2 {
+    
 }
