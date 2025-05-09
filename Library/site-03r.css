@@ -30,18 +30,20 @@ ul li {
     margin-right: 2rem;
 }
 
-.nav-btn {
+/* .nav-btn {
     padding: 1rem 9px 1rem 9px;
-}
+} */
 
 .nav-btn a {
     font-weight: 400;
     font-size: 20px;
     transition: scale .3s;
     cursor: pointer;
+    background-color: antiquewhite;
+    padding: 1rem 1rem;
 }
 
-ul .nav-btn:hover {
+.nav-btn a:hover {
     background-color: blue;
     color: white;
     scale: 1.1;
