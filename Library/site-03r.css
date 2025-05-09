@@ -95,7 +95,14 @@ ul li a {
 
 
 
+.frst-block-1 {
+    padding-top: 51px;
+}
 
+.frst-block-1 h2 {
+    font-weight: 500;
+    font-size: 60px;
+}
 
 .frst-block-btn a{
     font-weight: 400;
