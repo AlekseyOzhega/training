@@ -21,7 +21,7 @@ ul li {
 
 .navigate {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .nav-ul {
