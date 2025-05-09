@@ -46,10 +46,8 @@ ul li {
 }
 
 .nav-btn a:hover {
-    background-color: blue;
-    color: white;
-    scale: 1.01;
-    transition: scale .3s;
+    background-color: #006B99;
+    color: #ffffff;
 }
 
 
@@ -81,16 +79,15 @@ ul li a {
 }
 
 .demo-btn a {
-    background-color: blue;
-    color: white;
+    color: #000000;
     padding: .5rem 1.8rem;
 }
 
 .sign-btn a {
     padding: .5rem 1.5rem;
-    background-color: #ede9e9;
 }
 
 .demo-btn a:hover, .sign-btn a:hover {
-    scale: 1.5;
+    background-color: #006B99;
+    color: #ffffff;
 }
