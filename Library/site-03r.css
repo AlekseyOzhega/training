@@ -74,7 +74,6 @@ ul li a {
 .demo-btn a, .sign-btn a{
     font-weight: 400;
     font-size: 20px;
-    transition: scale .3s;
     cursor: pointer;
     border-radius: 2px;
 }
@@ -91,4 +90,12 @@ ul li a {
 .demo-btn a:hover, .sign-btn a:hover {
     background-color: #006B99;
     color: #ffffff;
+}
+
+
+.frst-block-btn a{
+    font-weight: 400;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 2px;
 }
