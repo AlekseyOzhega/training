@@ -155,3 +155,8 @@ ul li a {
     font-weight: 300;
     font-size: 28px;
 }
+
+.companies-list {
+    display: flex;
+    justify-content: center;
+}
