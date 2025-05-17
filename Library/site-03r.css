@@ -108,6 +108,7 @@ ul li a {
     display: flex;
     justify-content: space-between;
     padding-top: 6rem;
+    padding-bottom: 6rem;
 }
 
 .frst-block-1 {
@@ -149,5 +150,8 @@ ul li a {
 
 
 .scnd-sect .trust p {
+    width: 366px;
     margin: 40px auto;
+    font-weight: 300;
+    font-size: 28px;
 }
