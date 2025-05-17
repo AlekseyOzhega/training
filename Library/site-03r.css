@@ -160,3 +160,7 @@ ul li a {
     display: flex;
     justify-content: center;
 }
+
+.companies-list li {
+    margin: 0 30px;
+}
