@@ -48,6 +48,7 @@ nav {
     font-size: 20px;
     transition: scale .3s;
     cursor: pointer;
+    color: #006B99;
     display: block;
     align-items: center;
     padding: .6rem 1rem .5rem 1rem;
@@ -88,10 +89,12 @@ ul li a {
 .demo-btn a {
     color: #000000;
     padding: .5rem 1.8rem;
+    color: #006B99;
 }
 
 .sign-btn a {
     padding: .5rem 1.5rem;
+    color: #006B99;
 }
 
 .demo-btn a:hover, .sign-btn a:hover {
@@ -133,6 +136,7 @@ ul li a {
     font-size: 21px;
     text-decoration: none;
     cursor: pointer;
+    color: #006B99;
     border-radius: 2px;
     padding: .5rem 1.5rem;
 }
@@ -142,6 +146,8 @@ ul li a {
     color: #ffffff;
 }
 
-.frst-block-2 {
-    
+
+
+.scnd-sect .trust p {
+    margin: 40px auto;
 }
