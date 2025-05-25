@@ -166,8 +166,19 @@ ul li a {
 }
 
 
+
+.slogans {
+    margin-top: 160px;
+}
+
 .slogan {
     width: 355px;
     height: 250px;
     background-color: yellow;
+    padding: 32px;
+}
+
+.slogan h2 {
+    margin-top: 8px;
+    margin-bottom: 11px;
 }
