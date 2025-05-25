@@ -176,6 +176,7 @@ ul li a {
     height: 250px;
     background-color: yellow;
     padding: 32px;
+    margin-bottom: 120px;
 }
 
 .slogan h2 {
@@ -186,5 +187,6 @@ ul li a {
 }
 
 .slogan p {
-    
+    font-weight: 300;
+    font-size: 18px;
 }
