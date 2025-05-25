@@ -192,11 +192,16 @@ ul li a {
     background-color: rgba(0, 0, 255, 0.103);
 }
 
+.slogan img {
+    width: 55px;
+    height: 55px;
+}
+
 .slogan h2 {
     margin-top: 8px;
     margin-bottom: 11px;
     font-weight: 300;
-    font-size: 36px;
+    font-size: 32px;
 }
 
 .slogan p {
