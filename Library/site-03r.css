@@ -169,14 +169,27 @@ ul li a {
 
 .slogans {
     margin-top: 160px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .slogan {
     width: 355px;
     height: 250px;
-    background-color: yellow;
     padding: 32px;
     margin-bottom: 120px;
+}
+
+.sl-pink {
+    background-color: rgba(255, 192, 203, 0.591);
+}
+
+.sl-yellow {
+    background-color: rgba(255, 255, 0, 0.518);
+}
+
+.sl-blue {
+    background-color: rgba(0, 0, 255, 0.103);
 }
 
 .slogan h2 {
