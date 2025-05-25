@@ -164,3 +164,10 @@ ul li a {
 .companies-list li {
     margin: 0 30px;
 }
+
+
+.slogan {
+    width: 355px;
+    height: 250px;
+    background-color: yellow;
+}
