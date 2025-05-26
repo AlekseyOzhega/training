@@ -225,3 +225,13 @@ sect-4-cont-text {
 .accordion-input {
     display: none;
 }
+
+.accordion-label {
+    display: block;
+    padding: 5px;
+    background: #f0f0f0;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background .3s;
+}
