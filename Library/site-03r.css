@@ -211,6 +211,11 @@ ul li a {
 
 
 
+.sect-4-cont {
+    display: flex;
+
+}
+
 .sect-4-cont img {
     width: 481px;
     height: 479px;
@@ -220,6 +225,7 @@ sect-4-cont-text {
     width: 100%;
     max-width: 600px;
     margin: 0 auto;
+    background-color: antiquewhite;
 }
 
 .accordion-input {
