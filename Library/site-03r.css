@@ -252,4 +252,20 @@ ul li a {
     float: right;
 }
 
+.accordion-input:checked + .accordion-label::after {
+    content: " ▲";
+}
 
+.accord-content {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 15px;
+    background: #fff;
+    border-left: 1 px solid #ddd;
+    border-right: 1 px solid #ddd;
+}
+
+.accordion-input:checked ~ .accord-content {
+    max-height: 300px;
+    padding: 15px;
+}
