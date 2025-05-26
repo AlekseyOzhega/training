@@ -221,11 +221,12 @@ ul li a {
     height: 479px;
 }
 
-sect-4-cont-text {
+.sect-4-cont-text {
     width: 100%;
     max-width: 600px;
     margin: 0 auto;
-    background-color: antiquewhite;
+    background-color: rgb(247, 232, 212);
+    padding: 120px 20px 20px 20px;
 }
 
 .accordion-input {
@@ -241,3 +242,14 @@ sect-4-cont-text {
     font-weight: bold;
     transition: background .3s;
 }
+
+.accordion-label:hover {
+    background: #e0e0e0;
+}
+
+.accordion-label::after {
+    content: " ▼";
+    float: right;
+}
+
+
